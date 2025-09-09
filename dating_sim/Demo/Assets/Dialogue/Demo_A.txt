@@ -1,0 +1,6 @@
+alright! [>'scooter']scooter go! <>
+(You take the rental scooter to class, only hitting 7 pedestrians 
+and narrowly avoiding a mouthful of pavement after swerving in front
+of a car.) <>
+(You are only 5 minutes late to class.[] Great Success!) <>
+[j3]- <>

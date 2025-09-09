@@ -1,0 +1,34 @@
+[gd_resource type="Resource" script_class="CharacterData" load_steps=12 format=3 uid="uid://bfxfpkcpwolcg"]
+
+[ext_resource type="Texture2D" uid="uid://dj2tg3gejqijs" path="res://Assets/Art/Characters/PA/dummy-idle.PNG" id="1_jkc0y"]
+[ext_resource type="Script" uid="uid://bhirb0q308e7m" path="res://Scripts/Classes/CharacterBase.gd" id="1_xq1q5"]
+[ext_resource type="Texture2D" uid="uid://eh52ghvs6ihr" path="res://Assets/Art/Characters/PA/dummy-idle-talk.PNG" id="2_wpler"]
+[ext_resource type="Texture2D" uid="uid://jsbpfqlxykho" path="res://Assets/Art/Characters/PA/dummy-confuse.PNG" id="3_amcte"]
+[ext_resource type="Texture2D" uid="uid://nnewv5b760uq" path="res://Assets/Art/Characters/PA/dummy-confuse-talk.PNG" id="4_4juaj"]
+[ext_resource type="Texture2D" uid="uid://du5wye68vujv" path="res://Assets/Art/Characters/PA/dummy-angry.PNG" id="5_y86ds"]
+[ext_resource type="Texture2D" uid="uid://c6fb62kqg4qpt" path="res://Assets/Art/Characters/PA/dummy-angry-talk.PNG" id="6_yxcug"]
+[ext_resource type="Texture2D" uid="uid://c3saov08a4trq" path="res://Assets/Art/Characters/PA/dummy-entrance.PNG" id="7_7voqb"]
+[ext_resource type="Texture2D" uid="uid://df5qxmqs6atbf" path="res://Demo/Assets/Art/scooter-asset.png" id="8_amcte"]
+[ext_resource type="AudioStream" uid="uid://ihtq5vgr061r" path="res://Demo/Assets/Audio/bell.mp3" id="10_4juaj"]
+[ext_resource type="AudioStream" uid="uid://cfk0hp41oartf" path="res://Assets/Sounds/normal/blipSelect (2).wav" id="10_amcte"]
+
+[resource]
+script = ExtResource("1_xq1q5")
+character_name = "Programmer Arthony"
+character_id = "PA"
+dialogue_text_files = Array[String](["res://Assets/Text/Test Dialogue.txt", "res://Assets/Text/testchoiceA.txt", "res://Assets/Text/testchoiceB.txt"])
+character_images = {
+"angry": [ExtResource("5_y86ds"), ExtResource("6_yxcug")],
+"confused": [ExtResource("3_amcte"), ExtResource("4_4juaj")],
+"entrance": ExtResource("7_7voqb"),
+"idle": [ExtResource("1_jkc0y"), ExtResource("2_wpler")],
+"scooter": ExtResource("8_amcte")
+}
+character_sounds = {
+"bell": ExtResource("10_4juaj"),
+"talking": ExtResource("10_amcte")
+}
+character_variables = {
+"will talk": true
+}
+metadata/_custom_type_script = "uid://bhirb0q308e7m"

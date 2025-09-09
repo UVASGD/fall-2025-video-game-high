@@ -1,0 +1,32 @@
+[gd_resource type="Resource" script_class="DialogueData" load_steps=3 format=3 uid="uid://drrecr43opomx"]
+
+[ext_resource type="Script" uid="uid://cwwkd7uw3ndoi" path="res://Scripts/Classes/DialogueBase.gd" id="1_2lc6c"]
+[ext_resource type="AudioStream" uid="uid://b6fqxqe705uj3" path="res://Assets/Sounds/music/chill guitar.wav" id="1_nkns5"]
+
+[resource]
+script = ExtResource("1_2lc6c")
+text_file_path = "res://Demo/Assets/Dialogue/Demo_Intro.txt"
+colors = {
+"Background": Color(0.323217, 0.696396, 0.664142, 1),
+"Outline": Color(0, 0, 0, 1),
+"Text": Color(1, 1, 1, 1)
+}
+music_tracks = {
+"main": ExtResource("1_nkns5")
+}
+strings = {
+"MusicBus": "Master"
+}
+fonts = {}
+integers = {
+"AddedSpacing": 0,
+"Delay": 0,
+"DelayBetweenCharacters": 0,
+"FontSize": 32,
+"OutlineSize": 0,
+"PauseTimer": 0,
+"RippleFrames": 0,
+"TextSpeed": 500
+}
+theme = {}
+metadata/_custom_type_script = "uid://cwwkd7uw3ndoi"
