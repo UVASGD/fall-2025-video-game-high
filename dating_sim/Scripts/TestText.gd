@@ -29,6 +29,7 @@ var current_word_index: int = 0
 var waiting_for_input: bool = false
 var text_container: Control
 var choice_vbox: VBoxContainer
+@onready var next_container: Control = $TextContainer/TextBackground/MarginContainer/NextDialogueContainer
 var current_char_delay: int = 0
 var current_word_speed: int = 0
 var icon_button: TextureButton
@@ -556,14 +557,13 @@ func _on_entrance_completed():
 	pass
 
 func display_next_dialogue_button():
-	clear_next_dialogue_button()
-	show_next_dialogue_button_container()
-	create_next_dialogue_button()
-	waiting_for_input = true
-	character_manager.update_character_talking_state(waiting_for_input)
+	next_container.visible = true
 
 func clear_next_dialogue_button():
-	pass
+	next_container.visible = false
+	
+
+	
 
 func show_next_dialogue_button_container():
 	pass
@@ -628,11 +628,13 @@ func finish_current():
 	text_manager.finish_rendering()
 	
 	waiting_for_input = true
+	display_next_dialogue_button()
 	character_manager.update_character_talking_state(true)
 
 func next():
 	if not waiting_for_input:
 		return
+	clear_next_dialogue_button()
 	text_manager.clear_all_text()
 	current_segment_index += 1
 	start_next()

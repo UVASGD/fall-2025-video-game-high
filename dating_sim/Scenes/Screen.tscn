@@ -1,10 +1,11 @@
-[gd_scene load_steps=6 format=3 uid="uid://cuysm2kox8jt8"]
+[gd_scene load_steps=7 format=3 uid="uid://cuysm2kox8jt8"]
 
 [ext_resource type="Script" uid="uid://bu244lsn5ye7o" path="res://Scripts/TestText.gd" id="1_q8odg"]
 [ext_resource type="Resource" uid="uid://drrecr43opomx" path="res://Scripts/Resources/Test.tres" id="2_w8lkc"]
 [ext_resource type="Resource" uid="uid://bfxfpkcpwolcg" path="res://Scripts/Resources/PA.tres" id="3_c5ivj"]
 [ext_resource type="Script" uid="uid://bh608r6pdub1" path="res://Scenes/NameTag.gd" id="4_53dy5"]
 [ext_resource type="FontFile" uid="uid://b41entevbocrc" path="res://Fonts/FiraCode-Light.otf" id="5_3hbsd"]
+[ext_resource type="PackedScene" uid="uid://bdfqb1uqly2ar" path="res://Scenes/texture_button.tscn" id="6_c5ivj"]
 
 [node name="Screen" type="Control"]
 layout_mode = 3
@@ -125,12 +126,13 @@ grow_horizontal = 2
 grow_vertical = 2
 
 [node name="NextDialogueContainer" type="Control" parent="TextContainer/TextBackground/MarginContainer"]
+visible = false
 custom_minimum_size = Vector2(75, 75)
 layout_mode = 2
 size_flags_horizontal = 8
 size_flags_vertical = 8
 
-[node name="VBoxContainer" type="VBoxContainer" parent="TextContainer/TextBackground/MarginContainer/NextDialogueContainer"]
+[node name="TextureButton" parent="TextContainer/TextBackground/MarginContainer/NextDialogueContainer" instance=ExtResource("6_c5ivj")]
+visible = true
 layout_mode = 0
-offset_right = 40.0
-offset_bottom = 40.0
+anchors_preset = 0
