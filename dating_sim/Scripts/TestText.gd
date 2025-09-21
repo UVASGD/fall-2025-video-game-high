@@ -556,7 +556,11 @@ func _on_entrance_completed():
 	pass
 
 func display_next_dialogue_button():
-	pass
+	clear_next_dialogue_button()
+	show_next_dialogue_button_container()
+	create_next_dialogue_button()
+	waiting_for_input = true
+	character_manager.update_character_talking_state(waiting_for_input)
 
 func clear_next_dialogue_button():
 	pass
