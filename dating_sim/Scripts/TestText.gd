@@ -555,6 +555,18 @@ func set_music_volume(volume_db: float, fade_duration: float = 0.0):
 func _on_entrance_completed():
 	pass
 
+func display_next_dialogue_button():
+	pass
+
+func clear_next_dialogue_button():
+	pass
+
+func show_next_dialogue_button_container():
+	pass
+
+func create_next_dialogue_button():
+	pass
+
 func display_choices():
 	clear_choice_buttons()
 	show_choice_container()
