@@ -18,6 +18,7 @@ var choice_options: Array = []
 var choice_destinations: Array = []
 var choice_buttons: Array = []
 var choice_container: Control
+var next_dialogue_container: Control
 var full_dialogue_segments: Array = []
 var current_segment_index: int = 0
 var current_segment_text: String = ""
@@ -117,6 +118,11 @@ func setup_choice():
 		choice_container.visible = false
 		choice_vbox = $TextContainer/TextBackground/MarginContainer/ChoiceContainer/VBoxContainer
 
+func setup_next_dialogue():
+	next_dialogue_container = $TextContainer/TextBackground/MarginContainer/NextDialogueContainer
+	if next_dialogue_container:
+		next_dialogue_container.visible = false
+		
 func set_character(character: CharacterData):
 	character_data = character
 	
@@ -557,7 +563,7 @@ func _on_entrance_completed():
 
 func display_next_dialogue_button():
 	clear_next_dialogue_button()
-	show_next_dialogue_button_container()
+	next_dialogue_container.visible = true
 	create_next_dialogue_button()
 	waiting_for_input = true
 	character_manager.update_character_talking_state(waiting_for_input)
@@ -565,11 +571,10 @@ func display_next_dialogue_button():
 func clear_next_dialogue_button():
 	pass
 
-func show_next_dialogue_button_container():
-	pass
-
 func create_next_dialogue_button():
-	pass
+	var scene: PackedScene = load("res://Scenes/texture_button.tscn")
+	var button = scene.instantiate()
+	next_dialogue_container.add_child(button)
 
 func display_choices():
 	clear_choice_buttons()
