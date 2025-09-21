@@ -18,7 +18,6 @@ var choice_options: Array = []
 var choice_destinations: Array = []
 var choice_buttons: Array = []
 var choice_container: Control
-var next_dialogue_container: Control
 var full_dialogue_segments: Array = []
 var current_segment_index: int = 0
 var current_segment_text: String = ""
@@ -30,6 +29,7 @@ var current_word_index: int = 0
 var waiting_for_input: bool = false
 var text_container: Control
 var choice_vbox: VBoxContainer
+@onready var next_container: Control = $TextContainer/TextBackground/MarginContainer/NextDialogueContainer
 var current_char_delay: int = 0
 var current_word_speed: int = 0
 var icon_button: TextureButton
@@ -118,11 +118,6 @@ func setup_choice():
 		choice_container.visible = false
 		choice_vbox = $TextContainer/TextBackground/MarginContainer/ChoiceContainer/VBoxContainer
 
-func setup_next_dialogue():
-	next_dialogue_container = $TextContainer/TextBackground/MarginContainer/NextDialogueContainer
-	if next_dialogue_container:
-		next_dialogue_container.visible = false
-		
 func set_character(character: CharacterData):
 	character_data = character
 	
@@ -562,19 +557,19 @@ func _on_entrance_completed():
 	pass
 
 func display_next_dialogue_button():
-	clear_next_dialogue_button()
-	next_dialogue_container.visible = true
-	create_next_dialogue_button()
-	waiting_for_input = true
-	character_manager.update_character_talking_state(waiting_for_input)
+	next_container.visible = true
 
 func clear_next_dialogue_button():
+	next_container.visible = false
+	
+
+	
+
+func show_next_dialogue_button_container():
 	pass
 
 func create_next_dialogue_button():
-	var scene: PackedScene = load("res://Scenes/texture_button.tscn")
-	var button = scene.instantiate()
-	next_dialogue_container.add_child(button)
+	pass
 
 func display_choices():
 	clear_choice_buttons()
@@ -633,11 +628,13 @@ func finish_current():
 	text_manager.finish_rendering()
 	
 	waiting_for_input = true
+	display_next_dialogue_button()
 	character_manager.update_character_talking_state(true)
 
 func next():
 	if not waiting_for_input:
 		return
+	clear_next_dialogue_button()
 	text_manager.clear_all_text()
 	current_segment_index += 1
 	start_next()
