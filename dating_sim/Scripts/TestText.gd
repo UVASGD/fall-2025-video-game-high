@@ -108,7 +108,7 @@ func dialogue_box():
 	load_text()
 
 func connect_button():
-	icon_button = $TextContainer/TextureButton
+	icon_button = $TextContainer/TextBackground/MarginContainer/NextDialogueContainer/TextureButton
 	if icon_button:
 		icon_button.pressed.connect(_button)
 
@@ -562,14 +562,6 @@ func display_next_dialogue_button():
 func clear_next_dialogue_button():
 	next_container.visible = false
 	
-
-	
-
-func show_next_dialogue_button_container():
-	pass
-
-func create_next_dialogue_button():
-	pass
 
 func display_choices():
 	clear_choice_buttons()
