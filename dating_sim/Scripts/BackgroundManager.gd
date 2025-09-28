@@ -43,7 +43,6 @@ func change_background(bg_key: String, fade_duration: float = -1):
 		fade_duration = dialogue_data.get_float("BackgroundDefaultFadeDuration", 1.0)
 	
 	if bg_key == "":
-		# Clear background
 		clear_background(fade_duration)
 		return
 	

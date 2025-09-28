@@ -329,6 +329,7 @@ func render_next_segment():
 		waiting_for_super_pause_input = true
 		super_pause_active = true
 		character_manager.update_character_talking_state(true)
+		display_next_dialogue_button()
 		return  # Don't start the timer, wait for input
 	
 	# Apply effects for this segment
@@ -407,6 +408,7 @@ func _render_timer():
 			super_pause_active = true
 			character_manager.update_character_talking_state(true)  # Show waiting state
 			typing_timer.stop()
+			display_next_dialogue_button()
 			return  # Stop rendering until user input
 		
 		# Play sound for non-space characters
@@ -642,7 +644,7 @@ func _button():
 		waiting_for_super_pause_input = false
 		super_pause_active = false
 		character_manager.update_character_talking_state(false)
-		
+		clear_next_dialogue_button()
 		# Start rendering
 		if current_render_index < render_segments.size():
 			var segment = render_segments[current_render_index]
@@ -669,7 +671,7 @@ func _input(event):
 			waiting_for_super_pause_input = false
 			super_pause_active = false
 			character_manager.update_character_talking_state(false)
-			
+			clear_next_dialogue_button()
 			# Start rendering
 			if current_render_index < render_segments.size():
 				var segment = render_segments[current_render_index]
