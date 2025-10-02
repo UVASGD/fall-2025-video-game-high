@@ -8,6 +8,8 @@ signal music_change_requested(music_key: String, fade_duration: float)
 signal music_volume_requested(volume_db: float, fade_duration: float)
 signal music_stop_requested(fade_duration: float)
 signal background_change_requested(bg_key: String, fade_duration: float)
+signal variable_change_requested(variable_key: String, change_amount: float)
+signal variable_check_requested(variable_check: String, requirement: float, success_jump: int)
 
 var dialogue_data: DialogueData
 var text_labels: Array = []
@@ -117,6 +119,11 @@ func parse_effects(effect_str: String) -> Dictionary:
 		"jump": -1,
 		"change_background": "",
 		"bg_fade_duration": -1.0,
+		"variable_change": "",
+		"change_amount": 0,
+		"variable_check": "",
+		"requirement": 1,
+		"success_jump": -1,
 	}
 	
 	var effect_parts = effect_str.split(",")
@@ -203,6 +210,17 @@ func start_effects(effect_str: String, effects: Dictionary):
 			effects["bg_fade_duration"] = parts[1].to_float()
 		else:
 			effects["change_background"] = bg_content
+	elif effect_str.begins_with("v'") and effect_str.ends_with("'"):
+		var v_content = effect_str.substr(2, effect_str.length() - 3)
+		var parts = v_content.split(":")
+		effects["variable_change"] = parts[0]
+		effects["change_amount"] = parts[1].to_float()
+	elif effect_str.begins_with("check'") and effect_str.ends_with("'"):
+		var v_check = effect_str.substr(6, effect_str.length() - 7)
+		var parts = v_check.split(":")
+		effects["variable_check"] = parts[0]
+		effects["requirement"] = parts[1].to_float()
+		effects["success_jump"] = parts[2].to_float()
 
 func apply_effects_to_position(position: int, segment_effects: Array, current_segment_word_positions: Array, is_word_mode: bool, processed_entrance_positions: Array):
 	var text_pos = position
@@ -244,6 +262,17 @@ func apply_effects_to_position(position: int, segment_effects: Array, current_se
 			if background_key != "":
 				var fade_duration = effect_change.effects.get("bg_fade_duration", -1.0)
 				background_change_requested.emit(background_key, fade_duration)
+			
+			var variable_key = effect_change.effects.get("variable_change", "")
+			if variable_key != "":
+				var change_amount = effect_change.effects.get("change_amount", 0)
+				variable_change_requested.emit(variable_key, change_amount)
+			
+			var variable_check = effect_change.effects.get("variable_check", "")
+			if variable_check != "":
+				var requirement = effect_change.effects.get("requirement", 0)
+				var success_jump = effect_change.effects.get("success_jump", -1)
+				variable_check_requested.emit(variable_check, requirement, success_jump)
 	
 	# Apply ripple effect
 	var current_ripple_value = 0

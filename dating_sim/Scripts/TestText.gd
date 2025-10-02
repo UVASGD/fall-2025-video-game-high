@@ -9,6 +9,7 @@ var character_manager: CharacterManager
 var text_manager: TextManager
 var music_manager: MusicManager
 var bg_manager: BackgroundManager
+var var_manager: VariableManager
 
 var render_segments: Array = []
 var current_render_index: int = 0
@@ -81,6 +82,9 @@ func _ready():
 	bg_manager.initialize(dialogue_data, $TextureBG)
 	bg_manager.set_background_library(character_data.character_images)
 	
+	var_manager = VariableManager.new()
+	add_child(var_manager)
+	var_manager.initialize(character_data, dialogue_data)
 	
 	# Connect signals
 	effects_manager.effect_sound_requested.connect(character_manager.play_effect_sound)
@@ -91,6 +95,8 @@ func _ready():
 	effects_manager.music_volume_requested.connect(music_manager.set_music_volume)
 	effects_manager.music_stop_requested.connect(music_manager.stop_music)
 	effects_manager.background_change_requested.connect(bg_manager.change_background)
+	effects_manager.variable_change_requested.connect(var_manager.change_variable)
+	effects_manager.variable_check_requested.connect(var_manager.check_variable)
 	
 	setup_choice()
 	typing_system()
