@@ -9,6 +9,7 @@ var character_manager: CharacterManager
 var text_manager: TextManager
 var music_manager: MusicManager
 var bg_manager: BackgroundManager
+var var_manager: VariableManager
 
 var render_segments: Array = []
 var current_render_index: int = 0
@@ -29,6 +30,7 @@ var current_word_index: int = 0
 var waiting_for_input: bool = false
 var text_container: Control
 var choice_vbox: VBoxContainer
+@onready var next_container: Control = $TextContainer/TextBackground/MarginContainer/NextDialogueContainer
 var current_char_delay: int = 0
 var current_word_speed: int = 0
 var icon_button: TextureButton
@@ -80,6 +82,9 @@ func _ready():
 	bg_manager.initialize(dialogue_data, $TextureBG)
 	bg_manager.set_background_library(character_data.character_images)
 	
+	var_manager = VariableManager.new()
+	add_child(var_manager)
+	var_manager.initialize(character_data, dialogue_data)
 	
 	# Connect signals
 	effects_manager.effect_sound_requested.connect(character_manager.play_effect_sound)
@@ -90,6 +95,8 @@ func _ready():
 	effects_manager.music_volume_requested.connect(music_manager.set_music_volume)
 	effects_manager.music_stop_requested.connect(music_manager.stop_music)
 	effects_manager.background_change_requested.connect(bg_manager.change_background)
+	effects_manager.variable_change_requested.connect(var_manager.change_variable)
+	effects_manager.variable_check_requested.connect(var_manager.check_variable)
 	
 	setup_choice()
 	typing_system()
@@ -107,7 +114,7 @@ func dialogue_box():
 	load_text()
 
 func connect_button():
-	icon_button = $TextContainer/TextureButton
+	icon_button = $TextContainer/TextBackground/MarginContainer/NextDialogueContainer/TextureButton
 	if icon_button:
 		icon_button.pressed.connect(_button)
 
@@ -328,6 +335,7 @@ func render_next_segment():
 		waiting_for_super_pause_input = true
 		super_pause_active = true
 		character_manager.update_character_talking_state(true)
+		display_next_dialogue_button()
 		return  # Don't start the timer, wait for input
 	
 	# Apply effects for this segment
@@ -406,6 +414,7 @@ func _render_timer():
 			super_pause_active = true
 			character_manager.update_character_talking_state(true)  # Show waiting state
 			typing_timer.stop()
+			display_next_dialogue_button()
 			return  # Stop rendering until user input
 		
 		# Play sound for non-space characters
@@ -555,6 +564,13 @@ func set_music_volume(volume_db: float, fade_duration: float = 0.0):
 func _on_entrance_completed():
 	pass
 
+func display_next_dialogue_button():
+	next_container.visible = true
+
+func clear_next_dialogue_button():
+	next_container.visible = false
+	
+
 func display_choices():
 	clear_choice_buttons()
 	show_choice_container()
@@ -612,11 +628,13 @@ func finish_current():
 	text_manager.finish_rendering()
 	
 	waiting_for_input = true
+	display_next_dialogue_button()
 	character_manager.update_character_talking_state(true)
 
 func next():
 	if not waiting_for_input:
 		return
+	clear_next_dialogue_button()
 	text_manager.clear_all_text()
 	current_segment_index += 1
 	start_next()
@@ -632,7 +650,7 @@ func _button():
 		waiting_for_super_pause_input = false
 		super_pause_active = false
 		character_manager.update_character_talking_state(false)
-		
+		clear_next_dialogue_button()
 		# Start rendering
 		if current_render_index < render_segments.size():
 			var segment = render_segments[current_render_index]
@@ -659,7 +677,7 @@ func _input(event):
 			waiting_for_super_pause_input = false
 			super_pause_active = false
 			character_manager.update_character_talking_state(false)
-			
+			clear_next_dialogue_button()
 			# Start rendering
 			if current_render_index < render_segments.size():
 				var segment = render_segments[current_render_index]

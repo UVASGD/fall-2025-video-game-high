@@ -29,6 +29,7 @@ func setup_fade_background():
 	fade_background_rect.anchor_right = background_rect.anchor_right
 	fade_background_rect.anchor_top = background_rect.anchor_top
 	fade_background_rect.anchor_bottom = background_rect.anchor_bottom
+	fade_background_rect.mouse_filter = Control.MOUSE_FILTER_IGNORE
 	fade_background_rect.modulate.a = 0.0
 	fade_background_rect.z_index = background_rect.z_index - 1
 	
@@ -42,7 +43,6 @@ func change_background(bg_key: String, fade_duration: float = -1):
 		fade_duration = dialogue_data.get_float("BackgroundDefaultFadeDuration", 1.0)
 	
 	if bg_key == "":
-		# Clear background
 		clear_background(fade_duration)
 		return
 	
