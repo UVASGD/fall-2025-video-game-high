@@ -70,7 +70,7 @@ func _ready():
 	
 	character_manager = CharacterManager.new()
 	add_child(character_manager)
-	character_manager.initialize(dialogue_data, character_data, name_tag, $Character)
+	character_manager.initialize(dialogue_data, character_data, $NameTag, $Character)
 	
 	music_manager = MusicManager.new()
 	add_child(music_manager)

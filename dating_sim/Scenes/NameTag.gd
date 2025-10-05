@@ -2,9 +2,9 @@ extends Control
 class_name NameTag
 
 @export var character_data: CharacterData
-@export var padding: Vector2 = Vector2(20, 10)
-@export var min_width: float = 100.0
-@export var font_size: int = 32
+@export var padding: Vector2
+@export var min_width: float
+@export var font_size: int
 
 var name_panel: Panel
 var name_label: Label
@@ -15,6 +15,7 @@ func _ready():
 func setup_name_tag():
 	name_panel = find_child("Panel") as Panel
 	name_label = find_child("Label") as Label
+	name_label.text = character_data.character_name
 	
 	if not name_panel or not name_label:
 		return
@@ -32,7 +33,6 @@ func set_character(new_character_data: CharacterData):
 func update_name_tag():
 	if not character_data or not name_label or not name_panel:
 		return
-	
 	var character_name = character_data.character_name
 	
 	if character_name.is_empty():
@@ -63,6 +63,8 @@ func calculate_and_resize():
 	name_panel.set_deferred("size", Vector2(required_width, required_height))
 	name_label.set_deferred("size", Vector2(required_width, required_height))
 	name_label.set_deferred("position", Vector2.ZERO)
+	name_panel.set_deferred("position", Vector2.ZERO)
+	name_label.add_theme_font_size_override("font_size", font_size)
 	set_deferred("size", Vector2(required_width, required_height))
 
 func set_font_size(new_font_size: int):
