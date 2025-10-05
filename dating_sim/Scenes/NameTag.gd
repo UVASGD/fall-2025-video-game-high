@@ -16,6 +16,7 @@ func setup_name_tag():
 	name_panel = find_child("Panel") as Panel
 	name_label = find_child("Label") as Label
 	name_label.text = character_data.character_name
+	set_font_size(font_size)
 	
 	if not name_panel or not name_label:
 		return
@@ -59,12 +60,11 @@ func calculate_and_resize():
 	)
 	
 	var required_width = max(text_size.x + padding.x * 2, min_width)
-	var required_height = text_size.y + padding.y * 2
+	var required_height = text_size.y + padding.y
 	name_panel.set_deferred("size", Vector2(required_width, required_height))
 	name_label.set_deferred("size", Vector2(required_width, required_height))
 	name_label.set_deferred("position", Vector2.ZERO)
 	name_panel.set_deferred("position", Vector2.ZERO)
-	name_label.add_theme_font_size_override("font_size", font_size)
 	set_deferred("size", Vector2(required_width, required_height))
 
 func set_font_size(new_font_size: int):
