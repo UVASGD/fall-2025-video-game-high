@@ -29,6 +29,7 @@ character_sounds = {
 "talking": ExtResource("10_amcte")
 }
 character_variables = {
+"romance_points": 0,
 "will talk": true
 }
 metadata/_custom_type_script = "uid://bhirb0q308e7m"
