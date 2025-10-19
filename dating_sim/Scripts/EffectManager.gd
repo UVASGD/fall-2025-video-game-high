@@ -101,7 +101,6 @@ func find_effects(segment_text: String) -> Dictionary:
 			elif segment_text[i-1] == "-":
 				EventBus.romance_points_decremented.emit()
 			
-			
 		clean_text += char
 		i += 1
 	
