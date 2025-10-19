@@ -35,11 +35,18 @@ func update_name_tag():
 	if not character_data or not name_label or not name_panel:
 		return
 	var character_name = character_data.character_name
-	
+	print(character_name)
 	if character_name.is_empty():
 		character_name = "Unknown"
-	
 	name_label.text = character_name
+	calculate_and_resize()
+
+func sett_name(new_name: String):
+	if not name_label or not name_panel:
+		return
+	
+	print("NameTag: Setting custom name to '", new_name, "'")
+	name_label.text = new_name
 	calculate_and_resize()
 
 func calculate_and_resize():

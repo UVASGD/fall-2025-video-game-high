@@ -10,6 +10,7 @@ signal music_stop_requested(fade_duration: float)
 signal background_change_requested(bg_key: String, fade_duration: float)
 signal variable_change_requested(variable_key: String, change_amount: float)
 signal variable_check_requested(variable_check: String, requirement: float, success_jump: int)
+signal name_change_requested(name_change: String)
 
 var dialogue_data: DialogueData
 var text_labels: Array = []
@@ -132,6 +133,7 @@ func parse_effects(effect_str: String) -> Dictionary:
 		"variable_check": "",
 		"requirement": 1,
 		"success_jump": -1,
+		"change_name": "",
 	}
 	
 	var effect_parts = effect_str.split(",")
@@ -229,96 +231,10 @@ func start_effects(effect_str: String, effects: Dictionary):
 		effects["variable_check"] = parts[0]
 		effects["requirement"] = parts[1].to_float()
 		effects["success_jump"] = parts[2].to_float()
-
-func apply_effects_to_position(position: int, segment_effects: Array, current_segment_word_positions: Array, is_word_mode: bool, processed_entrance_positions: Array):
-	var text_pos = position
-	if is_word_mode and position < current_segment_word_positions.size():
-		text_pos = current_segment_word_positions[position]
-	
-	for effect_change in segment_effects:
-		if effect_change.position == text_pos:
-			var image_key = effect_change.effects.get("change_image", "")
-			if image_key != "":
-				if image_key == "entrance" and effect_change.position in processed_entrance_positions:
-					continue
-				character_image_change_requested.emit(image_key)
-			
-			var sound_key = effect_change.effects.get("play_sound", "")
-			if sound_key != "":
-				effect_sound_requested.emit(sound_key)
-			
-			var popup_key = effect_change.effects.get("popup_image", "")
-			if popup_key != "":
-				popup_image_requested.emit(popup_key)
-			
-			var music_key = effect_change.effects.get("music_change", "")
-			if music_key != "":
-				var fade_duration = effect_change.effects.get("music_fade_duration", -1.0)
-				music_change_requested.emit(music_key, fade_duration)
-			
-			var music_volume = effect_change.effects.get("music_volume", 999.0)
-			if music_volume != 999.0:
-				var fade_duration = effect_change.effects.get("music_fade_duration", 0.0)
-				music_volume_requested.emit(music_volume, fade_duration)
-			
-			var music_stop = effect_change.effects.get("music_stop", false)
-			if music_stop:
-				var fade_duration = effect_change.effects.get("music_fade_duration", -1.0)
-				music_stop_requested.emit(fade_duration)
-			
-			var background_key = effect_change.effects.get("change_background", "")
-			if background_key != "":
-				var fade_duration = effect_change.effects.get("bg_fade_duration", -1.0)
-				background_change_requested.emit(background_key, fade_duration)
-			
-			var variable_key = effect_change.effects.get("variable_change", "")
-			if variable_key != "":
-				var change_amount = effect_change.effects.get("change_amount", 0)
-				variable_change_requested.emit(variable_key, change_amount)
-			
-			var variable_check = effect_change.effects.get("variable_check", "")
-			if variable_check != "":
-				var requirement = effect_change.effects.get("requirement", 0)
-				var success_jump = effect_change.effects.get("success_jump", -1)
-				variable_check_requested.emit(variable_check, requirement, success_jump)
-	
-	# Apply ripple effect
-	var current_ripple_value = 0
-	for effect_change in segment_effects:
-		if effect_change.position <= text_pos:
-			if effect_change.get("type") == "start_zone":
-				current_ripple_value = effect_change.effects.get("ripple", 0)
-			elif effect_change.get("type") == "end_zone":
-				current_ripple_value = 0
-			elif effect_change.get("type") == "permanent":
-				current_ripple_value = effect_change.effects.get("ripple", 0)
-	
-	if current_ripple_value > 0 and position < text_labels.size():
-		ripple_targeted(text_labels[position], current_ripple_value)
-	
-	# Apply zone effects
-	var in_zone = false
-	var zone_jitter = 0
-	var zone_wiggle = 0
-	var zone_shake = 0
-	
-	for effect_change in segment_effects:
-		if effect_change.position <= text_pos:
-			if effect_change.get("type") == "start_zone":
-				in_zone = true
-				zone_jitter = effect_change.effects.get("jitter", 0)
-				zone_wiggle = effect_change.effects.get("wiggle", 0)
-				zone_shake = effect_change.effects.get("shake", 0)
-			elif effect_change.get("type") == "end_zone":
-				in_zone = false
-	
-	if in_zone:
-		if zone_jitter > 0:
-			apply_jitter_to_position(position, zone_jitter)
-		if zone_wiggle > 0:
-			apply_wiggle_to_position(position, zone_wiggle)
-		if zone_shake > 0:
-			apply_shake_to_position(position, zone_shake)
+	elif effect_str.begins_with("n'") and effect_str.ends_with("'"):
+		var namec = effect_str.substr(2, effect_str.length() - 3)
+		effects["change_name"] = namec
+		print(namec)
 
 func ripple_targeted(label: Label, ripple_frames: int):
 	var ripple_data = {
