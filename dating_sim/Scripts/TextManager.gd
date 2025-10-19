@@ -29,32 +29,56 @@ func create_all_labels():
 	var y_position = 0.0
 	var font_size = dialogue_data.integers["FontSize"]
 	var line_height = font_size * dialogue_data.get_float("LineHeightMultiplier", 1.2)
+	await get_tree().process_frame
+	var container_width = text_container.size.x
 	
-	for i in range(current_segment_text.length()):
-		var char = current_segment_text[i]
+	var words = current_segment_text.split(" ")
+	
+	for w in range(words.size()):
+		var word = words[w]
 		
-		if char == "\n":
+		var word_width = 0.0
+		for c in word:
+			word_width += get_char_width(c, font_size)
+		if w < words.size() - 1:
+			word_width += get_char_width(" ", font_size)
+		
+		# Wrap if word doesnt fit in current line
+		if x_position + word_width > container_width:
 			y_position += line_height
 			x_position = 0.0
-			continue
 		
-		var char_label = Label.new()
-		char_label.text = char
-		char_label.add_theme_font_size_override("font_size", font_size)
-		char_label.add_theme_color_override("font_color", dialogue_data.get_color("Text"))
+		# Create labels for each character
+		for c in word:
+			var char_label = Label.new()
+			char_label.text = c
+			char_label.add_theme_font_size_override("font_size", font_size)
+			char_label.add_theme_color_override("font_color", dialogue_data.get_color("Text"))
 		
-		var outline_size = dialogue_data.integers["OutlineSize"]
-		if outline_size > 0:
-			char_label.add_theme_constant_override("outline_size", outline_size)
-			char_label.add_theme_color_override("font_outline_color", dialogue_data.get_color("Outline"))
-		
-		char_label.position = Vector2(x_position, y_position)
-		char_label.modulate.a = 0.0  # Start invisible
-		text_container.add_child(char_label)
-		text_labels.append(char_label)
-		
-		var actual_width = get_char_width(char, font_size)
-		x_position += actual_width
+			var outline_size = dialogue_data.integers["OutlineSize"]
+			if outline_size > 0:
+				char_label.add_theme_constant_override("outline_size", outline_size)
+				char_label.add_theme_color_override("font_outline_color", dialogue_data.get_color("Outline"))
+			
+			char_label.position = Vector2(x_position, y_position)
+			char_label.modulate.a = 0.0  # Start invisible
+			text_container.add_child(char_label)
+			text_labels.append(char_label)
+			
+			x_position += get_char_width(c, font_size)
+			
+		# Add space after the word
+		if w < words.size() - 1:
+			var space_label = Label.new()
+			space_label.text = " "
+			space_label.add_theme_font_size_override("font_size", font_size)
+			space_label.add_theme_color_override("font_color", dialogue_data.get_color("Text"))
+			space_label.position = Vector2(x_position, y_position)
+			space_label.modulate.a = 0.0
+			text_container.add_child(space_label)
+			text_labels.append(space_label)
+			
+			x_position += get_char_width(" ", font_size)
 
 func get_char_width(char: String, font_size: int) -> float:
 	var temp_label = Label.new()
