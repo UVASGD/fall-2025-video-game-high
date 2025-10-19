@@ -8,6 +8,8 @@ class_name CharacterData
 
 @export var character_images: Dictionary = {}
 
+@export var character_backgrounds: Dictionary = {}
+
 @export var character_sounds: Dictionary = {
 	"talking": AudioStreamWAV,
 }

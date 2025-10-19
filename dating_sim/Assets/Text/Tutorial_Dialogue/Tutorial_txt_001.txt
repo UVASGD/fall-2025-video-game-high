@@ -1,6 +1,6 @@
-[bg'black-background.png']
+[bg'black-background']
 … <>
-[<'Heartbeat'] Your heart skips a beat. <>
+[<'heartbeat'] Your heart skips a beat. <>
 You can feel their breath right up against you <>
 Everything feels hazy…<>
 Where are you…? <>
@@ -12,8 +12,8 @@ They look into your eyes, searching for your answer. <>
 You gulp, leaning in a little closer to them… <>
 Just a bit closer… <>
 
-[bg'white-background.jpg':1.0]
-[m'Cozy'']
+[bg'white-background':1.0]
+[m'cozy']
 
 [n'Manuella'] ---HEY!!!  <>
 [n'Manuella'] Watch where you’re stepping, man!! <>
