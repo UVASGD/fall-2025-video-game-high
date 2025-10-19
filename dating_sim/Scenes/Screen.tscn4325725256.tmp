@@ -1,4 +1,4 @@
-[gd_scene load_steps=8 format=3 uid="uid://cuysm2kox8jt8"]
+[gd_scene load_steps=7 format=3 uid="uid://cuysm2kox8jt8"]
 
 [ext_resource type="Script" uid="uid://bu244lsn5ye7o" path="res://Scripts/TestText.gd" id="1_q8odg"]
 [ext_resource type="Resource" uid="uid://drrecr43opomx" path="res://Scripts/Resources/Test.tres" id="2_w8lkc"]
@@ -6,7 +6,6 @@
 [ext_resource type="Script" uid="uid://bh608r6pdub1" path="res://Scenes/NameTag.gd" id="4_53dy5"]
 [ext_resource type="FontFile" uid="uid://b41entevbocrc" path="res://Fonts/FiraCode-Light.otf" id="5_3hbsd"]
 [ext_resource type="PackedScene" uid="uid://bin3o3th4gtkx" path="res://Scenes/texture_button.tscn" id="6_c5ivj"]
-[ext_resource type="Script" uid="uid://dtfljiep08b8c" path="res://Scripts/PlayerManager.gd" id="7_53dy5"]
 
 [node name="Screen" type="Control"]
 layout_mode = 3
@@ -159,9 +158,3 @@ offset_left = 0.0
 offset_top = 0.0
 offset_right = 128.0
 offset_bottom = 128.0
-
-[node name="PlayerManager" type="Control" parent="."]
-anchors_preset = 0
-offset_right = 40.0
-offset_bottom = 40.0
-script = ExtResource("7_53dy5")

@@ -153,6 +153,7 @@ func parse_text(content: String):
 	var i = 0
 	while i < raw_segments.size():
 		var current_segment = raw_segments[i].strip_edges()
+		print(current_segment)
 		
 		# Skip empty segments
 		if current_segment.length() == 0:

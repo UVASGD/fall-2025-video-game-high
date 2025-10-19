@@ -15,6 +15,8 @@ var dialogue_data: DialogueData
 var text_labels: Array = []
 var fps: float = 60.0
 
+var player_manager: PlayerManager
+
 var ripple_timer: Timer
 var effect_update_timer: Timer
 
@@ -26,6 +28,8 @@ var wiggle_effects: Array = []
 func initialize(data: DialogueData):
 	dialogue_data = data
 	fps = dialogue_data.get_float("FramesPerSecond", 60.0)
+	EventBus.connect('romance_points_incremented', inc_romance())
+	EventBus.connect('romance_points_decremented', dec_romance())
 	setup_timers()
 
 func setup_timers():
@@ -92,7 +96,14 @@ func find_effects(segment_text: String) -> Dictionary:
 				
 				i = end_bracket + 1
 				continue
-		
+		elif char == "r":
+			if segment_text[i+1] == "+":
+				EventBus.romance_points_incremented.emit()
+			elif segment_text[i-1] == "-":
+				EventBus.romance_points_decremented.emit()
+			romance_points = 0
+			
+			
 		clean_text += char
 		i += 1
 	
