@@ -16,6 +16,8 @@ var dialogue_data: DialogueData
 var text_labels: Array = []
 var fps: float = 60.0
 
+var player_manager: PlayerManager
+
 var ripple_timer: Timer
 var effect_update_timer: Timer
 
@@ -93,7 +95,13 @@ func find_effects(segment_text: String) -> Dictionary:
 				
 				i = end_bracket + 1
 				continue
-		
+		elif char == "r":
+			if segment_text[i+1] == "+":
+				EventBus.romance_points_incremented.emit()
+			elif segment_text[i-1] == "-":
+				EventBus.romance_points_decremented.emit()
+			
+			
 		clean_text += char
 		i += 1
 	
