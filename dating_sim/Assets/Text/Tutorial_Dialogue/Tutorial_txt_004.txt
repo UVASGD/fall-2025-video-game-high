@@ -1,0 +1,34 @@
+[n'Manuella'] Alright, well- Okay. Time to be focused! <>
+Manuella clasps her hands together, and like magic, her smile is back on her face. <>
+[n'Manuella'] As I was saying, we’ve made it to the club fair now! So what do you want to do? <>
+You take a moment to reorient yourself. <>
+Right. The club fair. <>
+
+
+You take a look around. Rows of plastic tables are crammed together on what little greenspace is left of the quad. It seems like every student at the university is out right now, all of them swarming and moving around like bees in a hive. <>
+Your mind reels at all the energy, you feel your palms grow clammy as you think about joining the chaos. <>
+Glancing back at Manuella, she seems all too happy to jump right in and join them. Not that you were surprised. She’s been like this ever since you two were little, old images of her tugging you around by the hand pop back into your mind, making your heart ache. <>
+[n'Manuella'] Are you ready to get out there and make some new friends? I can’t wait, there’s so many interesting people and clubs here just waiting for you to explore- <>
+She turns to you, beaming. You are reminded of a parent excitedly throwing their child into their first day of kindergarten. <>
+This does nothing to calm your nerves. <>
+[n'You'] Yeah… Right… <>
+
+You look over to the banner above the large tent cover and read the brightly lettered words; “UVA Club Activities Fair” <>
+UVA- The United Video Games Academy was finally your home. It took a lot of work to transfer over, but now you’re at the most prestigious University to focus on making video games and being accessible to students who were video games. It hurts your brain a bit to think about so you don’t. <>
+But if you want to survive here, you definitely need to expand your social circle beyond just Manuella. Hell, maybe it’s crazy talk, but you could even make your daydream come true… <>
+… <>
+Okay, yes. Definitely crazy talk. <>
+Today you’ll just start by finding a club or two to join. <>
+
+You notice Manuella has begun talking again. You quickly silence your internal monologue to catch what she’s saying. <>
+[n'Manuella'] -and that’s why I never go anywhere without one! But I’m just rambling, haha! <>
+[n'Manuella'] As I was saying earlier, the table sections are pretty much split up in categories: <>
+[n'Manuella'] Over to the left are all of your more academic clubs; honors, volunteers, etc. <>
+[n'Manuella'] In the center you have all the different athletic clubs. <>
+[n'Manuella'] Finally, to the right is all the miscellaneous stuff- I think you’ll find a lot more of the interest-based clubs there. <>
+
+[n'Manuella'] Maybe it’d be best to visit all of them and see what stands out to you? <>
+[:][n'Manuella'] Where would you like to start? <>
+Academics [:]
+Athletics [:]
+Miscellaneous [:]

@@ -1,0 +1,29 @@
+[bg’black-background.png’]
+… <>
+Your heart skips a beat. <>
+[<’Heartbeat Normal.wav’]
+You can feel their breath right up against you <>
+Everything feels hazy…<>
+Where are you…? <>
+???: … <>
+???: I’ve been meaning to ask… <>
+The other person lifts their hand to cup your cheek, their thumb lightly brushes against your bottom lip. <>
+???: …Can I? <>
+They look into your eyes, searching for your answer. <>
+You gulp, leaning in a little closer to them… <>
+Just a bit closer… <>
+
+[bg’white-background.jpg’:1.0]
+[m’Cozy Tune.mp3’]
+
+[n'Manuella'] ---HEY!!!  <>
+[n'Manuella'] Watch where you’re stepping, man!! <>
+Oops. Looks like you leaned in a bit to close <>
+
+[bg’activitiesfair.jpg’]
+
+You look around, trying to orient yourself to what is no longer your daydream <>
+Manuella, the tall girl in front of you (not the person from your daydream, who is nowhere in sight), is looking at you with a look of shock and a little pain. <>
+[:]Glancing down, you see that your foot is pressed into Manuella’s, you quickly move it back to your side. <>
+Sorry [:]
+Aww man, I was just getting to the good part [:]

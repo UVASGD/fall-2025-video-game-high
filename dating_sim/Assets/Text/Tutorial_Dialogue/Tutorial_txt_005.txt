@@ -1,0 +1,20 @@
+[n'You'] Hm… I think I’d like to go visit the academic section. <>
+Manuella nods. <>
+[n'Manuella'] Alright! I think I see a friend at one of the Greek Life tables, I’m going to go catch up with them. Find me afterwards? <>
+[n'You'] Okay. <>
+After speaking to Manuella, you walk towards a cluster of tables filled with people advertising all the honors societies, trivia clubs, and pre-professional clubs you could ever need. <>
+Those tables are overwhelmed with students and you’re not too eager to get caught in the mix of sweat and desperate curiosity. Looking past them, a different table catches your eye. <>
+It seems to be a table with stacks of boardgames on top of it. Curious, you approach. <>
+Standing at the front of the table is a person dressed head to toe in patterned clothing; the patterns are odd but somehow they make it work. Their wavy hair is tied in a low pony tail with glasses to frame their face just right. 
+They spot you approaching and flash you a friendly smile with an extended hand for you to shake. <>
+[n'Perrin'] Hey there! I’m Puzzle Pal, the president of the board game club. <>
+[n'Perrin'] Is there anything that you’re curious about with our club? <>
+[n'You'] What do you do in this club? <>
+Perrin hums at your question, flashing a small smile and stepping to the side to show off the well-made poster board that displays the key parts of their club. It’s full of colorful pictures and drawings, with lots of cheerful photos of the meetings. Perrin looks at the posterboard as you do, and you notice that as their eyes glance over some of the photos, a flicker of annoyance crosses their face. <>
+[n'Perrin'] So this is the boardgame club! We meet up once a week and play board games together, and it’s very relaxed and casual. You can really just come in whenever you want and join! For me, this club has been a really nice way to meet people while also engaging in something fun. If you couldn’t tell by now, I really like board games! <>
+Perrin laughs cheerfully and smiles brighter. Their positive energy is infectious, and you can’t help but feel compelled to put your student ID on their email list. <>
+
+[:] [n'Perrin'] Hey, thanks for signing up! Is there anything about our club in particular that interests you? <>
+I really like boardgames too! [:]
+Want to try something new [:]
+Meeting new people [:]
