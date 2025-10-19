@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="Dating_Sim"
-run/main_scene="uid://cuysm2kox8jt8"
+run/main_scene="uid://rccsndlhno67"
 config/features=PackedStringArray("4.4", "Forward Plus")
 config/icon="res://icon.svg"
 
