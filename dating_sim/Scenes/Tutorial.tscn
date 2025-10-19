@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=3 uid="uid://by30yyaddg7d1"]
 
 [ext_resource type="PackedScene" uid="uid://cuysm2kox8jt8" path="res://Scenes/Screen.tscn" id="1_wduq8"]
-[ext_resource type="Resource" path="res://Scripts/Resources/Tutorial.tres" id="2_2o727"]
+[ext_resource type="Resource" uid="uid://ckyhvjfqhbd81" path="res://Scripts/Resources/Tutorial.tres" id="2_2o727"]
 
 [node name="Control" type="Control"]
 layout_mode = 3
