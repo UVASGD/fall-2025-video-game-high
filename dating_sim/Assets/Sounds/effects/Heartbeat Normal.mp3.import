@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://7ar8mby5ll6o"
+path="res://.godot/imported/Heartbeat Normal.mp3-80801ed21407bd987326ad0dfe956dee.mp3str"
+
+[deps]
+
+source_file="res://Assets/Sounds/effects/Heartbeat Normal.mp3"
+dest_files=["res://.godot/imported/Heartbeat Normal.mp3-80801ed21407bd987326ad0dfe956dee.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

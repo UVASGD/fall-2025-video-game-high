@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://cikthfe138j7c"
-path="res://.godot/imported/Crunch.wav-dada2485690d6bf00473158240c3b1ad.sample"
+path="res://.godot/imported/Crunch.wav-5952ce90de899c1943dd8349139127d5.sample"
 
 [deps]
 
-source_file="res://Assets/Sounds/normal/Crunch.wav"
-dest_files=["res://.godot/imported/Crunch.wav-dada2485690d6bf00473158240c3b1ad.sample"]
+source_file="res://Assets/Sounds/effects/Crunch.wav"
+dest_files=["res://.godot/imported/Crunch.wav-5952ce90de899c1943dd8349139127d5.sample"]
 
 [params]
 

@@ -1,6 +1,7 @@
-[gd_resource type="Resource" script_class="DialogueData" load_steps=2 format=3 uid="uid://drrecr43opomx"]
+[gd_resource type="Resource" script_class="DialogueData" load_steps=3 format=3 uid="uid://drrecr43opomx"]
 
 [ext_resource type="Script" uid="uid://cwwkd7uw3ndoi" path="res://Scripts/Classes/DialogueBase.gd" id="1_2lc6c"]
+[ext_resource type="AudioStream" uid="uid://bv1cdxwkatgaq" path="res://Assets/Sounds/music/Cozy Tune.mp3" id="1_nkns5"]
 
 [resource]
 script = ExtResource("1_2lc6c")
@@ -10,7 +11,9 @@ colors = {
 "Outline": Color(0, 0, 0, 1),
 "Text": Color(1, 1, 1, 1)
 }
-music_tracks = {}
+music_tracks = {
+"cozy": ExtResource("1_nkns5")
+}
 strings = {
 "MusicBus": "Master"
 }

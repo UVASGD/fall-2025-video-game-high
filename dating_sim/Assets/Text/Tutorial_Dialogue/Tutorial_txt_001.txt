@@ -1,7 +1,6 @@
 [bg’black-background.png’]
 … <>
-Your heart skips a beat. <>
-[<’Heartbeat’]
+[<’Heartbeat’] Your heart skips a beat. <>
 You can feel their breath right up against you <>
 Everything feels hazy…<>
 Where are you…? <>
