@@ -28,8 +28,6 @@ var wiggle_effects: Array = []
 func initialize(data: DialogueData):
 	dialogue_data = data
 	fps = dialogue_data.get_float("FramesPerSecond", 60.0)
-	EventBus.connect('romance_points_incremented', inc_romance())
-	EventBus.connect('romance_points_decremented', dec_romance())
 	setup_timers()
 
 func setup_timers():
@@ -101,7 +99,6 @@ func find_effects(segment_text: String) -> Dictionary:
 				EventBus.romance_points_incremented.emit()
 			elif segment_text[i-1] == "-":
 				EventBus.romance_points_decremented.emit()
-			romance_points = 0
 			
 			
 		clean_text += char
