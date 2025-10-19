@@ -5,10 +5,12 @@ signal variable_check_completed(success: bool, jump_index: int)
 
 var character_data: CharacterData
 var dialogue_data: DialogueData
+var nametag_manager: NameTag
 
-func initialize(char_data: CharacterData, dial_data: DialogueData):
+func initialize(char_data: CharacterData, dial_data: DialogueData, nametag_data: NameTag):
 	character_data = char_data
 	dialogue_data = dial_data
+	nametag_manager = nametag_data
 
 func change_variable(v_key: String, change_amount: float):
 	
@@ -22,6 +24,10 @@ func change_variable(v_key: String, change_amount: float):
 		character_data.character_variables[v_key] = (change_amount >= 1)
 	elif current_value is int or current_value is float:
 		character_data.character_variables[v_key] += change_amount
+
+func change_name(n_key: String):
+	print(n_key)
+	nametag_manager.sett_name(n_key)
 
 func check_variable(v_key: String, requirement: float, success_jump: int) -> bool:
 	if not character_data:

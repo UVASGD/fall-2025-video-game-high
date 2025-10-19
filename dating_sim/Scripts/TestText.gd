@@ -84,7 +84,7 @@ func _ready():
 	
 	var_manager = VariableManager.new()
 	add_child(var_manager)
-	var_manager.initialize(character_data, dialogue_data)
+	var_manager.initialize(character_data, dialogue_data, name_tag)
 	
 	# Connect signals
 	effects_manager.effect_sound_requested.connect(character_manager.play_effect_sound)
@@ -97,6 +97,7 @@ func _ready():
 	effects_manager.background_change_requested.connect(bg_manager.change_background)
 	effects_manager.variable_change_requested.connect(var_manager.change_variable)
 	effects_manager.variable_check_requested.connect(var_manager.check_variable)
+	effects_manager.name_change_requested.connect(var_manager.change_name)
 	
 	setup_choice()
 	typing_system()
