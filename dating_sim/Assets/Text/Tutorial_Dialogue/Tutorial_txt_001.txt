@@ -12,11 +12,12 @@
 [n' ']You gulp, leaning in a little closer to them… <>
 [n' ']Just a bit closer… <>
 
+
 [bg'white-background:1.0']
 [m'cozy']
 
 
-[n'Manuella'][a'idle'] ---HEY!!!  <>
+[n'Manuella'][a'idle'][/'heartbeat'] ---HEY!!!  <>
 [n'Manuella'] Watch where you’re stepping, man!! <>
 [n' ']Oops. Looks like you leaned in a bit to close <>
 

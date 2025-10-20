@@ -56,12 +56,29 @@ func play_effect_sound(sound_key: String):
 		var sound_stream = character_data.character_sounds.get(sound_key)
 		if sound_stream:
 			var effect_audio_player = AudioStreamPlayer.new()
+			effect_audio_player.name = sound_key
+			print(effect_audio_player.name)
 			add_child(effect_audio_player)
 			effect_audio_player.stream = sound_stream
 			effect_audio_player.play()
 			effect_audio_player.finished.connect(func(): 
 				effect_audio_player.queue_free()
 			)
+
+func stop_sound_effect(sound_key: String):
+	for node in get_children():
+		print("stop " + node.name)
+		if node is AudioStreamPlayer and node.playing and node.name == sound_key:
+			fade_out_audio(node, 1.0)
+			node.stop()			
+
+func fade_out_audio(player: AudioStreamPlayer, duration: float = 1.0):
+	if not player or not player.playing:
+		return
+
+	var tween := get_tree().create_tween()
+	tween.tween_property(player, "volume_db", -80, duration) # fade to silence
+
 
 func show_popup_image(image_key: String):
 	if character_data and character_data.character_images.has(image_key):

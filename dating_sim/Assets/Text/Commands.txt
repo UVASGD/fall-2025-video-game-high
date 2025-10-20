@@ -9,6 +9,7 @@ $ delay, works somewhat well, goes by frames, pauses start on the next possible 
 * super pause
 a'' changes the character state based on the keys
 <'' audio plays
+/'' audio stops
 >'' image flashes
 m'' changes the music being played (: to change fade duration)
 mv# changes volume (: to change fade time)

@@ -88,6 +88,7 @@ func _ready():
 	
 	# Connect signals
 	effects_manager.effect_sound_requested.connect(character_manager.play_effect_sound)
+	effects_manager.sound_stop_requested.connect(character_manager.stop_sound_effect)
 	effects_manager.character_image_change_requested.connect(character_manager.change_character_image)
 	effects_manager.popup_image_requested.connect(character_manager.show_popup_image)
 	character_manager.entrance_completed.connect(_on_entrance_completed)
@@ -445,6 +446,10 @@ func apply_segment_effects(segment: RenderSegment):
 			var sound_key = effect_change.effects.get("play_sound", "")
 			if sound_key != "":
 				character_manager.play_effect_sound(sound_key)
+			
+			var stopped_sound = effect_change.effects.get("stop_sound", "")
+			if stopped_sound != "":
+				character_manager.stop_sound_effect(stopped_sound)
 			
 			var popup_key = effect_change.effects.get("popup_image", "")
 			if popup_key != "":

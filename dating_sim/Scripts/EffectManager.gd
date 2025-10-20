@@ -2,6 +2,7 @@ extends Node
 class_name EffectManager
 
 signal effect_sound_requested(sound_key: String)
+signal sound_stop_requested(sound_key: String)
 signal character_image_change_requested(image_key: String)
 signal popup_image_requested(image_key: String)
 signal music_change_requested(music_key: String, fade_duration: float)
@@ -119,6 +120,9 @@ func parse_effects(effect_str: String) -> Dictionary:
 		"shake": 0,
 		"wiggle": 0,
 		"change_image": "",
+		"play_sound": "",
+		"stop_sound": "",
+		"change_romance_points": 0,
 		"super_pause": false,
 		"music_change": "",
 		"music_fade_duration": -1.0,
@@ -233,6 +237,13 @@ func start_effects(effect_str: String, effects: Dictionary):
 	elif effect_str.begins_with("n'") and effect_str.ends_with("'"):
 		var namec = effect_str.substr(2, effect_str.length() - 3)
 		effects["change_name"] = namec
+	elif effect_str.begins_with("/'") and effect_str.ends_with("'"):
+		var audio_end = effect_str.substr(2, effect_str.length() - 3)
+		print(effect_str)
+		effects["stop_sound"] = audio_end
+	elif effect_str.begins_with("r"):
+		var romance_inc_or_dec = effect_str[1]
+		effects["change_romance_points"] = romance_inc_or_dec
 
 func ripple_targeted(label: Label, ripple_frames: int):
 	var ripple_data = {
