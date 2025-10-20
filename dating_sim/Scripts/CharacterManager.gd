@@ -105,7 +105,7 @@ func _animate_popup(popup_image: TextureRect):
 func change_character_image(image_key: String):
 	if not character_data:
 		return
-		
+	print(image_key)
 	if image_key == "entrance":
 		if not entrance_completed_flag:
 			var entrance_texture = character_data.character_images.get("entrance")

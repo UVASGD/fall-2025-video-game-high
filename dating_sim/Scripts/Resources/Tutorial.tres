@@ -1,4 +1,4 @@
-[gd_resource type="Resource" script_class="CharacterData" load_steps=7 format=3 uid="uid://ckyhvjfqhbd81"]
+[gd_resource type="Resource" script_class="CharacterData" load_steps=9 format=3 uid="uid://ckyhvjfqhbd81"]
 
 [ext_resource type="Texture2D" uid="uid://5vckpgs863yi" path="res://Assets/Art/Backgrounds/black-screen.png" id="1_ktkd0"]
 [ext_resource type="AudioStream" uid="uid://bv1cdxwkatgaq" path="res://Assets/Sounds/music/Cozy Tune.mp3" id="1_oakmt"]
@@ -6,13 +6,18 @@
 [ext_resource type="AudioStream" uid="uid://7ar8mby5ll6o" path="res://Assets/Sounds/effects/Heartbeat Normal.mp3" id="1_yrk1y"]
 [ext_resource type="Texture2D" uid="uid://bh3mf21utr506" path="res://Assets/Art/Backgrounds/white-screen.jpg" id="2_tx5wu"]
 [ext_resource type="Texture2D" uid="uid://sftrwh7k2s1n" path="res://Assets/Art/Backgrounds/activitiesfair.jpg" id="3_35f0t"]
+[ext_resource type="Texture2D" uid="uid://jqq2phl7l46d" path="res://Assets/Art/Characters/Manuella/Manuella-Idle-open.png" id="4_35f0t"]
+[ext_resource type="Texture2D" uid="uid://crrndjwr8gbyw" path="res://Assets/Art/Characters/Manuella/Manuella-Idle-closed.png" id="5_uvjvj"]
 
 [resource]
 script = ExtResource("1_xpg0m")
 character_name = ""
 character_id = "Man"
 dialogue_text_files = Array[String](["res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_001.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_002.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_003.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_004.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_005.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_006.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_007.txt"])
-character_images = {}
+character_images = {
+"entrance": ExtResource("5_uvjvj"),
+"idle": [ExtResource("5_uvjvj"), ExtResource("4_35f0t")]
+}
 character_backgrounds = {
 "activitiesfair": ExtResource("3_35f0t"),
 "black-background": ExtResource("1_ktkd0"),

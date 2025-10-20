@@ -16,4 +16,7 @@ layout_mode = 1
 character_data = ExtResource("2_2o727")
 name_tag = NodePath("NameTag")
 
+[node name="Character" parent="Screen" index="3"]
+stretch_mode = 3
+
 [editable path="Screen"]

@@ -16,7 +16,7 @@
 [m'cozy']
 
 
-[n'Manuella'] ---HEY!!!  <>
+[n'Manuella'][a'idle'] ---HEY!!!  <>
 [n'Manuella'] Watch where you’re stepping, man!! <>
 [n' ']Oops. Looks like you leaned in a bit to close <>
 
