@@ -4,7 +4,6 @@ Manuella clasps her hands together, and like magic, her smile is back on her fac
 You take a moment to reorient yourself. <>
 Right. The club fair. <>
 
-
 You take a look around. Rows of plastic tables are crammed together on what little greenspace is left of the quad. It seems like every student at the university is out right now, all of them swarming and moving around like bees in a hive. <>
 Your mind reels at all the energy, you feel your palms grow clammy as you think about joining the chaos. <>
 Glancing back at Manuella, she seems all too happy to jump right in and join them. Not that you were surprised. She’s been like this ever since you two were little, old images of her tugging you around by the hand pop back into your mind, making your heart ache. <>
@@ -29,6 +28,6 @@ You notice Manuella has begun talking again. You quickly silence your internal m
 
 [n'Manuella'] Maybe it’d be best to visit all of them and see what stands out to you? <>
 [:][n'Manuella'] Where would you like to start? <>
-Academics [:]
-Athletics [:]
-Miscellaneous [:]
+Academics [:4] <>
+Athletics [:] <>
+Miscellaneous [:] <>

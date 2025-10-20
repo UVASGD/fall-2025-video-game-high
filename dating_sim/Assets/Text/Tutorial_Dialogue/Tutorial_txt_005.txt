@@ -15,6 +15,6 @@ Perrin hums at your question, flashing a small smile and stepping to the side to
 Perrin laughs cheerfully and smiles brighter. Their positive energy is infectious, and you can’t help but feel compelled to put your student ID on their email list. <>
 
 [:] [n'Perrin'] Hey, thanks for signing up! Is there anything about our club in particular that interests you? <>
-I really like boardgames too! [:]
-Want to try something new [:]
-Meeting new people [:]
+I really like boardgames too! [:7] <>
+Want to try something new [:7] <>
+Meeting new people [:6] <>

@@ -2,6 +2,7 @@
 … <>
 [<'heartbeat'] Your heart skips a beat. <>
 You can feel their breath right up against you <>
+
 Everything feels hazy…<>
 Where are you…? <>
 ???: … <>
@@ -15,6 +16,7 @@ Just a bit closer… <>
 [bg'white-background':1.0]
 [m'cozy']
 
+
 [n'Manuella'] ---HEY!!!  <>
 [n'Manuella'] Watch where you’re stepping, man!! <>
 Oops. Looks like you leaned in a bit to close <>
@@ -24,5 +26,5 @@ Oops. Looks like you leaned in a bit to close <>
 You look around, trying to orient yourself to what is no longer your daydream <>
 Manuella, the tall girl in front of you (not the person from your daydream, who is nowhere in sight), is looking at you with a look of shock and a little pain. <>
 [:]Glancing down, you see that your foot is pressed into Manuella’s, you quickly move it back to your side. <>
-Sorry [:]
-Aww man, I was just getting to the good part [:]
+Sorry [:1] <>
+Aww man, I was just getting to the good part [:2] <>
