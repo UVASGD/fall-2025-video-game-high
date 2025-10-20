@@ -23,6 +23,7 @@ func setup_name_tag():
 	name_panel.position = Vector2.ZERO
 	name_label.position = Vector2.ZERO
 	
+	# a lot of these sett_names are useless but they aren't affecting anything yet
 	call_deferred("sett_name", " ")
 
 func set_character(new_character_data: CharacterData):
@@ -42,7 +43,7 @@ func sett_name(new_name: String):
 	if not name_label or not name_panel:
 		return
 	
-	print("NameTag: Setting custom name to '", new_name, "'")
+	#print("NameTag: Setting custom name to '", new_name, "'")
 	name_label.text = new_name
 	calculate_and_resize()
 

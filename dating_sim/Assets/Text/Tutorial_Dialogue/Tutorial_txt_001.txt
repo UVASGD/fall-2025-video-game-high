@@ -12,7 +12,7 @@
 [n' ']You gulp, leaning in a little closer to them… <>
 [n' ']Just a bit closer… <>
 
-[bg'white-background':1.0]
+[bg'white-background:1.0']
 [m'cozy']
 
 
@@ -20,7 +20,7 @@
 [n'Manuella'] Watch where you’re stepping, man!! <>
 [n' ']Oops. Looks like you leaned in a bit to close <>
 
-[bg'activitiesfair.jpg']
+[bg'activitiesfair:1.0']
 
 [n' ']You look around, trying to orient yourself to what is no longer your daydream <>
 [n' ']Manuella, the tall girl in front of you (not the person from your daydream, who is nowhere in sight), is looking at you with a look of shock and a little pain. <>

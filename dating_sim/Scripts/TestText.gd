@@ -80,7 +80,7 @@ func _ready():
 	bg_manager = BackgroundManager.new()
 	add_child(bg_manager)
 	bg_manager.initialize(dialogue_data, $TextureBG)
-	bg_manager.set_background_library(character_data.character_images)
+	bg_manager.set_background_library(character_data.character_backgrounds)
 	
 	var_manager = VariableManager.new()
 	add_child(var_manager)
@@ -453,6 +453,13 @@ func apply_segment_effects(segment: RenderSegment):
 			var name_tag = effect_change.effects.get("change_name", "")
 			if name_tag != "":
 				effects_manager.name_change_requested.emit(name_tag)
+			
+			var bg = effect_change.effects.get("change_background", "")
+			var bg_fade = effect_change.effects.get("bg_fade_duration", 0.0)
+			if bg != "" && bg_fade > 0.0:
+				effects_manager.background_change_requested.emit(bg, bg_fade)
+			elif bg != "":
+				effects_manager.background_change_requested.emit(bg, 0.0)
 			
 			
 
