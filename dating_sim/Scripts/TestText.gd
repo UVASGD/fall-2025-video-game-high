@@ -127,10 +127,9 @@ func setup_choice():
 
 func set_character(character: CharacterData):
 	character_data = character
-	
 	# Update the name tag when character changes
-	if name_tag:
-		name_tag.set_character(character_data)
+	#if name_tag:
+	#	name_tag.set_character(character_data)
 
 func load_text():
 	var file_path = dialogue_data.text_file_path
@@ -450,6 +449,12 @@ func apply_segment_effects(segment: RenderSegment):
 			var popup_key = effect_change.effects.get("popup_image", "")
 			if popup_key != "":
 				character_manager.show_popup_image(popup_key)
+			
+			var name_tag = effect_change.effects.get("change_name", "")
+			if name_tag != "":
+				effects_manager.name_change_requested.emit(name_tag)
+			
+			
 
 func apply_position_effects(position: int):
 	

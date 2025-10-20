@@ -1,4 +1,4 @@
-[gd_scene load_steps=3 format=3 uid="uid://rccsndlhno67"]
+[gd_scene load_steps=3 format=3 uid="uid://by30yyaddg7d1"]
 
 [ext_resource type="PackedScene" uid="uid://cuysm2kox8jt8" path="res://Scenes/Screen.tscn" id="1_wduq8"]
 [ext_resource type="Resource" uid="uid://ckyhvjfqhbd81" path="res://Scripts/Resources/Tutorial.tres" id="2_2o727"]
@@ -11,8 +11,9 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 
-[node name="Screen" parent="." instance=ExtResource("1_wduq8")]
+[node name="Screen" parent="." node_paths=PackedStringArray("name_tag") instance=ExtResource("1_wduq8")]
 layout_mode = 1
 character_data = ExtResource("2_2o727")
+name_tag = NodePath("NameTag")
 
 [editable path="Screen"]

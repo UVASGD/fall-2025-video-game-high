@@ -26,7 +26,7 @@ func change_variable(v_key: String, change_amount: float):
 		character_data.character_variables[v_key] += change_amount
 
 func change_name(n_key: String):
-	print(n_key)
+	print("hello" + n_key)
 	nametag_manager.sett_name(n_key)
 
 func check_variable(v_key: String, requirement: float, success_jump: int) -> bool:

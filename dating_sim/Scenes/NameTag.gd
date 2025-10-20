@@ -15,7 +15,6 @@ func _ready():
 func setup_name_tag():
 	name_panel = find_child("Panel") as Panel
 	name_label = find_child("Label") as Label
-	name_label.text = character_data.character_name
 	set_font_size(font_size)
 	
 	if not name_panel or not name_label:
@@ -24,18 +23,16 @@ func setup_name_tag():
 	name_panel.position = Vector2.ZERO
 	name_label.position = Vector2.ZERO
 	
-	if character_data:
-		call_deferred("update_name_tag")
+	call_deferred("sett_name", " ")
 
 func set_character(new_character_data: CharacterData):
 	character_data = new_character_data
-	call_deferred("update_name_tag")
+	call_deferred("sett_name", " ")
 
 func update_name_tag():
 	if not character_data or not name_label or not name_panel:
 		return
 	var character_name = character_data.character_name
-	print(character_name)
 	if character_name.is_empty():
 		character_name = "Unknown"
 	name_label.text = character_name

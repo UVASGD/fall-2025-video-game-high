@@ -1,11 +1,11 @@
-Perrin smiles at your response and runs a hand through their hair. They lean against the table. <>
+[n' ']Perrin smiles at your response and runs a hand through their hair. They lean against the table. <>
 [n'Perrin'] Well, I can assure that whatever you’re looking for, board games club, believe it or not, may be just the solution. It may not look like much, but if you do join, I can assure you that you won’t regret it. <>
-You nod at Perrin’s response then turn to look at the array of other tables you have yet to explore. You turn back to them with a friendly smile. <>
+[n' ']You nod at Perrin’s response then turn to look at the array of other tables you have yet to explore. You turn back to them with a friendly smile. <>
 [n'You'] Well, it was really nice meeting you! I gotta get going though- gotta see all the other clubs this school has to offer. Is there any way I can contact you or like...sign up or something? <>
-Perrin lets out a chuckle and nods. They quickly grab a small plastic container with a QR code on it. In addition, they grab a small sticky note and write something down. <>
+[n' ']Perrin lets out a chuckle and nods. They quickly grab a small plastic container with a QR code on it. In addition, they grab a small sticky note and write something down. <>
 [n'Perrin'] Here, this is the QR code for the interest form plus discord server, with the first meeting being on Wednesday next week! And this is my email if you ever want to contact me directly with questions. <>
-You happily take a picture of the QR code and take the sticky note from Perrin’s hand, giving them a wave. <>
+[n' ']You happily take a picture of the QR code and take the sticky note from Perrin’s hand, giving them a wave. <>
 [n'You'] Thank you! It was nice talking to you! <>
-Perrin waves back at you and nods. <>
+[n' ']Perrin waves back at you and nods. <>
 [n'Perrin'] You as well! Hopefully I’ll see you again next week? <>
-You grin at their response and leave the table. <>
+[n' ']You grin at their response and leave the table. <>

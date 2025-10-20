@@ -233,7 +233,6 @@ func start_effects(effect_str: String, effects: Dictionary):
 	elif effect_str.begins_with("n'") and effect_str.ends_with("'"):
 		var namec = effect_str.substr(2, effect_str.length() - 3)
 		effects["change_name"] = namec
-		print(namec)
 
 func ripple_targeted(label: Label, ripple_frames: int):
 	var ripple_data = {

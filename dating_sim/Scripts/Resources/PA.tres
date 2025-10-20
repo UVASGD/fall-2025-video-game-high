@@ -24,6 +24,7 @@ character_images = {
 "idle": [ExtResource("1_jkc0y"), ExtResource("2_wpler")],
 "scooter": ExtResource("8_amcte")
 }
+character_backgrounds = {}
 character_sounds = {
 "bell": ExtResource("10_4juaj"),
 "talking": ExtResource("10_amcte")
