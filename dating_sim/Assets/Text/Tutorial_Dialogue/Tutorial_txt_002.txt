@@ -1,5 +1,5 @@
-Sorry [:]
-[n'Manuella'] No, no, you’re all good! I know you love your daydreams, but try not to zone out too much, okay? It’s a big day<>
-[n' ']Manuella smiles and bumps your shoulder with her fist <>
-[n' ']You nod, cringing internally. <>
-	[j]
+I'm sorry, I didn't mean to space out there. <>
+[n'Manuella'][a'happy']No, no, you’re all good! I know you love your daydreams, but try not to zone out too much, okay? It’s a big day.<>
+[n' ']Manuella smiles and bumps your shoulder with her fist. <>
+[n' ']You nod, cringing internally. <> [j3]- 
+  

@@ -1,6 +1,5 @@
-Aww man, I was just getting to the good part [:]
-	[n'Manuella'] Huh? Good part? What good part? <>
-	[n'']You look away, deciding not to explain further <>
+Aww man, I was just getting to the good part. <>
+[n'Manuella'][a'idle']Huh? Good part? What good part? <>
+[n' ']You look away, deciding not to explain further. <>
 [n'Manuella'] Hey… Don’t tell me you did that on purpose…  <>
-[n' ']She sighs and shakes her head, a bit fondly.  <>
-[j]
+[n' ']She sighs and shakes her head, a bit fondly.<> [j3]- 

@@ -1,6 +1,6 @@
 [n'Manuella'] Alright, well- Okay. Time to be focused! <>
 [n' ']Manuella clasps her hands together, and like magic, her smile is back on her face. <>
-[n'Manuella'] As I was saying, we’ve made it to the club fair now! So what do you want to do? <>
+[n'Manuella'][a'happy'] As I was saying, we’ve made it to the club fair now! So what do you want to do? <>
 [n' ']You take a moment to reorient yourself. <>
 [n' ']Right. The club fair. <>
 
@@ -21,14 +21,14 @@
 [n' ']Today you’ll just start by finding a club or two to join. <>
 
 [n' ']You notice Manuella has begun talking again. You quickly silence your internal monologue to catch what she’s saying. <>
-[n'Manuella'] -and that’s why I never go anywhere without one! But I’m just rambling, haha! <>
-[n'Manuella'] As I was saying earlier, the table sections are pretty much split up in categories: <>
-[n'Manuella'] Over to the left are all of your more academic clubs; honors, volunteers, etc. <>
-[n'Manuella'] In the center you have all the different athletic clubs. <>
-[n'Manuella'] Finally, to the right is all the miscellaneous stuff- I think you’ll find a lot more of the interest-based clubs there. <>
+[n'Manuella']-and that’s why I never go anywhere without one! But I’m just rambling, haha! <>
+[n'Manuella']As I was saying earlier, the table sections are pretty much split up in categories: <>
+[n'Manuella']Over to the left are all of your more academic clubs; honors, volunteers, etc. <>
+[n'Manuella']In the center you have all the different athletic clubs. <>
+[n'Manuella']Finally, to the right is all the miscellaneous stuff- I think you’ll find a lot more of the interest-based clubs there. <>
 
-[n'Manuella'] Maybe it’d be best to visit all of them and see what stands out to you? <>
-[:][n'Manuella'] Where would you like to start? <>
-Academics [:]
-Athletics [:]
-Miscellaneous [:]
+[n'Manuella']Maybe it’d be best to visit all of them and see what stands out to you? <>
+[:][n'Manuella']Where would you like to start? <>
+Academics [:4] <>
+Athletics [:] <>
+Miscellaneous [:] <>

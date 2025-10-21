@@ -14,17 +14,18 @@
 
 
 [bg'white-background:1.0']
-[m'cozy']
+[m'evil']
 
 
-[n'Manuella'][a'idle'][/'heartbeat'] ---HEY!!!  <>
-[n'Manuella'] Watch where you’re stepping, man!! <>
+[n'Manuella'][/'heartbeat'] ---HEY!!!  <>
+[n'Manuella'][a'yeowch'] Watch where you’re stepping, man!! <>
 [n' ']Oops. Looks like you leaned in a bit to close <>
 
-[bg'activitiesfair:1.0']
+[bg'activitiesfair:0.5']
 
-[n' ']You look around, trying to orient yourself to what is no longer your daydream <>
+[n' ']You look around, trying to orient yourself to what is no longer your daydream. <>
 [n' ']Manuella, the tall girl in front of you (not the person from your daydream, who is nowhere in sight), is looking at you with a look of shock and a little pain. <>
 [:][n' ']Glancing down, you see that your foot is pressed into Manuella’s, you quickly move it back to your side. <>
 Sorry [:1] <>
-Aww man, I was just getting to the good part [:2] <>
+Aww man, I was just getting 
+to the good part [:2] <>

@@ -32,6 +32,7 @@ character_images = {
 "sleep": [ExtResource("3_ub83t"), ExtResource("4_ogk1s")],
 "smirk": [ExtResource("6_gyuqr"), ExtResource("6_gyuqr")]
 }
+character_backgrounds = {}
 character_sounds = {
 "bell": ExtResource("1_dcbse"),
 "boom": ExtResource("14_w0214"),
