@@ -1,6 +1,5 @@
 extends Control
 
-@export var dialogue_data: DialogueData
 @export var character_data: CharacterData
 @export var name_tag: NameTag
 
@@ -57,34 +56,34 @@ class RenderSegment:
 		effects = fx
 
 func _ready():
-	fps = dialogue_data.get_float("FramesPerSecond", 60.0)
+	fps = character_data.get_float("FramesPerSecond", 60.0)
 	
 	# Initialize managers
 	effects_manager = EffectManager.new()
 	add_child(effects_manager)
-	effects_manager.initialize(dialogue_data)
+	effects_manager.initialize(character_data)
 	
 	text_manager = TextManager.new()
 	add_child(text_manager)
-	text_manager.initialize(dialogue_data, $TextContainer/TextBackground/MarginContainer/TextContainer)
+	text_manager.initialize(character_data, $TextContainer/TextBackground/MarginContainer/TextContainer)
 	
 	character_manager = CharacterManager.new()
 	add_child(character_manager)
-	character_manager.initialize(dialogue_data, character_data, $NameTag, $Character)
+	character_manager.initialize(character_data, $NameTag, $Character)
 	
 	music_manager = MusicManager.new()
 	add_child(music_manager)
-	music_manager.initialize(dialogue_data)
-	music_manager.set_music_library(dialogue_data.music_tracks)
+	music_manager.initialize(character_data)
+	music_manager.set_music_library(character_data.music_tracks)
 	
 	bg_manager = BackgroundManager.new()
 	add_child(bg_manager)
-	bg_manager.initialize(dialogue_data, $TextureBG)
+	bg_manager.initialize(character_data, $TextureBG)
 	bg_manager.set_background_library(character_data.character_backgrounds)
 	
 	var_manager = VariableManager.new()
 	add_child(var_manager)
-	var_manager.initialize(character_data, dialogue_data, name_tag)
+	var_manager.initialize(character_data, name_tag)
 	
 	# Connect signals
 	effects_manager.effect_sound_requested.connect(character_manager.play_effect_sound)
@@ -109,7 +108,7 @@ func typing_system():
 	typing_timer = Timer.new()
 	add_child(typing_timer)
 	typing_timer.timeout.connect(_render_timer)
-	typing_timer.wait_time = dialogue_data.get_float("TypingTimerInterval", 0.1)
+	typing_timer.wait_time = character_data.get_float("TypingTimerInterval", 0.1)
 
 func dialogue_box():
 	text_container = $TextContainer/TextBackground/MarginContainer/TextContainer
@@ -133,7 +132,7 @@ func set_character(character: CharacterData):
 	#	name_tag.set_character(character_data)
 
 func load_text():
-	var file_path = dialogue_data.text_file_path
+	var file_path = character_data.text_file_path
 	var file_content = ""
 	
 	if FileAccess.file_exists(file_path):
@@ -193,7 +192,7 @@ func jump(file_index: int):
 	
 	if file_index >= 0 and file_index < character_data.dialogue_text_files.size():
 		var new_file_path = character_data.dialogue_text_files[file_index]
-		dialogue_data.text_file_path = new_file_path
+		character_data.text_file_path = new_file_path
 		typing_timer.stop()
 		is_typing = false
 		waiting_for_input = false
@@ -269,8 +268,8 @@ func split_into_render_segments():
 	
 	var segments = []
 	var current_pos = 0
-	var current_char_delay = dialogue_data.integers["DelayBetweenCharacters"]
-	var current_word_speed = dialogue_data.integers["TextSpeed"]
+	var current_char_delay = character_data.integers["DelayBetweenCharacters"]
+	var current_word_speed = character_data.integers["TextSpeed"]
 	var in_zone = false
 	var zone_effects = {}
 	
@@ -346,15 +345,15 @@ func render_next_segment():
 	if segment.is_word_mode:
 		typing_timer.wait_time = 60.0 / segment.word_speed
 	else:
-		var fps = dialogue_data.get_float("FramesPerSecond", 60.0)
+		var fps = character_data.get_float("FramesPerSecond", 60.0)
 		typing_timer.wait_time = segment.char_delay / fps if segment.char_delay > 0 else 0.016
 	
 	is_typing = true
 	typing_timer.start()
 
 func typing_speed():
-	var effective_char_delay = current_char_delay if current_char_delay > 0 else dialogue_data.integers["DelayBetweenCharacters"]
-	var effective_word_speed = current_word_speed if current_word_speed > 0 else dialogue_data.integers["TextSpeed"]
+	var effective_char_delay = current_char_delay if current_char_delay > 0 else character_data.integers["DelayBetweenCharacters"]
+	var effective_word_speed = current_word_speed if current_word_speed > 0 else character_data.integers["TextSpeed"]
 	
 	if effective_char_delay > 0:
 		typing_timer.wait_time = effective_char_delay / fps
@@ -611,7 +610,7 @@ func create_choice_buttons():
 	for i in range(choice_options.size()):
 		var button = Button.new()
 		button.text = choice_options[i]
-		button.add_theme_font_size_override("font_size", dialogue_data.integers["FontSize"])
+		button.add_theme_font_size_override("font_size", character_data.integers["FontSize"])
 		var choice_index = i
 		button.pressed.connect(func(): select_choice(choice_index))
 		choice_vbox.add_child(button)
@@ -624,7 +623,7 @@ func select_choice(choice_index: int):
 		if destination >= 0 and character_data != null:
 			if destination < character_data.dialogue_text_files.size():
 				var new_file_path = character_data.dialogue_text_files[destination]
-				dialogue_data.text_file_path = new_file_path
+				character_data.text_file_path = new_file_path
 				hide_choice_container()
 				choice_mode = false
 				load_text()
@@ -677,7 +676,7 @@ func _button():
 			if segment.is_word_mode:
 				typing_timer.wait_time = 60.0 / segment.word_speed
 			else:
-				var fps = dialogue_data.get_float("FramesPerSecond", 60.0)
+				var fps = character_data.get_float("FramesPerSecond", 60.0)
 				typing_timer.wait_time = segment.char_delay / fps if segment.char_delay > 0 else 0.016
 			
 			is_typing = true
@@ -704,7 +703,7 @@ func _input(event):
 				if segment.is_word_mode:
 					typing_timer.wait_time = 60.0 / segment.word_speed
 				else:
-					var fps = dialogue_data.get_float("FramesPerSecond", 60.0)
+					var fps = character_data.get_float("FramesPerSecond", 60.0)
 					typing_timer.wait_time = segment.char_delay / fps if segment.char_delay > 0 else 0.016
 				
 				is_typing = true

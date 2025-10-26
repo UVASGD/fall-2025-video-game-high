@@ -3,7 +3,7 @@ class_name BackgroundManager
 
 signal background_fade_completed
 
-var dialogue_data: DialogueData
+var character_data: CharacterData
 var background_rect: TextureRect
 var fade_background_rect: TextureRect
 var fade_tween: Tween
@@ -12,8 +12,8 @@ var current_background_key: String = ""
 var is_fading: bool = false
 var background_library: Dictionary = {}
 
-func initialize(data: DialogueData, bg_texture_rect: TextureRect):
-	dialogue_data = data
+func initialize(data: CharacterData, bg_texture_rect: TextureRect):
+	character_data = data
 	background_rect = bg_texture_rect
 	setup_fade_background()
 
@@ -40,7 +40,7 @@ func set_background_library(bg_dict: Dictionary):
 
 func change_background(bg_key: String, fade_duration: float = -1):
 	if fade_duration == -1:
-		fade_duration = dialogue_data.get_float("BackgroundDefaultFadeDuration", 1.0)
+		fade_duration = character_data.get_float("BackgroundDefaultFadeDuration", 1.0)
 	
 	if bg_key == "":
 		clear_background(fade_duration)
@@ -97,7 +97,7 @@ func crossfade_to_background(new_texture: Texture2D, fade_duration: float):
 
 func clear_background(fade_duration: float = -1):
 	if fade_duration == -1:
-		fade_duration = dialogue_data.get_float("BackgroundDefaultFadeDuration", 1.0)
+		fade_duration = character_data.get_float("BackgroundDefaultFadeDuration", 1.0)
 	
 	current_background_key = ""
 	

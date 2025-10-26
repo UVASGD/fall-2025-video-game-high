@@ -13,7 +13,7 @@ signal variable_change_requested(variable_key: String, change_amount: float)
 signal variable_check_requested(variable_check: String, requirement: float, success_jump: int)
 signal name_change_requested(name_change: String)
 
-var dialogue_data: DialogueData
+var data: CharacterData
 var text_labels: Array = []
 var fps: float = 60.0
 
@@ -27,22 +27,22 @@ var shake_effects: Array = []
 var jitter_effects: Array = []
 var wiggle_effects: Array = []
 
-func initialize(data: DialogueData):
-	dialogue_data = data
-	fps = dialogue_data.get_float("FramesPerSecond", 60.0)
+func initialize(data: CharacterData):
+	data = data
+	fps = data.get_float("FramesPerSecond", 60.0)
 	setup_timers()
 
 func setup_timers():
 	ripple_timer = Timer.new()
 	add_child(ripple_timer)
 	ripple_timer.timeout.connect(_ripple_timer)
-	ripple_timer.wait_time = dialogue_data.get_float("RippleTimerInterval", 0.016)
+	ripple_timer.wait_time = data.get_float("RippleTimerInterval", 0.016)
 	ripple_timer.start()
 	
 	effect_update_timer = Timer.new()
 	add_child(effect_update_timer)
 	effect_update_timer.timeout.connect(_update_effects)
-	effect_update_timer.wait_time = dialogue_data.get_float("EffectUpdateTimerInterval", 0.016)
+	effect_update_timer.wait_time = data.get_float("EffectUpdateTimerInterval", 0.016)
 	effect_update_timer.start()
 
 func set_text_labels(labels: Array):
@@ -112,9 +112,9 @@ func find_effects(segment_text: String) -> Dictionary:
 
 func parse_effects(effect_str: String) -> Dictionary:
 	var effects = {
-		"ripple": dialogue_data.integers.get("RippleFrames", 0),
-		"char_delay": dialogue_data.integers.get("DelayBetweenCharacters", 0),
-		"word_speed": dialogue_data.integers.get("TextSpeed", 500),
+		"ripple": data.integers.get("RippleFrames", 0),
+		"char_delay": data.integers.get("DelayBetweenCharacters", 0),
+		"word_speed": data.integers.get("TextSpeed", 500),
 		"delay": 0,
 		"jitter": 0,
 		"shake": 0,
@@ -172,7 +172,7 @@ func start_effects(effect_str: String, effects: Dictionary):
 		effects["delay"] = delay_frames
 	elif effect_str.begins_with("%"):
 		var number_str = effect_str.substr(1)
-		var jitter_intensity = number_str.to_int() if number_str != "" else dialogue_data.get_integer("DefaultJitterIntensity", 2)
+		var jitter_intensity = number_str.to_int() if number_str != "" else data.get_integer("DefaultJitterIntensity", 2)
 		effects["jitter"] = jitter_intensity
 	elif effect_str.begins_with("^"):
 		var number_str = effect_str.substr(1)
@@ -180,7 +180,7 @@ func start_effects(effect_str: String, effects: Dictionary):
 		effects["shake"] = shake_frames
 	elif effect_str.begins_with("&"):
 		var number_str = effect_str.substr(1)
-		var wiggle_intensity = number_str.to_int() if number_str != "" else dialogue_data.get_integer("DefaultWiggleIntensity", 5)
+		var wiggle_intensity = number_str.to_int() if number_str != "" else data.get_integer("DefaultWiggleIntensity", 5)
 		effects["wiggle"] = wiggle_intensity
 	elif effect_str.begins_with("*") and effect_str.length() == 1:
 		effects["super_pause"] = true
@@ -272,7 +272,7 @@ func ripple_effect_targeted():
 			
 			if time_elapsed < ripple_data.duration:
 				var time_factor = 1.0 - (time_elapsed / ripple_data.duration)
-				var ripple_strength = time_factor * dialogue_data.get_float("RippleStrengthMultiplier", 0.4)
+				var ripple_strength = time_factor * data.get_float("RippleStrengthMultiplier", 0.4)
 				var scale_multiplier = 1.0 + ripple_strength
 				ripple_data.label.scale = Vector2(scale_multiplier, scale_multiplier)
 
@@ -287,7 +287,7 @@ func apply_jitter_to_position(position: int, intensity: int):
 
 func apply_shake_to_position(position: int, frames: int, intensity: int = -1):
 	if intensity == -1:
-		intensity = dialogue_data.get_integer("DefaultShakeIntensity", 3)
+		intensity = data.get_integer("DefaultShakeIntensity", 3)
 	
 	if position < text_labels.size() and is_instance_valid(text_labels[position]):
 		var shake_data = {
@@ -346,7 +346,7 @@ func _update_effects():
 	# Update wiggle effects
 	for wiggle_data in wiggle_effects:
 		if is_instance_valid(wiggle_data.label) and wiggle_data.active:
-			var wiggle_rotation = sin(current_time * dialogue_data.get_float("WiggleTimeMultiplier", 0.01)) * deg_to_rad(wiggle_data.intensity)
+			var wiggle_rotation = sin(current_time * data.get_float("WiggleTimeMultiplier", 0.01)) * deg_to_rad(wiggle_data.intensity)
 			wiggle_data.label.rotation = wiggle_rotation
 
 func clear_effects():

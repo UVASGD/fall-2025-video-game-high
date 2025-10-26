@@ -1,7 +1,7 @@
 extends Node
 class_name TextManager
 
-var dialogue_data: DialogueData
+var character_data: CharacterData
 var text_container: Control
 var text_labels: Array = []
 
@@ -10,8 +10,8 @@ var current_segment_text: String = ""
 var current_segment_effects: Array = []
 var current_position: int = 0
 
-func initialize(data: DialogueData, container: Control):
-	dialogue_data = data
+func initialize(char_data: CharacterData, container: Control):
+	character_data = char_data
 	text_container = container
 
 func prepare_segment(segment_text: String, segment_effects: Array):
@@ -27,8 +27,8 @@ func prepare_segment(segment_text: String, segment_effects: Array):
 func create_all_labels():
 	var x_position = 0.0
 	var y_position = 0.0
-	var font_size = dialogue_data.integers["FontSize"]
-	var line_height = font_size * dialogue_data.get_float("LineHeightMultiplier", 1.2)
+	var font_size = character_data.integers["FontSize"]
+	var line_height = font_size * character_data.get_float("LineHeightMultiplier", 1.2)
 	await get_tree().process_frame
 	var container_width = text_container.size.x
 	
@@ -53,12 +53,12 @@ func create_all_labels():
 			var char_label = Label.new()
 			char_label.text = c
 			char_label.add_theme_font_size_override("font_size", font_size)
-			char_label.add_theme_color_override("font_color", dialogue_data.get_color("Text"))
+			char_label.add_theme_color_override("font_color", character_data.get_color("Text"))
 		
-			var outline_size = dialogue_data.integers["OutlineSize"]
+			var outline_size = character_data.integers["OutlineSize"]
 			if outline_size > 0:
 				char_label.add_theme_constant_override("outline_size", outline_size)
-				char_label.add_theme_color_override("font_outline_color", dialogue_data.get_color("Outline"))
+				char_label.add_theme_color_override("font_outline_color", character_data.get_color("Outline"))
 			
 			char_label.position = Vector2(x_position, y_position)
 			char_label.modulate.a = 0.0  # Start invisible
@@ -72,7 +72,7 @@ func create_all_labels():
 			var space_label = Label.new()
 			space_label.text = " "
 			space_label.add_theme_font_size_override("font_size", font_size)
-			space_label.add_theme_color_override("font_color", dialogue_data.get_color("Text"))
+			space_label.add_theme_color_override("font_color", character_data.get_color("Text"))
 			space_label.position = Vector2(x_position, y_position)
 			space_label.modulate.a = 0.0
 			text_container.add_child(space_label)

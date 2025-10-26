@@ -3,7 +3,7 @@ class_name MusicManager
 
 signal music_fade_completed
 
-var dialogue_data: DialogueData
+var character_data: CharacterData
 var current_music_player: AudioStreamPlayer
 var fade_music_player: AudioStreamPlayer
 var fade_tween: Tween
@@ -12,28 +12,28 @@ var current_track_key: String = ""
 var is_fading: bool = false
 var music_library: Dictionary = {}
 
-func initialize(data: DialogueData):
-	dialogue_data = data
+func initialize(data: CharacterData):
+	data = data
 	setup_audio_players()
 
 func setup_audio_players():
 	current_music_player = AudioStreamPlayer.new()
 	add_child(current_music_player)
-	current_music_player.volume_db = dialogue_data.get_float("MusicBaseVolume", -10.0)
-	current_music_player.bus = dialogue_data.get_string("MusicBus", "Master")
+	current_music_player.volume_db = character_data.get_float("MusicBaseVolume", -10.0)
+	current_music_player.bus = character_data.get_string("MusicBus", "Master")
 	
 	#Secondary player for crossfading
 	fade_music_player = AudioStreamPlayer.new()
 	add_child(fade_music_player)
-	fade_music_player.volume_db = dialogue_data.get_float("MusicBaseVolume", -10.0)
-	fade_music_player.bus = dialogue_data.get_string("MusicBus", "Master")
+	fade_music_player.volume_db = character_data.get_float("MusicBaseVolume", -10.0)
+	fade_music_player.bus = character_data.get_string("MusicBus", "Master")
 
 func set_music_library(music_dict: Dictionary):
 	music_library = music_dict
 
 func play_music(track_key: String, fade_duration: float = -1):
 	if fade_duration == -1:
-		fade_duration = dialogue_data.get_float("MusicDefaultFadeDuration", 1.0)
+		fade_duration = character_data.get_float("MusicDefaultFadeDuration", 1.0)
 	
 	if track_key == "":
 		stop_music(fade_duration)
@@ -56,7 +56,7 @@ func play_music(track_key: String, fade_duration: float = -1):
 	else:
 		# Direct play without fade
 		current_music_player.stream = new_stream
-		current_music_player.volume_db = dialogue_data.get_float("MusicBaseVolume", -10.0)
+		current_music_player.volume_db = character_data.get_float("MusicBaseVolume", -10.0)
 		current_music_player.play()
 
 func crossfade_to_track(new_stream: AudioStream, fade_duration: float):
@@ -71,7 +71,7 @@ func crossfade_to_track(new_stream: AudioStream, fade_duration: float):
 	fade_tween = create_tween()
 	fade_tween.set_parallel(true)
 	
-	var target_volume = dialogue_data.get_float("MusicBaseVolume", -10.0)
+	var target_volume = character_data.get_float("MusicBaseVolume", -10.0)
 	
 	# Fade out current player
 	fade_tween.tween_property(current_music_player, "volume_db", -80.0, fade_duration)
@@ -90,7 +90,7 @@ func crossfade_to_track(new_stream: AudioStream, fade_duration: float):
 
 func stop_music(fade_duration: float = -1):
 	if fade_duration == -1:
-		fade_duration = dialogue_data.get_float("MusicDefaultFadeDuration", 1.0)
+		fade_duration = character_data.get_float("MusicDefaultFadeDuration", 1.0)
 	
 	current_track_key = ""
 	
@@ -105,7 +105,7 @@ func stop_music(fade_duration: float = -1):
 		fade_tween.tween_property(current_music_player, "volume_db", -80.0, fade_duration)
 		await fade_tween.finished
 		current_music_player.stop()
-		current_music_player.volume_db = dialogue_data.get_float("MusicBaseVolume", -10.0)
+		current_music_player.volume_db = character_data.get_float("MusicBaseVolume", -10.0)
 		is_fading = false
 	else:
 		current_music_player.stop()
