@@ -16,9 +16,7 @@ music_tracks = {
 "cozy": ExtResource("1_nkns5"),
 "evil": ExtResource("2_vhlj6")
 }
-strings = {
-"MusicBus": "Master"
-}
+strings = {}
 fonts = {}
 integers = {
 "AddedSpacing": 0,
