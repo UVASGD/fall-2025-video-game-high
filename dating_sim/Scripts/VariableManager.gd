@@ -4,12 +4,10 @@ class_name VariableManager
 signal variable_check_completed(success: bool, jump_index: int)
 
 var character_data: CharacterData
-var dialogue_data: DialogueData
 var nametag_manager: NameTag
 
-func initialize(char_data: CharacterData, dial_data: DialogueData, nametag_data: NameTag):
+func initialize(char_data: CharacterData, nametag_data: NameTag):
 	character_data = char_data
-	dialogue_data = dial_data
 	nametag_manager = nametag_data
 
 func change_variable(v_key: String, change_amount: float):

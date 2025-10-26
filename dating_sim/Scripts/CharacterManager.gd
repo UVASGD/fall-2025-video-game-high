@@ -3,7 +3,6 @@ class_name CharacterManager
 
 signal entrance_completed
 
-var dialogue_data: DialogueData
 var character_data: CharacterData
 var name_tag: NameTag
 var audio_player: AudioStreamPlayer
@@ -14,8 +13,7 @@ var entrance_completed_flag: bool = false
 var is_entrance_playing: bool = false
 var processed_entrance_positions: Array = []
 
-func initialize(data: DialogueData, char_data: CharacterData, name_tag_ref: NameTag, character_texture_rect: TextureRect):
-	dialogue_data = data
+func initialize(char_data: CharacterData, name_tag_ref: NameTag, character_texture_rect: TextureRect):
 	character_data = char_data
 	name_tag = name_tag_ref
 	character_rect = character_texture_rect
@@ -46,8 +44,8 @@ func play_sound():
 		if talking_sound:
 			audio_player.stream = talking_sound
 			audio_player.pitch_scale = randf_range(
-				dialogue_data.get_float("AudioPitchMin", 0.9), 
-				dialogue_data.get_float("AudioPitchMax", 1.1)
+				character_data.get_float("AudioPitchMin", 0.9), 
+				character_data.get_float("AudioPitchMax", 1.1)
 			)
 			audio_player.play()
 
@@ -91,12 +89,12 @@ func show_popup_image(image_key: String):
 			
 			var screen_size = get_viewport().get_visible_rect().size
 			var image_size = popup_texture.get_size()
-			var scale_factor = min(screen_size.x / image_size.x, screen_size.y / image_size.y) * dialogue_data.get_float("PopupSizeMultiplier", 0.8)
+			var scale_factor = min(screen_size.x / image_size.x, screen_size.y / image_size.y) * character_data.get_float("PopupSizeMultiplier", 0.8)
 			
 			popup_image.custom_minimum_size = image_size * scale_factor
 			popup_image.size = image_size * scale_factor
 			popup_image.position = (screen_size - popup_image.size) / 2
-			popup_image.scale = Vector2(dialogue_data.get_float("PopupInitialScale", 0.1), dialogue_data.get_float("PopupInitialScale", 0.1))
+			popup_image.scale = Vector2(character_data.get_float("PopupInitialScale", 0.1), character_data.get_float("PopupInitialScale", 0.1))
 			popup_image.modulate.a = 0.0
 			popup_image.pivot_offset = popup_image.size / 2
 			
@@ -106,14 +104,14 @@ func show_popup_image(image_key: String):
 func _animate_popup(popup_image: TextureRect):
 	var tween = get_tree().create_tween()
 	tween.set_parallel(true)
-	tween.tween_property(popup_image, "scale", Vector2.ONE, dialogue_data.get_float("PopupScaleDuration", 0.3)).set_ease(Tween.EASE_OUT).set_trans(Tween.TRANS_BACK)
-	tween.tween_property(popup_image, "modulate:a", 1.0, dialogue_data.get_float("PopupFadeInDuration", 0.2))
+	tween.tween_property(popup_image, "scale", Vector2.ONE, character_data.get_float("PopupScaleDuration", 0.3)).set_ease(Tween.EASE_OUT).set_trans(Tween.TRANS_BACK)
+	tween.tween_property(popup_image, "modulate:a", 1.0, character_data.get_float("PopupFadeInDuration", 0.2))
 	
-	await get_tree().create_timer(dialogue_data.get_float("PopupDisplayDuration", 0.8)).timeout
+	await get_tree().create_timer(character_data.get_float("PopupDisplayDuration", 0.8)).timeout
 	
 	if is_instance_valid(popup_image):
 		var fade_tween = get_tree().create_tween()
-		fade_tween.tween_property(popup_image, "modulate:a", 0.0, dialogue_data.get_float("PopupFadeOutDuration", 0.4))
+		fade_tween.tween_property(popup_image, "modulate:a", 0.0, character_data.get_float("PopupFadeOutDuration", 0.4))
 		fade_tween.finished.connect(func(): 
 			if is_instance_valid(popup_image):
 				popup_image.queue_free()
@@ -145,7 +143,7 @@ func handle_entrance_fade(entrance_texture: Texture2D):
 		character_rect.texture = entrance_texture
 		character_rect.modulate.a = 0.0
 		var tween = create_tween()
-		tween.tween_property(character_rect, "modulate:a", 1.0, dialogue_data.get_float("EntranceFadeDuration", 1.0))
+		tween.tween_property(character_rect, "modulate:a", 1.0, character_data.get_float("EntranceFadeDuration", 1.0))
 		await tween.finished
 	
 	is_entrance_playing = false
