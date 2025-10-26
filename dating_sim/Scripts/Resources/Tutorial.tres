@@ -1,4 +1,4 @@
-[gd_resource type="Resource" script_class="CharacterData" load_steps=17 format=3 uid="uid://ckyhvjfqhbd81"]
+[gd_resource type="Resource" script_class="CharacterData" load_steps=18 format=3 uid="uid://ckyhvjfqhbd81"]
 
 [ext_resource type="Texture2D" uid="uid://5vckpgs863yi" path="res://Assets/Art/Backgrounds/black-screen.png" id="1_ktkd0"]
 [ext_resource type="AudioStream" uid="uid://bv1cdxwkatgaq" path="res://Assets/Sounds/music/Cozy Tune.mp3" id="1_oakmt"]
@@ -16,6 +16,7 @@
 [ext_resource type="Texture2D" uid="uid://dcmpuhh6sd8rc" path="res://Assets/Art/Characters/Perrin/Perrin-mischev (2).png" id="11_ltg1f"]
 [ext_resource type="Texture2D" uid="uid://dyvri5me42b5p" path="res://Assets/Art/Characters/Perrin/Perrin-upset.png" id="12_ourh4"]
 [ext_resource type="AudioStream" uid="uid://cesab6oxl3svg" path="res://Assets/Sounds/music/Cozy Tune Evil.mp3" id="15_llr52"]
+[ext_resource type="FontFile" uid="uid://crmm7enkt3vwj" path="res://Fonts/Foglihten-068.otf" id="17_ourh4"]
 
 [resource]
 script = ExtResource("1_xpg0m")
@@ -48,12 +49,12 @@ character_variables = {
 colors = {
 "Background": Color(0.323217, 0.696396, 0.664142, 1),
 "Outline": Color(0, 0, 0, 1),
-"Text": Color(1, 1, 1, 1)
+"Text": Color(0, 0, 0, 1)
 }
 strings = {
 "MusicBus": "Master"
 }
-fonts = {}
+font = ExtResource("17_ourh4")
 integers = {
 "AddedSpacing": 0,
 "AudioPitchMax": 1.1,
@@ -64,10 +65,10 @@ integers = {
 "DefaultShakeIntensity": 3,
 "DefaultWiggleIntensity": 5,
 "Delay": 0,
-"DelayBetweenCharacters": 0,
+"DelayBetweenCharacters": 3,
 "EffectUpdateTimerInterval": 0.016,
 "EntranceFadeDuration": 1.0,
-"FontSize": 10,
+"FontSize": 32,
 "FramesPerSecond": 60,
 "LineHeightMultiplier": 1.2,
 "MusicBaseVolume": -10.0,

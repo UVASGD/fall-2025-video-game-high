@@ -33,4 +33,46 @@ character_variables = {
 "romance_points": 0,
 "will talk": true
 }
+colors = {
+"Outline": Color(0, 0, 0, 1),
+"Text": Color(1, 1, 1, 1)
+}
+strings = {
+"MusicBus": "Master"
+}
+fonts = {}
+integers = {
+"AddedSpacing": 0,
+"AudioPitchMax": 1.1,
+"AudioPitchMin": 0.9,
+"ChoiceBaseHeight": 100,
+"ChoiceHeightPerOption": 60,
+"DefaultJitterIntensity": 2,
+"DefaultShakeIntensity": 3,
+"DefaultWiggleIntensity": 5,
+"Delay": 0,
+"DelayBetweenCharacters": 0,
+"EffectUpdateTimerInterval": 0.016,
+"EntranceFadeDuration": 1.0,
+"FontSize": 32,
+"FramesPerSecond": 60,
+"LineHeightMultiplier": 1.2,
+"MusicBaseVolume": -10.0,
+"MusicDefaultFadeDuration": 1.0,
+"OutlineSize": 0,
+"PauseTimer": 0,
+"PopupDisplayDuration": 0.8,
+"PopupFadeInDuration": 0.2,
+"PopupFadeOutDuration": 0.4,
+"PopupInitialScale": 0.1,
+"PopupScaleDuration": 0.3,
+"PopupSizeMultiplier": 0.8,
+"RippleFrames": 0,
+"RippleStrengthMultiplier": 0.4,
+"RippleTimerInterval": 0.016,
+"TextSpeed": 100,
+"TypingTimerInterval": 0.1,
+"WiggleTimeMultiplier": 0.01
+}
+theme = {}
 metadata/_custom_type_script = "uid://bhirb0q308e7m"

@@ -27,9 +27,7 @@ class_name CharacterData
 	"MusicBus": "Master"
 }
 
-@export var fonts: Dictionary = {
-	
-}
+@export var font: Font
 
 @export var integers: Dictionary = {
 	"TextSpeed": 100,

@@ -10,10 +10,11 @@ var fade_tween: Tween
 
 var current_track_key: String = ""
 var is_fading: bool = false
-var music_library: Dictionary = {}
+var music_library: Dictionary
 
 func initialize(data: CharacterData):
-	data = data
+	character_data = data
+	music_library = character_data.character_sounds
 	setup_audio_players()
 
 func setup_audio_players():
@@ -27,9 +28,6 @@ func setup_audio_players():
 	add_child(fade_music_player)
 	fade_music_player.volume_db = character_data.get_float("MusicBaseVolume", -10.0)
 	fade_music_player.bus = character_data.get_string("MusicBus", "Master")
-
-func set_music_library(music_dict: Dictionary):
-	music_library = music_dict
 
 func play_music(track_key: String, fade_duration: float = -1):
 	if fade_duration == -1:

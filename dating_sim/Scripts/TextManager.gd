@@ -52,6 +52,7 @@ func create_all_labels():
 		for c in word:
 			var char_label = Label.new()
 			char_label.text = c
+			char_label.add_theme_font_override("font", character_data.font)
 			char_label.add_theme_font_size_override("font_size", font_size)
 			char_label.add_theme_color_override("font_color", character_data.get_color("Text"))
 		

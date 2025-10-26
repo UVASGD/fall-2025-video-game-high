@@ -28,7 +28,7 @@ var jitter_effects: Array = []
 var wiggle_effects: Array = []
 
 func initialize(data: CharacterData):
-	data = data
+	self.data = data
 	fps = data.get_float("FramesPerSecond", 60.0)
 	setup_timers()
 

@@ -74,7 +74,6 @@ func _ready():
 	music_manager = MusicManager.new()
 	add_child(music_manager)
 	music_manager.initialize(character_data)
-	music_manager.set_music_library(character_data.music_tracks)
 	
 	bg_manager = BackgroundManager.new()
 	add_child(bg_manager)
@@ -132,7 +131,7 @@ func set_character(character: CharacterData):
 	#	name_tag.set_character(character_data)
 
 func load_text():
-	var file_path = character_data.text_file_path
+	var file_path = character_data.dialogue_text_files[0]
 	var file_content = ""
 	
 	if FileAccess.file_exists(file_path):
