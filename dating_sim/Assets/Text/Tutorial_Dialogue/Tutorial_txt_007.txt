@@ -9,3 +9,4 @@
 [n' ']Perrin waves back at you and nods. <>
 [n'Perrin']You as well! Hopefully I’ll see you again next week? <>
 [n' ']You grin at their response and leave the table. <>
+[c'NewCharacter']

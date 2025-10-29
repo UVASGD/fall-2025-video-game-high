@@ -12,6 +12,7 @@ signal background_change_requested(bg_key: String, fade_duration: float)
 signal variable_change_requested(variable_key: String, change_amount: float)
 signal variable_check_requested(variable_check: String, requirement: float, success_jump: int)
 signal name_change_requested(name_change: String)
+signal character_change_requested(character_name: String)
 
 var data: CharacterData
 var text_labels: Array = []
@@ -130,6 +131,7 @@ func parse_effects(effect_str: String) -> Dictionary:
 		"music_stop": false,
 		"jump": -1,
 		"change_background": "",
+		"change_character_scene": "",
 		"bg_fade_duration": -1.0,
 		"variable_change": "",
 		"change_amount": 0,
@@ -239,11 +241,13 @@ func start_effects(effect_str: String, effects: Dictionary):
 		effects["change_name"] = namec
 	elif effect_str.begins_with("/'") and effect_str.ends_with("'"):
 		var audio_end = effect_str.substr(2, effect_str.length() - 3)
-		print(effect_str)
 		effects["stop_sound"] = audio_end
 	elif effect_str.begins_with("r"):
 		var romance_inc_or_dec = effect_str[1]
 		effects["change_romance_points"] = romance_inc_or_dec
+	elif effect_str.begins_with("c"):
+		var charname = effect_str.substr(2, effect_str.length() - 3)
+		effects["change_character_scene"] = charname
 
 func ripple_targeted(label: Label, ripple_frames: int):
 	var ripple_data = {

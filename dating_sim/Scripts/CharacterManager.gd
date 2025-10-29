@@ -7,16 +7,18 @@ var character_data: CharacterData
 var name_tag: NameTag
 var audio_player: AudioStreamPlayer
 var character_rect: TextureRect
+var scene: Node
 
 var current_character_image_key: String = ""
 var entrance_completed_flag: bool = false
 var is_entrance_playing: bool = false
 var processed_entrance_positions: Array = []
 
-func initialize(char_data: CharacterData, name_tag_ref: NameTag, character_texture_rect: TextureRect):
+func initialize(char_data: CharacterData, name_tag_ref: NameTag, character_texture_rect: TextureRect, _scene: Node):
 	character_data = char_data
 	name_tag = name_tag_ref
 	character_rect = character_texture_rect
+	scene = _scene
 	
 	setup_audio()
 	setup_name_tag()
@@ -37,7 +39,11 @@ func set_character(character: CharacterData):
 	
 	if name_tag:
 		name_tag.set_character(character_data)
-
+		
+func set_character_scene(character_name: String):
+	get_tree().change_scene_to_file("res://Scenes/" + character_name + ".tscn")
+	
+	
 func play_sound():
 	if character_data and audio_player:
 		var talking_sound = character_data.character_sounds.get("talking")

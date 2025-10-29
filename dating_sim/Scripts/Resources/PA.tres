@@ -40,7 +40,6 @@ colors = {
 strings = {
 "MusicBus": "Master"
 }
-fonts = {}
 integers = {
 "AddedSpacing": 0,
 "AudioPitchMax": 1.1,

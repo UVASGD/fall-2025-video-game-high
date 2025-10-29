@@ -1,0 +1,22 @@
+[gd_scene load_steps=3 format=3 uid="uid://cv34unvsfk4tp"]
+
+[ext_resource type="PackedScene" uid="uid://cuysm2kox8jt8" path="res://Scenes/Screen.tscn" id="1_ir2o3"]
+[ext_resource type="Resource" uid="uid://d0f2ca2c4p3ud" path="res://Scripts/Resources/NewCharacter.tres" id="2_ir2o3"]
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Screen" parent="." node_paths=PackedStringArray("name_tag") instance=ExtResource("1_ir2o3")]
+layout_mode = 1
+character_data = ExtResource("2_ir2o3")
+name_tag = NodePath("NameTag")
+
+[node name="Character" parent="Screen" index="3"]
+stretch_mode = 3
+
+[editable path="Screen"]

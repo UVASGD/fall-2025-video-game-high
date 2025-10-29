@@ -18,3 +18,4 @@ bg'' change background (: to change time taken)
 v' : ' finds variable named in first part, adds number in the second part to the value, if a bool, do 1 or 0, and do not make it so you need to switch a bool on and then off
 check' : : ' checks variable, if the current value is less than the value in the second section, and if it is less, goes to the index of the dialogue text files in part three
 n'' changes what the character name is to what is in the ''
+s'' signals a jump to another scene/character resource

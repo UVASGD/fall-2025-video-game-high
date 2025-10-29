@@ -36,6 +36,8 @@ var icon_button: TextureButton
 var super_pause_active: bool = false
 var waiting_for_super_pause_input: bool = false
 var fps: float = 60.0
+var current_file_index: int = 0
+
 
 class RenderSegment:
 	var text: String
@@ -69,7 +71,7 @@ func _ready():
 	
 	character_manager = CharacterManager.new()
 	add_child(character_manager)
-	character_manager.initialize(character_data, $NameTag, $Character)
+	character_manager.initialize(character_data, $NameTag, $Character, self)
 	
 	music_manager = MusicManager.new()
 	add_child(music_manager)
@@ -97,7 +99,7 @@ func _ready():
 	effects_manager.variable_change_requested.connect(var_manager.change_variable)
 	effects_manager.variable_check_requested.connect(var_manager.check_variable)
 	effects_manager.name_change_requested.connect(var_manager.change_name)
-	
+	effects_manager.character_change_requested.connect(character_manager.set_character_scene)
 	setup_choice()
 	typing_system()
 	dialogue_box()
@@ -131,18 +133,27 @@ func set_character(character: CharacterData):
 	#	name_tag.set_character(character_data)
 
 func load_text():
-	var file_path = character_data.dialogue_text_files[0]
+	if character_data.dialogue_text_files.is_empty():
+		push_warning("No dialogue files assigned to character_data.")
+		return
+
+	# Clamp index to valid range
+	current_file_index = clamp(current_file_index, 0, character_data.dialogue_text_files.size() - 1)
+	
+	var file_path = character_data.dialogue_text_files[current_file_index]
 	var file_content = ""
 	
 	if FileAccess.file_exists(file_path):
 		var file = FileAccess.open(file_path, FileAccess.READ)
 		file_content = file.get_as_text()
 		file.close()
-	
+	else:
+		push_warning("Dialogue file not found: %s" % file_path)
 	parse_text(file_content)
 	
 	if not choice_mode and full_dialogue_segments.size() > 0:
-		start_next()
+			start_next()
+
 
 func parse_text(content: String):
 	full_dialogue_segments.clear()
@@ -188,15 +199,18 @@ func parse_text(content: String):
 			i += 1
 
 func jump(file_index: int):
-	
-	if file_index >= 0 and file_index < character_data.dialogue_text_files.size():
-		var new_file_path = character_data.dialogue_text_files[file_index]
-		character_data.text_file_path = new_file_path
-		typing_timer.stop()
-		is_typing = false
-		waiting_for_input = false
-		text_manager.clear_all_text()
-		load_text()
+	if file_index < 0 or file_index >= character_data.dialogue_text_files.size():
+		push_warning("Invalid jump index: %d" % file_index)
+		return
+
+	current_file_index = file_index
+	typing_timer.stop()
+	is_typing = false
+	waiting_for_input = false
+	text_manager.clear_all_text()
+
+	load_text()
+
 
 func create_choice_data(choice_options_text: Array) -> Dictionary:
 	choice_options.clear()
@@ -463,8 +477,11 @@ func apply_segment_effects(segment: RenderSegment):
 				effects_manager.background_change_requested.emit(bg, bg_fade)
 			elif bg != "":
 				effects_manager.background_change_requested.emit(bg, 0.0)
-			
-			
+				
+			var char_name = effect_change.effects.get("change_character_scene", "")
+			if char_name != "":
+				effects_manager.character_change_requested.emit(char_name)
+
 
 func apply_position_effects(position: int):
 	
@@ -616,16 +633,18 @@ func create_choice_buttons():
 		choice_buttons.append(button)
 
 func select_choice(choice_index: int):
-	if choice_index >= 0 and choice_index < choice_destinations.size():
-		var destination = choice_destinations[choice_index]
-		
-		if destination >= 0 and character_data != null:
-			if destination < character_data.dialogue_text_files.size():
-				var new_file_path = character_data.dialogue_text_files[destination]
-				character_data.text_file_path = new_file_path
-				hide_choice_container()
-				choice_mode = false
-				load_text()
+	if choice_index < 0 or choice_index >= choice_destinations.size():
+		return
+
+	var destination = choice_destinations[choice_index]
+	if destination >= 0 and destination < character_data.dialogue_text_files.size():
+		current_file_index = destination
+		hide_choice_container()
+		choice_mode = false
+		load_text()
+	else:
+		push_warning("Invalid choice destination: %d" % destination)
+
 
 func hide_choice_container():
 	choice_container.visible = false
