@@ -16,7 +16,14 @@ layout_mode = 1
 character_data = ExtResource("2_2o727")
 name_tag = NodePath("NameTag")
 
+[node name="TestBG" parent="Screen" index="1"]
+color = Color(1, 1, 1, 1)
+
 [node name="Character" parent="Screen" index="3"]
+z_index = 4
 stretch_mode = 3
+
+[node name="TextContainer" parent="Screen" index="5"]
+z_index = 5
 
 [editable path="Screen"]

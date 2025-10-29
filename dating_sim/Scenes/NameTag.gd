@@ -70,7 +70,6 @@ func calculate_and_resize():
 	name_label.set_deferred("size", Vector2(required_width, required_height))
 	name_label.set_deferred("position", Vector2.ZERO)
 	name_panel.set_deferred("position", Vector2.ZERO)
-	set_deferred("size", Vector2(required_width, required_height))
 
 func set_font_size(new_font_size: int):
 	font_size = new_font_size

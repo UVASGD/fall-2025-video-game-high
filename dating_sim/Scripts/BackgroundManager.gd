@@ -32,8 +32,16 @@ func setup_fade_background():
 	fade_background_rect.mouse_filter = Control.MOUSE_FILTER_IGNORE
 	fade_background_rect.modulate.a = 0.0
 	fade_background_rect.z_index = background_rect.z_index - 1
-	
-	background_rect.get_parent().add_child(fade_background_rect)
+
+	background_rect.add_child(fade_background_rect)
+	fade_background_rect.anchor_left = 0
+	fade_background_rect.anchor_right = 1
+	fade_background_rect.anchor_top = 0
+	fade_background_rect.anchor_bottom = 1
+	fade_background_rect.offset_left = 0
+	fade_background_rect.offset_top = 0
+	fade_background_rect.offset_right = 0
+	fade_background_rect.offset_bottom = 0
 
 func set_background_library(bg_dict: Dictionary):
 	background_library = bg_dict
@@ -70,30 +78,29 @@ func change_background(bg_key: String, fade_duration: float = -1):
 
 func crossfade_to_background(new_texture: Texture2D, fade_duration: float):
 	is_fading = true
-	
+	fade_duration = 3.0
 	fade_background_rect.texture = new_texture
+	await get_tree().process_frame
 	fade_background_rect.modulate.a = 0.0
 	fade_background_rect.z_index = background_rect.z_index + 1
-	
+
 	if fade_tween:
 		fade_tween.kill()
 	fade_tween = create_tween()
-	fade_tween.set_parallel(true)
-	
-	# Fade out current background
-	fade_tween.tween_property(background_rect, "modulate:a", 0.0, fade_duration)
+
 	# Fade in new background
-	fade_tween.tween_property(fade_background_rect, "modulate:a", 1.0, fade_duration)
-	
+	fade_tween.tween_property(fade_background_rect, "modulate:a", 1.0, fade_duration * 0.8)
+
 	await fade_tween.finished
-	
+
 	background_rect.texture = fade_background_rect.texture
 	background_rect.modulate.a = 1.0
 	fade_background_rect.modulate.a = 0.0
-	fade_background_rect.z_index = background_rect.z_index - 1  # Put fade bg back behind
-	
+	fade_background_rect.z_index = background_rect.z_index - 1
+
 	is_fading = false
 	background_fade_completed.emit()
+
 
 func clear_background(fade_duration: float = -1):
 	if fade_duration == -1:
