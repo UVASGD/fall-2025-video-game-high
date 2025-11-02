@@ -1,0 +1,10 @@
+[n' ']Oh… You picked to… go over to the athletic tables…? <>
+[n' ']… <>
+[n' ']Hm… <>
+[n' ']Look man, I gotta be real with you. We don’t have shit for them. <>
+[n' ']Why don’t you go look at the other tables? <>
+[n'You'] Damn, rude. <>
+[:][n' ']How about another table? <>
+Academics [:4] <>
+Athletics [:7] <>
+Miscellaneous [:8] <>

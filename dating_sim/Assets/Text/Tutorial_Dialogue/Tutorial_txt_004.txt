@@ -30,5 +30,5 @@
 [n'Manuella']Maybe it’d be best to visit all of them and see what stands out to you? <>
 [:][n'Manuella']Where would you like to start? <>
 Academics [:4] <>
-Athletics [:] <>
-Miscellaneous [:] <>
+Athletics [:7] <>
+Miscellaneous [:8] <>
