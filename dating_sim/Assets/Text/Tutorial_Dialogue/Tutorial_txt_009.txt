@@ -1,0 +1,9 @@
+[n' ']Oh… You picked to… go over to the miscellaneous tables…? <>
+[n' ']… <>
+[n' ']Why would you do that? They're miscellaneous for a reason! <>
+[n' ']Stop playing around and go look at the other tables. <>
+[n'You'] Damn, rude. <>
+[:][n' ']How about another table? <>
+Academics [:4] <>
+Athletics [:7] <>
+Miscellaneous [:8] <>

@@ -22,7 +22,7 @@
 script = ExtResource("1_xpg0m")
 character_name = ""
 character_id = "Man"
-dialogue_text_files = Array[String](["res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_001.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_002.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_003.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_004.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_005.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_006.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_007.txt"])
+dialogue_text_files = Array[String](["res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_001.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_002.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_003.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_004.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_005.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_006.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_007.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_008.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_009.txt"])
 character_images = {
 "entrance": ExtResource("4_c6kiu"),
 "happy": [ExtResource("7_hud4q"), ExtResource("6_8w7ek")],
