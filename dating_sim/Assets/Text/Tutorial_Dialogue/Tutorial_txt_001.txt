@@ -18,6 +18,7 @@
 
 
 [n'Manuella'][/'heartbeat'] ---HEY!!!  <>
+[n'Manuella'][a'entrance'] <>
 [n'Manuella'][a'yeowch'] Watch where you’re stepping, man!! <>
 [n' ']Oops. Looks like you leaned in a bit to close <>
 

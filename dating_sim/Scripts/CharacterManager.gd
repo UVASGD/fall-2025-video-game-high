@@ -149,7 +149,7 @@ func handle_entrance_fade(entrance_texture: Texture2D):
 		character_rect.texture = entrance_texture
 		character_rect.modulate.a = 0.0
 		var tween = create_tween()
-		tween.tween_property(character_rect, "modulate:a", 1.0, character_data.get_float("EntranceFadeDuration", 1.0))
+		tween.tween_property(character_rect, "modulate:a", 1.0, character_data.get_float("EntranceFadeDuration", 0.5))
 		await tween.finished
 	
 	is_entrance_playing = false
