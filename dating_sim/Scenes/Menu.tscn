@@ -1,6 +1,7 @@
-[gd_scene load_steps=2 format=3 uid="uid://cwfleg0d05s2q"]
+[gd_scene load_steps=3 format=3 uid="uid://cwfleg0d05s2q"]
 
 [ext_resource type="Texture2D" uid="uid://casin4y5e81i6" path="res://icon.svg" id="1_3kf3n"]
+[ext_resource type="Script" uid="uid://b0tqw5gj4rxse" path="res://Scenes/Play_Button.gd" id="2_6pedr"]
 
 [node name="Control" type="Control"]
 layout_mode = 3
@@ -55,6 +56,7 @@ layout_mode = 2
 texture_normal = ExtResource("1_3kf3n")
 ignore_texture_size = true
 stretch_mode = 3
+script = ExtResource("2_6pedr")
 
 [node name="MarginContainer2" type="MarginContainer" parent="MarginContainer2/VBoxContainer"]
 layout_mode = 2
@@ -95,3 +97,5 @@ layout_mode = 2
 size_flags_horizontal = 3
 icon = ExtResource("1_3kf3n")
 icon_alignment = 1
+
+[connection signal="pressed" from="MarginContainer2/VBoxContainer/MarginContainer/TextureButton" to="MarginContainer2/VBoxContainer/MarginContainer/TextureButton" method="_on_play_pressed"]
