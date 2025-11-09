@@ -1,4 +1,1 @@
 extends Node
-
-signal romance_points_incremented
-signal romance_points_decremented

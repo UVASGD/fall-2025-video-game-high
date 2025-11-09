@@ -4,6 +4,7 @@ class_name CharacterManager
 signal entrance_completed
 
 var character_data: CharacterData
+var effects_manager: EffectManager
 var name_tag: NameTag
 var audio_player: AudioStreamPlayer
 var character_rect: TextureRect
@@ -126,7 +127,6 @@ func _animate_popup(popup_image: TextureRect):
 func change_character_image(image_key: String):
 	if not character_data:
 		return
-	print(image_key)
 	if image_key == "entrance":
 		if not entrance_completed_flag:
 			var entrance_texture = character_data.character_images.get("entrance")
@@ -139,7 +139,9 @@ func change_character_image(image_key: String):
 	var character_image_array = character_data.character_images.get(image_key)
 	if character_image_array and character_image_array is Array and character_image_array.size() >= 2:
 		current_character_image_key = image_key
-		if entrance_completed_flag:
+		var nametag: Node = get_tree().root.get_node("Control/Screen/NameTag")
+		
+		if entrance_completed_flag: # when narrator speaks, we don't want character on screen to animate
 			update_character_talking_state(false)  # Not waiting for input initially
 
 func handle_entrance_fade(entrance_texture: Texture2D):
@@ -177,14 +179,15 @@ func update_character_talking_state(waiting_for_input: bool):
 		return
 		
 	if current_character_image_key == "" or not character_data:
-		return
-		
+		return 
+	var nametag: Node = get_tree().root.get_node("Control/Screen/NameTag")
+	var label: Label = nametag.name_label
 	var character_image_array = character_data.character_images.get(current_character_image_key)
 	if character_image_array and character_image_array is Array and character_image_array.size() >= 2:
-		if character_rect:
-			if waiting_for_input:
+		if character_rect and label:
+			if waiting_for_input or label.text == " " or label.text.to_lower() == "you":
 				character_rect.texture = character_image_array[0]  # Idle/waiting state
-			else:
+			elif label.text != " " or label.text.to_lower() != "you":
 				character_rect.texture = character_image_array[1]  # Talking state
 
 func is_entrance_active() -> bool:

@@ -269,12 +269,12 @@ func start_next():
 	# Handle entrance
 	await character_manager.handle_entrance_if_needed(current_segment_effects)
 	
-	if character_manager.is_entrance_done():
-		character_manager.update_character_talking_state(false)
-	
 	# Start rendering first segment
 	current_render_index = 0
 	render_next_segment()
+
+	if character_manager.is_entrance_done():
+		character_manager.update_character_talking_state(false)
 
 func split_into_render_segments():
 	render_segments.clear()
@@ -451,10 +451,9 @@ func apply_segment_effects(segment: RenderSegment):
 	# Apply effects that happen at segment start
 	for effect_change in current_segment_effects:
 		if effect_change.position == segment.start_pos:
-			var image_key = effect_change.effects.get("change_image", "")
-			if image_key != "":
-				character_manager.change_character_image(image_key)
-			
+			var name_tag = effect_change.effects.get("change_name", "")
+			if name_tag != "":
+				effects_manager.name_change_requested.emit(name_tag)
 			var sound_key = effect_change.effects.get("play_sound", "")
 			if sound_key != "":
 				character_manager.play_effect_sound(sound_key)
@@ -466,18 +465,16 @@ func apply_segment_effects(segment: RenderSegment):
 			var popup_key = effect_change.effects.get("popup_image", "")
 			if popup_key != "":
 				character_manager.show_popup_image(popup_key)
-			
-			var name_tag = effect_change.effects.get("change_name", "")
-			if name_tag != "":
-				effects_manager.name_change_requested.emit(name_tag)
-			
+				
 			var bg = effect_change.effects.get("change_background", "")
 			var bg_fade = effect_change.effects.get("bg_fade_duration", 0.0)
 			if bg != "" && bg_fade > 0.0:
 				effects_manager.background_change_requested.emit(bg, bg_fade)
 			elif bg != "":
 				effects_manager.background_change_requested.emit(bg, 0.0)
-				
+			var image_key = effect_change.effects.get("change_image", "")
+			if image_key != "":
+				character_manager.change_character_image(image_key)
 			var char_name = effect_change.effects.get("change_character_scene", "")
 			if char_name != "":
 				effects_manager.character_change_requested.emit(char_name)

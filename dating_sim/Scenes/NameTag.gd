@@ -8,6 +8,7 @@ class_name NameTag
 
 var name_panel: Panel
 var name_label: Label
+var nametag_set_flag: bool = false
 
 func _ready():
 	setup_name_tag()
@@ -46,6 +47,7 @@ func sett_name(new_name: String):
 	#print("NameTag: Setting custom name to '", new_name, "'")
 	name_label.text = new_name
 	calculate_and_resize()
+	EventBus.trigger_nameTagSet() # this is here so that the the talking animations wait for the name tag to be set before seeing which character image to use
 
 func calculate_and_resize():
 	if not name_label or not name_panel:
