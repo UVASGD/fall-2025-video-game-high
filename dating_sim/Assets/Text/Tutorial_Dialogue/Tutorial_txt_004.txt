@@ -1,34 +1,49 @@
-[n'Manuella'] Alright, well- Okay. Time to be focused! <>
-[n' ']Manuella clasps her hands together, and like magic, her smile is back on her face. <>
-[n'Manuella'][a'happy'] As I was saying, we’ve made it to the club fair now! So what do you want to do? <>
-[n' ']You take a moment to reorient yourself. <>
-[n' ']Right. The club fair. <>
+[n'You']Hm… I think I’d like to go visit the academic section. <>
+[n' ']Manuella nods. <>
+[n'Manuella']Alright! I think I see a friend at one of the Greek Life tables, I’m going to go catch up with them. Find me afterwards? <>
+[n'You']Okay. <>
+[n' ']After speaking to Manuella, you walk towards a cluster of tables filled with people advertising all the honors societies, trivia clubs, and pre-professional clubs you could ever need. <>
+[n' ']Those tables are overwhelmed with students and you’re not too eager to get caught in the mix of sweat and desperate curiosity. Looking past them, a different table catches your eye. <>
+[n' ']It seems to be a table with stacks of boardgames on top of it. Curious, you approach. <>
+[n' ']As you're nearing the table, you get stopped by a girl dressed in pastels and an overwhelming about of hearts. She eagerly runs up to you, grasping your hand and shaking it with great enthusiasm <>
+[n'Valentine']HIII!! Or as they say in Japanese, KONICHIWA! <>
+[n'Valentine']The name's Valentine! Would you be interested in joinging the fanfic club???? <>
+[n'Valentine']We analyze fanfics every week and talk about the different themes and plots of famous reads!!! <>
+[n'Valentine']Hey!! What's you're favorite ship?!? <>
+[n'Valentine']ExtrovertXIntrovert?? <>
+[n'Valentine']SunshineXGrumpy?? <>
+[n'Valentine']Age difference!?! <>
+[n'Valentine']We're readinng a couple of totally not self-made stories this weekend! The options are: <>
+[n'Valentine']The Resume: A Cavman X LinkedIN Ryan Power dynamic slow burn soulmates AU! <>
+[n'Valentine']Running Through the Books: A Jock X Cozy Gamer academia slice of life fluff!! <> 
+[n'Valentine']And my personal favorite, Love at First Site: An OTP oneshot between yours truly and- <>
+[n' ']You cut her off immediately, not wanting to hear the rest of that sentence, nor the rest of this conversation. <>
+[n'You']Hey! That sounds really interesting but I-
+[n' ']However, just as fast as you cut her off, you get cut off yourself <>
+[:][n'Valentine']Ne! Which one of the fics would you wanna hear about??? <>
+Stand in Silence[:Option A]<>
+Gimme the Resume![:Option B]<>
+
+OptionA:
+	[n' ']Valentine doesn't notice at all. Instead, she continues to pitch her ideas to you <>
+	[n'Valentine']Not sold on it yet? Here, let me lay out the scene: Cavman is desperately trying to find a job, and seeks out their favorite professor, LinkedIN Ryan, who also happens to be their secret crush! It begins with- <>
+OptionB:
+	[n'Valentine'] AHHH ME TOO!! IT SO GOOD YESSSSS!!!! I think it would be SO fun if we add in a love rival, the famous- <>
 
 
-[n' ']You take a look around. Rows of plastic tables are crammed together on what little greenspace is left of the quad. It seems like every student at the university is out right now, all of them swarming and moving around like bees in a hive. <>
-[n' ']Your mind reels at all the energy, you feel your palms grow clammy as you think about joining the chaos. <>
-[n' ']Glancing back at Manuella, she seems all too happy to jump right in and join them. Not that you were surprised. She’s been like this ever since you two were little, old images of her tugging you around by the hand pop back into your mind, making your heart ache. <>
-[n'Manuella'] Are you ready to get out there and make some new friends? I can’t wait, there’s so many interesting people and clubs here just waiting for you to explore- <>
-[n' ']She turns to you, beaming. You are reminded of a parent excitedly throwing their child into their first day of kindergarten. <>
-[n' ']This does nothing to calm your nerves. <>
-[n'You'] Yeah… Right… <>
+[n' ']Valentine goes on a long tangent about The Resume; something you nor any one of us would like to hear said aloud. <>
+[n' ']She suddenly grabs your arm and grins enthusiastically, holding up a bedazzled heart phone to you. <>
+[n'Valentine']Hey hey what's your number?? Here's mine!! We should TOTALLY talk later about our favorite OTPs and fandoms!! <>
+[n' ']You grimace at her words, typing in your email haphazardly and pushing past her with a sheepish smile. <>
+[n' ']She waves back at you with 10x the enthusiasm, yapping about something in Japanglish you couldn't bother to pick up. <>
+[n' ']What an odd girl, but oh well. <>
+[n' ']After that strange encounter, you make your way back towards the table that initially peaked your interest. <>
 
-[n' ']You look over to the banner above the large tent cover and read the brightly lettered words; “UVA Club Activities Fair” <>
-[n' ']UVA- The United Video Games Academy was finally your home. It took a lot of work to transfer over, but now you’re at the most prestigious University to focus on making video games and being accessible to students who were video games. It hurts your brain a bit to think about so you don’t. <>
-[n' ']But if you want to survive here, you definitely need to expand your social circle beyond just Manuella. Hell, maybe it’s crazy talk, but you could even make your daydream come true… <>
-[n' ']… <>
-[n' ']Okay, yes. Definitely crazy talk. <>
-[n' ']Today you’ll just start by finding a club or two to join. <>
-
-[n' ']You notice Manuella has begun talking again. You quickly silence your internal monologue to catch what she’s saying. <>
-[n'Manuella']-and that’s why I never go anywhere without one! But I’m just rambling, haha! <>
-[n'Manuella']As I was saying earlier, the table sections are pretty much split up in categories: <>
-[n'Manuella']Over to the left are all of your more academic clubs; honors, volunteers, etc. <>
-[n'Manuella']In the center you have all the different athletic clubs. <>
-[n'Manuella']Finally, to the right is all the miscellaneous stuff- I think you’ll find a lot more of the interest-based clubs there. <>
-
-[n'Manuella']Maybe it’d be best to visit all of them and see what stands out to you? <>
-[:][n'Manuella']Where would you like to start? <>
-Academics [:4] <>
-Athletics [:7] <>
-Miscellaneous [:8] <>
+[n' '][a'per-happy']Standing at the front of the table is a person dressed in a patterned vest and shiny gold accesories along their wrists. Their wavy blonde hair is tied in a low pony tail with glasses to frame their face just right. 
+[n' ']They spot you approaching and flash you a friendly smile with an extended hand for you to shake. <>
+[n'Perrin']Hey there! I’m Perrin P. Puzzlemaster, the president of the board game club! <>
+[n'Perrin'][a'per-shock']Is there anything that you’re curious about with our club? <>
+[n'You']What do you do in this club? <>
+[n' '][a'per-mischev']Perrin hums at your question, flashing a small smile and stepping to the side to show off the well-made poster board that displays the key parts of their club. It’s full of colorful pictures and drawings, with lots of cheerful photos of the meetings. Perrin looks at the posterboard as you do, and you notice that as their eyes glance over some of the photos, a flicker of annoyance crosses their face. <>
+[n'Perrin']So this is the boardgame club! We meet up once a week and play board games together, and it’s very relaxed and casual. You can really just come in whenever you want and join! For me, this club has been a really nice way to meet people while also engaging in something fun. If you couldn’t tell by now, I really like board games! <>
+[n' '][a'per-happy']Perrin laughs cheerfully, their smile brightening. Their positive energy is infectious, and you can’t help but feel compelled to put your student ID on their email list. <>

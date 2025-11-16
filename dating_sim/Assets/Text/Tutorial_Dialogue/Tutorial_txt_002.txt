@@ -1,5 +1,5 @@
-[n'You']I'm sorry, I didn't mean to space out there. <>
-[n'Manuella'][a'happy']No, no, you’re all good! I know you love your daydreams, but try not to zone out too much, okay? It’s a big day.<>
-[n' ']Manuella smiles and bumps your shoulder with her fist. <>
-[n' ']You nod, cringing internally. <> [j3]- 
-  
+Aww man, I was just getting to the good part. <>
+[n'Manuella'][a'idle']Huh? Good part? What good part? <>
+[n' ']You look away, deciding not to explain further. <>
+[n'Manuella'] Hey… Don’t tell me you did that on purpose…  <>
+[n' ']She sighs and shakes her head, a bit fondly.<> [j3]- 

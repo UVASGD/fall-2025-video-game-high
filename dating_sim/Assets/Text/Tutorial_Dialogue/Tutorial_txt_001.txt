@@ -1,32 +1,4 @@
-[bg'black-background']
-[n' ']… <>
-[<'heartbeat'] Your heart skips a beat. <>
-[n' ']You can feel their breath right up against you <>
-[n' ']Everything feels hazy…<>
-[n' ']Where are you…? <>
-[n'???']… <>
-[n'???']I’ve been meaning to ask… <>
-[n' ']The other person lifts their hand to cup your cheek, their thumb lightly brushes against your bottom lip. <>
-[n'???'] …Can I? <>
-[n' ']They look into your eyes, searching for your answer. <>
-[n' ']You gulp, leaning in a little closer to them… <>
-[n' ']Just a bit closer… <>
-
-
-[bg'white-background:1.0']
-[m'evil']
-
-
-[n'Manuella'][/'heartbeat'] ---HEY!!!  <>
-[n'Manuella'][a'entrance'] <>
-[n'Manuella'][a'yeowch'] Watch where you’re stepping, man!! <>
-[n' ']Oops. Looks like you leaned in a bit to close <>
-
-[bg'activitiesfair:0.5']
-
-[n' ']You look around, trying to orient yourself to what is no longer your daydream. <>
-[n' ']Manuella, the tall girl in front of you (not the person from your daydream, who is nowhere in sight), is looking at you with a look of shock and a little pain. <>
-[:][n' ']Glancing down, you see that your foot is pressed into Manuella’s, you quickly move it back to your side. <>
-Sorry [:1] <>
-Aww man, I was just getting 
-to the good part [:2] <>
+I'm sorry, I didn't mean to space out there. <>
+[n'Manuella'][a'happy']No, no, you’re all good! I know you love your daydreams, but try not to zone out too much, okay? It’s a big day.<>
+[n' ']Manuella smiles and bumps your shoulder with her fist. <>
+[n' ']You nod, cringing internally. <> [j3]- 
