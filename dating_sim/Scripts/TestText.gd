@@ -30,6 +30,7 @@ var waiting_for_input: bool = false
 var text_container: Control
 var choice_vbox: VBoxContainer
 @onready var next_container: Control = $TextContainer/TextBackground/MarginContainer/NextDialogueContainer
+@onready var skip_container: Control = $TextContainer/TextBackground/MarginContainer/SkipDialogueContainer
 var current_char_delay: int = 0
 var current_word_speed: int = 0
 var icon_button: TextureButton
@@ -103,7 +104,8 @@ func _ready():
 	setup_choice()
 	typing_system()
 	dialogue_box()
-	connect_button()
+	connect_next_button()
+	connect_skip_button()
 
 func typing_system():
 	typing_timer = Timer.new()
@@ -115,11 +117,16 @@ func dialogue_box():
 	text_container = $TextContainer/TextBackground/MarginContainer/TextContainer
 	load_text()
 
-func connect_button():
+func connect_next_button():
 	icon_button = $TextContainer/TextBackground/MarginContainer/NextDialogueContainer/TextureButton
 	if icon_button:
-		icon_button.pressed.connect(_button)
-
+		icon_button.pressed.connect(_next_button)
+		
+func connect_skip_button():
+	icon_button = $TextContainer/TextBackground/MarginContainer/SkipDialogueButton/TextureButton
+	if icon_button:
+		icon_button.pressed.connect(_skip_button)
+		
 func setup_choice():
 	choice_container = $TextContainer/TextBackground/MarginContainer/ChoiceContainer
 	if choice_container:
@@ -675,14 +682,17 @@ func skip():
 	if is_typing:
 		finish_current()
 
-func _button():
+func skip_until_choice():
+	print(full_dialogue_segments)
+
+func _next_button():
 	if choice_mode:
 		return
 	elif waiting_for_super_pause_input:
 		waiting_for_super_pause_input = false
 		super_pause_active = false
 		character_manager.update_character_talking_state(false)
-		clear_next_dialogue_button()
+		next_container.visible = false
 		# Start rendering
 		if current_render_index < render_segments.size():
 			var segment = render_segments[current_render_index]
@@ -700,6 +710,32 @@ func _button():
 		skip()
 	elif waiting_for_input:
 		next()
+		
+func _skip_button():
+	if choice_mode:
+		return
+	elif waiting_for_super_pause_input:
+		waiting_for_super_pause_input = false
+		super_pause_active = false
+		character_manager.update_character_talking_state(false)
+		skip_container.visible = false
+		# Start rendering
+		if current_render_index < render_segments.size():
+			var segment = render_segments[current_render_index]
+			apply_segment_effects(segment)
+
+			if segment.is_word_mode:
+				typing_timer.wait_time = 60.0 / segment.word_speed
+			else:
+				var fps = character_data.get_float("FramesPerSecond", 60.0)
+				typing_timer.wait_time = segment.char_delay / fps if segment.char_delay > 0 else 0.016
+
+			is_typing = true
+			typing_timer.start()
+	elif is_typing:
+		skip_until_choice()
+	#elif waiting_for_input:
+	#	next()
 
 func _input(event):
 	if event.is_action_pressed("ui_accept"):

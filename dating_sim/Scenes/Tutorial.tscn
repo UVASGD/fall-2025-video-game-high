@@ -1,7 +1,8 @@
-[gd_scene load_steps=3 format=3 uid="uid://rccsndlhno67"]
+[gd_scene load_steps=4 format=3 uid="uid://rccsndlhno67"]
 
 [ext_resource type="PackedScene" uid="uid://cuysm2kox8jt8" path="res://Scenes/Screen.tscn" id="1_wduq8"]
 [ext_resource type="Resource" uid="uid://ckyhvjfqhbd81" path="res://Scripts/Resources/Tutorial.tres" id="2_2o727"]
+[ext_resource type="PackedScene" uid="uid://bin3o3th4gtkx" path="res://Scenes/texture_button.tscn" id="3_uo1fs"]
 
 [node name="Control" type="Control"]
 layout_mode = 3
@@ -25,5 +26,25 @@ stretch_mode = 3
 
 [node name="TextContainer" parent="Screen" index="5"]
 z_index = 5
+
+[node name="SkipDialogueContainer2" type="Control" parent="Screen/TextContainer/TextBackground/MarginContainer" index="3"]
+custom_minimum_size = Vector2(75, 75)
+layout_mode = 2
+size_flags_horizontal = 8
+size_flags_vertical = 8
+mouse_filter = 1
+
+[node name="TextureButton" parent="Screen/TextContainer/TextBackground/MarginContainer/SkipDialogueContainer2" instance=ExtResource("3_uo1fs")]
+anchors_preset = 0
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+offset_left = -1414.0
+offset_top = -3.0
+offset_right = -1286.0
+offset_bottom = 125.0
+grow_horizontal = 1
+grow_vertical = 1
 
 [editable path="Screen"]
