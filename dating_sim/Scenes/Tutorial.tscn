@@ -27,24 +27,22 @@ stretch_mode = 3
 [node name="TextContainer" parent="Screen" index="5"]
 z_index = 5
 
-[node name="SkipDialogueContainer2" type="Control" parent="Screen/TextContainer/TextBackground/MarginContainer" index="3"]
+[node name="SkipDialogueContainer" type="Control" parent="Screen/TextContainer/TextBackground/MarginContainer" index="3"]
+visible = false
 custom_minimum_size = Vector2(75, 75)
 layout_mode = 2
-size_flags_horizontal = 8
+size_flags_horizontal = 0
 size_flags_vertical = 8
-mouse_filter = 1
 
-[node name="TextureButton" parent="Screen/TextContainer/TextBackground/MarginContainer/SkipDialogueContainer2" instance=ExtResource("3_uo1fs")]
+[node name="TextureButton" parent="Screen/TextContainer/TextBackground/MarginContainer/SkipDialogueContainer" instance=ExtResource("3_uo1fs")]
 anchors_preset = 0
 anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 0.0
 anchor_bottom = 0.0
-offset_left = -1414.0
-offset_top = -3.0
-offset_right = -1286.0
-offset_bottom = 125.0
-grow_horizontal = 1
-grow_vertical = 1
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 128.0
+offset_bottom = 128.0
 
 [editable path="Screen"]

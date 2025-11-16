@@ -667,13 +667,15 @@ func finish_current():
 	text_manager.finish_rendering()
 	
 	waiting_for_input = true
-	display_next_dialogue_button()
+	next_container.visible = true
+	skip_container.visible = true
 	character_manager.update_character_talking_state(true)
 
 func next():
 	if not waiting_for_input:
 		return
-	clear_next_dialogue_button()
+	next_container.visible = false
+	skip_container.visible = false
 	text_manager.clear_all_text()
 	current_segment_index += 1
 	start_next()
