@@ -78,7 +78,7 @@ func change_background(bg_key: String, fade_duration: float = -1):
 
 func crossfade_to_background(new_texture: Texture2D, fade_duration: float):
 	is_fading = true
-	fade_duration = 3.0
+	fade_duration = 1.0
 	fade_background_rect.texture = new_texture
 	await get_tree().process_frame
 	fade_background_rect.modulate.a = 0.0

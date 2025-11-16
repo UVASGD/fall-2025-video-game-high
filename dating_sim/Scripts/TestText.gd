@@ -123,7 +123,7 @@ func connect_next_button():
 		icon_button.pressed.connect(_next_button)
 		
 func connect_skip_button():
-	icon_button = $TextContainer/TextBackground/MarginContainer/SkipDialogueButton/TextureButton
+	icon_button = $TextContainer/TextBackground/MarginContainer/SkipDialogueContainer/TextureButton
 	if icon_button:
 		icon_button.pressed.connect(_skip_button)
 		
@@ -631,6 +631,7 @@ func create_choice_buttons():
 		var button = Button.new()
 		button.text = choice_options[i]
 		button.add_theme_font_size_override("font_size", character_data.integers["FontSize"])
+		button.add_theme_font_override("font", character_data.font)
 		var choice_index = i
 		button.pressed.connect(func(): select_choice(choice_index))
 		choice_vbox.add_child(button)
@@ -685,7 +686,11 @@ func skip():
 		finish_current()
 
 func skip_until_choice():
-	print(full_dialogue_segments)
+	for i in range(full_dialogue_segments.size()):
+		skip()
+		await get_tree().create_timer(0.1).timeout
+		next()
+		await get_tree().create_timer(0.1).timeout
 
 func _next_button():
 	if choice_mode:
@@ -736,8 +741,8 @@ func _skip_button():
 			typing_timer.start()
 	elif is_typing:
 		skip_until_choice()
-	#elif waiting_for_input:
-	#	next()
+	elif waiting_for_input:
+		skip_until_choice()
 
 func _input(event):
 	if event.is_action_pressed("ui_accept"):

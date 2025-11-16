@@ -27,8 +27,10 @@ stretch_mode = 3
 [node name="TextContainer" parent="Screen" index="5"]
 z_index = 5
 
+[node name="NextDialogueContainer" parent="Screen/TextContainer/TextBackground/MarginContainer" index="2"]
+visible = true
+
 [node name="SkipDialogueContainer" type="Control" parent="Screen/TextContainer/TextBackground/MarginContainer" index="3"]
-visible = false
 custom_minimum_size = Vector2(75, 75)
 layout_mode = 2
 size_flags_horizontal = 0
