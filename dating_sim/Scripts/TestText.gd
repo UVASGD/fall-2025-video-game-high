@@ -770,3 +770,6 @@ func _input(event):
 			skip()
 		elif waiting_for_input:
 			next()
+	elif event.is_action_pressed("ui_cancel"): # pause menu that contains save, continue, and quit button
+		# bring up pause menu
+		pass
