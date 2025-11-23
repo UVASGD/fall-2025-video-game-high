@@ -1,4 +1,5 @@
 ﻿extends Node
+class_name SaveManager
 
 var save_path := "user://savegame.json"
 var example_save_data: Dictionary = {
@@ -11,6 +12,7 @@ var example_save_data: Dictionary = {
 				 }
 
 func save(data: Dictionary) -> void:
+	# TODO: Access player and dialogue info
 	var file = FileAccess.open(save_path, FileAccess.WRITE)
 	var json = JSON.stringify(data, "\t")  # formatted JSON
 	file.store_string(json)

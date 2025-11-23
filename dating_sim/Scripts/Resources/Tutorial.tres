@@ -16,7 +16,7 @@
 [ext_resource type="Texture2D" uid="uid://dcmpuhh6sd8rc" path="res://Assets/Art/Characters/Perrin/Perrin-mischev (2).png" id="11_ltg1f"]
 [ext_resource type="Texture2D" uid="uid://dyvri5me42b5p" path="res://Assets/Art/Characters/Perrin/Perrin-upset.png" id="12_ourh4"]
 [ext_resource type="AudioStream" uid="uid://cesab6oxl3svg" path="res://Assets/Sounds/music/Cozy Tune Evil.mp3" id="15_llr52"]
-[ext_resource type="FontFile" uid="uid://cqyxotprpfg1v" path="res://Fonts/Minecraft.ttf" id="16_ltg1f"]
+[ext_resource type="FontFile" uid="uid://b41entevbocrc" path="res://Fonts/FiraCode-Light.otf" id="16_ltg1f"]
 
 [resource]
 script = ExtResource("1_xpg0m")
@@ -49,7 +49,7 @@ character_variables = {
 colors = {
 "Background": Color(0.323217, 0.696396, 0.664142, 1),
 "Outline": Color(0, 0, 0, 1),
-"Text": Color(0, 0, 0, 1)
+"Text": Color(1, 1, 1, 1)
 }
 strings = {
 "MusicBus": "Master"

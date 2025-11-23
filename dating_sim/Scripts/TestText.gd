@@ -9,6 +9,8 @@ var text_manager: TextManager
 var music_manager: MusicManager
 var bg_manager: BackgroundManager
 var var_manager: VariableManager
+var save_manager: SaveManager
+var player_manager: PlayerManager
 
 var render_segments: Array = []
 var current_render_index: int = 0
@@ -86,6 +88,10 @@ func _ready():
 	var_manager = VariableManager.new()
 	add_child(var_manager)
 	var_manager.initialize(character_data, name_tag)
+	
+	save_manager = SaveManager.new()
+	add_child(save_manager)
+	
 	
 	# Connect signals
 	effects_manager.effect_sound_requested.connect(character_manager.play_effect_sound)
@@ -770,6 +776,3 @@ func _input(event):
 			skip()
 		elif waiting_for_input:
 			next()
-	elif event.is_action_pressed("ui_cancel"): # pause menu that contains save, continue, and quit button
-		# bring up pause menu
-		pass
