@@ -1,8 +1,9 @@
-[gd_scene load_steps=4 format=3 uid="uid://rccsndlhno67"]
+[gd_scene load_steps=5 format=3 uid="uid://rccsndlhno67"]
 
 [ext_resource type="PackedScene" uid="uid://cuysm2kox8jt8" path="res://Scenes/Screen.tscn" id="1_wduq8"]
 [ext_resource type="Resource" uid="uid://dh881kitknfwd" path="res://Scripts/Resources/Tutorial.tres" id="2_2o727"]
 [ext_resource type="PackedScene" uid="uid://bin3o3th4gtkx" path="res://Scenes/texture_button.tscn" id="3_uo1fs"]
+[ext_resource type="PackedScene" uid="uid://b5trbvg27s26o" path="res://Scenes/pause_menu.tscn" id="4_7bloo"]
 
 [node name="Control" type="Control"]
 layout_mode = 3
@@ -49,5 +50,8 @@ offset_right = 128.0
 offset_bottom = 128.0
 grow_horizontal = 1
 grow_vertical = 1
+
+[node name="PauseMenu" parent="Screen" instance=ExtResource("4_7bloo")]
+layout_mode = 1
 
 [editable path="Screen"]

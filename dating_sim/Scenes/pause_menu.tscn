@@ -1,0 +1,65 @@
+[gd_scene format=3 uid="uid://b5trbvg27s26o"]
+
+[node name="PauseMenu" type="Control"]
+z_index = 5
+layout_mode = 3
+anchor_left = 0.1
+anchor_top = 0.75
+anchor_right = 0.9
+anchor_bottom = 0.98
+offset_left = 592.0
+offset_top = -457.0
+offset_right = 592.0
+offset_bottom = -457.0
+grow_horizontal = 2
+grow_vertical = 0
+scale = Vector2(0.246741, 1.73169)
+
+[node name="TextBackground" type="Panel" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="MarginContainer" type="MarginContainer" parent="TextBackground"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 0
+theme_override_constants/margin_left = 10
+theme_override_constants/margin_top = 10
+theme_override_constants/margin_right = 10
+theme_override_constants/margin_bottom = 10
+
+[node name="Label" type="Label" parent="TextBackground/MarginContainer"]
+layout_mode = 2
+size_flags_vertical = 0
+text = "PAUSE"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="ChoiceContainer" type="Control" parent="TextBackground/MarginContainer"]
+custom_minimum_size = Vector2(379, 200)
+layout_mode = 2
+size_flags_vertical = 8
+mouse_filter = 1
+
+[node name="VBoxContainer" type="VBoxContainer" parent="TextBackground/MarginContainer/ChoiceContainer"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 6.21109
+offset_top = 6.74668
+offset_right = 6.21106
+offset_bottom = 6.74667
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Button" type="Button" parent="TextBackground/MarginContainer/ChoiceContainer/VBoxContainer"]
+layout_mode = 2
