@@ -1,0 +1,9 @@
+[n' ']You feel like you’ve finally visited all of the clubs you can handle for one day. With a fistful of random flyers and free stickers people shoved into your hand as you walked by, you step out of the crowds of tables.<>
+[n' ']You shoot a quick text to Manuella letting her know you’re done for now and stuff your phone in your pocket.<>
+[n' ']You take a deep breath and look back to the writing mass you just emerged from.<>
+[n' ']With the sun slowly setting, the gentle glow and elongated shadows makes everything feel a little dreamlike.<>
+[n' ']Taking this moment to yourself, you reflect on the past hour or so.<>
+[:][n' ']Meeting with those club leaders, talking about all the different possibilities here at United Video Games Academy, you feel…<>
+	Overwhelmed[:]<>
+	Invigorated[:]<>
+	Flustered[:]<> (minus 5 romance points)

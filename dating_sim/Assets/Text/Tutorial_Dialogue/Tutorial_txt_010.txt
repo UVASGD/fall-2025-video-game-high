@@ -1,12 +1,13 @@
-[n' ']Broken from your train of thought, you hear Manuella calling your name.<>
-[n'Manuella']Hey! There you are! How are you doing?<>
-[n'You']I’m alright, did you catch up with all your friends?<>
-[n'Manuella']Mhm! I’ll have to make sure I introduce them to you sometime- How was your time visiting some of the clubs?
-[n'You']I feel great! There’s so many cool clubs here, I wish I could do them all!<>
-[n' ']Your excitement seems to be infectious, as Manuella clasps her palms together excitedly.<>
-[n'Manuella']That’s so great to hear! It’s awesome to see you already making connections!<>
-[n'Manuella']But be careful- Trying to do everything at once could make you feel really overwhelmed really fast.<>
-[n'You']Hmm… Maybe I can just start with one for now, then add others later?<>
-[n'Manuella']Ooh, good idea. Which one do you think you’ll choose?<>
-[n' ']Hmm… 
-[n' ']Which one will you choose?<>
+[n'You']I'm trying to meet new people! <>
+[n' ']You smile and throw in a quick wink. <> 
+[n' ']Perrin smiles at your response and runs a hand through their hair. They lean against the table. <>
+[n'Perrin']Well, I can assure that whatever you’re looking for, board games club, believe it or not, may be just the solution. It may not look like much, but if you do join, I can assure you that you won’t regret it. <>
+[n' ']You nod at Perrin’s response then turn to look at the array of other tables you have yet to explore. You turn back to them with a friendly smile. <>
+[n'You']Well, it was really nice meeting you! I gotta get going though- gotta see all the other clubs this school has to offer. Is there any way I can contact you or like...sign up or something? <>
+[n' ']Perrin lets out a chuckle and nods. They quickly grab a small plastic container with a QR code on it. In addition, they grab a small sticky note and write something down. <>
+[n'Perrin']Here, this is the QR code for the interest form plus discord server, with the first meeting being on Wednesday next week! And this is my email if you ever want to contact me directly with questions. <>
+[n' ']You happily take a picture of the QR code and take the sticky note from Perrin’s hand, giving them a wave. <>
+[n'You']Thank you! It was nice talking to you! <>
+[n' ']Perrin waves back at you and nods. <>
+[n'Perrin']You as well! Hopefully I’ll see you again next week? <>
+[n' ']You grin at their response and leave the table. <> [j11] - 

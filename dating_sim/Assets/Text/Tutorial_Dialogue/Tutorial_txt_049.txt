@@ -1,0 +1,12 @@
+[n' ']Broken from your train of thought, you hear Manuella calling your name.<>
+[n'Manuella']Hey! There you are! How are you doing?<>
+[n'You']I’m alright, did you catch up with all your friends?<>
+[n'Manuella']Mhm! I’ll have to make sure I introduce them to you sometime- How was your time visiting some of the clubs?
+[n'You']I feel great! There’s so many cool clubs here, I wish I could do them all!<>
+[n' ']Your excitement seems to be infectious, as Manuella clasps her palms together excitedly.<>
+[n'Manuella']That’s so great to hear! It’s awesome to see you already making connections!<>
+[n'Manuella']But be careful- Trying to do everything at once could make you feel really overwhelmed really fast.<>
+[n'You']Hmm… Maybe I can just start with one for now, then add others later?<>
+[n'Manuella']Ooh, good idea. Which one do you think you’ll choose?<>
+[n' ']Hmm… 
+[n' ']Which one will you choose?<>

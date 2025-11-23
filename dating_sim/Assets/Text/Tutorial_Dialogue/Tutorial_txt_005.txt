@@ -1,1 +1,10 @@
-[n' ']You smile and throw in a quick wink. <> [j6] - 
+[n' ']Valentine doesn't notice at all. Instead, she continues to pitch her ideas to you <>
+[n'Valentine']Not sold on it yet? Here, let me lay out the scene: Cavman is desperately trying to find a job, and seeks out their favorite professor, LinkedIN Ryan, who also happens to be their secret crush! It begins with- <>
+
+[n' ']Valentine goes on a long tangent about The Resume; something you nor any one of us would like to hear said aloud. <>
+[n' ']She suddenly grabs your arm and grins enthusiastically, holding up a bedazzled heart phone to you. <>
+[n'Valentine']Hey hey what's your number?? Here's mine!! We should TOTALLY talk later about our favorite OTPs and fandoms!! <>
+[n' ']You grimace at her words, typing in your email haphazardly and pushing past her with a sheepish smile. <>
+[n' ']She waves back at you with 10x the enthusiasm, yapping about something in Japanglish you couldn't bother to pick up. <>
+[n' ']What an odd girl, but oh well. <>
+[n' ']After that strange encounter, you make your way back towards the table that initially peaked your interest. <>[j7]- 

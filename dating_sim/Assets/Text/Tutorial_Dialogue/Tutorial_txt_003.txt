@@ -4,7 +4,6 @@
 [n' ']You take a moment to reorient yourself. <>
 [n' ']Right. The club fair. <>
 
-
 [n' ']You take a look around. Rows of plastic tables are crammed together on what little greenspace is left of the quad. It seems like every student at the university is out right now, all of them swarming and moving around like bees in a hive. <>
 [n' ']Your mind reels at all the energy, you feel your palms grow clammy as you think about joining the chaos. <>
 [n' ']Glancing back at Manuella, she seems all too happy to jump right in and join them. Not that you were surprised. She’s been like this ever since you two were little, old images of her tugging you around by the hand pop back into your mind, making your heart ache. <>

@@ -19,7 +19,7 @@
 
 [n'Manuella'][/'heartbeat'] ---HEY!!!  <>
 [n'Manuella'][a'yeowch'] Watch where you’re stepping, man!! <>
-[n' ']Oops. Looks like you leaned in a bit to close <>
+[n' ']Oops. Looks like you leaned in a bit too close <>
 
 [bg'activitiesfair:0.5']
 

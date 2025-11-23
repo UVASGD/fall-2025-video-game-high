@@ -1,13 +1,18 @@
-[n' ']Broken from your train of thought, you hear Manuella calling your name.<>
-[n'Manuella']Hey! There you are! How are you doing?<>
-[n'You']I’m alright, did you catch up with all your friends?<>
-[n'Manuella']Mhm! I’ll have to make sure I introduce them to you sometime- How was your time visiting some of the clubs?
-[n'You']Um…<>
-[n' ']You think it may not be the best idea to admit to your childhood best friend that all you could focus on was how attractive some of the club leaders were.<>
-[n' ']You play it cool and shrug a little.<>
-[n'You']It was alright.<>
-[n' ']Manuella seems not to notice the flush still dusting your cheeks, she nods a little.<>
-[n'Manuella']I get it, I get it. There’s a lot to take in. But it’s okay! You don’t have to do everything at once,<>
-[n'Manuella']Maybe you could just start with one club, then go from there?<>
-[n' ']You think Manuella’s got a good point there. You close your eyes and try to imagine which person… Which club…You’d want to spend your semester with.<>
-[n' ']Which club will you choose?<>
+[n' ']Curious, you decide to head towards the Miscellaneous tables.<>
+[n' ']You look from left to right, walking past the rows of club booths from a safe distance.<>
+[n' ']Competitive Night Shower Club, Ankle Socks Club, Tortiglioni Doppia Rigatura Club... It seems like there's just about anything and everything, but nothing really catches your eye.<>
+[n' ']Distracted by all the buzz, you trip on something and catch yourself just before you fall over.<>
+[n' ']Oh, there's something on the ground. Curious, you reach down and pick it up.<>
+Grab object sfx
+[n' ']A round silver locket hangs from a thin chain just long enough to go around your neck. The glass window is completely opaque.<>
+[n'You']Is that... hair?<> 
+[n' ']Long nearly drop the locket back on the ground. Yup, it is... It is hair.<>
+[n' ']Long, black locks twis and turn inside the locket. It still feels a little warm in your hand.<>
+[n' ']A shiver runs down your spine.
+[n'???']Wait, where are you going? It's right over here-<>
+[n'You']YEE-OUUWWCH!!!!!!!!!!!<>
+[n' ']Some cold, hard wall of metal slams into you. Your world spins around as you plummet to the ground face-first.<>
+[n' ']Pain blooms in your face and hands. So much for catching yourself the first time.<>
+[n'???']Oh my gosh- I'm so sorry, are you alright?<>
+kdrama destiny mussic plays
+[n' ']You spit out a few blades of grass and look up 

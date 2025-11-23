@@ -1,0 +1,13 @@
+[n' ']Broken from your train of thought, you hear Manuella calling your name.<>
+[n'Manuella']Hey! There you are! How are you doing?<>
+[n'You']I’m alright, did you catch up with all your friends?<>
+[n'Manuella']Mhm! I’ll have to make sure I introduce them to you sometime- How was your time visiting some of the clubs?
+[n'You']Um…<>
+[n' ']You think it may not be the best idea to admit to your childhood best friend that all you could focus on was how attractive some of the club leaders were.<>
+[n' ']You play it cool and shrug a little.<>
+[n'You']It was alright.<>
+[n' ']Manuella seems not to notice the flush still dusting your cheeks, she nods a little.<>
+[n'Manuella']I get it, I get it. There’s a lot to take in. But it’s okay! You don’t have to do everything at once,<>
+[n'Manuella']Maybe you could just start with one club, then go from there?<>
+[n' ']You think Manuella’s got a good point there. You close your eyes and try to imagine which person… Which club…You’d want to spend your semester with.<>
+[n' ']Which club will you choose?<>
