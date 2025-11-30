@@ -42,7 +42,6 @@ func hide_menu() -> void:
 	self.visible = false
 	get_tree().paused = false
 	# Hide the mouse cursor for gameplay (assuming MOUSE_MODE_CAPTURED)
-	Input.set_mouse_mode(Input.MOUSE_MODE_CAPTURED)
 
 # --- Button Handlers ---
 

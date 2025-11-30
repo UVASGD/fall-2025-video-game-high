@@ -21,9 +21,6 @@ func setup_name_tag():
 	if not name_panel or not name_label:
 		return
 	
-	name_panel.position = Vector2.ZERO
-	name_label.position = Vector2.ZERO
-	
 	# a lot of these sett_names are useless but they aren't affecting anything yet
 	call_deferred("sett_name", " ")
 
@@ -70,7 +67,6 @@ func calculate_and_resize():
 	var required_height = text_size.y + padding.y
 	name_panel.set_deferred("size", Vector2(required_width, required_height))
 	name_label.set_deferred("size", Vector2(required_width, required_height))
-	name_label.set_deferred("position", Vector2.ZERO)
 	name_panel.set_deferred("position", Vector2.ZERO)
 
 func set_font_size(new_font_size: int):
