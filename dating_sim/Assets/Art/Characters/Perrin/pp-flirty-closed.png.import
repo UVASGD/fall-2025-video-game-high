@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bo0mouueria82"
-path="res://.godot/imported/Perrin-mischev (1).png-ee2988c9288a7677cb29a5c02f4ece6c.ctex"
+uid="uid://chslnatpgufkm"
+path="res://.godot/imported/pp-flirty-closed.png-81b11173a7218c31ba7c333a88b9b4d9.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Art/Characters/Perrin/Perrin-mischev (1).png"
-dest_files=["res://.godot/imported/Perrin-mischev (1).png-ee2988c9288a7677cb29a5c02f4ece6c.ctex"]
+source_file="res://Assets/Art/Characters/Perrin/pp-flirty-closed.png"
+dest_files=["res://.godot/imported/pp-flirty-closed.png-81b11173a7218c31ba7c333a88b9b4d9.ctex"]
 
 [params]
 

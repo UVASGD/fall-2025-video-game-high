@@ -1,0 +1,20 @@
+[n' ']Curious, you decide to head towards the Miscellaneous tables.<>
+[n' ']You look from left to right, walking past the rows of club booths from a safe distance.<>
+[n' ']Competitive Night Shower Club, Ankle Socks Club, Tortiglioni Doppia Rigatura Club... It seems like there's just about anything and everything, but nothing really catches your eye.<>
+[n' ']Distracted by all the buzz, you trip on something and catch yourself just before you fall over.<>
+[n' ']Oh, there's something on the ground. Curious, you reach down and pick it up.<>
+Grab object sfx
+[n' ']A round silver locket hangs from a thin chain just long enough to go around your neck. The glass window is completely opaque.<>
+[n'You']Is that... hair?<> 
+[n' ']Long nearly drop the locket back on the ground. Yup, it is... It is hair.<>
+[n' ']Long, black locks twis and turn inside the locket. It still feels a little warm in your hand.<>
+[n' ']A shiver runs down your spine.
+[n'???']Wait, where are you going? It's right over here-<>
+[n'You']YEE-OUUWWCH!!!!!!!!!!!<>
+[n' ']Some cold, hard wall of metal slams into you. Your world spins around as you plummet to the ground face-first.<>
+[n' ']Pain blooms in your face and hands. So much for catching yourself the first time.<>
+[n'???']Oh my gosh- I'm so sorry, are you alright?<>
+kdrama destiny mussic plays
+[n' ']You spit out a few blades of grass and look up to the source of the voice. A tall, bulky animatronic towers over you. 
+[n' ']Your blood seems to be pumping faster, but not just because of the injury you just took. Is this what they call... love at first sight?
+[n'???']Uh...

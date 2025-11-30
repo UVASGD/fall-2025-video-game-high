@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dcmpuhh6sd8rc"
-path="res://.godot/imported/Perrin-mischev (2).png-a94cefaa4947a630c68213681c4120f6.ctex"
+uid="uid://gitvxeu126i7"
+path="res://.godot/imported/pp-cringe-open.png-f0858d2bbd53a5985dcf1d6bf762c79b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Art/Characters/Perrin/Perrin-mischev (2).png"
-dest_files=["res://.godot/imported/Perrin-mischev (2).png-a94cefaa4947a630c68213681c4120f6.ctex"]
+source_file="res://Assets/Art/Characters/Perrin/pp-cringe-open.png"
+dest_files=["res://.godot/imported/pp-cringe-open.png-f0858d2bbd53a5985dcf1d6bf762c79b.ctex"]
 
 [params]
 
