@@ -1,4 +1,4 @@
-[gd_resource type="Resource" script_class="CharacterData" load_steps=18 format=3 uid="uid://dh881kitknfwd"]
+[gd_resource type="Resource" script_class="CharacterData" load_steps=32 format=3 uid="uid://dh881kitknfwd"]
 
 [ext_resource type="Texture2D" uid="uid://5vckpgs863yi" path="res://Assets/Art/Backgrounds/black-screen.png" id="1_ktkd0"]
 [ext_resource type="AudioStream" uid="uid://bv1cdxwkatgaq" path="res://Assets/Sounds/music/Cozy Tune.mp3" id="1_oakmt"]
@@ -11,26 +11,45 @@
 [ext_resource type="Texture2D" uid="uid://crrndjwr8gbyw" path="res://Assets/Art/Characters/Manuella/Manuella-Idle-closed.png" id="5_uvjvj"]
 [ext_resource type="Texture2D" uid="uid://cqsy7aq3wal55" path="res://Assets/Art/Characters/Manuella/Manuella-Happy-Talk.png" id="6_8w7ek"]
 [ext_resource type="Texture2D" uid="uid://b0p3rce0b3icg" path="res://Assets/Art/Characters/Manuella/Manuella-Happy-closed.png" id="7_hud4q"]
-[ext_resource type="Texture2D" uid="uid://cb23a0k4tawge" path="res://Assets/Art/Characters/Perrin/Perrin-Happy (3).png" id="9_t4be4"]
-[ext_resource type="Texture2D" uid="uid://c205a6lsjfpk8" path="res://Assets/Art/Characters/Perrin/Perrin-shock.png" id="10_ltg1f"]
-[ext_resource type="Texture2D" uid="uid://dcmpuhh6sd8rc" path="res://Assets/Art/Characters/Perrin/Perrin-mischev (2).png" id="11_ltg1f"]
-[ext_resource type="Texture2D" uid="uid://dyvri5me42b5p" path="res://Assets/Art/Characters/Perrin/Perrin-upset.png" id="12_ourh4"]
+[ext_resource type="Texture2D" uid="uid://coqekuwpkogyn" path="res://Assets/Art/Characters/Perrin/pp-happy1-closed.png" id="9_yrt4i"]
+[ext_resource type="Texture2D" uid="uid://dbeksieke1kq3" path="res://Assets/Art/Characters/Perrin/pp-happy1-open.png" id="10_4nec7"]
+[ext_resource type="Texture2D" uid="uid://cwc7xyfsg73ly" path="res://Assets/Art/Characters/Perrin/pp-happy2-closed.png" id="11_cnqod"]
+[ext_resource type="Texture2D" uid="uid://8b0274usmrud" path="res://Assets/Art/Characters/Perrin/pp-happy2-open.png" id="12_rg0nl"]
+[ext_resource type="Texture2D" uid="uid://bpa1fnia62t4q" path="res://Assets/Art/Characters/Perrin/pp-surprised-closed.png" id="13_i8yup"]
+[ext_resource type="Texture2D" uid="uid://kvgcm6bylfwu" path="res://Assets/Art/Characters/Perrin/pp-surprised-open.png" id="14_urw24"]
+[ext_resource type="Texture2D" uid="uid://bc7tpb702mmyr" path="res://Assets/Art/Characters/Perrin/pp-frustrated-closed.png" id="15_gn1ek"]
 [ext_resource type="AudioStream" uid="uid://cesab6oxl3svg" path="res://Assets/Sounds/music/Cozy Tune Evil.mp3" id="15_llr52"]
-[ext_resource type="FontFile" uid="uid://b41entevbocrc" path="res://Fonts/FiraCode-Light.otf" id="16_ltg1f"]
+[ext_resource type="Texture2D" uid="uid://cesq1g5xh00wt" path="res://Assets/Art/Characters/Perrin/pp-frustrated-open.png" id="16_i0i6j"]
+[ext_resource type="FontFile" uid="uid://cqyxotprpfg1v" path="res://Fonts/Minecraft.ttf" id="16_ltg1f"]
+[ext_resource type="Texture2D" uid="uid://chslnatpgufkm" path="res://Assets/Art/Characters/Perrin/pp-flirty-closed.png" id="17_eb87k"]
+[ext_resource type="Texture2D" uid="uid://dv7petf6vlf8o" path="res://Assets/Art/Characters/Perrin/pp-flirty-open.png" id="18_tum18"]
+[ext_resource type="Texture2D" uid="uid://dh0ujlhb85pd6" path="res://Assets/Art/Characters/Perrin/pp-cringe-closed.png" id="19_hwyda"]
+[ext_resource type="Texture2D" uid="uid://gitvxeu126i7" path="res://Assets/Art/Characters/Perrin/pp-cringe-open.png" id="20_1n2aa"]
+[ext_resource type="Texture2D" uid="uid://buvy3i7l5es1m" path="res://Assets/Art/Characters/Perrin/pp-awkward-closed.png" id="21_laukk"]
+[ext_resource type="Texture2D" uid="uid://bn0x8f25ecdc7" path="res://Assets/Art/Characters/Perrin/pp-awkward-open.png" id="22_qu4gs"]
+[ext_resource type="Texture2D" uid="uid://bigmk7kwxwv68" path="res://Assets/Art/Characters/Perrin/pp-ashamed-closed.png" id="23_vxbap"]
+[ext_resource type="Texture2D" uid="uid://b1iv0fteghrfd" path="res://Assets/Art/Characters/Perrin/pp-ashamed-open.png" id="24_h0lqg"]
+[ext_resource type="Texture2D" uid="uid://ddh50hqi7b454" path="res://Assets/Art/Characters/Perrin/pp-angry-closed.png" id="25_8pv0n"]
+[ext_resource type="Texture2D" uid="uid://c16ik87c55v6g" path="res://Assets/Art/Characters/Perrin/pp-angry-open.png" id="26_64lae"]
 
 [resource]
 script = ExtResource("1_xpg0m")
 character_name = ""
 character_id = "Man"
-dialogue_text_files = Array[String](["res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_000.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_001.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_002.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_003.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_004.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_005.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_006.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_007.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_008.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_009.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_010.txt"])
+dialogue_text_files = Array[String](["res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_000.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_001.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_002.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_003.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_004.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_005.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_006.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_007.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_008.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_009.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_010.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_011.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_012.txt"])
 character_images = {
 "entrance": ExtResource("4_c6kiu"),
 "happy": [ExtResource("7_hud4q"), ExtResource("6_8w7ek")],
 "idle": [ExtResource("5_uvjvj"), ExtResource("4_35f0t")],
-"per-happy": [ExtResource("9_t4be4"), ExtResource("9_t4be4")],
-"per-mischev": [ExtResource("11_ltg1f"), ExtResource("11_ltg1f")],
-"per-shock": [ExtResource("10_ltg1f"), ExtResource("10_ltg1f")],
-"per-upset": [ExtResource("12_ourh4"), ExtResource("12_ourh4")],
+"pp-angry": [ExtResource("25_8pv0n"), ExtResource("26_64lae")],
+"pp-ashamed": [ExtResource("23_vxbap"), ExtResource("24_h0lqg")],
+"pp-awkward": [ExtResource("21_laukk"), ExtResource("22_qu4gs")],
+"pp-cringe": [ExtResource("19_hwyda"), ExtResource("20_1n2aa")],
+"pp-flirty": [ExtResource("17_eb87k"), ExtResource("18_tum18")],
+"pp-frustrated": [ExtResource("15_gn1ek"), ExtResource("16_i0i6j")],
+"pp-happy1": [ExtResource("9_yrt4i"), ExtResource("10_4nec7")],
+"pp-happy2": [ExtResource("11_cnqod"), ExtResource("12_rg0nl")],
+"pp-surprise": [ExtResource("13_i8yup"), ExtResource("14_urw24")],
 "yeowch": [ExtResource("4_c6kiu"), ExtResource("4_c6kiu")]
 }
 character_backgrounds = {
@@ -49,7 +68,7 @@ character_variables = {
 colors = {
 "Background": Color(0.323217, 0.696396, 0.664142, 1),
 "Outline": Color(0, 0, 0, 1),
-"Text": Color(1, 1, 1, 1)
+"Text": Color(0, 0, 0, 1)
 }
 strings = {
 "MusicBus": "Master"

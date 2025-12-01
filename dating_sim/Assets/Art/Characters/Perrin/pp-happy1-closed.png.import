@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cb23a0k4tawge"
-path="res://.godot/imported/Perrin-Happy (3).png-1a514eb13a36dd65fa94155458a4cada.ctex"
+uid="uid://coqekuwpkogyn"
+path="res://.godot/imported/pp-happy1-closed.png-0cc0e2ed43d56394bfdd4b93074b6fac.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Art/Characters/Perrin/Perrin-Happy (3).png"
-dest_files=["res://.godot/imported/Perrin-Happy (3).png-1a514eb13a36dd65fa94155458a4cada.ctex"]
+source_file="res://Assets/Art/Characters/Perrin/pp-happy1-closed.png"
+dest_files=["res://.godot/imported/pp-happy1-closed.png-0cc0e2ed43d56394bfdd4b93074b6fac.ctex"]
 
 [params]
 

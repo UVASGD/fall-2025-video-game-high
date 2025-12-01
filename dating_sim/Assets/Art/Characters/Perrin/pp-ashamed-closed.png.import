@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dyvri5me42b5p"
-path="res://.godot/imported/Perrin-upset.png-fcb507ed107a08053c945df0845036b7.ctex"
+uid="uid://bigmk7kwxwv68"
+path="res://.godot/imported/pp-ashamed-closed.png-9ad4e2217af94bfc0a7ce7b72d5e0b87.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Art/Characters/Perrin/Perrin-upset.png"
-dest_files=["res://.godot/imported/Perrin-upset.png-fcb507ed107a08053c945df0845036b7.ctex"]
+source_file="res://Assets/Art/Characters/Perrin/pp-ashamed-closed.png"
+dest_files=["res://.godot/imported/pp-ashamed-closed.png-9ad4e2217af94bfc0a7ce7b72d5e0b87.ctex"]
 
 [params]
 

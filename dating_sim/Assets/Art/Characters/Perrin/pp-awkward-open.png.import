@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c205a6lsjfpk8"
-path="res://.godot/imported/Perrin-shock.png-19fc6ca932c851688fb88d5697ceb9c1.ctex"
+uid="uid://bn0x8f25ecdc7"
+path="res://.godot/imported/pp-awkward-open.png-aaae6da64270959d6c911364703ef6a0.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Art/Characters/Perrin/Perrin-shock.png"
-dest_files=["res://.godot/imported/Perrin-shock.png-19fc6ca932c851688fb88d5697ceb9c1.ctex"]
+source_file="res://Assets/Art/Characters/Perrin/pp-awkward-open.png"
+dest_files=["res://.godot/imported/pp-awkward-open.png-aaae6da64270959d6c911364703ef6a0.ctex"]
 
 [params]
 
