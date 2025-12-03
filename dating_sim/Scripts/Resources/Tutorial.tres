@@ -20,7 +20,6 @@
 [ext_resource type="Texture2D" uid="uid://bc7tpb702mmyr" path="res://Assets/Art/Characters/Perrin/pp-frustrated-closed.png" id="15_gn1ek"]
 [ext_resource type="AudioStream" uid="uid://cesab6oxl3svg" path="res://Assets/Sounds/music/Cozy Tune Evil.mp3" id="15_llr52"]
 [ext_resource type="Texture2D" uid="uid://cesq1g5xh00wt" path="res://Assets/Art/Characters/Perrin/pp-frustrated-open.png" id="16_i0i6j"]
-[ext_resource type="FontFile" uid="uid://cqyxotprpfg1v" path="res://Fonts/Minecraft.ttf" id="16_ltg1f"]
 [ext_resource type="Texture2D" uid="uid://chslnatpgufkm" path="res://Assets/Art/Characters/Perrin/pp-flirty-closed.png" id="17_eb87k"]
 [ext_resource type="Texture2D" uid="uid://dv7petf6vlf8o" path="res://Assets/Art/Characters/Perrin/pp-flirty-open.png" id="18_tum18"]
 [ext_resource type="Texture2D" uid="uid://dh0ujlhb85pd6" path="res://Assets/Art/Characters/Perrin/pp-cringe-closed.png" id="19_hwyda"]
@@ -31,6 +30,7 @@
 [ext_resource type="Texture2D" uid="uid://b1iv0fteghrfd" path="res://Assets/Art/Characters/Perrin/pp-ashamed-open.png" id="24_h0lqg"]
 [ext_resource type="Texture2D" uid="uid://ddh50hqi7b454" path="res://Assets/Art/Characters/Perrin/pp-angry-closed.png" id="25_8pv0n"]
 [ext_resource type="Texture2D" uid="uid://c16ik87c55v6g" path="res://Assets/Art/Characters/Perrin/pp-angry-open.png" id="26_64lae"]
+[ext_resource type="FontFile" uid="uid://b41entevbocrc" path="res://Fonts/FiraCode-Light.otf" id="30_yrt4i"]
 
 [resource]
 script = ExtResource("1_xpg0m")
@@ -68,12 +68,12 @@ character_variables = {
 colors = {
 "Background": Color(0.323217, 0.696396, 0.664142, 1),
 "Outline": Color(0, 0, 0, 1),
-"Text": Color(0, 0, 0, 1)
+"Text": Color(1, 1, 1, 1)
 }
 strings = {
 "MusicBus": "Master"
 }
-font = ExtResource("16_ltg1f")
+font = ExtResource("30_yrt4i")
 integers = {
 "AddedSpacing": 0,
 "AudioPitchMax": 1.1,
@@ -87,7 +87,7 @@ integers = {
 "DelayBetweenCharacters": 3,
 "EffectUpdateTimerInterval": 0.016,
 "EntranceFadeDuration": 1.0,
-"FontSize": 32,
+"FontSize": 40,
 "FramesPerSecond": 60,
 "LineHeightMultiplier": 1.2,
 "MusicBaseVolume": -10.0,
