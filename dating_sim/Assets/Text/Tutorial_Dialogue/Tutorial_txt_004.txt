@@ -2,7 +2,7 @@
 [n' ']Manuella nods. <>
 [n'Manuella']Alright! I think I see a friend at one of the Greek Life tables, I’m going to go catch up with them. Find me afterwards? <>
 [n'You']Okay. <>
-[n' ']After speaking to Manuella, you walk towards a cluster of tables filled with people advertising all the honors societies, trivia clubs, and pre-professional clubs you could ever need. <>
+[n' ']You walk towards a cluster of tables filled with people advertising all the honors societies, trivia clubs, and pre-professional clubs you could ever need. <>
 [n' ']Those tables are overwhelmed with students and you’re not too eager to get caught in the mix of sweat and desperate curiosity. Looking past them, a different table catches your eye. <>
 [n' ']It seems to be a table with stacks of boardgames on top of it. Curious, you approach. <>
 [n' ']As you're nearing the table, you get stopped by a girl dressed in pastels and an overwhelming about of hearts. She eagerly runs up to you, grasping your hand and shaking it with great enthusiasm <>

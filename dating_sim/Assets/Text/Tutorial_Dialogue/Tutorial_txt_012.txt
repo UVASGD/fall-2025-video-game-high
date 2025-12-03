@@ -1,20 +1,29 @@
-[n' ']Curious, you decide to head towards the Miscellaneous tables.<>
+[n' ']You decide to try your luck out with the Miscelaneous section to the right, gotta be some interesting clubs there to catch your eye.<>
 [n' ']You look from left to right, walking past the rows of club booths from a safe distance.<>
-[n' ']Competitive Night Shower Club, Ankle Socks Club, Tortiglioni Doppia Rigatura Club... It seems like there's just about anything and everything, but nothing really catches your eye.<>
+[n' ']Competitive night shower club, Ankle socks club, Tortiglioni Doppia Rigatura club… It seems like there’s just about anything and everything, but nothing really catches your eye.<>
 [n' ']Distracted by all the buzz, you trip on something and catch yourself just before you fall over.<>
-[n' ']Oh, there's something on the ground. Curious, you reach down and pick it up.<>
-Grab object sfx
-[n' ']A round silver locket hangs from a thin chain just long enough to go around your neck. The glass window is completely opaque.<>
-[n'You']Is that... hair?<> 
-[n' ']Long nearly drop the locket back on the ground. Yup, it is... It is hair.<>
-[n' ']Long, black locks twis and turn inside the locket. It still feels a little warm in your hand.<>
-[n' ']A shiver runs down your spine.
-[n'???']Wait, where are you going? It's right over here-<>
-[n'You']YEE-OUUWWCH!!!!!!!!!!!<>
-[n' ']Some cold, hard wall of metal slams into you. Your world spins around as you plummet to the ground face-first.<>
-[n' ']Pain blooms in your face and hands. So much for catching yourself the first time.<>
-[n'???']Oh my gosh- I'm so sorry, are you alright?<>
-kdrama destiny mussic plays
-[n' ']You spit out a few blades of grass and look up to the source of the voice. A tall, bulky animatronic towers over you. 
-[n' ']Your blood seems to be pumping faster, but not just because of the injury you just took. Is this what they call... love at first sight?
-[n'???']Uh...
+[n' ']Oh, there’s something on the ground. Curious, you reach down and pick it up.<>
+[n' '][<'necklace']A round silver locket hangs from a thin chain just long enough to go around your neck. The glass window is completely opaque, revealing something inside.<>
+[n'You']Is that... hair?<>
+[n' ']You nearly drop the locket back on the ground as you realize you were right.<>
+[n' ']Long, black locks twist and turn inside the locket. It feels a little warm in your hand.<>
+[n' ']A shiver runs down your spine.<>
+[n' ']Suddenly, you hear a voice rapidly approaching where you're standing.<>
+[n'???']Wait, where are you going? It’s right over here—<>
+[n'You']YEE-OUUWWCH!!!!!!!!<>
+[n' ']You scream as a cold, hard wall of metal slams into your side.<>
+[n' ']Your vision spins as you slam face first into the ground. So much for catching yourself when you tripped earlier.<>
+[n'???']Oh my gosh- I did not see you at all!<>
+[n'???']Are you okay, little dude?<>
+[n' '][<'destiny']Spitting blades of grass out of your mouth, you look up at the source of the voice.<>
+<fnafzzbear appears>
+[n' ']A tall, bulky animatronic towers over you, the sunlight glinting off of their tall frame.<>
+[n' ']Your heart is pounding, but not because of the injury you just took.<>
+[n' ']Is this what they call... love at first sight?<>
+[n' ']Your heart begins to hammer harder and you start to feel a bit light-headed.<>
+[n'???']Uh...<>
+[n' ']The robot scrunches up it's face, seeming a bit confused.<>
+[:][n' ']Removing your eyes from its handsome face, you see- Oh, it was holding out it's hand for you to take.<>
+Weave your fingers with his[:13]<>
+Take his hand... shyly[:14]<>
+Stand up on your own[:15]<>

@@ -1,0 +1,62 @@
+[n' ']You reach out and hesitantly take his hand.<>
+[n' ']His fingers wrap around yours and with surprising gentleness gently pulls you up.<>
+[n'You']Thanks...<>
+[n' ']You tuck a stray hair behind your ear.<>
+[n' ']He shakes his head.<>
+[n'???']No biggie. Oh yeah, you can call me MH.<>
+[n'You']MH... Nice to meet you.<>
+[n' ']You introduce yourself. He grins.<>
+
+[n'MH']So, you here to check out some clubs?<>
+[n' ']MH places both his hands on his hips.<>
+[n'You']Yeah, I’m a transfer student here. Here to check you out. I mean, some clubs. Out.<>
+[n' ']You awkwardly clear your throat.<>
+[n'MH']Well, this was purrfect timing! Let me show you MY super awesome club!<>
+[n' ']MH wraps an arm of steel around your shoulders before you even have the chance to refuse.<>
+[n'MH']We have a booth set up right in that corner over there. Not that far away. I can take you there!<>
+[n' ']He leads you to a small corner of the club fair by the neck. His arm feels a little cold against your skin, but it’s not like you didn’t like it.<>
+[n' ']Right as you were about to get used to the feeling, he slips his arm back out and gestures to a scrawny little booth. A pretty worn-out banner with faded writing is hung over a poster board atop its table.<> 
+[n' ']On closer look, the board is covered in a handful of blurry photos from head to toe, all connected by a thin line of red string.<>
+[n' ']You squint but you still can’t make out what it says on the banner.<>
+[n'You']So..?<>
+[n'MH']Yeah?<>
+[n'You']What…does this say?<>
+[n'MH']This?<>
+[n' ']He looks to the banner and scratches the bottom of his chin.<>
+MH: Let’s see… “P”, “A”… Is that supposed to be a “Y”?
+[n' ']Isn't this his club? Why doesn't he know the name on the banner?<>
+[n' ']Suddenly, you hear a quieter voice nearby.<>
+[n' ']It's an “R”, like “Paranormal Club”...<>
+[n'You']Huh?<>
+[n' ']MH stares at you for a second.<>
+[n'MH']Huh?<>
+[n' ']Who was that?>
+[n'MH']What do you mean?<>
+[n' ']Whatever just happened, MH doesn't say, and the other voice seems mysteriously silent as well.<>
+[n'MH']...<>
+[n'You']...<>
+[n' ']MH laughs and claps his hands.<>
+[n'MH']Oh, yeah, that was me!<>
+[n' ']MH points to himself.<>
+[n' ']You raise an eyebrow.<>
+[n' ']Really?<>
+[n'You]Your voice sounded... a little different there.<>
+[n'MH']Yeah, sorry, I just had something in my throat!<>
+[n' ']He coughs loudly into his hand to prove his point.<>
+[n' ']You raise your other eyebrow. Something feels a little off.<>
+[n'MH']So, yeah! As I was saying, this is the Paranormal Club.<>
+[n' ']He nods at the work he's done here, chest puffed out in pride.<>
+[n' ']Just as you open your mouth to speak up, you hear a hushed sigh.<>
+[n' ']The sound of something like a finger tapping metal comes from behind MH.<>
+[n'???']...Do I really have to do this..?<>
+[n' ']MH turns around, seemingly forgetting you're there not missing a beat.<>
+[n' ']He speaks in a hushed voice, but you can still hear everything anyway.<>
+[n'MH']Come on, this is our chance! You can’t have the club disband after I graduate, you know? You need at least 2 members to keep it going and tabling is the best way to find them!<>
+[n' ']MH pumps a fist to the air.<>
+[n' ']After a moment of silence, you clear your throat.<>
+[n'You']Um..?<>
+[n' ']You crane your head closer to MH, but he quickly turns back around before you see what’s behind him.<>
+[:][n'MH']SO!!! Anything catch your interest<>
+“Blurry photos on the board...”[:16]<>
+"The voice behind you..."[:17]<>
+"You"[:18]<>
