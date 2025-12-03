@@ -41,6 +41,16 @@ func set_character(character: CharacterData):
 	if name_tag:
 		name_tag.set_character(character_data)
 		
+func hide_character():
+	if character_rect:
+		character_rect.visible = false
+	current_character_image_key = ""
+
+func show_character():
+	if character_rect:
+		character_rect.visible = true
+		
+	
 func set_character_scene(character_name: String):
 	get_tree().change_scene_to_file("res://Scenes/" + character_name + ".tscn")
 	
@@ -127,6 +137,7 @@ func _animate_popup(popup_image: TextureRect):
 func change_character_image(image_key: String):
 	if not character_data:
 		return
+	show_character()
 	if image_key == "entrance":
 		if not entrance_completed_flag:
 			var entrance_texture = character_data.character_images.get("entrance")
@@ -139,7 +150,7 @@ func change_character_image(image_key: String):
 	var character_image_array = character_data.character_images.get(image_key)
 	if character_image_array and character_image_array is Array and character_image_array.size() >= 2:
 		current_character_image_key = image_key
-		var nametag: Node = get_tree().root.get_node("Control/Screen/NameTag")
+		#var nametag: Node = get_tree().root.get_node("Control/Screen/NameTag")
 		
 		if entrance_completed_flag: # when narrator speaks, we don't want character on screen to animate
 			update_character_talking_state(false)  # Not waiting for input initially
@@ -180,8 +191,8 @@ func update_character_talking_state(waiting_for_input: bool):
 		
 	if current_character_image_key == "" or not character_data:
 		return 
-	var nametag: Node = get_tree().root.get_node("Control/Screen/NameTag")
-	var label: Label = nametag.name_label
+	#var nametag: Node = get_tree().root.get_node("Control/Screen/NameTag")
+	var label: Label = name_tag.name_label
 	var character_image_array = character_data.character_images.get(current_character_image_key)
 	if character_image_array and character_image_array is Array and character_image_array.size() >= 2:
 		if character_rect and label:

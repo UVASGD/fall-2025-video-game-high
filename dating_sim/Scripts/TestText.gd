@@ -91,7 +91,10 @@ func _ready():
 	
 	save_manager = SaveManager.new()
 	add_child(save_manager)
+	save_manager.game_loaded.connect(_on_game_loaded)
 	
+	player_manager = PlayerManager.new()
+	add_child(player_manager)
 	
 	# Connect signals
 	effects_manager.effect_sound_requested.connect(character_manager.play_effect_sound)
@@ -112,7 +115,82 @@ func _ready():
 	dialogue_box()
 	connect_next_button()
 	connect_skip_button()
+	instantiate_pause_menu()
 
+func instantiate_pause_menu():
+	var pause_menu: Node = preload("res://Scenes/pause_menu.tscn").instantiate()
+	pause_menu.inst(save_manager) # pass whatever the child needs
+	add_child(pause_menu)
+
+func _on_game_loaded(data: Dictionary):
+	print("Applying loaded data to Screen...")
+	
+	typing_timer.stop()
+	is_typing = false
+	waiting_for_input = false
+	text_manager.clear_all_text()
+	
+	var new_file_index: int = int(data.get("document_number", 0))
+	var new_line_index: int = int(data.get("dialogue_position", 0))
+	
+	music_manager.stop_music(0)
+
+	current_file_index = new_file_index
+	load_text()
+	current_segment_index = new_line_index
+	
+	restore_game_state()	
+
+	text_manager.clear_all_text()
+	start_next()
+	
+func restore_game_state():
+	# Scans from the start of the file up to the PREVIOUS line of the current load point
+	# to find the last known background, music, character, and name.
+	var last_bg: String = ""
+	var last_music: String = ""
+	var last_character_image: String = ""
+	var last_name: String = ""
+
+	for i in range(current_segment_index):
+		var segment = full_dialogue_segments[i]
+		if segment.get("is_choice", false) or not segment.has("effects"):
+			continue
+
+		for effect_wrapper in segment.effects:
+			var fx = effect_wrapper.effects
+			if fx.has("change_background"):
+				last_bg = fx["change_background"]
+			if fx.has("music_change"):
+				last_music = fx["music_change"]
+			elif fx.has("music_stop"):
+				last_music = "STOP" # Marker to ensure we stop if silence was requested
+			if fx.has("change_image"):
+				last_character_image = fx["change_image"]
+			if fx.has("change_name"):
+				last_name = fx["change_name"]
+
+	# --- Apply the found states ---
+	character_manager.entrance_completed_flag = true
+	character_manager.is_entrance_playing = false
+
+	if last_bg != "":
+		bg_manager.change_background(last_bg, 0.0)
+	if last_music == "STOP":
+		music_manager.stop_music(0.0)
+	elif last_music != "":
+		music_manager.play_music(last_music, 0.0)
+	if last_name != "":
+		effects_manager.name_change_requested.emit(last_name)
+		if name_tag and name_tag.name_label:
+			name_tag.name_label.text = last_name
+	if last_character_image != "":
+		character_manager.change_character_image(last_character_image)
+	else:
+		character_manager.hide_character()
+	
+		
+		
 func typing_system():
 	typing_timer = Timer.new()
 	add_child(typing_timer)
@@ -152,7 +230,7 @@ func load_text():
 
 	# Clamp index to valid range
 	current_file_index = clamp(current_file_index, 0, character_data.dialogue_text_files.size() - 1)
-	
+	save_manager.current_document_index = current_file_index
 	var file_path = character_data.dialogue_text_files[current_file_index]
 	var file_content = ""
 	
@@ -215,13 +293,11 @@ func jump(file_index: int):
 	if file_index < 0 or file_index >= character_data.dialogue_text_files.size():
 		push_warning("Invalid jump index: %d" % file_index)
 		return
-
 	current_file_index = file_index
 	typing_timer.stop()
 	is_typing = false
 	waiting_for_input = false
 	text_manager.clear_all_text()
-
 	load_text()
 
 
@@ -258,7 +334,8 @@ func start_next():
 		return
 	
 	var segment_data = full_dialogue_segments[current_segment_index]
-	
+	save_manager.current_document_line = current_segment_index
+
 	if segment_data.get("is_choice", false):
 		choice_mode = true
 		display_choices()
@@ -613,7 +690,6 @@ func display_next_dialogue_button():
 func clear_next_dialogue_button():
 	next_container.visible = false
 	
-
 func display_choices():
 	clear_choice_buttons()
 	show_choice_container()

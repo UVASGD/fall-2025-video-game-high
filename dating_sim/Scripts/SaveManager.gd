@@ -2,19 +2,20 @@
 class_name SaveManager
 
 var save_path := "user://savegame.json"
-var example_save_data: Dictionary = {
-					 "player": {
-						 "dialogue_position": 0
-					 },
-					 "external": {
-						 "romance_points": 0,
-					 }
-				 }
+var save_data: Dictionary = {"dialogue_position": 0, "document_number": 0, "romance_points": 0}
+var current_document_index: int = 0
+var current_document_line: int = 0
+var romance_points: int = 0
 
-func save(data: Dictionary) -> void:
+signal game_loaded(data: Dictionary)
+
+func save() -> void:
 	# TODO: Access player and dialogue info
-	var file = FileAccess.open(save_path, FileAccess.WRITE)
-	var json = JSON.stringify(data, "\t")  # formatted JSON
+	var file: FileAccess = FileAccess.open(save_path, FileAccess.WRITE)
+	save_data["dialogue_position"] = current_document_line
+	save_data["document_number"] = current_document_index
+	save_data["romance_points"] = romance_points
+	var json: String = JSON.stringify(save_data, "\t")  # formatted JSON
 	file.store_string(json)
 	print("Game saved!")
 
@@ -23,8 +24,8 @@ func load() -> Dictionary:
 		print("No save file found.")
 		return {}
 
-	var file = FileAccess.open(save_path, FileAccess.READ)
-	var text = file.get_as_text()
+	var file: FileAccess = FileAccess.open(save_path, FileAccess.READ)
+	var text: String = file.get_as_text()
 	var result = JSON.parse_string(text)
 
 	if result == null:
@@ -32,4 +33,6 @@ func load() -> Dictionary:
 		return {}
 
 	print("Game loaded!")
+	
+	game_loaded.emit(result)
 	return result
