@@ -1,4 +1,4 @@
-[You’re great at this][:PATH A] Wow, Perrin, you’re great at this game. You really are amazing at video games. [:PATH A]
+Wow, Perrin, you’re great at this game. You really are amazing at video games.<>
 
 [n'Perrin']Aw, don’t flatter me. You’re overlooking the possibility that it could be less of I’m good and simply that you suck. <>
 [n' ']Perrin gives you a cheeky grin, their hand already flying to grab more coins. <>
@@ -7,5 +7,5 @@
 [n' ']You hesitantly add more coins to the machine, but this time, you don’t really try to win. Your grip on the controls are weaker than before, and your eyes don’t focus as well on the screen. You’re simply going with the flow, and Perrin starts to take notice. They pause the game after the first round and turn to you. <>
 [:][n'Perrin']Hey, um..., are you okay there pal? You seem a bit out of it. <>
 
-I'm tired[:]<>
-This isn't fun[:]<>
+I'm tired[:56]<>
+This isn't fun[:65]<>

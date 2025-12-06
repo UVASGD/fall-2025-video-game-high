@@ -1,0 +1,59 @@
+[gd_resource type="Resource" script_class="CharacterData" load_steps=3 format=3 uid="uid://dhwpxkdsr2oju"]
+
+[ext_resource type="Script" uid="uid://bhirb0q308e7m" path="res://Scripts/Classes/CharacterBase.gd" id="1_b6gjl"]
+[ext_resource type="FontFile" uid="uid://dpmf31scg12wq" path="res://Fonts/FoglihtenNo01.otf" id="1_nk74y"]
+
+[resource]
+script = ExtResource("1_b6gjl")
+character_name = "Cardi V"
+character_id = "JC"
+dialogue_text_files = Array[String]([])
+character_images = {}
+character_backgrounds = {}
+character_sounds = null
+character_variables = {
+"will talk": true
+}
+colors = {
+"Outline": Color(0.201329, 0.209679, 0.284298, 1),
+"Text": Color(1, 1, 1, 1)
+}
+strings = {
+"MusicBus": "Master"
+}
+font = ExtResource("1_nk74y")
+integers = {
+"AddedSpacing": 0,
+"AudioPitchMax": 1.1,
+"AudioPitchMin": 0.9,
+"ChoiceBaseHeight": 100,
+"ChoiceHeightPerOption": 60,
+"DefaultJitterIntensity": 2,
+"DefaultShakeIntensity": 3,
+"DefaultWiggleIntensity": 5,
+"Delay": 0,
+"DelayBetweenCharacters": 0,
+"EffectUpdateTimerInterval": 0.016,
+"EntranceFadeDuration": 1.0,
+"FontSize": 32,
+"FramesPerSecond": 60,
+"LineHeightMultiplier": 1.2,
+"MusicBaseVolume": -10.0,
+"MusicDefaultFadeDuration": 1.0,
+"OutlineSize": 0,
+"PauseTimer": 0,
+"PopupDisplayDuration": 0.8,
+"PopupFadeInDuration": 0.2,
+"PopupFadeOutDuration": 0.4,
+"PopupInitialScale": 0.1,
+"PopupScaleDuration": 0.3,
+"PopupSizeMultiplier": 0.8,
+"RippleFrames": 0,
+"RippleStrengthMultiplier": 0.4,
+"RippleTimerInterval": 0.016,
+"TextSpeed": 100,
+"TypingTimerInterval": 0.1,
+"WiggleTimeMultiplier": 0.01
+}
+theme = {}
+metadata/_custom_type_script = "uid://bhirb0q308e7m"

@@ -1,11 +1,6 @@
-[n' ']After speaking to Manuella, you approach the table filled with different puzzles and boardgames. As you’re nearing the table, you get stopped by a girl dressed in pretty pastels and hearts all over. She eagerly runs up to you, grasping your hand firmly and shaking it with great enthusiasm. <>
-[n'Valentine']HEY!! Would you be interested in the fanfic club?? We analyze fanfics every week and talk about the different themes and plots of famous reads! <>
-[n'Valentine']Hey!! What’s your favorite ship?? Extrovert and Introvert?? Sunshine and Grumpy?? Age difference?? We’re a couple of totally not self-made stories this weekend! <>
-[n'Valentine']The options are: The Resume (A CavmanXLinkedIN Ryan fic), Running Through The Books (Jock X Cozy fic), and my personal favorite, Love at First Site (Me X)- <>
-[n' ']You cut her off immediately, wanting to get past this conversation. <>
-[n'You']Hey! That sounds really interesting, but I want to- <>
-[n' ']But just as fast as you cut her off, she cuts you off right back, not even taking a breath. <>
-[n'Valentine']Awwww, I get that! Some people just don’t like the romance genre, but my club does more than just romance! We analyze all types of fanfiction! So, if you’re a fan of any media in general, we’re the club for you! <>
-[:][n'Valentine']I’m going to go on a limb here and say you like a nice, cozy, adventure story! Am I right?? <>
-[Sorry, I’m in a hurry][:1] <>
-[That’s right, I do][:2] <>
+[bg'classroom':1.0]
+[n' ']You decide to go to the first Board Game Club meeting, and you have tons of fun meeting new people, playing games, and having delicious snacks. <>
+[n' ']You’ve especially been having fun playing with Perrin; they’re intense about their games, but they’ve been so sweet to you, and it feels like you’re constantly making eye contact– unintentionally, but you can’t help but feel a connection between you two. <>
+[n' ']As you finish up the current round, you check your watch and realize the time. <>
+[n'You']Hey, Perrin, I’m so sorry, but I think I have to leave now. I have a pretty early class tomorrow and I’d like to get some homework done beforehand. <>
+[n'Perrin']No, no, that’s alright! You can leave whenever you want. Did you have fun? <> [j5]-

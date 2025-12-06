@@ -8,5 +8,5 @@
 [n'Perrin']Sore winner? How dare you! I’ll have you know that- <>
 [:][n' ']Perrin feels the need to defend themself, but you’re done with keeping quiet. It was time to express how you really feel. <>
 
-We're switching[:]<>
-Teach me[:]<>
+We're switching[:70]<>
+Teach me[:69]<>

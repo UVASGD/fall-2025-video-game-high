@@ -1,0 +1,9 @@
+[n' ']Perrin rolls their eyes at you, as if they don’t believe you. <>
+[n'Perrin']I’m just stating the honest facts here-<>
+[n'You']No, you’re not! You’re just being an unreasonable asshole for no reason. <>
+[n' ']Perrin lets out a scoff, putting their hand on their chest as if your words physically wounded them. <>
+[n'Perrin']Unreasonable? You’re the one who's losing their mind over a little game! Face it, you’re just jealous of my skill. A loser who doesn’t know their worth.<>
+[:][n' ']No matter how hard you try, you feel as though everything you’ve been saying has simply gone through one ear and out the other. They’re not listening to you, and it’s progressively making both of you upset. <>
+
+Teach me[:69]<>
+You're the worst[:77]<>

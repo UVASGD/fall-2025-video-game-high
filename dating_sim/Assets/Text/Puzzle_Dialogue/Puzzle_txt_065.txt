@@ -9,5 +9,5 @@
 [n' ']The game suddenly lets out a sound, as if saying “Don’t forget about me here!”. They scoff at the machine, as if replying, “Now’s not the time!” You find their response to the game a bit funny, cracking a small smile. Perrin notices and flashes an awkward smile. <>
 [:][n'Perrin']It seems the game really wants us to continue, but I’d rather focus on you.  <>
 
-It's Fine[:]<>
-Wait[:]<>
+It's Fine[:66]<>
+Wait[:67]<>

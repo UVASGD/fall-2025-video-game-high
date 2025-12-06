@@ -9,6 +9,6 @@
 
 [:][n' ']PP’s trash talk and constant jabs at your skill level start to take a toll on your confidence, and the constant losses you experience are getting to a point where it’s embarrassing. You both finish the current game you’re on, the difference in scores being far from close. You bite the inside of your cheek, turning to look at PP who still has a smug grin plastered to their face. <>
 
-[You’re great at this][:PATH A] <> 
-[Could we change games?][:PATH B] <>
-[Chill, dude][:PATH C] <>
+[You’re great at this][:53] <> 
+[Could we change games?][:54] <>
+[Chill, dude][:55] <>

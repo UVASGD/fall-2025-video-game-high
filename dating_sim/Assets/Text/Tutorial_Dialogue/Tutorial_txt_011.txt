@@ -1,5 +1,5 @@
 [:][n' ']Where would you like to go next? <>
 Academics [:4] <>
-Athletics [:] <>
+Athletics [:19] <>
 Miscellaneous [:12] <>
-I’m Done [:] <>
+I’m Done [:27] <>

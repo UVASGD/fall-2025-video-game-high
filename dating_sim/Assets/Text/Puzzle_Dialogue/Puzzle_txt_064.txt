@@ -7,5 +7,4 @@
 [n'You']I just wanted you to go easy on me man. Not change the freaking game! Just tone it back a bit man, good lord! <>
 [n' ']Perrin lets out an exasperated sigh, their expression growing irritated. 
 [n'Perrin']You know what? Yes, I wanted to change games so you wouldn’t keep pouting like a child every time I won. You’re never going to beat me at any game we play, so why even bother continuing if you’re just going to fail every time! <>
-
-[LOOP TO PATH C ASSHOLE CHOICE]
+[j76]-

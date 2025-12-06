@@ -5,6 +5,6 @@
 [n' ']Perrin feels a bit bad from the way they have been making you feel. They debate whether or not to speak. <> 
 [:][n'Perrin'] I-... <>
 
-Will you still like me?[:]<>
-I'm new, Perrin[:]<>
-Seriously?[:]<>
+Will you still like me?[:57]<>
+I'm new, Perrin[:60]<>
+Seriously?[:64]<>

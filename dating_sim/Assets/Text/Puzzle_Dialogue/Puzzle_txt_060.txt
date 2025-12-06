@@ -5,6 +5,6 @@
 [n'Perrin']Here! Why don’t we play a different game that’s not competitive! 
 [:][n'Perrin']There’s a whack-a-moles game somewhere in the back, or crane games with cute plushies to be won. We can go there and maybe take it easy? <> 
 
-Fine, let's do it[:]<>
-Seriously?[:]<>
-This isn't fun[:]<>
+Fine, let's do it[:61]<>
+Seriously?[:64]<>
+This isn't fun[:65]<>

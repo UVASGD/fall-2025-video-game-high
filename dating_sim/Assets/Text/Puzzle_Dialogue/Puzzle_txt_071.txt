@@ -1,0 +1,15 @@
+[n'You'] Basketball. I want to play basketball. <>
+[n' '] Perrin’s expression drops immediately, as if they’re almost scared of the game that left your mouth. <>
+[n'Perrin'] Basketball? What! Why?? You’re not even good at it!<>
+[n'You'] Exactly! Neither of us have played and even better, we’re both absolute crap at it. In my opinion, this is the perfect game to test our skill. <>
+[n' '] Perrin takes a deep breath but accepts your challenge. At the machine, Perrin counts you two down before beginning. You both play at the same time, racing to see who could get more baskets in under two minutes. Shot after shot, you both are struck by the same noise: the sound of the ball either hitting the wall, or the rim. At the end of two minutes, you both have scores under ten, with you being only one point higher after cheating. You both turn to look at each other.<> 
+[n'Perrin'] Um…that was…something. <>
+[n'You'] Yeah…um…I did beat you but…<>
+[n'Perrin'] Yeah, the score was…the error bars are massive with this difference. <>
+[n' '] You nod at Perrin’s response. Looking at the scores and the ultimate high score of 120, you both come to the same realization: You’re absolute dogshit at this. Perrin lets out a laugh after a moment, their expression softening. <>
+[n'Perrin'] Man we suck. Sports were never my thing anyways. <>
+[n'You']Yeah. Me neither. I’m not the biggest basketball fan. Uh, my bad for recommending this game. I should’ve picked something better. <>
+[n'Perrin'] No worries, I never understood the game. Its so…forgive me but pointless. I mean, what sport depends only on height, right? <>
+[n'You'] Well, it’s not all just height. There’s skill involved-<>
+[n'Perrin'] But it’s mostly height!!<>
+[n' '] Perrin’s face sours up as they talk about basketball. You both end up sitting down and absolutely dogging on the atrocity that is “the sports industry” and “what is skill?”. You feel your friendship strengthening as you start talking about the sports team at school, gossiping about some of the people -or characters- you both have run into in the past.<> [j51] -

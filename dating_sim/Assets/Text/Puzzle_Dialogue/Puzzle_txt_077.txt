@@ -1,0 +1,11 @@
+[n' ']Perrin scoffs again, crossing their arms with a scowl on their face. <>
+[n'Perrin']I beg your [!{]finest[}]] pardon? <>
+[n'You']Yeah! I said it! I thought this date was going to be fun, but now I see you for who you really are! You’re distant and arrogant, and don’t see how your actions affect others! <>
+[n' ']Perrin rolls their eyes, not taking anything you say seriously. <>
+[n'Perrin']Well  could say the same for you. I was hoping you would be better on our second date but I’m afraid not. You’re just a child who needs to learn a thing or two about growing up. <> 
+[n'You']Growing up!?! You’re still undecided you indecisive- <>
+[n'Perrin']Finish that sentence. <>
+[n' ']You stop yourself from insulting them, knowing things are already getting pretty heated. You’ve never seen Perrin this upset before. You immediately avert your eyes, looking at the ground. <>
+[n'You']I’m going to the bathroom. <>
+[n' ']Perrin notices your excuse and scoffs.  <>
+[n'Perrin']Okay, yeah. I’ll be here I guess. Have fun. <>[j52] -
