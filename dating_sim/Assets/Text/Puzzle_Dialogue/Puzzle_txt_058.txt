@@ -1,0 +1,5 @@
+[n'You']Thank you, Perrin...You’re such a good friend to me... <>
+[n' ']Perrin lets out a soft chuckle, rubbing your back. They didn’t expect the friend-comment but understood the room quickly. They have a gentle smile on their face. <>
+[n'Perrin']Of course, that’s what friends are for, right? Destroying your soul at a video game then comforting you after...<>
+[n' ']Perrin lets you go then leads you to the other games. <>
+[n'Perrin']Now then, let’s try something with more teamwork involved. We can test just how strong we are together...<> [j51]-

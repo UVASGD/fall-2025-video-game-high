@@ -1,0 +1,10 @@
+[n'You']I just wish you would go easier on me, Perrin. I’m new at this game, after all.  <> 
+[n' ']Perrin grimaces, clearly conflicted but hesitantly speaking their mind.  <> 
+[n'Perrin']Hey...you’re an amazing person, but…you really are just bad at the game. Even if I were to go easy on you, I don’t think you would...I don’t think it would help you… I’m not trying to be mean; just honest.
+[n' ']You glare at them, making Perrin shut up almost immediately. There’s an awkward silence between the two of you before Perrin suddenly gets an idea and smiles, taking your arm.  <> 
+[n'Perrin']Here! Why don’t we play a different game that’s not competitive! 
+[:][n'Perrin']There’s a whack-a-moles game somewhere in the back, or crane games with cute plushies to be won. We can go there and maybe take it easy? <> 
+
+Fine, let's do it[:]<>
+Seriously?[:]<>
+This isn't fun[:]<>

@@ -1,0 +1,6 @@
+[n'You']That sounds better. I would like that. <>
+[n' ']Perrin hums and takes your hand. They lead you to the back of the arcade and play a couple of non-competitive games with you. <>
+[:][n' ']Whenever Perrin wins a prize, they always give it to you, as if apologizing for the way they acted. At the crane game, you decide to try and win a prize for them as well. <>
+
+Try to Flex[:]<>
+Get one for them[:]<>

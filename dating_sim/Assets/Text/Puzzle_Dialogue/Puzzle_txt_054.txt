@@ -1,0 +1,1 @@
+[Could we change games?][:PATH B] Hey um…can we play a different game? Something that’s not a 1v1? I think it’ll be fun to play like a teamwork game too, perchance? [:PATH C]

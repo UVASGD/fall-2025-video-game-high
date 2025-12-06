@@ -1,0 +1,10 @@
+[n'You']Yeah, I’m just a bit tired... <>
+[n' ']Perrin furrows their brows, turning to face you fully. <>
+[n'Perrin']Tired? But I thought you slept in today? You know that oversleeping can be equally as destructive to your sleep habits as- <>
+[n'You']No, Perrin. Not tired like that. Tired from just...losing. I’m sorry. I’m trying to stay positive and happy but I feel like I’m so bad at this game, I just...I shouldn’t even try to play it anymore. You said it yourself, I’m never going to improve at it anyways. <>
+[n' ']Perrin feels a bit bad from the way they have been making you feel. They debate whether or not to speak. <> 
+[:][n'Perrin'] I-... <>
+
+Will you still like me?[:]<>
+I'm new, Perrin[:]<>
+Seriously?[:]<>

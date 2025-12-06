@@ -1,0 +1,5 @@
+[n'You']I’m so happy I have you in my life, Perrin. You’re an absolute treasure to be around... <>
+[n' ']Perrin’s heart flutters at your words. They rub their cheek against the top of your head and look down at you. They take your hand after a moment. <>
+[n'Perrin']I’m happy you’re in my life too, YN. And speaking of which, we still have time together. So come on. Let’s do something else. A different game that doesn’t involve competition. Maybe something like wack-a-mole or jump rope? We could work together to win a bunch of tickets. <>
+[n' ']You nod and smile, walking with them towards the other games. <>
+[j50]-
