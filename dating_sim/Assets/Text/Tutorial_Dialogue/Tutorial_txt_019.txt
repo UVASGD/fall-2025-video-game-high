@@ -1,0 +1,11 @@
+[n' ']You hear the sounds of athletes in their natural habitat. You jerk your head to the side just in time to dodge a baseball, which whizzes by your face. <>
+[n' ']You quickly swivel your head towards the source of the ball’s trajectory, and the athletics club’s booth catches your eye. Before you can start walking over, you are suddenly knocked over by a large mass. <>
+[n'You']: Aah! <>
+[n'Cardi V']: Oof! <>
+[n' '] From the ground, you look up and an imposing figure stands above you, holding a ball of some sort. <>
+[n' ']Her green hair is messy but held out of her face by a sweatband, and she’s wearing a tank top that shows off her muscular arms. Her expression is one of horror, and she quickly crouches down to your level and offers a hand. <>
+[n'Cardi V']: Holy shit! I’m so sorry! Are you okay? <> 
+[:][n' ']You take her hand and she helps you to your feet effortlessly. <>
+
+[Yeah, I’m alright.][:20]<>
+[No, you should watch where you’re going!][:21]<>

@@ -1,4 +1,4 @@
-[n'You']I really like boardgames too!
+[n'You']I really like boardgames too! <>
 [n' ']Perrin smiles at your response and runs a hand through their hair. They lean against the table. <>
 [n'Perrin'][a'pp-happy2']Well, I can assure that whatever you’re looking for, board games club, believe it or not, may be just the solution. It may not look like much, but if you do join, I can assure you that you won’t regret it. <>
 [n' ']You nod at Perrin’s response then turn to look at the array of other tables you have yet to explore. You turn back to them with a friendly smile. <>
