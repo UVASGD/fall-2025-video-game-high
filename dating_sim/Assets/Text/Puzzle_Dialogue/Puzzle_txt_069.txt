@@ -1,0 +1,13 @@
+[n'You']I wanted to play this game so you could teach me how to get as good as you were. Not so you could constantly show off. I know I’m bad. It’s my first time after all. Since I know you like teaching, I was kind of hoping you could mentor me during this date... <>
+[n' ']Perrin’s eyes widen, as if they’re realizing just how much of an asshole they were. <>
+[n'Perrin']Oh my stars, you’re right...I...you just wanted to learn how to play the game and I crushed your dreams.  <>
+[n'You']What? Perrin, you didn’t crush my-  <>
+[n' ']You try to reassure Perrin that they didn’t destroy any future dreams you had at being an esports champion, but it was too late. The guilt and regret hit them hard.  <>
+[n'Perrin']Oh my goodness- oh my gosh! I’m an awful person! I just wanted you to have a fun time but here I am, showing off to someone who barely understands the game. I’m so ignorant. I’m so- I’m so so sorry. I should have taught you at least the basics before throwing you into the game. I thought you would fly like a baby bird leaving the nest, but alas, you were a penguin. <>
+[n' ']You furrow your brows at Perrin’s words. They truly were a cryptid you could not wrap your head around. You awkwardly rub their shoulders, reassuring them that it’s okay. <> 
+[n'You']Hey... please don’t mope. The arcade doesn’t close for another four hours. Why don’t we sit down somewhere in the food hall and I’ll let you give me a 101 on the basics of your favorite games, yeah? <> 
+[n' ']Perrin nods, fidgeting with their rings. You know how much they liked teaching you random niches of theirs after all. They follow you to the food hall and slowly start to teach you little tricks and tips about the game. You take notes, and things seem to finally go back to normal. Perrin gets their usual confidence back, their smile coming back once more. <> 
+[n'Perrin']And yeah, I think those are the basics needed to at least beat most of the average or casual players. Remember to never move your hand. Pinky or ring and pointer on orientation, thumb on insta-drop, other hand being in control of movement. It’s challenging at first, but I promise you that this is probably the best set up for quick and easy stacking. <> 
+[n'You']Okay, and what should I do when I get a piece that won’t fit correctly anywhere? <> 
+[n'Perrin']Excellent question! When that happens, I want you to-  <>
+[n' ']The rest of the date ends up being Perrin giving you an in-depth Powerpoint presentation about the different ways to overpower your opponent at Competitive Tetris. You want to get back to gaming with all of these newly learned tactics, but this is a pretty nice day either way. Maybe next time you could try to take on Perrin. Just as a pupil challenges their teacher. <> [j51]-

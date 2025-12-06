@@ -1,10 +1,13 @@
-[n'You']Don’t worry, I think I’m okay. Let’s go back to the game. <>
-[n'Perrin'] Are you positive, YN? I really don’t mind just sitting in the food hall with you and talking for a bit if you really want a break. <> 
-[n'You'] No, I think this talk has really helped me. The main thing I wanted to do was let you know how I was feeling. Perrin, I love playing with you. Its just…I wanted to communicate what I was feeling before we continued with anything else.  <>
-[n' '] Perrin nods and looks back at the game. <> 
-[n'Perrin'] If this is what you want, then I’m completely fine with playing more rounds with you. And do not worry, I’ll contain my excitement if I win. <>   
-[n' '] Perrin smiles at you before resuming the game. You and Perrin end up playing a couple more rounds, playful banter filling the air as the time passes. Perrin wins a couple more times, but they hold back their gloat. Instead, they decide to give you tips and tricks on winning. Eventually, you manage to beat their score; something that came as a shock to you both. You point at the screen in awe. It’s a moment you both relish in for a bit. <> 
-[n'You'] Perrin! I won! Oh my gosh I won! I just followed your advice and-  <>
-[n' '] Perrin doesn’t say anything. Instead, they just watch you with a proud smile plastered on their face, as if seeing your smile was a reward enough. You feel your cheeks darken a bit, but still bask in the glory of winning. Then you notice something: they had the perfect opportunity to score double the amount of points they currently have. It could have been such an easy win, but they…messed up? They took the L just to watch you win. <> 
-[n'Perrin'] I’m proud of you. You did it! <>
-[n' '] They ruffle your head playfully, turning back to the screen. You stand besides them, ready for another round. You shyly rest your head on their arm, as if silently thanking them. <> [j50]-
+On second thought, why don’t we sit down for a moment?<>
+[n'Perrin']Oh, are you okay? Would you want to get beverages or something at the food hall then<> 
+[n'You']Yeah…I think I just need to…be away from games for a moment. I’m sorry- <>
+[n' ']Perrin quickly shakes their head, a small smile on their face. <>
+[n'Perrin']No worries, I understand. Sometimes a change in scenery is what’s needed to recollect your thoughts. Every time I’m stumped on homework, I take a small walk around my apartment to clear my mind before returning. <>
+[n' ']You both go to the food hall and sit at a table. They order for the two of you and take care of the bill; it’s the least they can do after all. A beat goes by before they start speaking again. <>
+[n'Perrin']You wanna hear something interesting? I heard this place has a dark past. When it used to be more catered towards children, there were animatronic mascots on the stage over there that would sing for everyone. 
+[n'Perrin']However, they had an incident where a couple kids went missing. One of the animatronics even had one of the kids’ shoes in its mouth. It was really odd but that caused the whole place to shut down until they opened under new management. Really freaky stuff, y’know? I wonder who or what was behind all those murders. Well, alleged murders, I guess. <>
+[n'You']I beg your finest pardon? <>
+[n'Perrin']Oh, sorry. I really enjoy watching documentaries about old cases, and this place had a really fascinating story I really wanted to share. <>
+[n'You']Shockingly, I’m intrigued by this. It’s not every day you hear about an arcade with a freaky animatronic past, right? Tell me more. <>
+[n' ']The rest of the day is filled with casual chatter between you two and the moments of silence for food. Perrin gives you a three hour lore dump on the arcade’s history, and you can’t help but listen to them. Who was this PatMat they were referring to and why does he know so much about this place? <> 
+[n' ']Well, he did say it was just a theory. Perrin’s odd fascination with this arcade somehow rubbed off on you, leading to the two of you spending the rest of the date looking up stories on the arcade and trying to discover the truth of it all. <> [j51]-
