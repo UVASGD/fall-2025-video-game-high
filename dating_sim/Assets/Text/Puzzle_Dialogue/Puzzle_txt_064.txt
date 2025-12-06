@@ -1,0 +1,11 @@
+[n'You']Are you serious? What, do you think I’m a child and can’t play challenging games now?  <>
+[n' ']Perrin immediately shakes their head, waving their hands to defend themself.  <>
+[n'Perrin']What? Where did you get that idea? No! Good heavens no! I just-  <>
+[n'You']You think I’m just a baby who can’t win against you, right? That’s why you want to play a non-competitive game? Because I’m just dogshit against your perfect ass! <>
+[n'Perrin']I- no I... <>
+[n' ']Perrin tries to defend themself but you can see right through their facade. You scoff.  <>
+[n'You']I just wanted you to go easy on me man. Not change the freaking game! Just tone it back a bit man, good lord! <>
+[n' ']Perrin lets out an exasperated sigh, their expression growing irritated. 
+[n'Perrin']You know what? Yes, I wanted to change games so you wouldn’t keep pouting like a child every time I won. You’re never going to beat me at any game we play, so why even bother continuing if you’re just going to fail every time! <>
+
+[LOOP TO PATH C ASSHOLE CHOICE]
