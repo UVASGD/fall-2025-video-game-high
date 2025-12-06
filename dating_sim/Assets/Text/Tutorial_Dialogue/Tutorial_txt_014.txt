@@ -3,27 +3,27 @@
 [n'You']Thanks...<>
 [n' ']You tuck a stray hair behind your ear.<>
 [n' ']He shakes his head.<>
-[n'???']No biggie. Oh yeah, you can call me MH.<>
-[n'You']MH... Nice to meet you.<>
+[n'???']No biggie. Oh yeah, you can call me Frankly Frankie.<>
+[n'You']Frankie... Nice to meet you.<>
 [n' ']You introduce yourself. He grins.<>
 
-[n'MH']So, you here to check out some clubs?<>
-[n' ']MH places both his hands on his hips.<>
+[n'Frankie']So, you here to check out some clubs?<>
+[n' ']Frankie places both his hands on his hips.<>
 [n'You']Yeah, I’m a transfer student here. Here to check you out. I mean, some clubs. Out.<>
 [n' ']You awkwardly clear your throat.<>
-[n'MH']Well, this was purrfect timing! Let me show you MY super awesome club!<>
-[n' ']MH wraps an arm of steel around your shoulders before you even have the chance to refuse.<>
-[n'MH']We have a booth set up right in that corner over there. Not that far away. I can take you there!<>
+[n'Frankie']Well, this was purrfect timing! Let me show you MY super awesome club!<>
+[n' ']Frankie wraps an arm of steel around your shoulders before you even have the chance to refuse.<>
+[n'Frankie']We have a booth set up right in that corner over there. Not that far away. I can take you there!<>
 [n' ']He leads you to a small corner of the club fair by the neck. His arm feels a little cold against your skin, but it’s not like you didn’t like it.<>
 [n' ']Right as you were about to get used to the feeling, he slips his arm back out and gestures to a scrawny little booth. A pretty worn-out banner with faded writing is hung over a poster board atop its table.<> 
 [n' ']On closer look, the board is covered in a handful of blurry photos from head to toe, all connected by a thin line of red string.<>
 [n' ']You squint but you still can’t make out what it says on the banner.<>
 [n'You']So..?<>
-[n'MH']Yeah?<>
+[n'Frankie']Yeah?<>
 [n'You']What…does this say?<>
-[n'MH']This?<>
+[n'Frankie']This?<>
 [n' ']He looks to the banner and scratches the bottom of his chin.<>
-MH: Let’s see… “P”, “A”… Is that supposed to be a “Y”?
+[n'Frankie'] Let’s see… “P”, “A”… Is that supposed to be a “Y”?
 [n' ']Isn't this his club? Why doesn't he know the name on the banner?<>
 [n' ']Suddenly, you hear a quieter voice nearby.<>
 [n' ']It's an “R”, like “Paranormal Club”...<>
