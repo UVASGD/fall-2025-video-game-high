@@ -1,3 +1,3 @@
-﻿[n'You']Are you sure? We can do a different one. <>
+[n'You']Are you sure? We can do a different one. <>
 [n'Perrin']Actually…is it okay if we choose this other game? <>
 [n'You']Yeah of course! I was just throwing out ideas as to what we could play first! <> [j33] - 

@@ -1,0 +1,9 @@
+[n'You']Will you still like me? I just- if I’m bad at the game, would you even still like me? I mean, this is your favorite game, obviously, but I’m so bad, we can’t even play fairly together. This is probably boring for you, having such a crap opponent. <>
+[n' ']Perrin’s expression softens even more. They shake their head and take your hand, rubbing your knuckles gently. They hate seeing you like this.  <>
+[n'Perrin']Hey, why would I stop liking you just because you’re bad at a game? Do you really think I’m so shallow of a person? <>
+[n' ']Perrin lets out a chuckle. <> 
+[n'Perrin']Well, I knew I would beat you a couple of times at these games just because I have experience, but I’d never see you any different. I like you because you’re nice, funny, smart, and attractive. Not because I thought you’d be an absolute beast at an arcade game. <> 
+[:][n' ']You raise your head and give them a tight hug, showing how much their words meant to you. They pause but then immediately wrap their arms around you, rubbing your back. <>
+
+You're a great friend[:]<>
+I'm grateful for you[:]<>

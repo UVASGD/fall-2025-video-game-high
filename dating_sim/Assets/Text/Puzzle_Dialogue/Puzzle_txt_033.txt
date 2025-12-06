@@ -1,11 +1,14 @@
-﻿YN= Okay! That’s great– fun for both of us.
-NAR= PP grabs the game tokens and inserts two for you and two for them. They take the joystick and select multiplayer.
-PP= Let’s get started. Player one or two? 
-YN= I’ll take Player one. 
-NAR= You grab the joystick on your side, fingers hovering over the buttons. PP gives you a challenging smile, their grip on the arcade controls being all too comfortable. They’ve definitely played this before. 
-PP= Alright then… let’s get started. Just don’t cry if you can’t handle a loss.
-YN= Yeah right. In your dreams!
-NAR= As soon as you begin playing, PP immediately starts kicking your ass. You’re pretty good at video games, but they’re on a whole other level. About an hour goes by and you’ve already lost seven times. PP’s trash talk and constant jabs at your skill level start to take a toll on your confidence, and the constant losses you experience are getting to a point where it’s embarrassing. You both finish the current game you’re on, the difference in scores being far from close. You bite the inside of your cheek, turning to look at PP who still has a smug grin plastered to their face.  
-a.	PATH A: [You’re great at this] Wow, PP, you’re great at this game. You really are amazing at video games..
-b.	PATH B: [Could we change games?] Hey um…can we play a different game? Something that’s not a 1v1? I think it’ll be fun to play like a teamwork game too, perchance? 
-c.	PATH C: [Chill, dude] Cmon, now, go a little easier on me. I’m not as good as you afterall…
+[n'You']Okay! That’s great– fun for both of us. <>
+[n' ']PP grabs the game tokens and inserts two for you and two for them. They take the joystick and select multiplayer. <>
+[n'Perrin']Let’s get started. Player one or two? <>
+[n'You']I’ll take Player one. <>
+[n' ']You grab the joystick on your side, fingers hovering over the buttons. PP gives you a challenging smile, their grip on the arcade controls being all too comfortable. They’ve definitely played this before. <>
+[n'Perrin']Alright then… let’s get started. Just don’t cry if you can’t handle a loss. <>
+[n'You']Yeah right. In your dreams! <>
+[n' ']As soon as you begin playing, PP immediately starts kicking your ass. You’re pretty good at video games, but they’re on a whole other level. About an hour goes by and you’ve already lost seven times. 
+
+[:][n' ']PP’s trash talk and constant jabs at your skill level start to take a toll on your confidence, and the constant losses you experience are getting to a point where it’s embarrassing. You both finish the current game you’re on, the difference in scores being far from close. You bite the inside of your cheek, turning to look at PP who still has a smug grin plastered to their face. <>
+
+[You’re great at this][:PATH A] <> 
+[Could we change games?][:PATH B] <>
+[Chill, dude][:PATH C] <>

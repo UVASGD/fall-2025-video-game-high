@@ -1,4 +1,4 @@
-﻿[n' ']As you both walk towards the game, you can’t help but notice Perrin’s weary expression. You stop before reaching the game and turn to them. <>
+[n' ']As you both walk towards the game, you can’t help but notice Perrin’s weary expression. You stop before reaching the game and turn to them. <>
 [n'You']Hey, are you sure you’re okay with this? We don’t have to do this exact game if you don’t want to... <>
 [n'Perrin']No, no, it’s alright! I’m okay with this. <>
 [n'You']Well, if you’re sure, let’s get started! <>
