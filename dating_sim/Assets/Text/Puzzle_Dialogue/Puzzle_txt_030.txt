@@ -1,0 +1,2 @@
+﻿ [n'You']Okay… okay…whatever you say. <>
+ [n' ']Perrin puts a reassuring hand on your shoulder and smiles. Together, you two enter the arcade. <> [j31] - 

@@ -1,0 +1,3 @@
+﻿[:][n'Perrin']Any thoughts on what game you’d wanna play first? <>
+[Street Fighter][:32] <>
+[2-player Tetris][:33] <>

@@ -1,0 +1,20 @@
+﻿[n' ']As you both walk towards the game, you can’t help but notice Perrin’s weary expression. You stop before reaching the game and turn to them. <>
+[n'You']Hey, are you sure you’re okay with this? We don’t have to do this exact game if you don’t want to... <>
+[n'Perrin']No, no, it’s alright! I’m okay with this. <>
+[n'You']Well, if you’re sure, let’s get started! <>
+[n' ']As soon as you begin playing, it’s immediately obvious that you’re far more skilled at the game than they are. <>
+[n' ']In an attempt to spare their feelings, you go easy on them, but you can tell that they’re growing agitated by the way that they grip the controller stick. After a couple minutes, you finally speak up. <>
+[n'You']Hey, do you want to take a break? <>
+[n'Perrin']No. <>
+[n'You']Are you sure? I’m totally willing to- <>
+[n'Perrin']I said no. Get back on. I’m going to beat you at this, even if it’s the last thing I do. <>
+[n' ']You let out an awkward laugh, but something tells you that they aren’t kidding. Every time you finish a round and you inevitably win, Perrin insists that you need to keep going. <>
+[n' ']Another round. [*] Then another. [*] And another. <>
+[n' '][!24, @10{]It feels like you’ve been playing for hours.[}] They seem thoroughly displeased with themselves each time the screen reads YOU LOSE. <>
+[n' ']After the sixth round, you see them reach for their coin cup. You put your hand on top, blocking them from grabbing any more. <>
+[n'You']Perrin, I think we should stop. Seriously. Let’s take a break instead and- <>
+[n' ']Perrin turns to you, face flushed with anger and dissatisfaction. They grab the cup from under your hand, cutting you off with a bitter tone. <>
+[:][n'Perrin'][^30{]You don’t get it.[}] If I don’t beat you, then I’ve failed. Games are my thing. <>
+a.	[No one’s perfect]: Failed? Perrin, you haven’t failed just because you’ve lost a couple rounds. No one’s perfect at anything anyways...
+b.	[I’m sorry]: I…I’m sorry. I just… I don’t want to make you unhappy.
+c.	[It’s Just a Game] : It’s just a game, not a reflection of you as a person. 

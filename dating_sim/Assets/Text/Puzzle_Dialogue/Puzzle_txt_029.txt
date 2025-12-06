@@ -1,0 +1,3 @@
+﻿[n'You']Okay- I’m sorry! Ah wait- I’m sorry! Sor- <>
+[n'Perrin']Hey...Hey, look at me? I mean it. Seriously...It’s alright. <>
+[n' ']Perrin scratches the back of their head awkwardly and walks ahead of you to the arcade entrance. You quickly follow, not wanting to be left behind. <> [j31] - 

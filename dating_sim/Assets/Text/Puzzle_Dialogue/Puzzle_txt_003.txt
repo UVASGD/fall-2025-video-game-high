@@ -1,0 +1,14 @@
+[n' ']As you finally make it to the board-game club’s table, you notice a student with bright, warm eyes looking over a small chessboard, intensely focused. <>
+[n' ']The student looks up at you. They have long, curly black hair and a soft smile. <>
+[n'Perrin']Hey! Sorry, just a little distracted. Are you interested in the board-game club? <>
+[n'You']Yeah, I am. I’m new to campus, and I want to join some clubs to meet people. <>
+[n'Perrin']I get that! This is a good club to join. We meet up every Thursday to play games, have snacks, and just hang out. It’s a great way to meet people! <>
+[n'Perrin']Oh! I’m Perrin P. Puzzlemaster, but you can call me Perrin, or PP! <>
+[n'You']Nice to meet you, Perrin! I’m YN. <>
+[n'Perrin']YN! I love that name! So, what kind of games do you like to play? <>
+[n'You']I’m actually a fan of card games and strategy games. I play a lot of competitive games online. <>
+[n'Perrin']Oh really?! I’m pretty good at strategy games! Maybe you and I could go head-to-head sometime? <>
+[n'You']I’d like that. <>
+[n'Perrin']Cool! Here, take a flyer, and you can join us on Thursdays! <>
+[n' ']Perrin hands you a flyer with a picture of a puzzle cube on it. <>
+[n'Perrin']I hope to see you there, YN! Have a great rest of your day! <> [j4] -

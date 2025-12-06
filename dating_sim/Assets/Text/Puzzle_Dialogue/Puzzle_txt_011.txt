@@ -1,0 +1,6 @@
+[n'You']Respectfully, I’m not interested. Please leave me alone and don’t call me again. <>
+[n' ']Valentine lets out a dramatic gasp, as if you could envision her placing her hand over her head in despair. <>
+[n'Valentine']What?? You’re not?? Please, just give me a chance!! <>
+[n'You']No, I’m really not interested. <>
+[n'Valentine']Whatever. This isn’t the last you’ve seen of me!! XD <>
+[n' ']You hang up. Finally, the sweet sound of silence. <> [j14] - 

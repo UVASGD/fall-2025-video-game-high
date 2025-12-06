@@ -1,0 +1,4 @@
+[n'You']I’m busy right now. We can talk about this later. Have a good rest of your day. <>
+[n'Valentine']If you cared, you’d put me first T-T Whatever. I’ll call you back... *click* <>
+[n' ']It seems like DS had just hung up on you. Rude. <> [j14] - 
+
