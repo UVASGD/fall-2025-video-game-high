@@ -1,4 +1,5 @@
-﻿[n' ']After you and PP enjoy a day full of competitive games and witty banter, you find yourself falling more for their charm and cheekiness. Whether they lose horribly to you, or beat you beyond salvation, you still find comfort in their presence. <>
+﻿[bg'classroom':1.0]
+[n' ']After you and PP enjoy a day full of competitive games and witty banter, you find yourself falling more for their charm and cheekiness. Whether they lose horribly to you, or beat you beyond salvation, you still find comfort in their presence. <>
 [n' ']Your hands often touch when playing, or arms brush against each other when standing close. <>
 [n' ']As the day comes to a close, PP takes your hand and leads you out of the arcade. They pull you into a tight hug, relishing the peace they have found within you. <>
 [n'Perrin']Hey, I really enjoyed our time together. You’re an incredible and amazing person, and I’m so happy I was able to spend these past weeks getting to know you. <>

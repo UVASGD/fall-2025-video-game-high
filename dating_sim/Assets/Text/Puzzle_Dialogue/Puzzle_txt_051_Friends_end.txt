@@ -1,4 +1,5 @@
-﻿[n' ']The two of you sit in the food hall for a bit, talking about god knows what until the arcade staff inform you that they are closing soon. PP ends up paying for the meal, leading you out of the building and onto the sidewalk. PP fidgets with their rings for a moment before meeting your eyes. <>
+﻿[bg'classroom':1.0]
+[n' ']The two of you sit in the food hall for a bit, talking about god knows what until the arcade staff inform you that they are closing soon. PP ends up paying for the meal, leading you out of the building and onto the sidewalk. PP fidgets with their rings for a moment before meeting your eyes. <>
 [n'Perrin']Hey YN…Can we talk for a minute? I want to talk about today, I guess. <>
 [n' ']They take a deep breath, as if almost hesitant to keep going. <>
 [n'Perrin']I really like you; hanging out with you, specifically. I love our dynamic and the banter we have. I think you’re a wonderful person, but...I think we’re better off as friends. <>
