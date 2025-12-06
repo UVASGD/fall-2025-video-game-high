@@ -5,4 +5,4 @@
 [n' ']You stand up as well and give them a hug. PP immediately hugs back. When they let go, they look down at you then immediately look away nervously, fidgeting with their rings once again. <>
 [n'Perrin']Well, um, I have to get going, but you have my number, so definitely let me know when you would be available for the arcade date, ok? <>
 [n'Perrin']Bye, take care and get home safe!! <>
-[n' ']PP gives you one last smile, waving to you as they head out of the coffee shop. <> [j] - 
+[n' ']PP gives you one last smile, waving to you as they head out of the coffee shop. <> [j23] - 

@@ -11,6 +11,6 @@
 [n'You']oh yea, 2pm saturday works! i’ll be there, promise! <>
 [n' ']Perrin likes your message and sends a thumbs-up emoji. <>
 [:][n'Perrin']Excellent!! I look forward to beating you at all the games >:) <> 
-[In your dreams][:] <>
-[I'm chill with that][:] <>
-[Oh~][:] <>
+[In your dreams][:24] <>
+[I'm chill with that][:25] <>
+[Oh~][:26] <>

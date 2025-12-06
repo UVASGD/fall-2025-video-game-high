@@ -9,4 +9,4 @@
 [n'You']...Wow. This is gamer heaven, isn’t it? <>
 [n' ']Perrin smiles, taking your arm and leading you through the colorful scenery towards the money converter. <>
 [n'Perrin']I told you to trust me! I’m glad you like it. <>
-[n' ']Once you two have obtained your cup of coins, you head towards the floor full of bright and colorful machines. <> [j] - 
+[n' ']Once you two have obtained your cup of coins, you head towards the floor full of bright and colorful machines. <> [j31] - 
