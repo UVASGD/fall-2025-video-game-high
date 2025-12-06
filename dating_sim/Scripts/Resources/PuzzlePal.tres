@@ -5,9 +5,9 @@
 
 [resource]
 script = ExtResource("1_1p18g")
-character_name = "NewCharacter"
-character_id = "NC"
-dialogue_text_files = Array[String]([""])
+character_name = "Perrin P. Puzzlemaster"
+character_id = "PPP"
+dialogue_text_files = Array[String](["", "", "", "", "", "", "", "", ""])
 character_images = {}
 character_backgrounds = {}
 character_sounds = null
