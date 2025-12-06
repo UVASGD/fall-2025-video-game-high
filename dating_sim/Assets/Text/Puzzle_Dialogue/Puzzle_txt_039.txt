@@ -1,0 +1,10 @@
+﻿[n'You']We’ve grown really close over the past few weeks, and…you’re someone…well, special to me now. I really hate seeing you upset, and I want to be there for you. Whether it's just an ear to listen, or a shoulder to cry on, I’ll be there. <>
+[n' ']Perrin looks down at their hands for a long time. You wonder if you accidentally said something to upset them. You bite your lip, suddenly feeling a bit guilty for putting on such a forward presence. <>
+[n'You']Perrin, I- <>
+[n' ']Before you can continue, Perrin pulls you into a tight embrace, resting their head on your shoulder. You hesitate for a moment, but hug back. You both just stay there for a moment, quietly enjoying each other’s presence. When the moment ends, they slowly pull away, looking down at you with a soft, genuine smile. <>
+[n'Perrin']You’re right, YN. I really don’t think about what I have right now. <>
+[n'Perrin']If I did, I would realize how lucky I am to have someone like you in my life. Someone so sweet and willing to put up with my episodes... thank you for sticking with me. <>
+[n'Perrin']You’re an incredibly kind soul. <>
+[:][n' ']You feel your face heat up, a bit shy after their sudden hug and words. <>
+[Of course, bud][:42] <>
+[You're so sweet][:43] <>

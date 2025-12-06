@@ -1,0 +1,14 @@
+﻿[n' ']PP and you could not have gotten off on a more wrong note. From the fighting to just how the simple presence of one another feels, you two simply cannot stand each other. <>
+[n' ']Leaving a bit early, Perrin gathers their coat, constantly checking the time instead of paying any attention to you. As they see you approach, they decide to try and address the tension that has walled both of you off from each other one last time. <>
+[n'Perrin']Hey- <>
+[n'You']What is it, Perrin? I don’t feel like talking to you right now... <>
+[n' ']Perrin bites back a snarly retort, but takes a deep breath and continues. <>
+[n'Perrin']I just wanted to address today, okay? We got off on the wrong foot, and- <>
+[n'You']We did more than that. <>
+[n' ']Perrin is getting increasingly more frustrated with your snappy remarks. Their eyebrows crease momentarily. You notice, but keep going. <>
+[n'You']Look, I thought you were something you clearly are not. Like, I’m fine with us being friends and all, but just...I won’t be super friendly like we’ve been roommates for the past five years, y’know? <>
+[n' ']Perrin scoffs under their breath, but nods. <>
+[n'Perrin']Yeah. At this point, just...do your own thing. I won’t get in the way of anything, okay? I wish you a great rest of the semester. <>
+[n' ']You give them a polite nod, leaving first. The two of you don’t really see each other after this; <>
+[n' ']possibly running into the other at rather inconvenient times, but never saying anything more than a quick “hi” or “hello”. You can hear the fake tone in their voice when they speak, clearly trying not to be rude while also making it clear they would rather do something else than talk to you. <>
+[n' ']Congratulations, you somehow made the nicest person here absolutely despise your intestines. Great work! <>

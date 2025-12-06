@@ -1,0 +1,12 @@
+﻿[n'You']And hey, don’t forget, it’s just a game too. <>
+[n' ']Perrin gives you a frown, as if saying, “not the time”. You scratch the back of your head nervously. <>
+[n'You']Um…too soon? <>
+[n'Perrin']Perhaps…just a bit too soon. <>
+[n' ']You both look away awkwardly. PP clears their throat. <>
+[n'You']...I can go get you some water if you need. <>
+[n'Perrin']I kind of just want to sit down with you, honestly. Maybe we can take a small break from gaming and…get appetizers or something? <>
+[n'Perrin']Yeah...that sounds good...um...I’m sorry. Sorry for how I reacted when losing. Um...I shouldn’t have yelled at you. <>
+[n' ']You smile softly at their quiet apology, taking their hand and rubbing their forearm. <>
+[n'You']It’s okay, don’t worry too much about it. I also know personally that losing so many times in a row is very...well, unpleasant. <>
+[n' ']You lead them over to the food hall, looking at them as you speak. <>
+[n'You']Now c’mon. I saw that they had ginger ale; your favorite. We can always go back to the games after a break, right? <> [j51] - 

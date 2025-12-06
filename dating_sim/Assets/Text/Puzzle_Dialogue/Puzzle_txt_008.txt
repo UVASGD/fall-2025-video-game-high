@@ -1,3 +1,4 @@
+[bg'starbloxcafe':1.0]
 [n' ']After meeting Perrin outside the cafe, you approach each other with awkward yet friendly greetings, and you follow them into the cafe. <>
 [n' ']Once you’ve both ordered, you walk towards the seating area. <>
 [n'You']Thanks for bringing me here! I’ve never been here before. <>

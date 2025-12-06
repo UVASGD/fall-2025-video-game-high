@@ -1,0 +1,10 @@
+﻿[n'You']That’s an issue I can’t help you with. You need serious help if you’re just going to keep getting pissy about losing some stupid arcade game. <>
+[n' ']Perrin’s head snaps towards you, a quiet scoff slipping from their lips. <>
+[n'Perrin']Pissy? What do you mean by pissy? <>
+[n'You']Well, for one, you’re throwing a big tantrum right in the middle of this arcade because you can’t seem to get over a loss, Perrin. 
+[n'You]I don’t know about you, but I mean that’s pretty pissy and immature of you to do. You’re a grown ass adult, for crying out loud. <>
+[n' ']Perrin bites the inside of their cheek and takes a deep breath in and out, trying to calm down. Your words were not what they needed to hear at this moment, but they want to be the bigger person at this point. 
+[n' ']However, as they speak again, you can tell they haven’t fully calmed down. <>
+[:][n'Perrin']You know what? I’m sorry, okay? I didn’t mean to get upset and all angry at you. You’re right. I was overreacting and should have taken a step back from the game instead of just pushing through. <>
+[I'm sorry too][:44] <>
+[Bruh seriously?][:49] <>

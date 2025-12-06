@@ -3,5 +3,4 @@
 [n'Perrin']Well, I unfortunately have work soon, but this was...nice. You already have my number, and, if you maybe want a second date, you know where to find me. <>
 [n'Perrin']We could try the arcade besides the library that I mentioned, but only if that’s something that peaks your interest...um, yeah. Take care now, and get home safe. <>
 [n' ']Perrin stands up and grabs their coat, walking over to you and giving you a friendly nudge on the shoulder. They head towards the exit, waving to you as they head out of the coffee shop. <>
-[n' ']You sit for a few more minutes, embarrassed by your actions. You gather your belongings and head home, hoping the two of you could just forget about this one. <>
-[v'Relationship_Status' : 0] <> [j014] -
+[n' ']You sit for a few more minutes, embarrassed by your actions. You gather your belongings and head home, hoping the two of you could just forget about this one. <> [j21] - 

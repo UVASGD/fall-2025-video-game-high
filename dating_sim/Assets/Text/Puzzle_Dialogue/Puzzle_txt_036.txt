@@ -1,20 +1,10 @@
-﻿[n' ']As you both walk towards the game, you can’t help but notice Perrin’s weary expression. You stop before reaching the game and turn to them. <>
-[n'You']Hey, are you sure you’re okay with this? We don’t have to do this exact game if you don’t want to... <>
-[n'Perrin']No, no, it’s alright! I’m okay with this. <>
-[n'You']Well, if you’re sure, let’s get started! <>
-[n' ']As soon as you begin playing, it’s immediately obvious that you’re far more skilled at the game than they are. <>
-[n' ']In an attempt to spare their feelings, you go easy on them, but you can tell that they’re growing agitated by the way that they grip the controller stick. After a couple minutes, you finally speak up. <>
-[n'You']Hey, do you want to take a break? <>
-[n'Perrin']No. <>
-[n'You']Are you sure? I’m totally willing to- <>
-[n'Perrin']I said no. Get back on. I’m going to beat you at this, even if it’s the last thing I do. <>
-[n' ']You let out an awkward laugh, but something tells you that they aren’t kidding. Every time you finish a round and you inevitably win, Perrin insists that you need to keep going. <>
-[n' ']Another round. [*] Then another. [*] And another. <>
-[n' '][!24, @10{]It feels like you’ve been playing for hours.[}] They seem thoroughly displeased with themselves each time the screen reads YOU LOSE. <>
-[n' ']After the sixth round, you see them reach for their coin cup. You put your hand on top, blocking them from grabbing any more. <>
-[n'You']Perrin, I think we should stop. Seriously. Let’s take a break instead and- <>
-[n' ']Perrin turns to you, face flushed with anger and dissatisfaction. They grab the cup from under your hand, cutting you off with a bitter tone. <>
-[:][n'Perrin'][^30{]You don’t get it.[}] If I don’t beat you, then I’ve failed. Games are my thing. <>
-a.	[No one’s perfect]: Failed? Perrin, you haven’t failed just because you’ve lost a couple rounds. No one’s perfect at anything anyways...
-b.	[I’m sorry]: I…I’m sorry. I just… I don’t want to make you unhappy.
-c.	[It’s Just a Game] : It’s just a game, not a reflection of you as a person. 
+﻿[n'You']Failed? Perrin, you haven’t failed just because you’ve lost a couple rounds. No one’s perfect at anything anyways... <>
+[n'Perrin']Yeah, but… Games are one of the only things I am good at. If I can’t do this, what the hell am I supposed to do otherwise, huh? I don’t have a damn major! I don’t have a path made up yet! All I have are games to escape, and even then am I reminded of how much of a failure I am!! <> 
+[n' ']Perrin looks at you for a moment before turning away, going quiet after their shout session. You feel bad for them, offering a supportive hand. <>
+[n'You']Hey, Perrin. Look at me...It’s okay to lose. You don’t need to be perfect 24/7. If you keep looking at all the things wrong in life, you never focus on how far you’ve come. <>
+[n' ']Perrin slowly turns to you, their frown faltering slightly. You notice and keep going. <>
+[n'You']You’re only a second year and already president of the boardgame club. You’ve been promoted at your job in the library with a boss who adores you. You’re a straight A student with an amazing friend group. Perrin, you’re a wonderful person, and I just wish you could see yourself from my perspective. <>
+[:][n' ']That last part slips from your mouth unexpectedly, but you think it’s just what Perrin needed to hear. You rub their arm, as if saying you would be there for them no matter the troubles they go through. <>
+[I'm always here for you][:39] <>
+[Don't fret!][:40] <>
+[It's just a game][:41] <>

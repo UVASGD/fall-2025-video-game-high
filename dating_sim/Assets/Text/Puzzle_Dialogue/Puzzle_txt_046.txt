@@ -1,0 +1,18 @@
+﻿[n'You']I forgive you, Perrin. You know I care about you. It seems like you have some internal conflict you need help dealing with. <>
+[n'You']I’m no expert at handling it, but I wouldn’t mind listening to you if you ever need someone... <> 
+[n' ']Perrin’s expression softens significantly. Their cheeks darken just a tinge, but they quickly regain their composure. A shy smile crosses their lips as they fix their glasses. <>
+[n'Perrin']Thank you. Once again, I am truly sorry for how inappropriately I reacted. I really just…I despise losing, and that’s something I should work on myself. I never should have lashed out on you like that. It was not your fault. <>
+[n'You']I get it though. Losing seven times in a row is pretty upsetting. Hell, when you kept beating me at Uno last week, I had to go to the bathroom to calm down. I almost flipped the freaking table! <>
+[n' ']Perrin lets out a chuckle, scratching the back of their neck. <>
+[n'Perrin']I guess we are in the same boat then. Sore losers till the end. <>
+[n'You']Yeah but I fear you may be more of a sore loser than I am- no hard feelings. <>
+[n' ']You nudge Perrin’s shoulder and smile. Perrin stampers over their words, looking away. However, you can see a sly smirk cross their lips. <>
+[n'Perrin']None taken, I will admit that I’m a sore loser...but at least I don’t look like an angry hamster when they’re forced to draw eight cards twice in a row. <>
+[n'You']Hey! That was unfair! You honestly can’t tell me that wouldn’t piss you off at least a tad bit!! Eight cards is an entire new hand I didn’t even need!!! <>
+[n' ']You frown at their retort, letting out a huff of frustration. Perrin lets out a laugh at your expression, ruffling your hair. <>
+[n'Perrin']An adorable, angry hamster... <>
+[n' ']Perrin lets out a quiet hum, looking back at the games. <>
+[n'Perrin']Would you like to get back to the games? I promise to control my anger a bit better... <>
+[n'You']Yeah! I’m down for a couple more games! What about wack-a-mole since it’s less competitive? <>
+[n'Perrin']Great! Although I never took you as the type to want to hurt your own brethren. <>
+[n' ']You scoff at Perrin’s remark, your cheeks darkening slightly. They really are hellbent on comparing you to any small rodent, but somehow you’re okay with it. Anything to put a smile on their face, right? <> [j50] -

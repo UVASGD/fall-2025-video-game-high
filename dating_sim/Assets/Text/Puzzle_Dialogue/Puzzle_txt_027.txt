@@ -1,4 +1,5 @@
 ﻿[n' ']You and Perrin meet for a delicious lunch, and spend the entire time joking, laughing, and maybe even a little flirting. The weather on the way to the arcade is practically perfect; you couldn’t imagine a more beautiful day for a date… or a more beautiful date to go with! <>
+[bg'arcade_background':1.0]
 [n' ']When you get there, though, you notice the building seems almost abandoned, the windows blocked with paper. <>
 [n'Perrin']Well, here we are! <>
 [n'You']It looks a little... run-down. Are you sure this is it? <>

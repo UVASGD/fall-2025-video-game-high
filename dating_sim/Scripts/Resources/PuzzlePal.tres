@@ -1,15 +1,47 @@
-[gd_resource type="Resource" script_class="CharacterData" load_steps=3 format=3 uid="uid://d0f2ca2c4p3ud"]
+[gd_resource type="Resource" script_class="CharacterData" load_steps=21 format=3 uid="uid://d0f2ca2c4p3ud"]
 
 [ext_resource type="Script" uid="uid://bhirb0q308e7m" path="res://Scripts/Classes/CharacterBase.gd" id="1_1p18g"]
 [ext_resource type="FontFile" uid="uid://crmm7enkt3vwj" path="res://Fonts/Foglihten-068.otf" id="1_lpxt2"]
+[ext_resource type="Texture2D" uid="uid://bvngwca6kfir8" path="res://Assets/Art/Backgrounds/coffee background.jpg" id="1_wrll7"]
+[ext_resource type="Texture2D" uid="uid://dy0cjkdjyco0d" path="res://Assets/Art/Backgrounds/classroom bg.jpg" id="2_d0ppf"]
+[ext_resource type="Texture2D" uid="uid://5vckpgs863yi" path="res://Assets/Art/Backgrounds/black-screen.png" id="3_jy4kd"]
+[ext_resource type="Texture2D" uid="uid://bh3mf21utr506" path="res://Assets/Art/Backgrounds/white-screen.jpg" id="4_t2xfb"]
+[ext_resource type="Texture2D" uid="uid://limixdbtrp1d" path="res://Assets/Art/Characters/Perrin/pp-happy1-entrance.png" id="5_naqgq"]
+[ext_resource type="Texture2D" uid="uid://coqekuwpkogyn" path="res://Assets/Art/Characters/Perrin/pp-happy1-closed.png" id="6_bse6l"]
+[ext_resource type="Texture2D" uid="uid://dbeksieke1kq3" path="res://Assets/Art/Characters/Perrin/pp-happy1-open.png" id="7_4kv7l"]
+[ext_resource type="Texture2D" uid="uid://bc7tpb702mmyr" path="res://Assets/Art/Characters/Perrin/pp-frustrated-closed.png" id="8_urri0"]
+[ext_resource type="Texture2D" uid="uid://cesq1g5xh00wt" path="res://Assets/Art/Characters/Perrin/pp-frustrated-open.png" id="9_b3ctv"]
+[ext_resource type="Texture2D" uid="uid://chslnatpgufkm" path="res://Assets/Art/Characters/Perrin/pp-flirty-closed.png" id="10_8uhyj"]
+[ext_resource type="Texture2D" uid="uid://gitvxeu126i7" path="res://Assets/Art/Characters/Perrin/pp-cringe-open.png" id="11_uajll"]
+[ext_resource type="Texture2D" uid="uid://bigmk7kwxwv68" path="res://Assets/Art/Characters/Perrin/pp-ashamed-closed.png" id="12_1fl1g"]
+[ext_resource type="Texture2D" uid="uid://b1iv0fteghrfd" path="res://Assets/Art/Characters/Perrin/pp-ashamed-open.png" id="13_js5al"]
+[ext_resource type="Texture2D" uid="uid://ddh50hqi7b454" path="res://Assets/Art/Characters/Perrin/pp-angry-closed.png" id="14_u0ujr"]
+[ext_resource type="Texture2D" uid="uid://c16ik87c55v6g" path="res://Assets/Art/Characters/Perrin/pp-angry-open.png" id="15_mvim8"]
+[ext_resource type="Texture2D" uid="uid://dv7petf6vlf8o" path="res://Assets/Art/Characters/Perrin/pp-flirty-open.png" id="16_yqtsa"]
+[ext_resource type="Texture2D" uid="uid://bpa1fnia62t4q" path="res://Assets/Art/Characters/Perrin/pp-surprised-closed.png" id="17_c38o0"]
+[ext_resource type="Texture2D" uid="uid://kvgcm6bylfwu" path="res://Assets/Art/Characters/Perrin/pp-surprised-open.png" id="18_04fdr"]
 
 [resource]
 script = ExtResource("1_1p18g")
 character_name = "Perrin P. Puzzlemaster"
 character_id = "PPP"
 dialogue_text_files = Array[String](["", "", "", "", "", "", "", "", ""])
-character_images = {}
-character_backgrounds = {}
+character_images = {
+"angry": [ExtResource("14_u0ujr"), ExtResource("15_mvim8")],
+"ashamed": [ExtResource("12_1fl1g"), ExtResource("13_js5al")],
+"cringe": [ExtResource("10_8uhyj"), ExtResource("11_uajll")],
+"entrance": ExtResource("5_naqgq"),
+"flirty": [ExtResource("10_8uhyj"), ExtResource("16_yqtsa")],
+"frustrated": [ExtResource("8_urri0"), ExtResource("9_b3ctv")],
+"happy": [ExtResource("6_bse6l"), ExtResource("7_4kv7l")],
+"surprised": [ExtResource("17_c38o0"), ExtResource("18_04fdr")]
+}
+character_backgrounds = {
+"black-background": ExtResource("3_jy4kd"),
+"cafe": ExtResource("1_wrll7"),
+"classroom": ExtResource("2_d0ppf"),
+"white-background": ExtResource("4_t2xfb")
+}
 character_sounds = null
 character_variables = {
 "will talk": true

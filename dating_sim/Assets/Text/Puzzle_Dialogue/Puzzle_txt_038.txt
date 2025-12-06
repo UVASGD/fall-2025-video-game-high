@@ -1,0 +1,7 @@
+﻿[n'You']It’s just a game, not a reflection of you as a person. <>
+[n' ']Perrin turns to look at you, their expression not wavering one bit. They seem to grab the arcade controls a bit harder. Their voice comes out a bit sharper. <>
+[n'Perrin']I didn’t say this was a reflection of myself. I just said- <>
+[n' ']Perrin turns away, taking a deep breath and fixing their glasses. They turn back to you, their voice slightly softer but still carrying an edge of insecurity. <>
+[:][n'Perrin']I just... despise losing, okay? That’s all...I want to win- need to win. If I don’t...I’m just...I’m not good enough for anything. <>
+[I'm sorry][:40] <>
+[Not my problem][:45] <>

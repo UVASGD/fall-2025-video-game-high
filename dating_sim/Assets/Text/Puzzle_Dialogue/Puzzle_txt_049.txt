@@ -1,0 +1,10 @@
+﻿[n'You']Wow, you can’t even apologize correctly. You yell at me and act like you’re being the bigger person by “apologizing”, huh? <>
+[n'You']Well, I don’t forgive you. I know you’re not genuine. You just don’t like it when people dislike you. <>
+[n' ']Perrin frowns at your bitter tone, but you continue. <>
+[n'You']I thought you were this sweet person who I could just go on cute dates with, but you’re just someone with anger issues. You need to work on yourself because I’m not going to babysit your temperament if we’re together. <>
+[n'Perrin']You know what YN? I wasn’t the one who asked out the other. You asked me out. Maybe, you should have waited before knowing what you were going to get into. Nobody’s perfect, and I’m sorry I wasn’t the “dreamboat” you were imagining. I’m a person, like everyone else in this arcade. I’m going to have issues. <>
+[n' ']Perrin’s tone is something you’ve never heard from them; there’s a tinge of distaste to their words, as if they’re no longer happy with being in your presence. <>
+[n'You']I should have waited? Like how you’re waiting to choose a major? It’s not my fault I take risks with my life while you’re just too scared to make a damn choice in life! <>
+[n' ']You regret the words that just left your mouth, but what was said can’t be taken back. Perrin’s expression darkens. They stay quiet, biting the inside of their cheek. <>
+[n' ']For the first time, they don’t try to fight back. They just nod, as if accepting what the situation has become. <>
+[n'Perrin']Okay, man. Okay. <> [j52] - 

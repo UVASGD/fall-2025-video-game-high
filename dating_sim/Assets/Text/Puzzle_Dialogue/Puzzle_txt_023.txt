@@ -1,4 +1,5 @@
-﻿[n' ']A couple days have gone by since you and Perrin’s first date, and you have not been able to stop thinking about them. When you return home from your last class of the day, you receive a text from none other than Perrin themselves. <>
+﻿[bg'black-background':1.0]
+[n' ']A couple days have gone by since you and Perrin’s first date, and you have not been able to stop thinking about them. When you return home from your last class of the day, you receive a text from none other than Perrin themselves. <>
 [n'Perrin']Afternoon! You should be out of class by now, right? I wanted to talk with you about the arcade date next time if you’re free? Text me back!! <>
 [n' ']You smile at the text, unlocking your phone and replying back a couple minutes later. <>
 [n'You']hey Perrin! i’ve been doing well, but classes have been kicking my ass :( <>

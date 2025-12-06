@@ -1,0 +1,13 @@
+﻿[n'You']This is just a small part of your life, Perrin. It’s a small moment that’s meant to push you back, but you should take it as a reason to keep going forward! <>
+[n' ']Perrin takes a deep breath and nods, their eyes still on the screen. <>
+[n'Perrin']I…I know. I know you’re right. It’s just- I don’t know. These things just get so…clustered up in my head; I can’t control them. Sometimes I worry I might just spiral out of control but... <>
+[n' ']Perrin’s face flushes slightly, a bit embarrassed for being so vulnerable in front of you. <>
+[n'Perrin']I apologize. I didn’t mean for this to turn into a therapy session- <> 
+[n'You']No! Don’t apologize! It’s good that you’re using this moment to talk things through! I’ve heard it’s good to express your dilemmas because contextualizing them helps with understanding and combating them! <>
+[n' ']You rub Perrin’s back, giving them silent encouragement to continue. You both stand by the arcade machine as Perrin talks about their inferiority struggles they’ve had all their life. <>
+[n' ']Throughout it all, you either hold their hand or rub their arm; a quiet gesture but enough to show that you’re still listening. At the end of it all, Perrin sighs, looking a bit better after having shared themselves with you. <>
+[n'Perrin']And yeah...that’s sort of why I’ve been so...focused on trying to prove my worth. I promise, it had nothing to do with you. I just wanted a sense of accomplishment in my life, even if it was something as menial as a video game win. I’m sorry I acted the way I did. You really didn’t deserve that. <>
+[n'You']I forgive you, Perrin. Especially after what you told me, I can see why you would be so hellbent on this…on winning. If it’s all the same to you, I would still love to spend this day with you. <>
+[n'You']We don’t have to play anything competitive too; something more calm? Or we set a limit as to how many times we play a game? Anything you want! I’m just happy to spend it with you... <>
+[n'Perrin']Thank you. I think, though...now that I’ve told you everything, I feel a bit better. You have a really calming presence, and I feel like I’ll be able to handle my issues better, now that I’m with you. <>
+[n' ']Perrin takes your hand and gives it a gentle squeeze. They lead you towards the other arcade games in the back, never letting you go as the two of you spend more hours together, just enjoying the day. <> [j50] - 
