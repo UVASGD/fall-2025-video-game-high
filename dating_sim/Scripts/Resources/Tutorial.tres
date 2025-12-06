@@ -1,4 +1,4 @@
-[gd_resource type="Resource" script_class="CharacterData" load_steps=34 format=3 uid="uid://dh881kitknfwd"]
+[gd_resource type="Resource" script_class="CharacterData" load_steps=35 format=3 uid="uid://dh881kitknfwd"]
 
 [ext_resource type="Texture2D" uid="uid://5vckpgs863yi" path="res://Assets/Art/Backgrounds/black-screen.png" id="1_ktkd0"]
 [ext_resource type="AudioStream" uid="uid://bv1cdxwkatgaq" path="res://Assets/Sounds/music/Cozy Tune.mp3" id="1_oakmt"]
@@ -33,12 +33,13 @@
 [ext_resource type="AudioStream" uid="uid://t51mcx73tvyl" path="res://Assets/Sounds/effects/metal-chain-7056.mp3" id="30_4nec7"]
 [ext_resource type="FontFile" uid="uid://b41entevbocrc" path="res://Fonts/FiraCode-Light.otf" id="30_yrt4i"]
 [ext_resource type="AudioStream" uid="uid://dme7enhuqfguw" path="res://Assets/Sounds/effects/MY_DEStINY_is_FNAF.mp3" id="31_cnqod"]
+[ext_resource type="AudioStream" uid="uid://7ax4hk7drd4s" path="res://Assets/Sounds/music/Jazzy Tune.mp3" id="32_rg0nl"]
 
 [resource]
 script = ExtResource("1_xpg0m")
 character_name = ""
 character_id = "Man"
-dialogue_text_files = Array[String](["res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_000.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_001.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_002.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_003.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_004.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_005.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_006.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_007.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_008.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_009.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_010.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_011.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_012.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_013.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_014.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_015.txt"])
+dialogue_text_files = Array[String](["res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_000.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_001.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_002.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_003.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_004.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_005.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_006.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_007.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_008.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_009.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_010.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_011.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_012.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_013.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_014.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_015.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_016.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_016.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_016.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_019.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_020.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_021.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_022.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_023.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_024.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_025.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_026.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_027.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_028.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_029.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_030.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_031.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_032.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_033.txt"])
 character_images = {
 "entrance": ExtResource("4_c6kiu"),
 "happy": [ExtResource("7_hud4q"), ExtResource("6_8w7ek")],
@@ -64,6 +65,7 @@ character_sounds = {
 "destiny": ExtResource("31_cnqod"),
 "evil": ExtResource("15_llr52"),
 "heartbeat": ExtResource("1_yrk1y"),
+"jazzlock": ExtResource("32_rg0nl"),
 "necklace": ExtResource("30_4nec7")
 }
 character_variables = {

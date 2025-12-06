@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://7ax4hk7drd4s"
+path="res://.godot/imported/Jazzy Tune.mp3-7be2722d1387fd368e5b648dd63c9d99.mp3str"
+
+[deps]
+
+source_file="res://Assets/Sounds/music/Jazzy Tune.mp3"
+dest_files=["res://.godot/imported/Jazzy Tune.mp3-7be2722d1387fd368e5b648dd63c9d99.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

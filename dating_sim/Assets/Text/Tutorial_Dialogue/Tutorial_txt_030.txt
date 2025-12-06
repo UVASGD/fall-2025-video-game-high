@@ -9,5 +9,7 @@
 [n' ']Manuella seems not to notice the flush still dusting your cheeks, she nods a little.<>
 [n'Manuella']I get it, I get it. There’s a lot to take in. But it’s okay! You don’t have to do everything at once,<>
 [n'Manuella']Maybe you could just start with one club, then go from there?<>
-[n' ']You think Manuella’s got a good point there. You close your eyes and try to imagine which person… Which club…You’d want to spend your semester with.<>
-[n' ']Which club will you choose?<>
+[n' ']You think Manuella’s got a good point there. You close your eyes and try to imagine which person... Which club... You’d want to spend your semester with.<>
+Paranormals?[:31]<>
+Rugby?[:32]<>
+Board Games?[:33]<>

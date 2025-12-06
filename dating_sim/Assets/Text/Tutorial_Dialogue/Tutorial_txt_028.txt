@@ -6,5 +6,9 @@
 [n'Manuella']Yeah I get it! It’s easy to feel overwhelmed, maybe try to pick one thing at a time for starters, yeah?<>
 [n' ']Yes, you feel like Manuella’s probably right here.<>
 [n' ']Starting with one club will help you integrate and meet more people without every day feeling as crazy as this one.<>
-[n' ']But...<>
-[n' ']Which club will you choose?<>
+[n' ']But...<> 
+[n' ']Which club... Or...<>
+[:][n' ']Maybe it's more like which club president will you choose?<>
+Paranormals?[:31]<>
+Rugby?[:32]<>
+Board Games?[:33]<>

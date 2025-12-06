@@ -2,12 +2,12 @@
 [n' ']… <>
 [<'heartbeat'] Your heart skips a beat. <>
 [n' ']You can feel their breath right up against you <>
-[n' ']Everything feels hazy…<>
+[n' ']Everything feels hazy...<>
 [n' ']Where are you…? <>
-[n'???']… <>
+[n'???']...<>
 [n'???']I’ve been meaning to ask… <>
 [n' ']The other person lifts their hand to cup your cheek, their thumb lightly brushes against your bottom lip. <>
-[n'???'] …Can I? <>
+[n'???']...Can I? <>
 [n' ']They look into your eyes, searching for your answer. <>
 [n' ']You gulp, leaning in a little closer to them… <>
 [n' ']Just a bit closer… <>
