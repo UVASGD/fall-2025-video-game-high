@@ -1,7 +1,7 @@
-[gd_scene load_steps=3 format=3 uid="uid://m44l4kkifqd5"]
+[gd_scene load_steps=3 format=3 uid="uid://cvnrqi5jxw20o"]
 
 [ext_resource type="Texture2D" uid="uid://casin4y5e81i6" path="res://icon.svg" id="1_xbebw"]
-[ext_resource type="Script" uid="uid://bhg8bsgr8ot7v" path="res://Scenes/Button.gd" id="2_7xmno"]
+[ext_resource type="Script" path="res://Scenes/Button.gd" id="2_7xmno"]
 
 [node name="Credits" type="Control"]
 layout_mode = 3

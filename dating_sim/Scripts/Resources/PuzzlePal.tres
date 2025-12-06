@@ -1,4 +1,4 @@
-[gd_resource type="Resource" script_class="CharacterData" load_steps=21 format=3 uid="uid://d0f2ca2c4p3ud"]
+[gd_resource type="Resource" script_class="CharacterData" load_steps=22 format=3 uid="uid://d0f2ca2c4p3ud"]
 
 [ext_resource type="Script" uid="uid://bhirb0q308e7m" path="res://Scripts/Classes/CharacterBase.gd" id="1_1p18g"]
 [ext_resource type="FontFile" uid="uid://crmm7enkt3vwj" path="res://Fonts/Foglihten-068.otf" id="1_lpxt2"]
@@ -6,6 +6,7 @@
 [ext_resource type="Texture2D" uid="uid://dy0cjkdjyco0d" path="res://Assets/Art/Backgrounds/classroom bg.jpg" id="2_d0ppf"]
 [ext_resource type="Texture2D" uid="uid://5vckpgs863yi" path="res://Assets/Art/Backgrounds/black-screen.png" id="3_jy4kd"]
 [ext_resource type="Texture2D" uid="uid://bh3mf21utr506" path="res://Assets/Art/Backgrounds/white-screen.jpg" id="4_t2xfb"]
+[ext_resource type="Texture2D" uid="uid://dea23k1ma0ln8" path="res://Assets/Art/Backgrounds/arcade_outdoor_background.png" id="5_d0ppf"]
 [ext_resource type="Texture2D" uid="uid://limixdbtrp1d" path="res://Assets/Art/Characters/Perrin/pp-happy1-entrance.png" id="5_naqgq"]
 [ext_resource type="Texture2D" uid="uid://coqekuwpkogyn" path="res://Assets/Art/Characters/Perrin/pp-happy1-closed.png" id="6_bse6l"]
 [ext_resource type="Texture2D" uid="uid://dbeksieke1kq3" path="res://Assets/Art/Characters/Perrin/pp-happy1-open.png" id="7_4kv7l"]
@@ -25,7 +26,7 @@
 script = ExtResource("1_1p18g")
 character_name = "Perrin P. Puzzlemaster"
 character_id = "PPP"
-dialogue_text_files = Array[String](["", "", "", "", "", "", "", "", ""])
+dialogue_text_files = Array[String](["res://Assets/Text/Puzzle_Dialogue/Puzzle_txt_000.txt", "res://Assets/Text/Puzzle_Dialogue/Puzzle_txt_001.txt", "res://Assets/Text/Puzzle_Dialogue/Puzzle_txt_002.txt", "res://Assets/Text/Puzzle_Dialogue/Puzzle_txt_003.txt", "res://Assets/Text/Puzzle_Dialogue/Puzzle_txt_004.txt", "res://Assets/Text/Puzzle_Dialogue/Puzzle_txt_005.txt", "res://Assets/Text/Puzzle_Dialogue/Puzzle_txt_006.txt", "res://Assets/Text/Puzzle_Dialogue/Puzzle_txt_007.txt", "res://Assets/Text/Puzzle_Dialogue/Puzzle_txt_008.txt", "res://Assets/Text/Puzzle_Dialogue/Puzzle_txt_009.txt", "res://Assets/Text/Puzzle_Dialogue/Puzzle_txt_010.txt", "res://Assets/Text/Puzzle_Dialogue/Puzzle_txt_011.txt", "res://Assets/Text/Puzzle_Dialogue/Puzzle_txt_012.txt", "res://Assets/Text/Puzzle_Dialogue/Puzzle_txt_013.txt", "res://Assets/Text/Puzzle_Dialogue/Puzzle_txt_014.txt", "res://Assets/Text/Puzzle_Dialogue/Puzzle_txt_015.txt", "res://Assets/Text/Puzzle_Dialogue/Puzzle_txt_016.txt", "res://Assets/Text/Puzzle_Dialogue/Puzzle_txt_017.txt", "res://Assets/Text/Puzzle_Dialogue/Puzzle_txt_018.txt", "res://Assets/Text/Puzzle_Dialogue/Puzzle_txt_019.txt", "res://Assets/Text/Puzzle_Dialogue/Puzzle_txt_020.txt", "res://Assets/Text/Puzzle_Dialogue/Puzzle_txt_021.txt", "res://Assets/Text/Puzzle_Dialogue/Puzzle_txt_022.txt", "res://Assets/Text/Puzzle_Dialogue/Puzzle_txt_023.txt", "res://Assets/Text/Puzzle_Dialogue/Puzzle_txt_024.txt", "res://Assets/Text/Puzzle_Dialogue/Puzzle_txt_025.txt", "res://Assets/Text/Puzzle_Dialogue/Puzzle_txt_026.txt", "res://Assets/Text/Puzzle_Dialogue/Puzzle_txt_027.txt", "res://Assets/Text/Puzzle_Dialogue/Puzzle_txt_028.txt", "res://Assets/Text/Puzzle_Dialogue/Puzzle_txt_029.txt", "res://Assets/Text/Puzzle_Dialogue/Puzzle_txt_030.txt", "res://Assets/Text/Puzzle_Dialogue/Puzzle_txt_031.txt", "res://Assets/Text/Puzzle_Dialogue/Puzzle_txt_032.txt", "res://Assets/Text/Puzzle_Dialogue/Puzzle_txt_033.txt", "res://Assets/Text/Puzzle_Dialogue/Puzzle_txt_034.txt", "res://Assets/Text/Puzzle_Dialogue/Puzzle_txt_035.txt", "res://Assets/Text/Puzzle_Dialogue/Puzzle_txt_036.txt", "res://Assets/Text/Puzzle_Dialogue/Puzzle_txt_037.txt", "res://Assets/Text/Puzzle_Dialogue/Puzzle_txt_038.txt", "res://Assets/Text/Puzzle_Dialogue/Puzzle_txt_039.txt", "res://Assets/Text/Puzzle_Dialogue/Puzzle_txt_040.txt", "res://Assets/Text/Puzzle_Dialogue/Puzzle_txt_041.txt", "res://Assets/Text/Puzzle_Dialogue/Puzzle_txt_042.txt", "res://Assets/Text/Puzzle_Dialogue/Puzzle_txt_043.txt", "res://Assets/Text/Puzzle_Dialogue/Puzzle_txt_044.txt", "res://Assets/Text/Puzzle_Dialogue/Puzzle_txt_045.txt", "res://Assets/Text/Puzzle_Dialogue/Puzzle_txt_046.txt", "res://Assets/Text/Puzzle_Dialogue/Puzzle_txt_047.txt", "res://Assets/Text/Puzzle_Dialogue/Puzzle_txt_048.txt", "res://Assets/Text/Puzzle_Dialogue/Puzzle_txt_049.txt", "res://Assets/Text/Puzzle_Dialogue/Puzzle_txt_050_Romance_end.txt", "res://Assets/Text/Puzzle_Dialogue/Puzzle_txt_051_Friends_end.txt", "res://Assets/Text/Puzzle_Dialogue/Puzzle_txt_052_Awkward_end.txt", "res://Assets/Text/Puzzle_Dialogue/Puzzle_txt_053.txt", "res://Assets/Text/Puzzle_Dialogue/Puzzle_txt_054.txt", "res://Assets/Text/Puzzle_Dialogue/Puzzle_txt_055.txt", "res://Assets/Text/Puzzle_Dialogue/Puzzle_txt_056.txt", "res://Assets/Text/Puzzle_Dialogue/Puzzle_txt_057.txt", "res://Assets/Text/Puzzle_Dialogue/Puzzle_txt_058.txt", "res://Assets/Text/Puzzle_Dialogue/Puzzle_txt_059.txt", "res://Assets/Text/Puzzle_Dialogue/Puzzle_txt_060.txt", "res://Assets/Text/Puzzle_Dialogue/Puzzle_txt_061.txt", "res://Assets/Text/Puzzle_Dialogue/Puzzle_txt_062.txt", "res://Assets/Text/Puzzle_Dialogue/Puzzle_txt_063.txt", "res://Assets/Text/Puzzle_Dialogue/Puzzle_txt_064.txt", "res://Assets/Text/Puzzle_Dialogue/Puzzle_txt_065.txt", "res://Assets/Text/Puzzle_Dialogue/Puzzle_txt_066.txt", "res://Assets/Text/Puzzle_Dialogue/Puzzle_txt_067.txt", "res://Assets/Text/Puzzle_Dialogue/Puzzle_txt_068.txt"])
 character_images = {
 "angry": [ExtResource("14_u0ujr"), ExtResource("15_mvim8")],
 "ashamed": [ExtResource("12_1fl1g"), ExtResource("13_js5al")],
@@ -37,6 +38,7 @@ character_images = {
 "surprised": [ExtResource("17_c38o0"), ExtResource("18_04fdr")]
 }
 character_backgrounds = {
+"arcade_outside": ExtResource("5_d0ppf"),
 "black-background": ExtResource("3_jy4kd"),
 "cafe": ExtResource("1_wrll7"),
 "classroom": ExtResource("2_d0ppf"),
