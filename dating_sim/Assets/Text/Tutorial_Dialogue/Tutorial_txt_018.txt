@@ -1,8 +1,9 @@
-[n'You']Those blurry photos on the board...<> 
-<+ 10 Romance Points>
-[n' ']You point to the poster board from before.<>
-[n'Frankie']Oh, that?<>
-[n' ']He tilts the board in your direction.<>
+[n'You']What’s the thing behind you?<>
+[n'Frankie']Huh? What thing behind me?<>
+[n' ']The thing you were talking to just now...<>
+[n' ']You take a step towards Frankie’s back, but he places a hand on your shoulder and stops you.<>
+[n'Frankie']Here, I have something to show you.<>
+[n' ']He tilts the poster board in your direction.<>
 
 [n'Frankie']So these are photos we took on expeditions to strange places on campus. Right, did I tell you we go on paranormal investigations?<>
 [n'You']Paranormal investigations?<>

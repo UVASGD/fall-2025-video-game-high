@@ -1,4 +1,4 @@
-[n'Manuella'] Alright, well- Okay. Time to be focused! <>
+[n'Manuella']Alright, well- Okay. Time to be focused! <>
 [n' ']Manuella clasps her hands together, and like magic, her smile is back on her face. <>
 [n'Manuella'][a'happy'] As I was saying, we’ve made it to the club fair now! So what do you want to do? <>
 [n' ']You take a moment to reorient yourself. <>

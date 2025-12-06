@@ -1,8 +1,14 @@
-[n'You']Those blurry photos on the board...<> 
-<+ 10 Romance Points>
-[n' ']You point to the poster board from before.<>
-[n'Frankie']Oh, that?<>
-[n' ']He tilts the board in your direction.<>
+[n'You']You.<>
+[n'Frankie']Me?<>
+[n'You']Yeah.<>
+[n'Frankie']Well, I’m pretty interested in you, too!<>
+[n' ']Your heart skips a beat.<>
+[n'You']Really..?<>
+[n' ']He grins.<>
+[n'Frankie']Yeah. We’d really like to have you in our club.<>
+[n'You']Oh... Right.<>
+[n' ']You sulk to yourself. This sure isn’t easy, huh?<>
+[n'You']Frankie tilts the poster board in your direction.<>
 
 [n'Frankie']So these are photos we took on expeditions to strange places on campus. Right, did I tell you we go on paranormal investigations?<>
 [n'You']Paranormal investigations?<>
