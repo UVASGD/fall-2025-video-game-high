@@ -99,3 +99,4 @@ icon = ExtResource("1_3kf3n")
 icon_alignment = 1
 
 [connection signal="pressed" from="MarginContainer2/VBoxContainer/MarginContainer/TextureButton" to="MarginContainer2/VBoxContainer/MarginContainer/TextureButton" method="_on_play_pressed"]
+[connection signal="pressed" from="MarginContainer2/VBoxContainer/MarginContainer2/TextureButton2" to="MarginContainer2/VBoxContainer/MarginContainer/TextureButton" method="_on_texture_button_2_pressed"]
