@@ -1,4 +1,5 @@
-[:][n' '][a'no-char']Where would you like to go next? <>
+[:][n' '][bg'tabling:1'][a'no-char']Where would you like to go next? <>
+
 Academics [:4] <>
 Athletics [:19] <>
 Miscellaneous [:12] <>

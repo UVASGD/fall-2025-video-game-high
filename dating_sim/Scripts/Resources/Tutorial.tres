@@ -1,4 +1,4 @@
-[gd_resource type="Resource" script_class="CharacterData" load_steps=68 format=3 uid="uid://dh881kitknfwd"]
+[gd_resource type="Resource" script_class="CharacterData" load_steps=82 format=3 uid="uid://dh881kitknfwd"]
 
 [ext_resource type="Texture2D" uid="uid://5vckpgs863yi" path="res://Assets/Art/Backgrounds/black-screen.png" id="1_ktkd0"]
 [ext_resource type="AudioStream" uid="uid://bv1cdxwkatgaq" path="res://Assets/Sounds/music/Cozy Tune.mp3" id="1_oakmt"]
@@ -8,6 +8,7 @@
 [ext_resource type="Texture2D" uid="uid://sftrwh7k2s1n" path="res://Assets/Art/Backgrounds/activitiesfair.jpg" id="3_35f0t"]
 [ext_resource type="Texture2D" uid="uid://jqq2phl7l46d" path="res://Assets/Art/Characters/Manuella/Manuella-Idle-open.png" id="4_35f0t"]
 [ext_resource type="Texture2D" uid="uid://q02j3o8vhdpe" path="res://Assets/Art/Characters/Manuella/Manuella-entrance (1).png" id="4_c6kiu"]
+[ext_resource type="Texture2D" uid="uid://c3xiiqcijuku6" path="res://Assets/Art/Backgrounds/club fair bg.png" id="4_t28ll"]
 [ext_resource type="Texture2D" uid="uid://crrndjwr8gbyw" path="res://Assets/Art/Characters/Manuella/Manuella-Idle-closed.png" id="5_uvjvj"]
 [ext_resource type="Texture2D" uid="uid://cqsy7aq3wal55" path="res://Assets/Art/Characters/Manuella/Manuella-Happy-Talk.png" id="6_8w7ek"]
 [ext_resource type="Texture2D" uid="uid://b0p3rce0b3icg" path="res://Assets/Art/Characters/Manuella/Manuella-Happy-closed.png" id="7_hud4q"]
@@ -65,8 +66,21 @@
 [ext_resource type="Texture2D" uid="uid://dn3v2pldj2t8j" path="res://Assets/Art/Characters/Grim-Ace/ga-uncomfortable-blush.png" id="56_ajffr"]
 [ext_resource type="Texture2D" uid="uid://bnb0t2hj7u1l4" path="res://Assets/Art/Characters/Grim-Ace/ga-uncomfortable.png" id="57_yi2kr"]
 [ext_resource type="Texture2D" uid="uid://2j0fdfm5v1jt" path="res://Assets/Art/Characters/Grim-Ace/ga_freaked_ghost.png" id="58_bf0tj"]
+[ext_resource type="Texture2D" uid="uid://brsbsh2rp2gp0" path="res://Assets/Art/Characters/CardiV/CartiV-Blush2.png" id="59_mnn62"]
+[ext_resource type="Texture2D" uid="uid://dupk7f4dmpdtm" path="res://Assets/Art/Characters/CardiV/CartiV-Blush3.png" id="60_t28ll"]
+[ext_resource type="Texture2D" uid="uid://decj0jv0s2gvo" path="res://Assets/Art/Characters/CardiV/CartiV-Blush.png" id="61_5v6rj"]
+[ext_resource type="Texture2D" uid="uid://conmb05b01jud" path="res://Assets/Art/Characters/CardiV/CartiV-Embarrassed2.png" id="62_pk58s"]
+[ext_resource type="Texture2D" uid="uid://blghnc6g4gvku" path="res://Assets/Art/Characters/CardiV/CartiV-Embarrassed3.png" id="63_v7wph"]
+[ext_resource type="Texture2D" uid="uid://v6x7yth6caq5" path="res://Assets/Art/Characters/CardiV/CartiV-Embarrassed.png" id="64_0r4ys"]
 [ext_resource type="AudioStream" uid="uid://cxhb5xmrkb1do" path="res://Assets/Sounds/effects/metal-pipe-329305.mp3" id="64_ajffr"]
+[ext_resource type="Texture2D" uid="uid://bq138bnk7phv5" path="res://Assets/Art/Characters/CardiV/CartiV-Flex.png" id="65_uyrcn"]
 [ext_resource type="AudioStream" uid="uid://t51mcx73tvyl" path="res://Assets/Sounds/effects/metal-chain-7056.mp3" id="65_yi2kr"]
+[ext_resource type="Texture2D" uid="uid://df3fstbcjq5be" path="res://Assets/Art/Characters/CardiV/CartiV-Laugh.png" id="66_dpifa"]
+[ext_resource type="Texture2D" uid="uid://d3h4utxo0bvo1" path="res://Assets/Art/Characters/CardiV/CartiV-Neutral.png" id="67_76cad"]
+[ext_resource type="Texture2D" uid="uid://hpbvcfjynff5" path="res://Assets/Art/Characters/CardiV/CartiV-Smirk.png" id="68_o0xkb"]
+[ext_resource type="Texture2D" uid="uid://cxajpk8v0ky4v" path="res://Assets/Art/Characters/CardiV/CartiV-Thinking.png" id="69_f1gyh"]
+[ext_resource type="Texture2D" uid="uid://bvj55cgv8fedd" path="res://Assets/Art/Characters/CardiV/CartiV-ThumbsUP.png" id="70_qks82"]
+[ext_resource type="Texture2D" uid="uid://ghwiro0ti8n2" path="res://Demo/Assets/Art/LinkedinRyan.png" id="72_5v6rj"]
 
 [resource]
 script = ExtResource("1_xpg0m")
@@ -74,6 +88,18 @@ character_name = "Manuella"
 character_id = "Man"
 dialogue_text_files = Array[String](["res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_000.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_001.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_002.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_003.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_004.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_005.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_006.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_007.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_008.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_009.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_010.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_011.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_012.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_013.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_014.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_015.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_016.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_016.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_016.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_019.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_020.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_021.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_022.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_023.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_024.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_025.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_026.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_027.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_028.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_029.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_030.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_031.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_032.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_033.txt"])
 character_images = {
+"cv-blush": [ExtResource("61_5v6rj"), ExtResource("61_5v6rj")],
+"cv-blush2": [ExtResource("59_mnn62"), ExtResource("59_mnn62")],
+"cv-blush3": [ExtResource("60_t28ll"), ExtResource("60_t28ll")],
+"cv-embarrassed": [ExtResource("64_0r4ys"), ExtResource("64_0r4ys")],
+"cv-embarrassed2": [ExtResource("62_pk58s"), ExtResource("62_pk58s")],
+"cv-embarrassed3": [ExtResource("63_v7wph"), ExtResource("63_v7wph")],
+"cv-flex": [ExtResource("65_uyrcn"), ExtResource("65_uyrcn")],
+"cv-laugh": [ExtResource("66_dpifa"), ExtResource("66_dpifa")],
+"cv-neutral": [ExtResource("67_76cad"), ExtResource("67_76cad")],
+"cv-smirl": [ExtResource("68_o0xkb"), ExtResource("68_o0xkb")],
+"cv-thinking": [ExtResource("69_f1gyh"), ExtResource("69_f1gyh")],
+"cv-thumbs": [ExtResource("70_qks82"), ExtResource("70_qks82")],
 "entrance": ExtResource("4_c6kiu"),
 "ff-happy": [ExtResource("40_ew61r"), ExtResource("41_i5crt")],
 "ff-laugh": [ExtResource("42_uifkj"), ExtResource("43_laith")],
@@ -101,6 +127,7 @@ character_images = {
 "pp-happy1": [ExtResource("9_yrt4i"), ExtResource("10_4nec7")],
 "pp-happy2": [ExtResource("11_cnqod"), ExtResource("12_rg0nl")],
 "pp-surprise": [ExtResource("13_i8yup"), ExtResource("14_urw24")],
+"ryan": [ExtResource("72_5v6rj"), ExtResource("72_5v6rj")],
 "val-angry": [ExtResource("27_h0lqg"), ExtResource("28_8pv0n")],
 "val-blush": [ExtResource("29_64lae"), ExtResource("30_2yym2")],
 "val-paper": [ExtResource("31_pk8aw"), ExtResource("32_wcpr4")],
@@ -112,6 +139,7 @@ character_images = {
 character_backgrounds = {
 "activitiesfair": ExtResource("3_35f0t"),
 "black-background": ExtResource("1_ktkd0"),
+"tabling": ExtResource("4_t28ll"),
 "white-background": ExtResource("2_tx5wu")
 }
 character_sounds = {

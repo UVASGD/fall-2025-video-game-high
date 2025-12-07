@@ -1,4 +1,4 @@
-[bg'arcade:1.0']
+[bg'arcade_in:1.0']
 [:][n'Perrin'][m'arcade'][a'pp-happy2']Any thoughts on what game you’d wanna play first? <>
 Street Fighter[:32] <>
 2-player Tetris[:33] <>

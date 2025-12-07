@@ -10,19 +10,20 @@
 [n' ']You sulk to yourself. This sure isn’t easy, huh?<>
 [n'You']Frankie tilts the poster board in your direction.<>
 
+
 [n'Frankie']So these are photos we took on expeditions to strange places on campus. Right, did I tell you we go on paranormal investigations?<>
 [n'You']Paranormal investigations?<>
 [n'Frankie']Yeah. We don’t really have a set schedule, but about once a week or two, we get anonymous reports on some spooky sightings around here.<>
 [n'???']—Bone-chilling phenomena that can’t be explained by common sense.<>
 [n'Frankie']Yeah, bone-chilling phenomena that can’t be explained by common sense.<>
-[n' ']Frankie snaps his fingers together.<>
+[n' '][a'ff-thumbs']Frankie snaps his fingers together.<>
 [n'Frankie']That’s where the Paranormal Club comes in! We go to the place in question and figure out what’s going on.<>
 [n'???']...We take all reports very seriously.<>
 [n'Frankie']You know, you don’t even have to believe in the paranormal! Think of it as a fun little walk to places you haven’t been before.<>
 [n'???']It’s best not to let your guard down... You never know what might befall you.<>
 [n'Frankie']—But it’s not like we go anywhere dangerous or anything! We always get home by midnight.<>
 [n'???']...Sometimes.<>
-[n'Frankie']Here, you can write your name down and we’ll keep you updated.<>
+[n'Frankie'][a'ff-happy']Here, you can write your name down and we’ll keep you updated.<>
 [n' ']He quickly shoves a wrinkly sheet of paper and a thick black pen your way.<>
 [n'You']...Gotcha.<>
 [n' ']You’re not too sure if you really want to join this club, but you decide you’ll go along with it for now. You can just dip and forget about everything that happened, anyway. It’s not like they can track you down from your just your name, right?<>
@@ -40,26 +41,26 @@
 [n'???']—Use this one instead.<>
 [n' ']A pair of slender fingers hand you a thin red pen.<>
 [n'You']Oh, thanks.<>
-[n' ']You take the red pen and write down your name. When you look up, a hooded figure in black stands in front of you.<>
+[n' '][a'ga-cautious']You take the red pen and write down your name. When you look up, a hooded figure in black stands in front of you.<>
 [n'You']BAAAAAHHH!!!!!!<>
-[n'???']EEEEEEEEEEEKKKKK!!!!!!!!<>
+[n'???'][a'ga-freaked']EEEEEEEEEEEKKKKK!!!!!!!!<>
 [n' ']The hooded figure jumps back and knocks into the poster board. The blurry photos all scatter to the ground.<>
 [n'???']Ah...<>
-[n'Frankie'] Woah, you okay there, HR?<>
-[n'You']HR..?<>
-[n'Frankie']Yup, this is our club president here!<>
+[n'Frankie'][a'ff-shock']Woah, you okay there, Grim?<>
+[n'You']Grim..?<>
+[n'Frankie'][a'ff-happy']Yup, this is our club president here! Grim Ace, say hi!<>
 [n' ']You look back to the hooded figure, now sprawled over the ground on all fours. They frantically gather all the photos into a messy little pile in their arms.<>
 [n' ']This, is the club president..?<>
-HR: Oouuuuughhh…<>
-[n' ']HR lets out a long grimace, sulking. They hold a photo close to their chest and gently run their thumb over it, back and forth.<>
-[n' ']Frankie gives HR a light pat on the back and kneels down next to them.<>
+[n'Grim'][a'ga-freaked']Oouuuuughhh…<>
+[n' ']Grim...Ace lets out a long grimace, sulking. They hold a photo close to their chest and gently run their thumb over it, back and forth.<>
+[n' ']Frankie gives Grim a light pat on the back and kneels down next to them.<>
 [n'You']Um...<>
-[n' ']Frankie starts his own separate pile near his left foot. You shuffle in your feet, awkwardly.<>
+[n' '][a'ff-nervous']Frankie starts his own separate pile near his left foot. You shuffle in your feet, awkwardly.<>
 [n'You']Do you guys…need any help, or..?<>
-[n' ']You look to Frankie and back to HR.<>
-[n' ']HR sinks further into their hoodie. You hear Frankie’s voice just outside your field of vision.<>
-[n'Frankie']Oh, don’t worry about it! We can handle it. Right, HR?<>
-[n' ']HR nods eagerly.<>
+[n' ']You look to Frankie and back to Grim.<>
+[n' '][a'ga-freaked-ghost']Grim sinks further into their hoodie. You hear Frankie’s voice just outside your field of vision.<>
+[n'Frankie']Oh, don’t worry about it! We can handle it. Right, Grim?<>
+[n' ']Grim nods eagerly.<>
 [n'Frankie']See?<>
 [n' ']Frankie shoos you away with his free hand.<>
 [n' ']You scratch the tip of your nose. Well, it’s not like you have all day to spend at the club fair...<>

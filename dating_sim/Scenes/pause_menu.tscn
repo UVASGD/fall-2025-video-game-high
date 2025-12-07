@@ -15,6 +15,7 @@ offset_right = -544.0
 offset_bottom = -205.4
 grow_horizontal = 2
 grow_vertical = 0
+pivot_offset = Vector2(121, 488)
 script = ExtResource("1_emv3i")
 
 [node name="TextBackground" type="Panel" parent="."]

@@ -68,7 +68,8 @@ func _on_load_button_pressed() -> void:
 	
 func _on_exit_button_pressed() -> void:
 	# Option 1: Quit the application immediately
-	get_tree().quit()
+	get_tree().change_scene_to_file("res://Scenes/Menu.tscn")
+
 
 	# Option 2 (Recommended): Return to the main menu scene
 	# Ensure you replace "res://main_menu.tscn" with your actual scene path

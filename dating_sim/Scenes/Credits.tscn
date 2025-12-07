@@ -1,4 +1,4 @@
-[gd_scene load_steps=3 format=3 uid="uid://cvnrqi5jxw20o"]
+[gd_scene load_steps=3 format=3 uid="uid://dflb6pxwwg1yp"]
 
 [ext_resource type="Texture2D" uid="uid://casin4y5e81i6" path="res://icon.svg" id="1_xbebw"]
 [ext_resource type="Script" path="res://Scenes/Button.gd" id="2_7xmno"]
@@ -28,13 +28,30 @@ layout_mode = 2
 
 [node name="Label" type="Label" parent="MarginContainer/VBoxContainer"]
 layout_mode = 2
-text = "George Lothamer"
+text = "Thank you to everyone listed below:"
 horizontal_alignment = 1
 vertical_alignment = 1
 
 [node name="Label2" type="Label" parent="MarginContainer/VBoxContainer"]
 layout_mode = 2
-text = "Example Lothamer"
+text = "
+Alissa Emond - Lead Director
+George Lothamer - Deputy Director, Music
+Liam Tolbert - Programmer
+JT Shuai - Music
+Paul Ratiu - Music
+PUZZLE TEAM:
+Salma Mer - Writer, Artist
+Riley S - Writer, Artist
+JOCK TEAM:
+Mike Villanueva Najarro - Artist, Programmer
+Emma Mayo - Writer
+HORROR TEAM:
+Ivy K - Writer, Artist
+Megan Yu - Artist
+Amrit Kaur - Writer
+
+(click me to return v)"
 horizontal_alignment = 1
 vertical_alignment = 1
 

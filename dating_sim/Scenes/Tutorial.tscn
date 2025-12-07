@@ -53,5 +53,6 @@ grow_vertical = 1
 
 [node name="PauseMenu" parent="Screen" instance=ExtResource("4_7bloo")]
 layout_mode = 1
+offset_bottom = -165.4
 
 [editable path="Screen"]

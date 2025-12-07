@@ -1,8 +1,8 @@
 [n' ']Knock it off. You know you’re better than this.<>
-[n' ']You shake your head and stand up on your own.<>
+[n' '][a'ff-nervous']You shake your head and stand up on your own.<>
 [n' ']He watches you intently.<>
 [n' ']You gulp.<>
-[n'???']My name's Frankly Frankie, nice to meet ya.<>
+[n'???'][a'ff-happy']My name's Frankly Frankie, nice to meet ya.<>
 [n' ']Oh, yeah... You tell him your name.<>
 [n'You']Nice to meet you too.<>
 [n' ']He nods, a bit too earnestly.<>
@@ -11,7 +11,7 @@
 [n' ']Frankie places both his hands on his hips.<>
 [n'You']Yeah, I’m a transfer student here. Here to check you out. I mean, some clubs. Out.<>
 [n' ']You awkwardly clear your throat.<>
-[n'Frankie']Well, this was purrfect timing! Let me show you MY super awesome club!<>
+[n'Frankie'][a'ff-thumbs']Well, this was purrfect timing! Let me show you MY super awesome club!<>
 [n' ']Frankie wraps an arm of steel around your shoulders before you even have the chance to refuse.<>
 [n'Frankie']We have a booth set up right in that corner over there. Not that far away. I can take you there!<>
 [n' ']He leads you to a small corner of the club fair by the neck. His arm feels a little cold against your skin, but it’s not like you didn’t like it.<>
@@ -19,35 +19,35 @@
 [n' ']On closer look, the board is covered in a handful of blurry photos from head to toe, all connected by a thin line of red string.<>
 [n' ']You squint but you still can’t make out what it says on the banner.<>
 [n'You']So..?<>
-[n'Frankie']Yeah?<>
+[n'Frankie'][a'ff-happy']Yeah?<>
 [n'You']What…does this say?<>
 [n'Frankie']This?<>
 [n' ']He looks to the banner and scratches the bottom of his chin.<>
-[n'Frankie'] Let’s see… “P”, “A”… Is that supposed to be a “Y”?
+[n'Frankie'][a'ff-nervous'] Let’s see… “P”, “A”… Is that supposed to be a “Y”?<>
 [n' ']Isn't this his club? Why doesn't he know the name on the banner?<>
 [n' ']Suddenly, you hear a quieter voice nearby.<>
 [n' ']It's an “R”, like “Paranormal Club”...<>
 [n'You']Huh?<>
-[n' ']Frankie stares at you for a second.<>
+[n' '][a'ff-shock']Frankie stares at you for a second.<>
 [n'Frankie']Huh?<>
-[n' ']Who was that?>
-[n'Frankie']What do you mean?<>
+[n' ']Who was that?<>
+[n'Frankie'][a'ff-happy']What do you mean?<>
 [n' ']Whatever just happened, Frankie doesn't say, and the other voice seems mysteriously silent as well.<>
 [n'Frankie']...<>
 [n'You']...<>
-[n' ']Frankie laughs and claps his hands.<>
+[n' '][a'ff-laugh']Frankie laughs and claps his hands.<>
 [n'Frankie']Oh, yeah, that was me!<>
 [n' ']Frankie points to himself.<>
 [n' ']You raise an eyebrow.<>
 [n' ']Really?<>
 [n'You]Your voice sounded... a little different there.<>
 [n'Frankie']Yeah, sorry, I just had something in my throat!<>
-[n' ']He coughs loudly into his hand to prove his point.<>
+[n' '][a'ff-thumbs']He coughs loudly into his hand to prove his point.<>
 [n' ']You raise your other eyebrow. Something feels a little off.<>
 [n'Frankie']So, yeah! As I was saying, this is the Paranormal Club.<>
 [n' ']He nods at the work he's done here, chest puffed out in pride.<>
 [n' ']Just as you open your mouth to speak up, you hear a hushed sigh.<>
-[n' ']The sound of something like a finger tapping metal comes from behind Frankie.<>
+[n' '][a'ff-nervous']The sound of something like a finger tapping metal comes from behind Frankie.<>
 [n'???']...Do I really have to do this..?<>
 [n' ']Frankie turns around, seemingly forgetting you're there not missing a beat.<>
 [n' ']He speaks in a hushed voice, but you can still hear everything anyway.<>
@@ -56,7 +56,7 @@
 [n' ']After a moment of silence, you clear your throat.<>
 [n'You']Um..?<>
 [n' ']You crane your head closer to Frankie, but he quickly turns back around before you see what’s behind him.<>
-[:][n'Frankie']SO!!! Anything catch your interest<>
+[:][n'Frankie'][a'ff-happy']SO!!! Anything catch your interest<>
 “Blurry photos on the board...”[:16]<>
 "The voice behind you..."[:17]<>
 "You"[:18]<>

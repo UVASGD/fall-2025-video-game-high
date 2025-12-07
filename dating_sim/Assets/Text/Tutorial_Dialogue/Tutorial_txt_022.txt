@@ -1,7 +1,8 @@
 [n' ']She scratches her neck and smiles awkwardly. <>
-[n'You]Rugby? Isn’t that like… British football or something? <>
-[n'Cardi V']Well, it’s similar, but rugby’s definitely way better! <>
+[n'You][a'cv-neutral']Rugby? Isn’t that like… British football or something? <>
+[n'Cardi V'][a'cv-laugh']Well, it’s similar, but rugby’s definitely way better! <>
 [n'Cardi V']What’s your name? <>
+[n' ']You introduce yourself to the towering woman. <>
 [:][n'Cardi V']We host tryouts this weekend, you should come check it out! <>
 [I'll be there!][:23] <>
 [Maybe...][:24] <>

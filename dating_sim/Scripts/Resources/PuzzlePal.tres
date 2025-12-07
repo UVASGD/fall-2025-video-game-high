@@ -1,4 +1,4 @@
-[gd_resource type="Resource" script_class="CharacterData" load_steps=42 format=3 uid="uid://d0f2ca2c4p3ud"]
+[gd_resource type="Resource" script_class="CharacterData" load_steps=44 format=3 uid="uid://d0f2ca2c4p3ud"]
 
 [ext_resource type="Script" uid="uid://bhirb0q308e7m" path="res://Scripts/Classes/CharacterBase.gd" id="1_1p18g"]
 [ext_resource type="Texture2D" uid="uid://bvngwca6kfir8" path="res://Assets/Art/Backgrounds/coffee background.jpg" id="1_wrll7"]
@@ -10,6 +10,7 @@
 [ext_resource type="Texture2D" uid="uid://kp5ibvt2tsmk" path="res://Assets/Art/Backgrounds/YNs_Background_wt_Phone.png" id="6_dq7r3"]
 [ext_resource type="Texture2D" uid="uid://dbeksieke1kq3" path="res://Assets/Art/Characters/Perrin/pp-happy1-open.png" id="7_4kv7l"]
 [ext_resource type="Texture2D" uid="uid://iylo4mas2qs8" path="res://Assets/Art/Backgrounds/YNs_background.png" id="7_ii5r5"]
+[ext_resource type="Texture2D" uid="uid://c6joh72pmr0vx" path="res://Assets/Art/Backgrounds/IllustrationARCADE.png" id="8_e8x08"]
 [ext_resource type="Texture2D" uid="uid://bc7tpb702mmyr" path="res://Assets/Art/Characters/Perrin/pp-frustrated-closed.png" id="8_urri0"]
 [ext_resource type="Texture2D" uid="uid://cesq1g5xh00wt" path="res://Assets/Art/Characters/Perrin/pp-frustrated-open.png" id="9_b3ctv"]
 [ext_resource type="Texture2D" uid="uid://chslnatpgufkm" path="res://Assets/Art/Characters/Perrin/pp-flirty-closed.png" id="10_8uhyj"]
@@ -41,6 +42,7 @@
 [ext_resource type="FontFile" uid="uid://b41entevbocrc" path="res://Fonts/FiraCode-Light.otf" id="36_04fdr"]
 [ext_resource type="AudioStream" uid="uid://bt31u5tp33tvf" path="res://Assets/Sounds/music/Spooky Tune speed.mp3" id="38_ii5r5"]
 [ext_resource type="Texture2D" uid="uid://cjtfdatrh58sd" path="res://Assets/Art/Characters/NoChar/pixelle.png" id="39_rst6m"]
+[ext_resource type="AudioStream" uid="uid://bgbkl7b71uosh" path="res://Assets/Sounds/music/[no copyright music] 'Gameplay' cute background music.mp3" id="41_u8xsb"]
 
 [resource]
 script = ExtResource("1_1p18g")
@@ -66,6 +68,7 @@ character_images = {
 "val-smile": [ExtResource("34_04fdr"), ExtResource("35_hygp6")]
 }
 character_backgrounds = {
+"arcade_in": ExtResource("8_e8x08"),
 "arcade_outside": ExtResource("5_d0ppf"),
 "bedroom": ExtResource("7_ii5r5"),
 "bedroom_phone": ExtResource("6_dq7r3"),
@@ -75,7 +78,8 @@ character_backgrounds = {
 "white-background": ExtResource("4_t2xfb")
 }
 character_sounds = {
-"arcade": ExtResource("38_ii5r5")
+"arcade": ExtResource("38_ii5r5"),
+"lofi-vibe": ExtResource("41_u8xsb")
 }
 character_variables = {
 "will talk": true

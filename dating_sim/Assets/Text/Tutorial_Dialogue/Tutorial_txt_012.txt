@@ -1,4 +1,7 @@
 [n' ']You decide to try your luck out with the Miscelaneous section to the right, gotta be some interesting clubs there to catch your eye.<>
+[bg'activitiesfair:1']
+
+
 [n' ']You look from left to right, walking past the rows of club booths from a safe distance.<>
 [n' ']Competitive night shower club, Ankle socks club, Tortiglioni Doppia Rigatura club… It seems like there’s just about anything and everything, but nothing really catches your eye.<>
 [n' ']Distracted by all the buzz, you trip on something and catch yourself just before you fall over.<>
