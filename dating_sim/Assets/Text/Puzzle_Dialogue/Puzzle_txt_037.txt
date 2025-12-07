@@ -4,5 +4,5 @@
  [n'You']But I- <>
  [n' ']PP side eyes you, the air in the room thickening with discomfort. <>
  [:][n'Perrin']Don’t lie to me! Every time you beat me, I can see that stupid smug grin cross your face. You’re happy that I’m failing. I'm the Sisyphus to your Zeus. You’re basking in my suffering. <>
-[I'm sorry][:44] <>
-[Suffering? Seriously?][:45] <>
+I'm sorry[:44] <>
+Suffering? Seriously?[:45] <>

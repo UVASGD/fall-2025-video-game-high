@@ -1,4 +1,4 @@
-[gd_resource type="Resource" script_class="CharacterData" load_steps=38 format=3 uid="uid://d0f2ca2c4p3ud"]
+[gd_resource type="Resource" script_class="CharacterData" load_steps=41 format=3 uid="uid://d0f2ca2c4p3ud"]
 
 [ext_resource type="Script" uid="uid://bhirb0q308e7m" path="res://Scripts/Classes/CharacterBase.gd" id="1_1p18g"]
 [ext_resource type="Texture2D" uid="uid://bvngwca6kfir8" path="res://Assets/Art/Backgrounds/coffee background.jpg" id="1_wrll7"]
@@ -7,7 +7,9 @@
 [ext_resource type="Texture2D" uid="uid://bh3mf21utr506" path="res://Assets/Art/Backgrounds/white-screen.jpg" id="4_t2xfb"]
 [ext_resource type="Texture2D" uid="uid://dea23k1ma0ln8" path="res://Assets/Art/Backgrounds/arcade_outdoor_background.png" id="5_d0ppf"]
 [ext_resource type="Texture2D" uid="uid://coqekuwpkogyn" path="res://Assets/Art/Characters/Perrin/pp-happy1-closed.png" id="6_bse6l"]
+[ext_resource type="Texture2D" uid="uid://kp5ibvt2tsmk" path="res://Assets/Art/Backgrounds/YNs_Background_wt_Phone.png" id="6_dq7r3"]
 [ext_resource type="Texture2D" uid="uid://dbeksieke1kq3" path="res://Assets/Art/Characters/Perrin/pp-happy1-open.png" id="7_4kv7l"]
+[ext_resource type="Texture2D" uid="uid://iylo4mas2qs8" path="res://Assets/Art/Backgrounds/YNs_background.png" id="7_ii5r5"]
 [ext_resource type="Texture2D" uid="uid://bc7tpb702mmyr" path="res://Assets/Art/Characters/Perrin/pp-frustrated-closed.png" id="8_urri0"]
 [ext_resource type="Texture2D" uid="uid://cesq1g5xh00wt" path="res://Assets/Art/Characters/Perrin/pp-frustrated-open.png" id="9_b3ctv"]
 [ext_resource type="Texture2D" uid="uid://chslnatpgufkm" path="res://Assets/Art/Characters/Perrin/pp-flirty-closed.png" id="10_8uhyj"]
@@ -37,6 +39,7 @@
 [ext_resource type="Texture2D" uid="uid://b8l2ypgmyig38" path="res://Assets/Art/Characters/Valentine/ValentineSmileClosed.png" id="34_04fdr"]
 [ext_resource type="Texture2D" uid="uid://c7r0h0exu7klc" path="res://Assets/Art/Characters/Valentine/ValentineSmileOpen.png" id="35_hygp6"]
 [ext_resource type="FontFile" uid="uid://b41entevbocrc" path="res://Fonts/FiraCode-Light.otf" id="36_04fdr"]
+[ext_resource type="AudioStream" uid="uid://bt31u5tp33tvf" path="res://Assets/Sounds/music/Spooky Tune speed.mp3" id="38_ii5r5"]
 
 [resource]
 script = ExtResource("1_1p18g")
@@ -62,12 +65,16 @@ character_images = {
 }
 character_backgrounds = {
 "arcade_outside": ExtResource("5_d0ppf"),
+"bedroom": ExtResource("7_ii5r5"),
+"bedroom_phone": ExtResource("6_dq7r3"),
 "black-background": ExtResource("3_jy4kd"),
 "cafe": ExtResource("1_wrll7"),
 "classroom": ExtResource("2_d0ppf"),
 "white-background": ExtResource("4_t2xfb")
 }
-character_sounds = {}
+character_sounds = {
+"arcade": ExtResource("38_ii5r5")
+}
 character_variables = {
 "will talk": true
 }
@@ -92,7 +99,7 @@ integers = {
 "DelayBetweenCharacters": 3,
 "EffectUpdateTimerInterval": 0.016,
 "EntranceFadeDuration": 1.0,
-"FontSize": 40,
+"FontSize": 32,
 "FramesPerSecond": 60,
 "LineHeightMultiplier": 1.2,
 "MusicBaseVolume": -10.0,

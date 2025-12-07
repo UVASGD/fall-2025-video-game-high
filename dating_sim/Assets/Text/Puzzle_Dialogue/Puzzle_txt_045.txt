@@ -6,5 +6,5 @@
 [n' ']Perrin bites the inside of their cheek and takes a deep breath in and out, trying to calm down. Your words were not what they needed to hear at this moment, but they want to be the bigger person at this point. 
 [n' ']However, as they speak again, you can tell they haven’t fully calmed down. <>
 [:][n'Perrin']You know what? I’m sorry, okay? I didn’t mean to get upset and all angry at you. You’re right. I was overreacting and should have taken a step back from the game instead of just pushing through. <>
-[I'm sorry too][:44] <>
-[Bruh seriously?][:49] <>
+I'm sorry too[:44] <>
+Bruh seriously?[:49] <>

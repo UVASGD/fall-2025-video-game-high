@@ -7,5 +7,5 @@
 [n'You']Yeah, your instructions were very clear. [%3{]Hey, um, I know I already said this before, but I’m really sorry about how our last date ended. I lost my temper, and– [}] <> 
 [n'Perrin']You don’t need to apologize anymore! I told you it’s okay. Please, don’t stress over it anymore... <>
 [:][n' ']You can’t tell if they’re frustrated or trying to reassure you.
-[Sorry!][:29] <>
-[If you say so][:30] <>
+Sorry![:29] <>
+If you say so[:30] <>

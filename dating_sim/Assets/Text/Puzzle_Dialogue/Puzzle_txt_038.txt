@@ -3,5 +3,5 @@
 [n'Perrin']I didn’t say this was a reflection of myself. I just said- <>
 [n' ']Perrin turns away, taking a deep breath and fixing their glasses. They turn back to you, their voice slightly softer but still carrying an edge of insecurity. <>
 [:][n'Perrin']I just... despise losing, okay? That’s all...I want to win- need to win. If I don’t...I’m just...I’m not good enough for anything. <>
-[I'm sorry][:40] <>
-[Not my problem][:45] <>
+I'm sorry[:40] <>
+Not my problem[:45] <>

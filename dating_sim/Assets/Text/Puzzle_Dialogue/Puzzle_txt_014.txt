@@ -1,5 +1,5 @@
 [n' ']You put your phone back in your bag and look back over at PP, who had a somewhat neutral expression on their face. They look at you as you put your phone away before clearing their throat, meeting your gaze once more. Their voice comes out a bit lower than usual, an edge of seriousness in their words. <>
 [:][n'Perrin']So...who was that? And are you okay? <>
-[Just someone annoying][:15] <>
-[A weirdo...][:16] <>
-[Don't worry][:17] <>
+Just someone annoying[:15] <>
+A weirdo...[:16] <>
+Don't worry[:17] <>

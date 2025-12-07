@@ -3,5 +3,5 @@
 [n' ']After a beat, PP takes a deep breath and fixes their glasses. They fix their posture and meet your eyes. <>
 [n'Perrin']I...you don’t have to apologize. I’m the one who lashed out and...I’m sorry for the way I acted. I should have...I shouldn’t have blamed you for the way you act, or any of that. You’re just doing what anyone would have done if they won. <>
 [:][n'Perrin']I’m just...losing is hard for me, especially when it's a constant strain of losses. I really don’t want you to feel bad about today. If you’ll forgive me, I...I would want to keep spending today with you. <>
-[Forgive][:46] <>
-[Hell Nah][:47] <>
+Forgive[:46] <>
+Hell Nah[:47] <>

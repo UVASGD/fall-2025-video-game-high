@@ -14,7 +14,8 @@
 [n' ']After the sixth round, you see them reach for their coin cup. You put your hand on top, blocking them from grabbing any more. <>
 [n'You']Perrin, I think we should stop. Seriously. Let’s take a break instead and- <>
 [n' ']Perrin turns to you, face flushed with anger and dissatisfaction. They grab the cup from under your hand, cutting you off with a bitter tone. <>
+[mstop]
 [:][n'Perrin'][a'pp-angry'][^30{]You don’t get it.[}] If I don’t beat you, then I’ve failed. Games are my thing. <>
-[No one’s perfect][:36] <>
-[I’m sorry][:37] <>
-It’s Just a Game][:38] <>
+No one’s perfect[:36] <>
+I’m sorry[:37] <>
+It’s Just a Game[:38] <>

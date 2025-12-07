@@ -146,7 +146,7 @@ integers = {
 "DelayBetweenCharacters": 3,
 "EffectUpdateTimerInterval": 0.016,
 "EntranceFadeDuration": 1.0,
-"FontSize": 40,
+"FontSize": 32,
 "FramesPerSecond": 60,
 "LineHeightMultiplier": 1.2,
 "MusicBaseVolume": -10.0,

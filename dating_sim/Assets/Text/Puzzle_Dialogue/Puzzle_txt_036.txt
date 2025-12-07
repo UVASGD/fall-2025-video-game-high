@@ -5,6 +5,6 @@
 [n' ']Perrin slowly turns to you, their frown faltering slightly. You notice and keep going. <>
 [n'You']You’re only a second year and already president of the boardgame club. You’ve been promoted at your job in the library with a boss who adores you. You’re a straight A student with an amazing friend group. Perrin, you’re a wonderful person, and I just wish you could see yourself from my perspective. <>
 [:][n' ']That last part slips from your mouth unexpectedly, but you think it’s just what Perrin needed to hear. You rub their arm, as if saying you would be there for them no matter the troubles they go through. <>
-[I'm always here for you][:39] <>
-[Don't fret!][:40] <>
-[It's just a game][:41] <>
+I'm always here for you[:39] <>
+Don't fret![:40] <>
+It's just a game[:41] <>

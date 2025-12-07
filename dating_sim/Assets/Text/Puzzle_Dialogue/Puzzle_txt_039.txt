@@ -6,5 +6,5 @@
 [n'Perrin']If I did, I would realize how lucky I am to have someone like you in my life. Someone so sweet and willing to put up with my episodes... thank you for sticking with me. <>
 [n'Perrin']You’re an incredibly kind soul. <>
 [:][n' ']You feel your face heat up, a bit shy after their sudden hug and words. <>
-[Of course, bud][:42] <>
-[You're so sweet][:43] <>
+Of course, bud[:42] <>
+You're so sweet[:43] <>

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bt31u5tp33tvf"
+path="res://.godot/imported/Spooky Tune speed.mp3-37eb04b06e3a5ccb4e0894e13ceb214b.mp3str"
+
+[deps]
+
+source_file="res://Assets/Sounds/music/Spooky Tune speed.mp3"
+dest_files=["res://.godot/imported/Spooky Tune speed.mp3-37eb04b06e3a5ccb4e0894e13ceb214b.mp3str"]
+
+[params]
+
+loop=true
+loop_offset=0.0
+bpm=0.0
+beat_count=0
+bar_beats=4
