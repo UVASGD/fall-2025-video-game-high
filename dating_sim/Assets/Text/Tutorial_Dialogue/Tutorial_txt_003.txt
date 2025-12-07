@@ -30,7 +30,7 @@
 [n'You']Yeah, I'll give it a shot. <>
 [n' ']Manuella nods. <>
 [n'Manuella']Alright! I think I see a friend at one of the Greek Life tables, I’m going to go catch up with them. Find me afterwards? <>
-[n'You']Okay. <>
+[n'You'][a'no-char']Okay. <>
 [:][n' ']Now that you're on your own, where would you like to start? <>
 Academics [:4] <>
 Athletics [:19] <>

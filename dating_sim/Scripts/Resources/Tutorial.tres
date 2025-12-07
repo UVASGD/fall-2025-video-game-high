@@ -1,4 +1,4 @@
-[gd_resource type="Resource" script_class="CharacterData" load_steps=47 format=3 uid="uid://dh881kitknfwd"]
+[gd_resource type="Resource" script_class="CharacterData" load_steps=67 format=3 uid="uid://dh881kitknfwd"]
 
 [ext_resource type="Texture2D" uid="uid://5vckpgs863yi" path="res://Assets/Art/Backgrounds/black-screen.png" id="1_ktkd0"]
 [ext_resource type="AudioStream" uid="uid://bv1cdxwkatgaq" path="res://Assets/Sounds/music/Cozy Tune.mp3" id="1_oakmt"]
@@ -46,16 +46,51 @@
 [ext_resource type="Texture2D" uid="uid://d3wnqltsq64fv" path="res://Assets/Art/Characters/Valentine/ValentineShyOpen.png" id="36_egfo3"]
 [ext_resource type="Texture2D" uid="uid://b8l2ypgmyig38" path="res://Assets/Art/Characters/Valentine/ValentineSmileClosed.png" id="37_3387u"]
 [ext_resource type="Texture2D" uid="uid://c7r0h0exu7klc" path="res://Assets/Art/Characters/Valentine/ValentineSmileOpen.png" id="38_12txn"]
+[ext_resource type="Texture2D" uid="uid://cjtfdatrh58sd" path="res://Assets/Art/Characters/NoChar/pixelle.png" id="39_8pv0n"]
+[ext_resource type="Texture2D" uid="uid://bvj1tyrvtnc78" path="res://Assets/Art/Characters/FranklyFrankie/frankiehappyclosed.png" id="40_ew61r"]
+[ext_resource type="Texture2D" uid="uid://star88btggli" path="res://Assets/Art/Characters/FranklyFrankie/frankiehappyopen.png" id="41_i5crt"]
+[ext_resource type="Texture2D" uid="uid://davv78mwirmv7" path="res://Assets/Art/Characters/FranklyFrankie/frankielaughclosed.png" id="42_uifkj"]
+[ext_resource type="Texture2D" uid="uid://bg2duv4py7rbo" path="res://Assets/Art/Characters/FranklyFrankie/Frankielaughopen.png" id="43_laith"]
+[ext_resource type="Texture2D" uid="uid://d0xiucc61y5e7" path="res://Assets/Art/Characters/FranklyFrankie/frankienervousclosed.png" id="44_q3rdk"]
+[ext_resource type="Texture2D" uid="uid://dc21i41mi5dqg" path="res://Assets/Art/Characters/FranklyFrankie/frankienervousopen.png" id="45_pu0x2"]
+[ext_resource type="Texture2D" uid="uid://bud4ddeesj8ci" path="res://Assets/Art/Characters/FranklyFrankie/frankieshockclosed.png" id="46_ajffr"]
+[ext_resource type="Texture2D" uid="uid://rjxora57wop" path="res://Assets/Art/Characters/FranklyFrankie/frankieshockopen.png" id="47_yi2kr"]
+[ext_resource type="Texture2D" uid="uid://x3fwthdjr5pv" path="res://Assets/Art/Characters/FranklyFrankie/frankiethumbclosed.png" id="48_bf0tj"]
+[ext_resource type="Texture2D" uid="uid://c1o38nvuibk5u" path="res://Assets/Art/Characters/FranklyFrankie/frankiethumbopen.png" id="49_4vthr"]
+[ext_resource type="Texture2D" uid="uid://daj4wd7eafupn" path="res://Assets/Art/Characters/Grim-Ace/ga-cautious.png" id="50_l2rg3"]
+[ext_resource type="Texture2D" uid="uid://jbwf2l5sea3" path="res://Assets/Art/Characters/Grim-Ace/ga-contemplative.png" id="51_kewuj"]
+[ext_resource type="Texture2D" uid="uid://cbdfx4j3wr4sw" path="res://Assets/Art/Characters/Grim-Ace/ga-distracted.png" id="52_ry7b1"]
+[ext_resource type="Texture2D" uid="uid://du07bwftbcdbc" path="res://Assets/Art/Characters/Grim-Ace/ga-freaked.png" id="53_laith"]
+[ext_resource type="Texture2D" uid="uid://dpajkw6h2wow1" path="res://Assets/Art/Characters/Grim-Ace/ga-shy-blush.png" id="54_q3rdk"]
+[ext_resource type="Texture2D" uid="uid://bg4ds0snbrb2j" path="res://Assets/Art/Characters/Grim-Ace/ga-shy.png" id="55_pu0x2"]
+[ext_resource type="Texture2D" uid="uid://dn3v2pldj2t8j" path="res://Assets/Art/Characters/Grim-Ace/ga-uncomfortable-blush.png" id="56_ajffr"]
+[ext_resource type="Texture2D" uid="uid://bnb0t2hj7u1l4" path="res://Assets/Art/Characters/Grim-Ace/ga-uncomfortable.png" id="57_yi2kr"]
+[ext_resource type="Texture2D" uid="uid://2j0fdfm5v1jt" path="res://Assets/Art/Characters/Grim-Ace/ga_freaked_ghost.png" id="58_bf0tj"]
 
 [resource]
 script = ExtResource("1_xpg0m")
-character_name = ""
+character_name = "Manuella"
 character_id = "Man"
 dialogue_text_files = Array[String](["res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_000.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_001.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_002.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_003.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_004.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_005.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_006.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_007.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_008.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_009.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_010.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_011.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_012.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_013.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_014.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_015.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_016.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_016.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_016.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_019.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_020.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_021.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_022.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_023.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_024.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_025.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_026.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_027.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_028.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_029.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_030.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_031.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_032.txt", "res://Assets/Text/Tutorial_Dialogue/Tutorial_txt_033.txt"])
 character_images = {
 "entrance": ExtResource("4_c6kiu"),
+"ff-happy": [ExtResource("40_ew61r"), ExtResource("41_i5crt")],
+"ff-laugh": [ExtResource("42_uifkj"), ExtResource("43_laith")],
+"ff-nervous": [ExtResource("44_q3rdk"), ExtResource("45_pu0x2")],
+"ff-shock": [ExtResource("46_ajffr"), ExtResource("47_yi2kr")],
+"ff-thumbs": [ExtResource("48_bf0tj"), ExtResource("49_4vthr")],
+"ga-blush": [ExtResource("54_q3rdk"), ExtResource("54_q3rdk")],
+"ga-cautious": [ExtResource("50_l2rg3"), ExtResource("50_l2rg3")],
+"ga-contemplative": [ExtResource("51_kewuj"), ExtResource("51_kewuj")],
+"ga-distracted": [ExtResource("52_ry7b1"), ExtResource("52_ry7b1")],
+"ga-freaked": [ExtResource("53_laith"), ExtResource("53_laith")],
+"ga-freaked-ghost": [ExtResource("58_bf0tj"), ExtResource("58_bf0tj")],
+"ga-shy": [ExtResource("55_pu0x2"), ExtResource("55_pu0x2")],
+"ga-uncomfortable": [ExtResource("57_yi2kr"), ExtResource("57_yi2kr")],
+"ga-uncomfortable-blush": [ExtResource("56_ajffr"), ExtResource("56_ajffr")],
 "happy": [ExtResource("7_hud4q"), ExtResource("6_8w7ek")],
 "idle": [ExtResource("5_uvjvj"), ExtResource("4_35f0t")],
+"no-char": [ExtResource("39_8pv0n"), ExtResource("39_8pv0n")],
 "pp-angry": [ExtResource("25_8pv0n"), ExtResource("26_64lae")],
 "pp-ashamed": [ExtResource("23_vxbap"), ExtResource("24_h0lqg")],
 "pp-awkward": [ExtResource("21_laukk"), ExtResource("22_qu4gs")],

@@ -1,2 +1,2 @@
-[n'You']This weird girl at club day. She’s making me really nervous, to be honest. <>
-[n'Perrin']Yeah, just from facial expressions alone, I could tell you were, let’s say, not overly fond of her. I’m sorry she has to be such a bother... <> [j20] - 
+[n'You'][a'pp-cringe']This weird girl at club day. She’s making me really nervous, to be honest. <>
+[n'Perrin'][a'pp-awkward']Yeah, just from facial expressions alone, I could tell you were, let’s say, not overly fond of her. I’m sorry she has to be such a bother... <> [j20] - 

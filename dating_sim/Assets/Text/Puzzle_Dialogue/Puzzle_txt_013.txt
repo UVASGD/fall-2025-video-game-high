@@ -1,4 +1,4 @@
 [n'You']God, will you knock it off? You’re really annoying me. Leave me alone, will you? <>
 [n' ']You hang up almost immediately after, anger still painting your face slightly red. <>
-[n' ']At your unexpected outburst, Perrin’s face drops slightly. They look like they’re about to say something, but quickly close their mouth at the sight of your livid expression. Are they...afraid of you? <>
+[n' '][a'pp-surprised']At your unexpected outburst, Perrin’s face drops slightly. They look like they’re about to say something, but quickly close their mouth at the sight of your livid expression. Are they...afraid of you? <>
 [n' ']The room fills with tension thick enough to cut with a knife. That’s when you realize the ugly truth of it all: you definitely screwed up.  <> [j21] - 

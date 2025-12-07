@@ -1,3 +1,6 @@
+[SKIP THIS TEXT]
+
+
 [bg'classroom':1.0]
 [n' ']As you finally make it to the board-game club’s table, you notice a student with bright, warm eyes looking over a small chessboard, intensely focused. <>
 [n' ']The student looks up at you. They have long, curly black hair and a soft smile. <>

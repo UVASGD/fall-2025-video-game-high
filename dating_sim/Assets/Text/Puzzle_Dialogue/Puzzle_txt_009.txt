@@ -1,4 +1,4 @@
-[:][n'Valentine']Awwww, you’re really breaking my heart right now ToT I can’t believe you’d do this to me!!!!! <>
+[:][n'Valentine'][a'val-shy']Awwww, you’re really breaking my heart right now ToT I can’t believe you’d do this to me!!!!! <>
 [I'm busy right now][:10] <>
 [Please leave][:11] <>
 [Hang up][:12] <>

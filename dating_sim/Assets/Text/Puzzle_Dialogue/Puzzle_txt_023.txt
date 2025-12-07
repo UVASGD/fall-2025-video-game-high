@@ -1,13 +1,13 @@
-﻿[bg'black-background':1.0]
+[bg'black-background':1.0]
 [n' ']A couple days have gone by since you and Perrin’s first date, and you have not been able to stop thinking about them. When you return home from your last class of the day, you receive a text from none other than Perrin themselves. <>
-[n'Perrin']Afternoon! You should be out of class by now, right? I wanted to talk with you about the arcade date next time if you’re free? Text me back!! <>
+[n'Perrin'][a'pp-happy1']Afternoon! You should be out of class by now, right? I wanted to talk with you about the arcade date next time if you’re free? Text me back!! <>
 [n' ']You smile at the text, unlocking your phone and replying back a couple minutes later. <>
 [n'You']hey Perrin! i’ve been doing well, but classes have been kicking my ass :( <>
 [n'You']i’m free now though if you wanna talk!! <>
 [n' ']There’s a brief pause before they reply. <>
 [n'Perrin']That’s good to hear! I’m glad to hear you’re doing better. <>
 [n'Perrin']Classes are awful around this time of the semester but I believe you can get through it! <>
-[n'Perrin']I wanted to ask if you would be free Saturday afternoon around 2:00pm for the arcade date? It’s a ten minute walk from the library so I would be able to make it after my shift, but let me know if you can make it as well! <>
+[n'Perrin'][a'pp-happy2']I wanted to ask if you would be free Saturday afternoon around 2:00pm for the arcade date? It’s a ten minute walk from the library so I would be able to make it after my shift, but let me know if you can make it as well! <>
 [n'You']oh yea, 2pm saturday works! i’ll be there, promise! <>
 [n' ']Perrin likes your message and sends a thumbs-up emoji. <>
 [:][n'Perrin']Excellent!! I look forward to beating you at all the games >:) <> 

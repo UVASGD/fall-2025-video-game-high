@@ -1,5 +1,3 @@
-
-[n'You']Yeah! I’m definitely going to come back. Um… <>
 [:][n' ']Your breath catches in your throat, and you feel your heart pounding through your ears. You know what you want to do, but you’re not sure how to do it. Taking a deep breath, you look up at Perrin. <>
 [I was wondering if you’d mind… hanging out sometime?][:5] <>
-[You’re really cute and would you wanna go on a date sometime?][:6] <>
+[You’re really cute and would you wanna go on a date sometime?][:6] <> 

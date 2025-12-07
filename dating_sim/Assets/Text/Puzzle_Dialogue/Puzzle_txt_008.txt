@@ -14,13 +14,13 @@
 [n'Perrin'][a'pp-happy2']I see we’re in the same boat. It actually makes me feel happy that I’m not alone in deciding my future, but I bet we both will choose something that suits our interests; just not today. <>
 [n'Perrin'][a'pp-happy1']Perrin takes a bite of their croissant, wiping their lips before getting ready to ask a question. Just then, your phone starts to buzz, signaling an incoming text message. <>
 [n' ']You thought that was weird, as you set your phone to DnD, but this unknown number seemed to really want to get your attention, and get it now. Suddenly, the number calls. Hesitantly, you answer. <>
-[n'Valentine']Heyyyyy!!! What’s up XD?? <>
+[n'Valentine'][a'val-smile']Heyyyyy!!! What’s up XD?? <>
 [n' ']You furrow your brows. How did this person know your name? You give Perrin an embarrassed smile as you clear your voice to prepare to reply to this mystery person. <>
 [n'You']...wait, who is this? And how did you get this number? <>
 [n' ']The mystery number’s voice rings back almost instantly, as if they were waiting for your reply. <>
-[n'Valentine']It’s me!! Valentine!! From club day??? Don’t you remember me Owo?? You came to my table and we talked about my fanfiction writing club!! <>
+[n'Valentine']It’s me!! Valentine!! From club day??? Don’t you remember me Owo?? [a'val-point']You came to my table and we talked about my fanfiction writing club!! <>
 [n' ']You felt an uneasy feeling go down your spine. Ah yes, you remember now. This was her. You try to be polite in your reply, but you’re finding this conversation to already be unbearable. <>
 [n'You']...uh yeah...vaguely. So um, how’d you get my number? <>
-[:][n'Valentine']I have my ways <3 HEHEHE!!! Anyyyways, I was just wondering if you’d wanna hang out sometime?? Maybe we could get boba or we could binge love island or whatever?? <>
-[Pass on it this time][:9] <>
+[:][n'Valentine'][a'val-blush']I have my ways <3 HEHEHE!!! [a'val-smile']Anyyyways, I was just wondering if you’d wanna hang out sometime?? Maybe we could get boba or we could binge love island or whatever?? <>
+[Politely decline][:9] <>
 [Hang up and block][:10] <>
