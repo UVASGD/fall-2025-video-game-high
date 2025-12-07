@@ -28,10 +28,10 @@ anchors_preset = -1
 anchor_top = 0.463
 anchor_right = 1.0
 anchor_bottom = 1.0
-offset_left = 17.0
-offset_top = -49.04
-offset_right = -902.415
-offset_bottom = -29.0
+offset_left = 59.0
+offset_top = -67.04
+offset_right = -860.415
+offset_bottom = -9.0
 grow_horizontal = 2
 grow_vertical = 0
 theme_override_constants/margin_left = 50
@@ -53,9 +53,18 @@ layout_mode = 2
 theme = ExtResource("2_syfuq")
 text = "Credits"
 
+[node name="Button3" type="Button" parent="MarginContainer2/VBoxContainer"]
+custom_minimum_size = Vector2(100, 200)
+layout_mode = 2
+theme = ExtResource("2_syfuq")
+text = "Close Game"
+
 [node name="Title-card" type="Sprite2D" parent="."]
 z_index = -1
-position = Vector2(960, 543)
+position = Vector2(1521, 368)
 texture = ExtResource("2_6pedr")
+offset = Vector2(-561, 175)
 
 [connection signal="pressed" from="MarginContainer2/VBoxContainer/Button" to="." method="_on_button_pressed"]
+[connection signal="pressed" from="MarginContainer2/VBoxContainer/Button2" to="." method="_on_button_2_pressed"]
+[connection signal="pressed" from="MarginContainer2/VBoxContainer/Button3" to="." method="_on_button_3_pressed"]
