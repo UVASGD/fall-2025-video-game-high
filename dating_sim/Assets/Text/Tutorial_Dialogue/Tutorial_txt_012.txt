@@ -10,20 +10,19 @@
 [n' ']A shiver runs down your spine.<>
 [n' ']Suddenly, you hear a voice rapidly approaching where you're standing.<>
 [n'???']Wait, where are you going? It’s right over here—<>
-[n'You']YEE-OUUWWCH!!!!!!!!<>
+[n'You'][<'metal-pipe']YEE-OUUWWCH!!!!!!!!<>
 [n' ']You scream as a cold, hard wall of metal slams into your side.<>
 [n' ']Your vision spins as you slam face first into the ground. So much for catching yourself when you tripped earlier.<>
 [n'???']Oh my gosh- I did not see you at all!<>
 [n'???']Are you okay, little dude?<>
-[n' '][<'destiny']Spitting blades of grass out of your mouth, you look up at the source of the voice.<>
-<fnafzzbear appears>
-[n' ']A tall, bulky animatronic towers over you, the sunlight glinting off of their tall frame.<>
+[n' ']Spitting blades of grass out of your mouth, you look up at the source of the voice.<>
+[n' '][<'destiny'][a'ff-happy']A tall, bulky animatronic towers over you, the sunlight glinting off of their tall frame.<>
 [n' ']Your heart is pounding, but not because of the injury you just took.<>
 [n' ']Is this what they call... love at first sight?<>
 [n' ']Your heart begins to hammer harder and you start to feel a bit light-headed.<>
-[n'???']Uh...<>
+[n'???'][a'ff-nervous']Uh...<>
 [n' ']The robot scrunches up it's face, seeming a bit confused.<>
-[:][n' ']Removing your eyes from its handsome face, you see- Oh, it was holding out it's hand for you to take.<>
+[:][n' '][a'ff-happy']Removing your eyes from its handsome face, you see- Oh, it was holding out it's hand for you to take.<>
 Weave your fingers with his[:13]<>
 Take his hand... shyly[:14]<>
 Stand up on your own[:15]<>

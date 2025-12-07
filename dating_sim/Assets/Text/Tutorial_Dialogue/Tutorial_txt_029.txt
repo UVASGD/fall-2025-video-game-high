@@ -8,7 +8,7 @@
 [n'Manuella']But be careful- Trying to do everything at once could make you feel really overwhelmed really fast.<>
 [n'You']Hmm… Maybe I can just start with one for now, then add others later?<>
 [n'Manuella']Ooh, good idea. Which one do you think you’ll choose?<>
-[n' ']Hmm yess... Which club... Or...<>
+[n' '][a'no-char']Hmm yess... Which club... Or...<>
 [:][n' ']Maybe it's more like which club president will you choose?<>
 Paranormals?[:31]<>
 Rugby?[:32]<>

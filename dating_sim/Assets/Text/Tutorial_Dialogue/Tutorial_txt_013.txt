@@ -10,7 +10,7 @@
 [n' ']Frankie places both his hands on his hips.<>
 [n'You']Yeah, I’m a transfer student here. Here to check you out. I mean, some clubs. Out.<>
 [n' ']You awkwardly clear your throat.<>
-[n'Frankie']Well, this was purrfect timing! Let me show you MY super awesome club!<>
+[n'Frankie'][a'ff-thumbs']Well, this was purrfect timing! Let me show you MY super awesome club!<>
 [n' ']Frankie wraps an arm of steel around your shoulders before you even have the chance to refuse.<>
 [n'Frankie']We have a booth set up right in that corner over there. Not that far away. I can take you there!<>
 [n' ']He leads you to a small corner of the club fair by the neck. His arm feels a little cold against your skin, but it’s not like you didn’t like it.<>
@@ -18,7 +18,7 @@
 [n' ']On closer look, the board is covered in a handful of blurry photos from head to toe, all connected by a thin line of red string.<>
 [n' ']You squint but you still can’t make out what it says on the banner.<>
 [n'You']So..?<>
-[n'Frankie']Yeah?<>
+[n'Frankie'][a'ff-happy']Yeah?<>
 [n'You']What…does this say?<>
 [n'Frankie']This?<>
 [n' ']He looks to the banner and scratches the bottom of his chin.<>

@@ -6,5 +6,5 @@
 [n'Valentine']Hey hey what's your number?? Here's mine!! We should TOTALLY talk later about our favorite OTPs and fandoms!! <>
 [n' ']You grimace at her words, typing in your email haphazardly and pushing past her with a sheepish smile. <>
 [n' ']She waves back at you with 10x the enthusiasm, yapping about something in Japanglish you couldn't bother to pick up. <>
-[n' ']What an odd girl, but oh well. <>
+[n' '][a'no-char']What an odd girl, but oh well. <>
 [n' ']After that strange encounter, you make your way back towards the table that initially peaked your interest. <>[j7]- 
