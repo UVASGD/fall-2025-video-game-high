@@ -1,7 +1,6 @@
 [gd_resource type="Resource" script_class="CharacterData" load_steps=38 format=3 uid="uid://d0f2ca2c4p3ud"]
 
 [ext_resource type="Script" uid="uid://bhirb0q308e7m" path="res://Scripts/Classes/CharacterBase.gd" id="1_1p18g"]
-[ext_resource type="FontFile" uid="uid://crmm7enkt3vwj" path="res://Fonts/Foglihten-068.otf" id="1_lpxt2"]
 [ext_resource type="Texture2D" uid="uid://bvngwca6kfir8" path="res://Assets/Art/Backgrounds/coffee background.jpg" id="1_wrll7"]
 [ext_resource type="Texture2D" uid="uid://dy0cjkdjyco0d" path="res://Assets/Art/Backgrounds/classroom bg.jpg" id="2_d0ppf"]
 [ext_resource type="Texture2D" uid="uid://5vckpgs863yi" path="res://Assets/Art/Backgrounds/black-screen.png" id="3_jy4kd"]
@@ -37,6 +36,7 @@
 [ext_resource type="Texture2D" uid="uid://d3wnqltsq64fv" path="res://Assets/Art/Characters/Valentine/ValentineShyOpen.png" id="33_xwgv5"]
 [ext_resource type="Texture2D" uid="uid://b8l2ypgmyig38" path="res://Assets/Art/Characters/Valentine/ValentineSmileClosed.png" id="34_04fdr"]
 [ext_resource type="Texture2D" uid="uid://c7r0h0exu7klc" path="res://Assets/Art/Characters/Valentine/ValentineSmileOpen.png" id="35_hygp6"]
+[ext_resource type="FontFile" uid="uid://b41entevbocrc" path="res://Fonts/FiraCode-Light.otf" id="36_04fdr"]
 
 [resource]
 script = ExtResource("1_1p18g")
@@ -78,7 +78,7 @@ colors = {
 strings = {
 "MusicBus": "Master"
 }
-font = ExtResource("1_lpxt2")
+font = ExtResource("36_04fdr")
 integers = {
 "AddedSpacing": 0,
 "AudioPitchMax": 1.1,
@@ -89,10 +89,10 @@ integers = {
 "DefaultShakeIntensity": 3,
 "DefaultWiggleIntensity": 5,
 "Delay": 0,
-"DelayBetweenCharacters": 0,
+"DelayBetweenCharacters": 3,
 "EffectUpdateTimerInterval": 0.016,
 "EntranceFadeDuration": 1.0,
-"FontSize": 32,
+"FontSize": 40,
 "FramesPerSecond": 60,
 "LineHeightMultiplier": 1.2,
 "MusicBaseVolume": -10.0,

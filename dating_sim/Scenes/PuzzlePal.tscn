@@ -54,26 +54,4 @@ grow_vertical = 1
 [node name="PauseMenu" parent="Screen" instance=ExtResource("4_lj2eo")]
 layout_mode = 1
 
-[node name="Screen2" parent="." node_paths=PackedStringArray("name_tag") instance=ExtResource("1_5ol6r")]
-layout_mode = 1
-character_data = ExtResource("2_awwbn")
-name_tag = NodePath("NameTag")
-
-[node name="TestBG" parent="Screen2" index="1"]
-color = Color(1, 1, 1, 1)
-
-[node name="Character" parent="Screen2" index="3"]
-z_index = 4
-stretch_mode = 3
-
-[node name="TextContainer" parent="Screen2" index="5"]
-z_index = 5
-
-[node name="NextDialogueContainer" parent="Screen2/TextContainer/TextBackground/MarginContainer" index="2"]
-visible = true
-
-[node name="PauseMenu" parent="Screen2" instance=ExtResource("4_lj2eo")]
-layout_mode = 1
-
 [editable path="Screen"]
-[editable path="Screen2"]

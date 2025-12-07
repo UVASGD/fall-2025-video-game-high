@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bkaokkn314a48"
+path="res://.godot/imported/Hallow Theme.mp3-35318659caa8f1855b5e9f32ea04cffb.mp3str"
+
+[deps]
+
+source_file="res://Assets/Sounds/music/Hallow Theme.mp3"
+dest_files=["res://.godot/imported/Hallow Theme.mp3-35318659caa8f1855b5e9f32ea04cffb.mp3str"]
+
+[params]
+
+loop=true
+loop_offset=0.0
+bpm=0.0
+beat_count=0
+bar_beats=4

@@ -1,3 +1,4 @@
 [n' ']Yes, maybe the Board Games club will be fruitful.<>
 [n' ']You have a feeling that this decision will forever change your time here at the United Video Games Academy.<>
-[c'PuzzlePal']
+[bg'black-background:1.0']
+[c'PuzzlePal'] fuck<>

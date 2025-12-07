@@ -245,9 +245,10 @@ func start_effects(effect_str: String, effects: Dictionary):
 	elif effect_str.begins_with("r"):
 		var romance_inc_or_dec = effect_str[1]
 		effects["change_romance_points"] = romance_inc_or_dec
-	elif effect_str.begins_with("c"):
+	elif effect_str.begins_with("c'") and effect_str.ends_with("'"):
 		var charname = effect_str.substr(2, effect_str.length() - 3)
 		effects["change_character_scene"] = charname
+		print("Parsed Character Change: ", charname) # Debug print
 
 func ripple_targeted(label: Label, ripple_frames: int):
 	var ripple_data = {
