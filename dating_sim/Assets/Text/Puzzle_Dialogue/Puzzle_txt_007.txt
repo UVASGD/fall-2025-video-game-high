@@ -7,5 +7,4 @@
 [n'You']That’s… That’s perfect. <>
 [n' ']You and Perrin exchange numbers, agreeing to meet up at Starblox on Thursday afternoon. <> 
 [bg'black-background:1.0']
-[mstop]
-[n' ']...<>[j8] -
+[n' '][mstop:0.5]...<>[j8] -

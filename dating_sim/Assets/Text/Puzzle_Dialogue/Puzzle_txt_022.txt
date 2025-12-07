@@ -1,5 +1,7 @@
+[bg'black-background']
+n[' ']... <>
 [bg'bedroom:1.0']
-[n' ']A couple days have gone by since your first date, and you can’t help but feel bad about how it ended. They haven’t been able to fully leave your mind– you know you screwed up, but more than anything, you just want a second chance. <>
+[n' '][a'no-char']A couple days have gone by since your first date, and you can’t help but feel bad about how it ended. They haven’t been able to fully leave your mind– you know you screwed up, but more than anything, you just want a second chance. <>
 [n' ']As you lay in bed late at night, you summon the courage to send them a text to try again. <>
 [bg'bedroom_phone']
 [n'You']hey, Perrin, im really sorry about how our last date ended… <>

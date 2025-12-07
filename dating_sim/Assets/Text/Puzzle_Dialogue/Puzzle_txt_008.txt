@@ -1,6 +1,5 @@
 [bg'cafe:1.0']
-[m'jazzlock']
-[n' ']After meeting Perrin outside the cafe, you approach each other with awkward yet friendly greetings, and you follow them into the cafe. <>
+[n' '][m'jazzlock']After meeting Perrin outside the cafe, you approach each other with awkward yet friendly greetings, and you follow them into the cafe. <>
 [n' ']Once you’ve both ordered, you walk towards the seating area. <>
 [n'You']Thanks for bringing me here! I’ve never been here before. <>
 [n' ']You both sit down at a table near the window, having already ordered and awaiting your meals. Perrin fidgets nervously with their rings, looking around the cafe before meeting your gaze. They laugh before saying: <>

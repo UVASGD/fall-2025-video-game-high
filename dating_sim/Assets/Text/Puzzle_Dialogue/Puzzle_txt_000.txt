@@ -1,4 +1,3 @@
-[bg'black-background']
 [bg'classroom:1.0']
 [n' ']You decide to go to the first Board Game Club meeting, and you have tons of fun meeting new people, playing games, and having delicious snacks. <>
 [n' ']You’ve especially been having fun playing with Perrin; they’re intense about their games, but they’ve been so sweet to you, and it feels like you’re constantly making eye contact– unintentionally, but you can’t help but feel a connection between you two. <>

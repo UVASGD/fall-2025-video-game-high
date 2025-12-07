@@ -5,8 +5,8 @@
 
 [resource]
 script = ExtResource("2_v3aud")
-character_name = "Frankly Frankie"
-character_id = "FF"
+character_name = "Grim Ace"
+character_id = "GA"
 dialogue_text_files = Array[String]([])
 character_images = {}
 character_backgrounds = {}
