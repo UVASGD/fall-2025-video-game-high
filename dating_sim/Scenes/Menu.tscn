@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=3 uid="uid://cwfleg0d05s2q"]
 
 [ext_resource type="Texture2D" uid="uid://casin4y5e81i6" path="res://icon.svg" id="1_3kf3n"]
-[ext_resource type="Script" uid="uid://b0tqw5gj4rxse" path="res://Scenes/Play_Button.gd" id="2_6pedr"]
+[ext_resource type="Texture2D" uid="uid://brw4ufj58wm13" path="res://Assets/Art/UI/title.png" id="1_6pedr"]
 
 [node name="Control" type="Control"]
 layout_mode = 3
@@ -11,23 +11,13 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 
-[node name="MarginContainer" type="MarginContainer" parent="."]
-custom_minimum_size = Vector2(0, 450)
-layout_mode = 1
-anchors_preset = -1
-anchor_right = 1.0
-anchor_bottom = 0.411
-offset_bottom = -500.04
-grow_horizontal = 2
-size_flags_horizontal = 3
-size_flags_vertical = 3
-theme_override_constants/margin_left = 100
-theme_override_constants/margin_top = 100
-theme_override_constants/margin_right = 100
-
-[node name="TextureRect" type="TextureRect" parent="MarginContainer"]
+[node name="TextureRect" type="TextureRect" parent="."]
 layout_mode = 2
-texture = ExtResource("1_3kf3n")
+offset_left = 5.0
+offset_top = 1.0
+offset_right = 1925.0
+offset_bottom = 1081.0
+texture = ExtResource("1_6pedr")
 
 [node name="MarginContainer2" type="MarginContainer" parent="."]
 layout_mode = 1
@@ -45,46 +35,16 @@ theme_override_constants/margin_bottom = 30
 [node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer2"]
 layout_mode = 2
 
-[node name="MarginContainer" type="MarginContainer" parent="MarginContainer2/VBoxContainer"]
+[node name="Button" type="Button" parent="MarginContainer2/VBoxContainer"]
 layout_mode = 2
-theme_override_constants/margin_top = 20
-theme_override_constants/margin_bottom = 20
+text = "Start"
 
-[node name="TextureButton" type="TextureButton" parent="MarginContainer2/VBoxContainer/MarginContainer"]
-custom_minimum_size = Vector2(0, 100)
+[node name="Button2" type="Button" parent="MarginContainer2/VBoxContainer"]
 layout_mode = 2
-texture_normal = ExtResource("1_3kf3n")
-ignore_texture_size = true
-stretch_mode = 3
-script = ExtResource("2_6pedr")
-
-[node name="MarginContainer2" type="MarginContainer" parent="MarginContainer2/VBoxContainer"]
-layout_mode = 2
-theme_override_constants/margin_top = 20
-theme_override_constants/margin_bottom = 20
-
-[node name="TextureButton2" type="TextureButton" parent="MarginContainer2/VBoxContainer/MarginContainer2"]
-custom_minimum_size = Vector2(0, 100)
-layout_mode = 2
-texture_normal = ExtResource("1_3kf3n")
-ignore_texture_size = true
-stretch_mode = 3
-
-[node name="MarginContainer3" type="MarginContainer" parent="MarginContainer2/VBoxContainer"]
-layout_mode = 2
-theme_override_constants/margin_top = 20
-theme_override_constants/margin_bottom = 20
-
-[node name="TextureButton3" type="TextureButton" parent="MarginContainer2/VBoxContainer/MarginContainer3"]
-custom_minimum_size = Vector2(0, 100)
-layout_mode = 2
-texture_normal = ExtResource("1_3kf3n")
-ignore_texture_size = true
-stretch_mode = 3
+text = "Credits"
 
 [node name="HBoxContainer" type="HBoxContainer" parent="MarginContainer2/VBoxContainer"]
 layout_mode = 2
-size_flags_vertical = 3
 
 [node name="CheckBox" type="CheckBox" parent="MarginContainer2/VBoxContainer/HBoxContainer"]
 layout_mode = 2
@@ -97,6 +57,3 @@ layout_mode = 2
 size_flags_horizontal = 3
 icon = ExtResource("1_3kf3n")
 icon_alignment = 1
-
-[connection signal="pressed" from="MarginContainer2/VBoxContainer/MarginContainer/TextureButton" to="MarginContainer2/VBoxContainer/MarginContainer/TextureButton" method="_on_play_pressed"]
-[connection signal="pressed" from="MarginContainer2/VBoxContainer/MarginContainer2/TextureButton2" to="MarginContainer2/VBoxContainer/MarginContainer/TextureButton" method="_on_texture_button_2_pressed"]
