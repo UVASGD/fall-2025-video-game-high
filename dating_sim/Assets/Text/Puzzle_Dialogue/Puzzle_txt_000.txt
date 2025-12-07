@@ -1,6 +1,5 @@
-[bg'classroom':1.0]
 [n' ']You decide to go to the first Board Game Club meeting, and you have tons of fun meeting new people, playing games, and having delicious snacks. <>
 [n' ']You’ve especially been having fun playing with Perrin; they’re intense about their games, but they’ve been so sweet to you, and it feels like you’re constantly making eye contact– unintentionally, but you can’t help but feel a connection between you two. <>
 [n' ']As you finish up the current round, you check your watch and realize the time. <>
 [n'You']Hey, Perrin, I’m so sorry, but I think I have to leave now. I have a pretty early class tomorrow and I’d like to get some homework done beforehand. <>
-[n'Perrin'][a'pp-happy2']No, no, that’s alright! You can leave whenever you want. Did you have fun? <> [j5]-
+[n'Perrin'][a'pp-happy2']No, no, that’s alright! You can leave whenever you want. Did you have fun? <> [j4] -

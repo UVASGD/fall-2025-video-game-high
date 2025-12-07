@@ -1,8 +1,8 @@
 [n' ']As the date goes on, you two engross in various topics that peak both of your interests. As you both finish your meals, PP runs a hand through their hair and glances at the time. They let out a faint gasp. <>
-[n'Perrin']Oh goodness, I have work soon! I guess I just lost track of time while talking to you. <>
+[n'Perrin'][a'pp-happy2']Oh goodness, I have work soon! I guess I just lost track of time while talking to you. <>
 [n' ']PP stands up and stacks both of your dishes neatly at the center of the table. They grab their coat from the back of their chair and give you a genuine smile, a hint of blush creeping on their cheeks. <>
-[n'Perrin']This was really enjoyable. I loved talking to you, just one-on-one, and learning about you as a person. If you’d like, I would love to take you to this arcade I often frequent besides the library. It would be a fun second date, no? <>
+[n'Perrin'][a'pp-happy1']This was really enjoyable. I loved talking to you, just one-on-one, and learning about you as a person. If you’d like, I would love to take you to this arcade I often frequent besides the library. It would be a fun second date, no? <>
 [n' ']You stand up as well and give them a hug. PP immediately hugs back. When they let go, they look down at you then immediately look away nervously, fidgeting with their rings once again. <>
 [n'Perrin']Well, um, I have to get going, but you have my number, so definitely let me know when you would be available for the arcade date, ok? <>
 [n'Perrin']Bye, take care and get home safe!! <>
-[n' ']PP gives you one last smile, waving to you as they head out of the coffee shop. <> [j23] - 
+[n' '][a'pp-happy1']PP gives you one last smile, waving to you as they head out of the coffee shop. <> [j23] - 

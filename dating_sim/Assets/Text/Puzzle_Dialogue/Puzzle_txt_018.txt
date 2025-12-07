@@ -1,3 +1,3 @@
-[n'You']Stay out of it -- I can handle this myself, ok?.<>
-[n' ']Perrin backs up a bit, noticing that they may have said something to offend you. They avert their gaze, looking down at their rings while they fidget with them slightly. <>
+[n'You'][a'pp-surprised']Stay out of it -- I can handle this myself, ok?.<>
+[n' ']Perrin backs up a bit, noticing that they may have said something to offend you.[a'pp-awkward'] They avert their gaze, looking down at their rings while they fidget with them slightly. <>
 [n'Perrin']Ok...Ok. I got it... <> [j21] -

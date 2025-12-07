@@ -1,5 +1,9 @@
+[SKIP THIS TEXT]
+
+
+
 [n'You']Sorry, I’m in a hurry. I’ll keep the club in mind though. Bye! <>
-[n'Valentine']Awwww! It’s fine, I get it. But before you go, at least take a flyer! <>
+[n'Valentine'][a'val-shy']Awwww! It’s fine, I get it. [a'val-smile']But before you go, at least take a flyer! <>
 [n' ']She shoves a pink and heart-adorned flyer in your hands. <>
 [n'Valentine']Okay! See you around! <>
 [n' ']You walk away quickly, rubbing your hands free of any traces of the enthusiastic girl's touch. <> [j3] -

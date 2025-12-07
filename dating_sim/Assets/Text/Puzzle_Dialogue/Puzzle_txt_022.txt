@@ -1,21 +1,21 @@
-﻿[bg'black-background':1.0]
+[bg'black-background':1.0]
 [n' ']A couple days have gone by since your first date, and you can’t help but feel bad about how it ended. They haven’t been able to fully leave your mind– you know you screwed up, but more than anything, you just want a second chance. <>
 [n' ']As you lay in bed late at night, you summon the courage to send them a text to try again. <>
 [n'You']hey, Perrin, im really sorry about how our last date ended… <>
 [n'You']ik i was a little… aggressive, and im sorry if i scared you <>
 [n'You']i didnt mean to get that intense </3 <>
 [n' ']You’re worried they won’t respond, but just as you’ve lost all hope, you feel your phone buzz. <>
-[n'Perrin']It’s okay. I understand. We all have our moments of anger, some bigger than others. <>
+[n'Perrin'][a'pp-awkward']It’s okay. I understand. We all have our moments of anger, some bigger than others. <>
 [n'You']do u wanna try another date? I want to prove to u that we can work... <>
 [n'You']i get it if u dont want to though... <>
-[n'Perrin']I’d be open to having a second date with you. If you want, I was thinking we could go to the arcade that I mentioned previously? <>
+[n'Perrin'][a'pp-happy2']I’d be open to having a second date with you. If you want, I was thinking we could go to the arcade that I mentioned previously? <>
 [n'You']yea! that sounds good fs!! :D <>
 [n'You']when r u thinking? <>
 [n'Perrin']Maybe Friday afternoon? <>
 [n'You']oh i have class sorry :/ <>
 [n'You']what abt sat? <>
-[n'Perrin']Sat? <>
-[n'Perrin']Oh Saturday. LOL! Understood. I have work in the morning but the afternoon works for me, Saturday! <>
+[n'Perrin'][a'pp-awkward']Sat? <>
+[n'Perrin'][a'pp-happy1']Oh Saturday. LOL! Understood. I have work in the morning but the afternoon works for me, Saturday! <>
 [n'Perrin']Yeah, sounds good. 3 PM? <>
 [n'You']sure! <>
 [n'You']cya soon! <>

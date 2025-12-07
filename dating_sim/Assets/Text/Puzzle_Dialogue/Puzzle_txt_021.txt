@@ -1,6 +1,6 @@
-[n' ']There’s an awkward silence between the two of you, and after a moment, Perrin looks at their watch and takes a deep breath. <>
+[n' '][a'pp-happy1']There’s an awkward silence between the two of you, and after a moment, Perrin looks at their watch and takes a deep breath. <>
 [n' ']They put on a small smile and stack their dirty dishes in a neat order at the center of the table. All the romance of this date is long gone, replaced with heart-wrenching tension. <>
 [n'Perrin']Well, I unfortunately have work soon, but this was...nice. You already have my number, and, if you maybe want a second date, you know where to find me. <>
 [n'Perrin']We could try the arcade besides the library that I mentioned, but only if that’s something that peaks your interest...um, yeah. Take care now, and get home safe. <>
-[n' ']Perrin stands up and grabs their coat, walking over to you and giving you a friendly nudge on the shoulder. They head towards the exit, waving to you as they head out of the coffee shop. <>
-[n' ']You sit for a few more minutes, embarrassed by your actions. You gather your belongings and head home, hoping the two of you could just forget about this one. <> [j21] - 
+[n' '][a'pp-happy1']Perrin stands up and grabs their coat, walking over to you and giving you a friendly nudge on the shoulder. They head towards the exit, waving to you as they head out of the coffee shop. <>
+[n' ']You sit for a few more minutes, embarrassed by your actions. You gather your belongings and head home, hoping the two of you could just forget about this one. <> [j22] - 

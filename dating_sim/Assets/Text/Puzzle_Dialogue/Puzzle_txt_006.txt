@@ -1,5 +1,5 @@
 [n'You']You’re really cute and would you wanna go on a date sometime? <>
-[n'Perrin'][a'pp-surprised']Oh… oh my! You’re… forward. <>
-[n'You']Oh my god, I’m so sorry… I didn’t mean to– <>
+[n'Perrin'][a'pp-surprised']Oh... oh my! You’re forward. <>
+[n'You']Oh my god, I’m so sorry... I didn’t mean to– <>
 [n'Perrin'][a'pp-happy2']No! Don’t worry about it- I’d love to! Any thoughts on where you’d like to meet? <>
 [n' ']You hear a note of shock in Perrin’s voice, and you’re briefly terrified that you made a generational fumble. As Perrin reassures you, though, you can feel your cheeks turn red as you sigh in relief. <> [j7] -
