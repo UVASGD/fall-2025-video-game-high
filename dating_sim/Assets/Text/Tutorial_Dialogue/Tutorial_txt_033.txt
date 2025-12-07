@@ -1,4 +1,5 @@
 [n' ']Yes, maybe the Board Games club will be fruitful.<>
 [n' ']You have a feeling that this decision will forever change your time here at the United Video Games Academy.<>
 [bg'black-background:1.0']
+[n' ']	Travelling to the Board Games Club...<>
 [c'PuzzlePal'] fuck<>

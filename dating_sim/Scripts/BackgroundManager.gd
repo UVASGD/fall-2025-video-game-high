@@ -46,7 +46,7 @@ func setup_fade_background():
 func set_background_library(bg_dict: Dictionary):
 	background_library = bg_dict
 
-func change_background(bg_key: String, fade_duration: float = -1):
+func change_background(bg_key: String, fade_duration: float = -1) -> void:
 	if fade_duration == -1:
 		fade_duration = character_data.get_float("BackgroundDefaultFadeDuration", 1.0)
 	
@@ -70,13 +70,13 @@ func change_background(bg_key: String, fade_duration: float = -1):
 	current_background_key = bg_key
 	
 	if background_rect.texture != null and fade_duration > 0:
-		crossfade_to_background(new_texture, fade_duration)
+		await crossfade_to_background(new_texture, fade_duration)
 	else:
 		# Direct change without fade
 		background_rect.texture = new_texture
 		background_rect.modulate.a = 1.0
 
-func crossfade_to_background(new_texture: Texture2D, fade_duration: float):
+func crossfade_to_background(new_texture: Texture2D, fade_duration: float) -> void:
 	is_fading = true
 	fade_duration = 1.0
 	fade_background_rect.texture = new_texture
