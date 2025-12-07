@@ -40,7 +40,6 @@ var super_pause_active: bool = false
 var waiting_for_super_pause_input: bool = false
 var fps: float = 60.0
 var current_file_index: int = 0
-var is_fading_background: bool = false
 
 
 class RenderSegment:
@@ -111,8 +110,6 @@ func _ready():
 	effects_manager.variable_check_requested.connect(var_manager.check_variable)
 	effects_manager.name_change_requested.connect(var_manager.change_name)
 	effects_manager.character_change_requested.connect(character_manager.set_character_scene)
-	if bg_manager:
-		bg_manager.background_fade_completed.connect(_on_background_fade_completed)
 	
 	setup_choice()
 	typing_system()
@@ -192,11 +189,6 @@ func restore_game_state():
 		character_manager.change_character_image(last_character_image)
 	else:
 		character_manager.hide_character()
-
-func _on_background_fade_completed():
-	if is_fading_background:
-		is_fading_background = false
-		start_next()
 		
 func typing_system():
 	typing_timer = Timer.new()
@@ -336,8 +328,6 @@ func create_choice_data(choice_options_text: Array) -> Dictionary:
 	}
 
 func start_next():
-	if is_fading_background:
-		return
 	
 	if current_segment_index >= full_dialogue_segments.size():
 		return
@@ -568,16 +558,13 @@ func apply_segment_effects(segment: RenderSegment):
 			var bg = effect_change.effects.get("change_background", "")
 			var bg_fade = effect_change.effects.get("bg_fade_duration", 0.0)
 			if bg != "" && bg_fade > 0.0:
-				is_fading_background = true
 				effects_manager.background_change_requested.emit(bg, bg_fade) 
-				return
 			elif bg != "":
 				effects_manager.background_change_requested.emit(bg, 0.0)
 			var image_key = effect_change.effects.get("change_image", "")
 			if image_key != "":
 				character_manager.change_character_image(image_key)
 			var char_name = effect_change.effects.get("change_character_scene", "")
-			print(effect_change.effects)
 			if char_name != "":
 				effects_manager.character_change_requested.emit(char_name)
 
