@@ -21,10 +21,6 @@
 [n'Manuella'][a'yeowch'] Watch where you’re stepping, man!! <>
 [n' ']Oops. Looks like you leaned in a bit too close <>
 
-[bg'black-background:1.0']
-[n' ']	Travelling to the Board Games Club...<>
-[c'PuzzlePal'] fuck<>
-
 [bg'activitiesfair:0.5']
 
 [n' ']You look around, trying to orient yourself to what is no longer your daydream. <>
