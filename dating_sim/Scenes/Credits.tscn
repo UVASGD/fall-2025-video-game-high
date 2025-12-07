@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=3 uid="uid://dflb6pxwwg1yp"]
 
-[ext_resource type="Texture2D" uid="uid://casin4y5e81i6" path="res://icon.svg" id="1_xbebw"]
-[ext_resource type="Script" path="res://Scenes/Button.gd" id="2_7xmno"]
+[ext_resource type="Theme" uid="uid://dhbgh8p8ncgqj" path="res://Themes/TestTheme2.tres" id="1_xbebw"]
+[ext_resource type="Script" uid="uid://bhg8bsgr8ot7v" path="res://Scenes/Button.gd" id="2_7xmno"]
 
 [node name="Credits" type="Control"]
 layout_mode = 3
@@ -10,6 +10,15 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.6474, 0.769133, 0.83, 1)
 
 [node name="MarginContainer" type="MarginContainer" parent="."]
 layout_mode = 1
@@ -55,10 +64,11 @@ Amrit Kaur - Writer
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextureButton" type="TextureButton" parent="MarginContainer/VBoxContainer"]
+[node name="Button" type="Button" parent="MarginContainer/VBoxContainer"]
 layout_mode = 2
-texture_normal = ExtResource("1_xbebw")
-stretch_mode = 3
+theme = ExtResource("1_xbebw")
+theme_override_font_sizes/font_size = 67
+text = "Return"
 script = ExtResource("2_7xmno")
 
-[connection signal="pressed" from="MarginContainer/VBoxContainer/TextureButton" to="MarginContainer/VBoxContainer/TextureButton" method="_on_pressed"]
+[connection signal="pressed" from="MarginContainer/VBoxContainer/Button" to="MarginContainer/VBoxContainer/Button" method="_on_pressed"]
