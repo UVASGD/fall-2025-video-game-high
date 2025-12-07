@@ -1,0 +1,79 @@
+[gd_scene load_steps=5 format=3 uid="uid://bmwvdomt1q1wt"]
+
+[ext_resource type="PackedScene" uid="uid://cuysm2kox8jt8" path="res://Scenes/Screen.tscn" id="1_5ol6r"]
+[ext_resource type="Resource" uid="uid://d0f2ca2c4p3ud" path="res://Scripts/Resources/PuzzlePal.tres" id="2_awwbn"]
+[ext_resource type="PackedScene" uid="uid://bin3o3th4gtkx" path="res://Scenes/texture_button.tscn" id="3_02vvx"]
+[ext_resource type="PackedScene" uid="uid://b5trbvg27s26o" path="res://Scenes/pause_menu.tscn" id="4_lj2eo"]
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Screen" parent="." node_paths=PackedStringArray("name_tag") instance=ExtResource("1_5ol6r")]
+layout_mode = 1
+character_data = ExtResource("2_awwbn")
+name_tag = NodePath("NameTag")
+
+[node name="TestBG" parent="Screen" index="1"]
+color = Color(1, 1, 1, 1)
+
+[node name="Character" parent="Screen" index="3"]
+z_index = 4
+stretch_mode = 3
+
+[node name="TextContainer" parent="Screen" index="5"]
+z_index = 5
+
+[node name="NextDialogueContainer" parent="Screen/TextContainer/TextBackground/MarginContainer" index="2"]
+visible = true
+
+[node name="SkipDialogueContainer" type="Control" parent="Screen/TextContainer/TextBackground/MarginContainer" index="3"]
+custom_minimum_size = Vector2(75, 75)
+layout_mode = 2
+size_flags_horizontal = 0
+size_flags_vertical = 8
+
+[node name="TextureButton" parent="Screen/TextContainer/TextBackground/MarginContainer/SkipDialogueContainer" instance=ExtResource("3_02vvx")]
+layout_mode = 0
+anchors_preset = 0
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 128.0
+offset_bottom = 128.0
+grow_horizontal = 1
+grow_vertical = 1
+
+[node name="PauseMenu" parent="Screen" instance=ExtResource("4_lj2eo")]
+layout_mode = 1
+
+[node name="Screen2" parent="." node_paths=PackedStringArray("name_tag") instance=ExtResource("1_5ol6r")]
+layout_mode = 1
+character_data = ExtResource("2_awwbn")
+name_tag = NodePath("NameTag")
+
+[node name="TestBG" parent="Screen2" index="1"]
+color = Color(1, 1, 1, 1)
+
+[node name="Character" parent="Screen2" index="3"]
+z_index = 4
+stretch_mode = 3
+
+[node name="TextContainer" parent="Screen2" index="5"]
+z_index = 5
+
+[node name="NextDialogueContainer" parent="Screen2/TextContainer/TextBackground/MarginContainer" index="2"]
+visible = true
+
+[node name="PauseMenu" parent="Screen2" instance=ExtResource("4_lj2eo")]
+layout_mode = 1
+
+[editable path="Screen"]
+[editable path="Screen2"]

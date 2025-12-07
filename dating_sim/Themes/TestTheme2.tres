@@ -1,8 +1,8 @@
-[gd_resource type="Theme" load_steps=12 format=3 uid="uid://d3nxnxsg34eew"]
+[gd_resource type="Theme" load_steps=12 format=3 uid="uid://fns24t16hnb"]
 
-[ext_resource type="FontFile" uid="uid://c0pe8wboespth" path="res://Fonts/ThickTestFont.ttf" id="1_rxy1k"]
-[ext_resource type="FontFile" uid="uid://b41entevbocrc" path="res://Fonts/FiraCode-Light.otf" id="1_skldi"]
-[ext_resource type="FontFile" uid="uid://co5nge7anbeo1" path="res://Fonts/ThinTestFont.ttf" id="2_vgw13"]
+[ext_resource type="FontFile" uid="uid://b41entevbocrc" path="res://Fonts/FiraCode-Light.otf" id="1_r7eo4"]
+[ext_resource type="FontFile" uid="uid://c0pe8wboespth" path="res://Fonts/ThickTestFont.ttf" id="2_772tl"]
+[ext_resource type="FontFile" uid="uid://co5nge7anbeo1" path="res://Fonts/ThinTestFont.ttf" id="3_2s8cq"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_xt3k4"]
 content_margin_left = 4.0
@@ -96,7 +96,7 @@ Button/constants/h_separation = 4
 Button/constants/icon_max_width = 0
 Button/constants/outline_size = 2
 Button/font_sizes/font_size = 16
-Button/fonts/font = ExtResource("1_skldi")
+Button/fonts/font = ExtResource("1_r7eo4")
 Button/styles/disabled = SubResource("StyleBoxFlat_xt3k4")
 Button/styles/focus = SubResource("StyleBoxFlat_u6ar3")
 Button/styles/hover = SubResource("StyleBoxFlat_skldi")
@@ -111,12 +111,12 @@ Label/constants/shadow_offset_x = 1
 Label/constants/shadow_offset_y = 1
 Label/constants/shadow_outline_size = 2
 Label/font_sizes/font_size = 32
-Label/fonts/font = ExtResource("1_skldi")
+Label/fonts/font = ExtResource("1_r7eo4")
 Label/styles/normal = SubResource("StyleBoxEmpty_23v3e")
 Panel/styles/panel = SubResource("StyleBoxFlat_k1aya")
 RichTextLabel/constants/line_separation = 0
 RichTextLabel/constants/outline_size = 0
 RichTextLabel/font_sizes/normal_font_size = 30
-RichTextLabel/fonts/bold_font = ExtResource("1_rxy1k")
-RichTextLabel/fonts/normal_font = ExtResource("2_vgw13")
+RichTextLabel/fonts/bold_font = ExtResource("2_772tl")
+RichTextLabel/fonts/normal_font = ExtResource("3_2s8cq")
 RichTextLabel/styles/normal = SubResource("StyleBoxEmpty_skldi")
