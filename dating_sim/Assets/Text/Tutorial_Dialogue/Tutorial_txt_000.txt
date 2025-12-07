@@ -1,6 +1,6 @@
 [bg'black-background']
 [n' ']… <>
-[<'heartbeat'] Your heart skips a beat. <>
+[<'heartbeat'] Your heart skips a beat. <> 
 [n' ']You can feel their breath right up against you <>
 [n' ']Everything feels hazy...<>
 [n' ']Where are you…? <>

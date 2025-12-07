@@ -1,9 +1,9 @@
-﻿[bg'arcade_background':1.0]
+﻿[bg'arcade_outside:1.0']
 [n' ']You and Perrin meet up outside the arcade. You got lost for five minutes, but you try to remain optimistic as you finally reach the run-down arcade at the address Perrin gave you. <>
 [n' ']As you arrive, you see they’re already waiting outside, standing awkwardly with their hands in their pockets. Their shyness is charming, and you feel even worse for messing up the last date. Slowly, you walk over to Perrin. <>
 [n'You']Uh- Hey! <>
 [n' ']Perrin notices you approaching and flashes you a friendly smile. <>
-[n'Perrin']Hello there! I see you found the place easily? <>
+[n'Perrin'][a'pp-happy1']Hello there! I see you found the place easily? <>
 [n'You']Yeah, your instructions were very clear. [%3{]Hey, um, I know I already said this before, but I’m really sorry about how our last date ended. I lost my temper, and– [}] <> 
 [n'Perrin']You don’t need to apologize anymore! I told you it’s okay. Please, don’t stress over it anymore... <>
 [:][n' ']You can’t tell if they’re frustrated or trying to reassure you.

@@ -768,9 +768,9 @@ func skip():
 func skip_until_choice():
 	for i in range(full_dialogue_segments.size()):
 		skip()
-		await get_tree().create_timer(0.1).timeout
+		await get_tree().create_timer(0.5).timeout
 		next()
-		await get_tree().create_timer(0.1).timeout
+		await get_tree().create_timer(0.5).timeout
 
 func _next_button():
 	if choice_mode:

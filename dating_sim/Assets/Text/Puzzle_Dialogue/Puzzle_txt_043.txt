@@ -3,4 +3,6 @@
 [n' ']Perrin blushes a bit at your comment, a cheeky grin crossing their lips. <>
 [n'Perrin']Cute, you say? I’m sorry, but if I’m cute, you're absolutely breathtaking. From the way you look to how you are with others. A gem in a pile of rocks, a gold coin on the ocean floor. Something special, if I do say so myself. <>
 [n' ']Perrin takes your hand gently in theirs, leading you towards other games around the arcade. They turn to you and smile. <>
-[n'Perrin']Now come on. There’s many more games for us to try out, and I don’t want to waste any more time we have. And don’t worry; I won’t lose my mind anymore. It’ll be okay now that I’m with you. <> [j50] - 
+[n'Perrin']Now come on. There’s many more games for us to try out, and I don’t want to waste any more time we have. And don’t worry; I won’t lose my mind anymore. It’ll be okay now that I’m with you. <> 
+[bg'black-background:1.0']
+[n' ']...<>[j50] - 
