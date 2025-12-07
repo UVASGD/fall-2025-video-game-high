@@ -2,4 +2,6 @@
 [n' ']Perrin lets out a soft chuckle, rubbing your back. They didn’t expect the friend-comment but understood the room quickly. They have a gentle smile on their face. <>
 [n'Perrin'][a'pp-happy2']Of course, that’s what friends are for, right? Destroying your soul at a video game then comforting you after...<>
 [n' ']Perrin lets you go then leads you to the other games. <>
-[n'Perrin'][a'pp-flirty']Now then, let’s try something with more teamwork involved. We can test just how strong we are together...<> [j51]-
+[n'Perrin'][a'pp-flirty']Now then, let’s try something with more teamwork involved. We can test just how strong we are together...<> 
+[bg'black-background:1.0']
+[n' ']...<>[j51]-

@@ -7,4 +7,6 @@
 [n' ']You grin and nod. You nudge the plush into Perrin’s arms, as if saying “this is for you”. They look surprised at first, but gently take it from you, a soft smile crossing their lips. They give you a side hug with their free arm.  <>
 [n'Perrin'][a'pp-happy2']Aw, you’re so sweet. You didn’t have to give it to me. I was an asshole to you after all. <> 
 [n'You']But I wanted to. As a thank you for today and never giving up on me, in a way.  <>
-[n' '][a'pp-happy1']Perrin feels their heart flutter. They set the bunny plush down and wrap both arms around you tightly. <> [j52] - 
+[n' '][a'pp-happy1']Perrin feels their heart flutter. They set the bunny plush down and wrap both arms around you tightly. <> 
+[bg'black-background:1.0']
+[n' ']...<>[j52] - 

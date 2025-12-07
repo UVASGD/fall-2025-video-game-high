@@ -5,4 +5,7 @@
 [n' ']Perrin’s polite tone catches you off guard, and your heart practically skips a beat as you type it into their contacts. As they take a picture for your contact photo, you flash your biggest, most awkward smile. <>
 [n'Perrin']You have a beautiful smile! How does Thursday afternoon sound? <>
 [n'You']That’s… That’s perfect. <>
-[n' ']You and Perrin exchange numbers, agreeing to meet up at Starblox on Thursday afternoon. <> [j8] -
+[n' ']You and Perrin exchange numbers, agreeing to meet up at Starblox on Thursday afternoon. <> 
+[bg'black-background:1.0']
+[mstop]
+[n' ']...<>[j8] -

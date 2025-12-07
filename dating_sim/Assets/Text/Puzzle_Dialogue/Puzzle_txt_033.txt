@@ -8,7 +8,7 @@
 [n' ']As soon as you begin playing, PP immediately starts kicking your ass. You’re pretty good at video games, but they’re on a whole other level. About an hour goes by and you’ve already lost seven times. 
 
 [:][n' ']PP’s trash talk and constant jabs at your skill level start to take a toll on your confidence, and the constant losses you experience are getting to a point where it’s embarrassing. You both finish the current game you’re on, the difference in scores being far from close. You bite the inside of your cheek, turning to look at PP who still has a smug grin plastered to their face. <>
-
+[mstop]
 You’re great at this[:53] <> 
 Could we change games?[:54] <>
 Chill, dude[:55] <>

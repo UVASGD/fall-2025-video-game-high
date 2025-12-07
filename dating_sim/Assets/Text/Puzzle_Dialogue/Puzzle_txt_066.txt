@@ -7,4 +7,6 @@
 [n'You'] Perrin! I won! Oh my gosh I won! I just followed your advice and-  <>
 [n' '] Perrin doesn’t say anything. Instead, they just watch you with a proud smile plastered on their face, as if seeing your smile was a reward enough. You feel your cheeks darken a bit, but still bask in the glory of winning. Then you notice something: they had the perfect opportunity to score double the amount of points they currently have. It could have been such an easy win, but they…messed up? They took the L just to watch you win. <> 
 [n'Perrin'] [a'pp-happy1']I’m proud of you. You did it! <>
-[n' '] They ruffle your head playfully, turning back to the screen. You stand besides them, ready for another round. You shyly rest your head on their arm, as if silently thanking them. <> [j50]-
+[n' '] They ruffle your head playfully, turning back to the screen. You stand besides them, ready for another round. You shyly rest your head on their arm, as if silently thanking them. <> 
+[bg'black-background:1.0']
+[n' ']...<>[j50]-

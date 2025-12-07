@@ -15,4 +15,6 @@
 [n'Perrin'][a'pp-happy2']Would you like to get back to the games? I promise to control my anger a bit better... <>
 [n'You']Yeah! I’m down for a couple more games! What about wack-a-mole since it’s less competitive? <>
 [n'Perrin'][a'pp-flirty']Great! Although I never took you as the type to want to hurt your own brethren. <>
-[n' ']You scoff at Perrin’s remark, your cheeks darkening slightly. They really are hellbent on comparing you to any small rodent, but somehow you’re okay with it. Anything to put a smile on their face, right? <> [j50] -
+[n' ']You scoff at Perrin’s remark, your cheeks darkening slightly. They really are hellbent on comparing you to any small rodent, but somehow you’re okay with it. Anything to put a smile on their face, right? <> 
+[bg'black-background:1.0']
+[n' ']...<>[j50] -

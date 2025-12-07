@@ -10,4 +10,6 @@
 [n'You']I forgive you, Perrin. Especially after what you told me, I can see why you would be so hellbent on this…on winning. If it’s all the same to you, I would still love to spend this day with you. <>
 [n'You']We don’t have to play anything competitive too; something more calm? Or we set a limit as to how many times we play a game? Anything you want! I’m just happy to spend it with you... <>
 [n'Perrin']Thank you. I think, though...now that I’ve told you everything, I feel a bit better. You have a really calming presence, and I feel like I’ll be able to handle my issues better, now that I’m with you. <>
-[n' ']Perrin takes your hand and gives it a gentle squeeze. They lead you towards the other arcade games in the back, never letting you go as the two of you spend more hours together, just enjoying the day. <> [j50] - 
+[n' ']Perrin takes your hand and gives it a gentle squeeze. They lead you towards the other arcade games in the back, never letting you go as the two of you spend more hours together, just enjoying the day. <> 
+[bg'black-background:1.0']
+[n' ']...<>[j50] - 

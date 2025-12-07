@@ -7,4 +7,6 @@
 [n'You']I should have waited? Like how you’re waiting to choose a major? It’s not my fault I take risks with my life while you’re just too scared to make a damn choice in life! <>
 [n' ']You regret the words that just left your mouth, but what was said can’t be taken back. Perrin’s expression darkens. They stay quiet, biting the inside of their cheek. <>
 [n' ']For the first time, they don’t try to fight back. They just nod, as if accepting what the situation has become. <>
-[n'Perrin']Okay, man. Okay. <> [j52] - 
+[n'Perrin']Okay, man. Okay. <> 
+[bg'black-background:1.0']
+[n' ']...<>[j52] - 

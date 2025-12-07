@@ -7,4 +7,6 @@
 [n' ']PP lets out a laugh and shakes their head. They enjoy this playful banter you two have. <>
 [n'Perrin']No no, you said what you said. Now come on, lets go find another game, bestie. <>
 [n' ']PP takes your hand, leading you to other arcade machines around the building. You play for hours, just laughing and bantering. PP ends up winning against you a couple times, but the competitive spirit in both of you keeps the rounds going. <>
-[n' ']It’s an incredibly fun moment for you two, and you’re happy PP was able to relax for the first time around you.  [j51] - 
+[n' ']It’s an incredibly fun moment for you two, and you’re happy PP was able to relax for the first time around you. <>
+[bg'black-background:1.0']
+[n' ']...<>[j51] - 

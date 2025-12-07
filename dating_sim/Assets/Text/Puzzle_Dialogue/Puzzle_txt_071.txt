@@ -12,4 +12,6 @@
 [n'Perrin'] No worries, I never understood the game. [a'pp-awkward']Its so…forgive me but pointless. I mean, what sport depends only on height, right? <>
 [n'You'] Well, it’s not all just height. There’s skill involved-<>
 [n'Perrin'] [a'pp-frustrated']But it’s mostly height!!<>
-[n' '] Perrin’s face sours up as they talk about basketball. You both end up sitting down and absolutely dogging on the atrocity that is “the sports industry” and “what is skill?”. You feel your friendship strengthening as you start talking about the sports team at school, gossiping about some of the people -or characters- you both have run into in the past.<> [j51] -
+[n' '] Perrin’s face sours up as they talk about basketball. You both end up sitting down and absolutely dogging on the atrocity that is “the sports industry” and “what is skill?”. You feel your friendship strengthening as you start talking about the sports team at school, gossiping about some of the people -or characters- you both have run into in the past.<> 
+[bg'black-background:1.0']
+[n' ']...<>[j51] -

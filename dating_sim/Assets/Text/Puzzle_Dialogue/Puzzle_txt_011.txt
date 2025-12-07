@@ -3,4 +3,4 @@
 [n'Valentine']What?? You’re not?? Please, just give me a chance!! <>
 [n'You']No, I’m really not interested. <>
 [n'Valentine'][a'val-angry']Whatever. This isn’t the last you’ve seen of me!! XD <>
-[n' ']You hang up. Finally, the sweet sound of silence. <> [j14] - 
+[n' '][a'no-char']You hang up. Finally, the sweet sound of silence. <> [j14] - 

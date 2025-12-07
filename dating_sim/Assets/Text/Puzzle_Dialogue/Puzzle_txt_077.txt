@@ -8,4 +8,6 @@
 [n' ']You stop yourself from insulting them, knowing things are already getting pretty heated. You’ve never seen Perrin this upset before. You immediately avert your eyes, looking at the ground. <>
 [n'You']I’m going to the bathroom. <>
 [n' '][a'pp-frustrated']Perrin notices your excuse and scoffs.  <>
-[n'Perrin']Okay, yeah. I’ll be here I guess. Have fun. <>[j52] -
+[n'Perrin']Okay, yeah. I’ll be here I guess. Have fun. <>
+[bg'black-background:1.0']
+[n' ']...<>[j52] -

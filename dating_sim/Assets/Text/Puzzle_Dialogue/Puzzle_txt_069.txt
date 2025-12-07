@@ -10,4 +10,6 @@
 [n'Perrin']And yeah, I think those are the basics needed to at least beat most of the average or casual players. Remember to never move your hand. Pinky or ring and pointer on orientation, thumb on insta-drop, other hand being in control of movement. It’s challenging at first, but I promise you that this is probably the best set up for quick and easy stacking. <> 
 [n'You']Okay, and what should I do when I get a piece that won’t fit correctly anywhere? <> 
 [n'Perrin']Excellent question! When that happens, I want you to-  <>
-[n' ']The rest of the date ends up being Perrin giving you an in-depth Powerpoint presentation about the different ways to overpower your opponent at Competitive Tetris. You want to get back to gaming with all of these newly learned tactics, but this is a pretty nice day either way. Maybe next time you could try to take on Perrin. Just as a pupil challenges their teacher. <> [j51]-
+[n' ']The rest of the date ends up being Perrin giving you an in-depth Powerpoint presentation about the different ways to overpower your opponent at Competitive Tetris. You want to get back to gaming with all of these newly learned tactics, but this is a pretty nice day either way. Maybe next time you could try to take on Perrin. Just as a pupil challenges their teacher. <> 
+[bg'black-background:1.0']
+[n' ']...<>[j51]-

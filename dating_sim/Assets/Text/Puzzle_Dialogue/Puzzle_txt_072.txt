@@ -15,4 +15,6 @@
 [n'You']Ah ah ah! I won! And that’s all that matters! <>
 [n' ']You kneel down besides Perrin and rub their arm. You can tell they’re still flustered, but slowly calming down. They stand up and mess up your hair. <>
 [n'Perrin'][a'pp-flirty']You’re awful. Who knew someone so attractive would have absolute foolish behavior. <>
-[n' ']You feel your face heat up at their comment, looking away before grabbing their arm and leading them to other games. You two spend a good amount of time playing other games, Perrin even using some of your clever tricks to get the upper hand. It’s a day full of playful banter and flirty teasing; how cute. <> [J50]-
+[n' ']You feel your face heat up at their comment, looking away before grabbing their arm and leading them to other games. You two spend a good amount of time playing other games, Perrin even using some of your clever tricks to get the upper hand. It’s a day full of playful banter and flirty teasing; how cute. <> 
+[bg'black-background:1.0']
+[n' ']...<>[j50]-

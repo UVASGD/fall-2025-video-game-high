@@ -3,4 +3,6 @@
 [n'Perrin'][a'pp-happy2']Hey, accidents happen. Um- <>
 [n' ']You glare at them and slam a fist onto the console in frustration. They can tell they’re starting to get nervous around you when you’re angry, as if trying not to set off a mine. They look around frantically and spot the food hall. <>
 [n'Perrin']Hey, why don’t we just take a break and eat something, yeah? I’m getting a bit hungry. Besides, it’ll be nice to rest after standing for so long. <>
-[n' ']You say nothing but follow them. The rest of the date is a bit quiet, mostly you sulking in place and barely looking at them. Perrin feels a bit bad for you, mostly because you’ve simply just been taking Ls since the beginning. You really wish this date could have gone better, but some things just happen by luck; or maybe, lack thereof. <> [j52] -
+[n' ']You say nothing but follow them. The rest of the date is a bit quiet, mostly you sulking in place and barely looking at them. Perrin feels a bit bad for you, mostly because you’ve simply just been taking Ls since the beginning. You really wish this date could have gone better, but some things just happen by luck; or maybe, lack thereof. <> 
+[bg'black-background:1.0']
+[n' ']...<>[j52] -

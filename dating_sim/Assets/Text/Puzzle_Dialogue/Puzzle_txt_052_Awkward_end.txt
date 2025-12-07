@@ -1,4 +1,5 @@
-[bg'classroom':1.0]
+[bg'classroom:1.0']
+[mstop]
 [n' ']PP and you could not have gotten off on a more wrong note. From the fighting to just how the simple presence of one another feels, you two simply cannot stand each other. <>
 [n' ']Leaving a bit early, Perrin gathers their coat, constantly checking the time instead of paying any attention to you. As they see you approach, they decide to try and address the tension that has walled both of you off from each other one last time. <>
 [n'Perrin'][a'pp-ashamed']Hey- <>

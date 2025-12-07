@@ -1,4 +1,6 @@
 [n'You']Perrin, the way you acted was absolutely unacceptable. You hold way too much resentment towards people who simply just won a game. I’m sorry, but after the way you reacted, there's no way I can just ignore that. <>
 [n' ']Perrin’s shoulders sag as they hear your response. They knew they overreacted, but just a tiny bit of them was still optimistic that you would have it in your heart to maybe see past it. <>
 [n' ']Either way, you’ve made your decision and it’s final. Perrin nods, letting out a quiet sigh but still flashing a friendly smile. You notice how sad they seem, but you’ve made your decision. <>
-[n'Perrin'][a'pp-ashamed']I understand. I just...all I can say is how sad I am to have subjected you to...well...whatever that was. You don't deserve to be with someone who acts like that to you. I'm sorry for today. <> [j52] - 
+[n'Perrin'][a'pp-ashamed']I understand. I just...all I can say is how sad I am to have subjected you to...well...whatever that was. You don't deserve to be with someone who acts like that to you. I'm sorry for today. <> 
+[bg'black-background:1.0']
+[n' ']...<>[j52] - 

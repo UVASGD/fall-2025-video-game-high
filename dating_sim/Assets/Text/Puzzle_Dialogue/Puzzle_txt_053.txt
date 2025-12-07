@@ -5,7 +5,7 @@ Wow, Perrin, you’re great at this game. You really are amazing at video games.
 [n'Perrin'][a'pp-happy1']C’mon, let's do another round! I wanna see if I can beat you with my eyes closed, or using my non-dominant hands! [a'pp-flirty']However, even with a handicap, I highly doubt that you’ll even get close to my level. I’m simply…too good. <>
 [n'You']Yeah… <>
 [n' ']You hesitantly add more coins to the machine, but this time, you don’t really try to win. Your grip on the controls are weaker than before, and your eyes don’t focus as well on the screen. You’re simply going with the flow, and Perrin starts to take notice. They pause the game after the first round and turn to you. <>
-[:][n'Perrin'][a'pp-surprised']Hey, um..., are you okay there pal? You seem a bit out of it. <>
+[:][n'Perrin'][a'pp-surprised']Hey, um... are you okay there pal? You seem a bit out of it. <>
 
 I'm tired[:56]<>
 This isn't fun[:65]<>
