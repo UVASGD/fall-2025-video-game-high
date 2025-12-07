@@ -3,16 +3,16 @@
 [n' ']Once you’ve both ordered, you walk towards the seating area. <>
 [n'You']Thanks for bringing me here! I’ve never been here before. <>
 [n' ']You both sit down at a table near the window, having already ordered and awaiting your meals. Perrin fidgets nervously with their rings, looking around the cafe before meeting your gaze. They laugh before saying: <>
-[n'Perrin']It's been a while since I’ve been on a date.<>
+[n'Perrin'][a'pp-happy2']It's been a while since I’ve been on a date.<>
 [n'Perrin']I'm not sure what to talk about. This is also the first time we’re meeting outside together, just the two of us. Its so different compared to in meetings. <>
 [n'You']I guess you’re right, I’ve only really seen you at club meetings. Which, now that I wonder, what have you been up to outside of game club? <>
 [n' ']Perrin smiles at the question, a hint of contemplation crossing their face as they answer. <>
 [n'Perrin']Not much honestly. I’m usually just focusing on keeping up with schoolwork, and- oh! I also have a job at the library, so I’m extra busy, hahaha. What about you? <>
 [n'You']I'm thinking of something in STEM. <>
-[n'Perrin']Oh woah, a STEM major? That’s challenging, but you seem more than capable of handling it, no sweat! <>
+[n'Perrin'][a'pp-surprised']Oh woah, a STEM major? That’s challenging, but you seem more than capable of handling it, no sweat! <>
 [n'You']Actually, I’m also undecided. I’m still experimenting with different courses right now. <>
-[n'Perrin']I see we’re in the same boat. It actually makes me feel happy that I’m not alone in deciding my future, but I bet we both will choose something that suits our interests; just not today. <>
-[n'Perrin']Perrin takes a bite of their croissant, wiping their lips before getting ready to ask a question. Just then, your phone starts to buzz, signaling an incoming text message. <>
+[n'Perrin'][a'pp-happy2']I see we’re in the same boat. It actually makes me feel happy that I’m not alone in deciding my future, but I bet we both will choose something that suits our interests; just not today. <>
+[n'Perrin'][a'pp-happy1']Perrin takes a bite of their croissant, wiping their lips before getting ready to ask a question. Just then, your phone starts to buzz, signaling an incoming text message. <>
 [n' ']You thought that was weird, as you set your phone to DnD, but this unknown number seemed to really want to get your attention, and get it now. Suddenly, the number calls. Hesitantly, you answer. <>
 [n'Valentine']Heyyyyy!!! What’s up XD?? <>
 [n' ']You furrow your brows. How did this person know your name? You give Perrin an embarrassed smile as you clear your voice to prepare to reply to this mystery person. <>

@@ -1,5 +1,5 @@
-﻿[n'You']Failed? Perrin, you haven’t failed just because you’ve lost a couple rounds. No one’s perfect at anything anyways... <>
-[n'Perrin']Yeah, but… Games are one of the only things I am good at. If I can’t do this, what the hell am I supposed to do otherwise, huh? I don’t have a damn major! I don’t have a path made up yet! All I have are games to escape, and even then am I reminded of how much of a failure I am!! <> 
+[n'You']Failed? Perrin, you haven’t failed just because you’ve lost a couple rounds. No one’s perfect at anything anyways... <>
+[n'Perrin'][a'pp-ashamed']Yeah, but… Games are one of the only things I am good at. If I can’t do this, what the hell am I supposed to do otherwise, huh? I don’t have a damn major! I don’t have a path made up yet! All I have are games to escape, and even then am I reminded of how much of a failure I am!! <> 
 [n' ']Perrin looks at you for a moment before turning away, going quiet after their shout session. You feel bad for them, offering a supportive hand. <>
 [n'You']Hey, Perrin. Look at me...It’s okay to lose. You don’t need to be perfect 24/7. If you keep looking at all the things wrong in life, you never focus on how far you’ve come. <>
 [n' ']Perrin slowly turns to you, their frown faltering slightly. You notice and keep going. <>

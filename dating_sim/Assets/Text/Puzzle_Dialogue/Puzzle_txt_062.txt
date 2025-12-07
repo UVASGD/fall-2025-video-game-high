@@ -1,6 +1,6 @@
 [n' ']You know Perrin isn’t overly fond of dogs, but getting this dog plush in the front of the machine could prove your skill to them. You weren’t bad at all games; just that one, right? You want to beat the timer, hastily orienting the claw over the dog’s back and pressing the button without second thought. <>
 [n' ']You end up missing it and getting really upset. This was your chance to prove your worth and gloat to them, but you missed; big time. Perrin notices and quickly rushes a hand to your arm. <> 
-[n'Perrin']Hey, accidents happen. Um- <>
+[n'Perrin'][a'pp-happy2']Hey, accidents happen. Um- <>
 [n' ']You glare at them and slam a fist onto the console in frustration. They can tell they’re starting to get nervous around you when you’re angry, as if trying not to set off a mine. They look around frantically and spot the food hall. <>
 [n'Perrin']Hey, why don’t we just take a break and eat something, yeah? I’m getting a bit hungry. Besides, it’ll be nice to rest after standing for so long. <>
 [n' ']You say nothing but follow them. The rest of the date is a bit quiet, mostly you sulking in place and barely looking at them. Perrin feels a bit bad for you, mostly because you’ve simply just been taking Ls since the beginning. You really wish this date could have gone better, but some things just happen by luck; or maybe, lack thereof. <> [j52] -

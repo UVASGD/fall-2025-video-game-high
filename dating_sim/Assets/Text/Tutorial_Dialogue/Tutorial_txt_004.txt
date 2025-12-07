@@ -3,21 +3,21 @@
 [n' ']Those tables are overwhelmed with students and you’re not too eager to get caught in the mix of sweat and desperate curiosity. Looking past them, a different table catches your eye. <>
 [n' ']It seems to be a table with stacks of boardgames on top of it. Curious, you approach. <>
 [n' ']As you're nearing the table, you get stopped by a girl dressed in pastels and an overwhelming about of hearts. She eagerly runs up to you, grasping your hand and shaking it with great enthusiasm <>
-[n'Valentine']HIII!! Or as they say in Japanese, KONICHIWA! <>
-[n'Valentine']The name's Valentine! Would you be interested in joinging the fanfic club???? <>
-[n'Valentine']We analyze fanfics every week and talk about the different themes and plots of famous reads!!! <>
-[n'Valentine']Hey!! What's you're favorite ship?!? <>
-[n'Valentine']ExtrovertXIntrovert?? <>
+[n'Valentine'][a'val-smile']HIII!! Or as they say in Japanese, KONICHIWA! <>
+[n'Valentine'][a'val-point']The name's Valentine! Would you be interested in joinging the fanfic club???? <>
+[n'Valentine'][a'val-blush']We analyze fanfics every week and talk about the different themes and plots of famous reads!!! <>
+[n'Valentine'][a'val-point']Hey!! What's you're favorite ship?!? <>
+[n'Valentine'][a'val-blush']ExtrovertXIntrovert?? <>
 [n'Valentine']SunshineXGrumpy?? <>
 [n'Valentine']Age difference!?! <>
-[n'Valentine']We're reading a couple of totally not self-made stories this weekend! The options are: <>
+[n'Valentine'][a'val-smile']We're reading a couple of totally not self-made stories this weekend! The options are: <>
 [n'Valentine']The Resume: A Cavman X LinkedIN Ryan Power dynamic slow burn soulmates AU! <>
 [n'Valentine']Running Through the Books: A Jock X Cozy Gamer academia slice of life fluff!! <> 
-[n'Valentine']And my personal favorite, Love at First Site: An OTP oneshot between yours truly and- <>
+[n'Valentine'][a'val-paper']And my personal favorite, Love at First Site: An OTP oneshot between yours truly and- <>
 [n' ']You cut her off immediately, not wanting to hear the rest of that sentence, nor the rest of this conversation. <>
 [n'You']Hey! That sounds really interesting but I- <>
 [n' ']However, just as fast as you cut her off, you get cut off yourself <>
 
-[:][n'Valentine']Ne! Which one of the fics would you wanna hear about??? <>
+[:][n'Valentine'][a'val-angry']No! Which one of the fics would you wanna hear about??? <>
 Stand in Silence[:5]<>
 Gimme the Resume![:6]<>

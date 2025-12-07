@@ -1,10 +1,10 @@
 [n'You']That’s pretty insensitive to assume, Perrin. I’m getting mad at you bragging about winning..Not because of me and my capabilities. <>
-[n' ']Perrin lets out a scoff, rolling their eyes.<>
+[n' '][a'pp-frustrated']Perrin lets out a scoff, rolling their eyes.<>
 [n'Perrin']Insensitive? I’ve been nothing of the sort!<>
 [n'You']You are being insensitive, Perrin! You’re brushing off my feelings and acting like a total- <>
 [n' ']But Perrin doesn’t let you continue. Instead, they continue to talk over you and make the issue about your own “abilities”, per say. You feel your throat tighten with a flood of emotions, as if you’re starting to regret this entire date to begin with. 
 [n' ']Midway through their rant, you start to disassociate, looking down. You feel your hands tremble; not from crying, but from frustration. You don’t really know what you feel like. Perrin’s cocky tone starts to fade when they see the genuine look of disappointment and misery on your face. They clear their throat, as if debating their next words before finally speaking.<>
-[:][n'Perrin']Hey, um... Are you okay there, pal? You seem... a bit out of it.<>
+[:][n'Perrin'][a'pp-surprised']Hey, um... Are you okay there, pal? You seem... a bit out of it.<>
 
 I'm tired[:56]<>
 This isn't fun[:65]<>

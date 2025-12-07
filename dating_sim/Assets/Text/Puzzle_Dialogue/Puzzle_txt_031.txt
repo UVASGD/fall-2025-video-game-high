@@ -1,4 +1,4 @@
-﻿[bg'arcade_inside':1.0]
-[:][n'Perrin']Any thoughts on what game you’d wanna play first? <>
+[bg'arcade_inside':1.0]
+[:][n'Perrin'][a'pp-happy2']Any thoughts on what game you’d wanna play first? <>
 [Street Fighter][:32] <>
 [2-player Tetris][:33] <>

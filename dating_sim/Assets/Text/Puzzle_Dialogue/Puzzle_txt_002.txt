@@ -1,6 +1,6 @@
 [n'You']Actually, that’s right, I do! I love adventure stories. I’m a big fan of fantasy, especially with a good world-building concept. <>
-[n'Valentine']Oh my god! See? I knew it! You’re just like me! <>
+[n'Valentine'][a'val-smile']Oh my god! See? I knew it! You’re just like me! <>
 [n'Valentine']We have a whole section of our club dedicated to world-building in fanfics! You could totally join and talk about your favorite authors and your thoughts on their concepts! <>
-[n'Valentine']Oh! You have to take a flyer so you don’t forget. You should really come, it’d be a lot of fun. <>
+[n'Valentine'][a'val-paper']Oh! You have to take a flyer so you don’t forget. You should really come, it’d be a lot of fun. <>
 [n' ']She hands you a pink, heart-adorned flyer, not realizing your lack of enthusiasm. <>
-[n'Valentine']See you later! <> [j3] -
+[n'Valentine'][a'val-blush']See you later! <> [j3] -

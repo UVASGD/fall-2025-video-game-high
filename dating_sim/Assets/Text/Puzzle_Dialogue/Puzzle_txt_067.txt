@@ -1,13 +1,13 @@
 [n' ']On second thought, why don’t we sit down for a moment?<>
-[n'Perrin']Oh, are you okay? Would you want to get beverages or something at the food hall then<> 
+[n'Perrin'][a'pp-surprised']Oh, are you okay? Would you want to get beverages or something at the food hall then?<> 
 [n'You']Yeah…I think I just need to…be away from games for a moment. I’m sorry- <>
 [n' ']Perrin quickly shakes their head, a small smile on their face. <>
-[n'Perrin']No worries, I understand. Sometimes a change in scenery is what’s needed to recollect your thoughts. Every time I’m stumped on homework, I take a small walk around my apartment to clear my mind before returning. <>
+[n'Perrin'][a'pp-happy2']No worries, I understand. Sometimes a change in scenery is what’s needed to recollect your thoughts. Every time I’m stumped on homework, I take a small walk around my apartment to clear my mind before returning. <>
 [n' ']You both go to the food hall and sit at a table. They order for the two of you and take care of the bill; it’s the least they can do after all. A beat goes by before they start speaking again. <>
 [n'Perrin']You wanna hear something interesting? I heard this place has a dark past. When it used to be more catered towards children, there were animatronic mascots on the stage over there that would sing for everyone. 
-[n'Perrin']However, they had an incident where a couple kids went missing. One of the animatronics even had one of the kids’ shoes in its mouth. It was really odd but that caused the whole place to shut down until they opened under new management. Really freaky stuff, y’know? I wonder who or what was behind all those murders. Well, alleged murders, I guess. <>
+[n'Perrin'][a'pp-flirty']However, they had an incident where a couple kids went missing. One of the animatronics even had one of the kids’ shoes in its mouth. It was really odd but that caused the whole place to shut down until they opened under new management. Really freaky stuff, y’know? I wonder who or what was behind all those murders. Well, alleged murders, I guess. <>
 [n'You']I beg your finest pardon? <>
-[n'Perrin']Oh, sorry. I really enjoy watching documentaries about old cases, and this place had a really fascinating story I really wanted to share. <>
+[n'Perrin'][a'pp-happy1']Oh, sorry. I really enjoy watching documentaries about old cases, and this place had a really fascinating story I really wanted to share. <>
 [n'You']Shockingly, I’m intrigued by this. It’s not every day you hear about an arcade with a freaky animatronic past, right? Tell me more. <>
 [n' ']The rest of the day is filled with casual chatter between you two and the moments of silence for food. Perrin gives you a three hour lore dump on the arcade’s history, and you can’t help but listen to them. Who was this PatMat they were referring to and why does he know so much about this place? <> 
 [n' ']Well, he did say it was just a theory. Perrin’s odd fascination with this arcade somehow rubbed off on you, leading to the two of you spending the rest of the date looking up stories on the arcade and trying to discover the truth of it all. <> [j51]-

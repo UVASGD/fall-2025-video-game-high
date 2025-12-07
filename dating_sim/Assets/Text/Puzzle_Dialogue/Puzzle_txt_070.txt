@@ -1,6 +1,6 @@
 [n'You']Perrin listen to me. I want to switch games and that’s final. I don’t think this one is fair since you have so much experience already and I have none. If you really want to test how bad of a gamer I am compared to you, then we should play a game neither of us have ever played. That way, it’s not a question of who has more experience, but rather who genuinely is better at coordination and strats. <>
-[n' '] Perrin considers your words for a moment, scratching their chin. On one hand, defeating you constantly has been extremely fun for them, but on the other hand, proving to you that they were good at video games in general was also a flex they wanted. After a moment, they hum, accepting the challenge. <>
-[n'Perrin']Okay. I accept the challenge, and just to entertain your antics, I’ll let you choose the game. It can be any of them. Any at all as long as it’s fair. <>
+[n' '] [a'pp-surprised']Perrin considers your words for a moment, scratching their chin. On one hand, defeating you constantly has been extremely fun for them, but on the other hand, proving to you that they were good at video games in general was also a flex they wanted. After a moment, they hum, accepting the challenge. <>
+[n'Perrin'][a'pp-frustrated']Okay. I accept the challenge, and just to entertain your antics, I’ll let you choose the game. It can be any of them. Any at all as long as it’s fair. <>
 [:][n' ']What game do you pick?<>
 Basketball[:71]<>
 Air Hockey[:72]<>

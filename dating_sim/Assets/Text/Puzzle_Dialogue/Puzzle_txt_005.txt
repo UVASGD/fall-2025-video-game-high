@@ -1,2 +1,2 @@
 [n'You']I was wondering if you’d mind… hanging out sometime? Like… a date? <>
-[n'Perrin']Oh! Of course! I’d love to. Any thoughts on where you’d like to meet? <> [j7] -
+[n'Perrin'][a'pp-surprised']Oh! Of course! I’d love to. Any thoughts on where you’d like to meet? <> [j7] -

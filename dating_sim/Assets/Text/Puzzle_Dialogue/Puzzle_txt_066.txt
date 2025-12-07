@@ -1,10 +1,10 @@
 [n'You']Don’t worry, I think I’m okay. Let’s go back to the game. <>
-[n'Perrin'] Are you positive, YN? I really don’t mind just sitting in the food hall with you and talking for a bit if you really want a break. <> 
+[n'Perrin'][a'pp-surprised']Are you positive? I really don’t mind just sitting in the food hall with you and talking for a bit if you really want a break. <> 
 [n'You'] No, I think this talk has really helped me. The main thing I wanted to do was let you know how I was feeling. Perrin, I love playing with you. Its just…I wanted to communicate what I was feeling before we continued with anything else.  <>
 [n' '] Perrin nods and looks back at the game. <> 
-[n'Perrin'] If this is what you want, then I’m completely fine with playing more rounds with you. And do not worry, I’ll contain my excitement if I win. <>   
+[n'Perrin'] [a'pp-happy2']If this is what you want, then I’m completely fine with playing more rounds with you. And do not worry, I’ll contain my excitement if I win. <>   
 [n' '] Perrin smiles at you before resuming the game. You and Perrin end up playing a couple more rounds, playful banter filling the air as the time passes. Perrin wins a couple more times, but they hold back their gloat. Instead, they decide to give you tips and tricks on winning. Eventually, you manage to beat their score; something that came as a shock to you both. You point at the screen in awe. It’s a moment you both relish in for a bit. <> 
 [n'You'] Perrin! I won! Oh my gosh I won! I just followed your advice and-  <>
 [n' '] Perrin doesn’t say anything. Instead, they just watch you with a proud smile plastered on their face, as if seeing your smile was a reward enough. You feel your cheeks darken a bit, but still bask in the glory of winning. Then you notice something: they had the perfect opportunity to score double the amount of points they currently have. It could have been such an easy win, but they…messed up? They took the L just to watch you win. <> 
-[n'Perrin'] I’m proud of you. You did it! <>
+[n'Perrin'] [a'pp-happy1']I’m proud of you. You did it! <>
 [n' '] They ruffle your head playfully, turning back to the screen. You stand besides them, ready for another round. You shyly rest your head on their arm, as if silently thanking them. <> [j50]-

@@ -1,4 +1,4 @@
-[gd_resource type="Resource" script_class="CharacterData" load_steps=35 format=3 uid="uid://dh881kitknfwd"]
+[gd_resource type="Resource" script_class="CharacterData" load_steps=47 format=3 uid="uid://dh881kitknfwd"]
 
 [ext_resource type="Texture2D" uid="uid://5vckpgs863yi" path="res://Assets/Art/Backgrounds/black-screen.png" id="1_ktkd0"]
 [ext_resource type="AudioStream" uid="uid://bv1cdxwkatgaq" path="res://Assets/Sounds/music/Cozy Tune.mp3" id="1_oakmt"]
@@ -30,10 +30,22 @@
 [ext_resource type="Texture2D" uid="uid://b1iv0fteghrfd" path="res://Assets/Art/Characters/Perrin/pp-ashamed-open.png" id="24_h0lqg"]
 [ext_resource type="Texture2D" uid="uid://ddh50hqi7b454" path="res://Assets/Art/Characters/Perrin/pp-angry-closed.png" id="25_8pv0n"]
 [ext_resource type="Texture2D" uid="uid://c16ik87c55v6g" path="res://Assets/Art/Characters/Perrin/pp-angry-open.png" id="26_64lae"]
+[ext_resource type="Texture2D" uid="uid://xobrq28yo14y" path="res://Assets/Art/Characters/Valentine/ValentineAngryClosed.png" id="27_h0lqg"]
+[ext_resource type="Texture2D" uid="uid://uu0y1xmu3k5d" path="res://Assets/Art/Characters/Valentine/ValentineAngryOpen.png" id="28_8pv0n"]
+[ext_resource type="Texture2D" uid="uid://dvfk3kw4md5gp" path="res://Assets/Art/Characters/Valentine/ValentineBlushClosed.png" id="29_64lae"]
+[ext_resource type="Texture2D" uid="uid://da7etofavf48t" path="res://Assets/Art/Characters/Valentine/ValentineBlushOpen.png" id="30_2yym2"]
 [ext_resource type="AudioStream" uid="uid://t51mcx73tvyl" path="res://Assets/Sounds/effects/metal-chain-7056.mp3" id="30_4nec7"]
 [ext_resource type="FontFile" uid="uid://b41entevbocrc" path="res://Fonts/FiraCode-Light.otf" id="30_yrt4i"]
 [ext_resource type="AudioStream" uid="uid://dme7enhuqfguw" path="res://Assets/Sounds/effects/MY_DEStINY_is_FNAF.mp3" id="31_cnqod"]
+[ext_resource type="Texture2D" uid="uid://gxcg5bmwc68r" path="res://Assets/Art/Characters/Valentine/ValentinePaperClosed.png" id="31_pk8aw"]
 [ext_resource type="AudioStream" uid="uid://7ax4hk7drd4s" path="res://Assets/Sounds/music/Jazzy Tune.mp3" id="32_rg0nl"]
+[ext_resource type="Texture2D" uid="uid://unirlw3pfse2" path="res://Assets/Art/Characters/Valentine/ValentinePaperOpen.png" id="32_wcpr4"]
+[ext_resource type="Texture2D" uid="uid://dem1jjwrdvxwp" path="res://Assets/Art/Characters/Valentine/ValentinePointClosed.png" id="33_fb142"]
+[ext_resource type="Texture2D" uid="uid://0it6q4u467hh" path="res://Assets/Art/Characters/Valentine/ValentinePointOpen.png" id="34_oohn7"]
+[ext_resource type="Texture2D" uid="uid://bfugpws3qjfa2" path="res://Assets/Art/Characters/Valentine/ValentineShyClosed.png" id="35_emuug"]
+[ext_resource type="Texture2D" uid="uid://d3wnqltsq64fv" path="res://Assets/Art/Characters/Valentine/ValentineShyOpen.png" id="36_egfo3"]
+[ext_resource type="Texture2D" uid="uid://b8l2ypgmyig38" path="res://Assets/Art/Characters/Valentine/ValentineSmileClosed.png" id="37_3387u"]
+[ext_resource type="Texture2D" uid="uid://c7r0h0exu7klc" path="res://Assets/Art/Characters/Valentine/ValentineSmileOpen.png" id="38_12txn"]
 
 [resource]
 script = ExtResource("1_xpg0m")
@@ -53,6 +65,12 @@ character_images = {
 "pp-happy1": [ExtResource("9_yrt4i"), ExtResource("10_4nec7")],
 "pp-happy2": [ExtResource("11_cnqod"), ExtResource("12_rg0nl")],
 "pp-surprise": [ExtResource("13_i8yup"), ExtResource("14_urw24")],
+"val-angry": [ExtResource("27_h0lqg"), ExtResource("28_8pv0n")],
+"val-blush": [ExtResource("29_64lae"), ExtResource("30_2yym2")],
+"val-paper": [ExtResource("31_pk8aw"), ExtResource("32_wcpr4")],
+"val-point": [ExtResource("33_fb142"), ExtResource("34_oohn7")],
+"val-shy": [ExtResource("35_emuug"), ExtResource("36_egfo3")],
+"val-smile": [ExtResource("37_3387u"), ExtResource("38_12txn")],
 "yeowch": [ExtResource("4_c6kiu"), ExtResource("4_c6kiu")]
 }
 character_backgrounds = {

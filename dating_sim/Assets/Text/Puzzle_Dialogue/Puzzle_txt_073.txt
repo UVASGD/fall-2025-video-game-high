@@ -1,10 +1,10 @@
-[n'Perrin']I don’t “go easy” on anyone, okay? Going easy on people teaches them that the world is a nice place, when in reality, it isn’t.<> 
+[n'Perrin'][a'pp-frustrated']I don’t “go easy” on anyone, okay? Going easy on people teaches them that the world is a nice place, when in reality, it isn’t.<> 
 [n'You']Perrin it’s a freaking game! I want you to at least try to be nice to me! It’s not fun to get your ass kicked over and over again.<>
 [n' ']Perrin lets out a scoff and rolls their eyes. They take their coin cup in their hand and fiddle with the tokens. <>
-[n'Perrin']That’s just a problem you should work on yourself. I’m not going to go easy on you just because you get your panties in a twist from losing to me. It's a battle of skill, and you clearly don’t have any. <>
+[n'Perrin'][a'pp-cringe']That’s just a problem you should work on yourself. I’m not going to go easy on you just because you get your panties in a twist from losing to me. It's a battle of skill, and you clearly don’t have any. <>
 [n'You']Perrin, I’m not getting mad-<>
 [n' ']You try to explain yourself but Perrin cuts you off almost immediately.<>
-[n'Perrin']Oh you’re definitely getting mad. You’re getting mad at the fact I’m so much better than you, and you’re getting mad at yourself for realizing how much worse you are than me. I can see the insecurity practically oozing off you. I’m sorry {FUUCKCKC}, you just need to “get good”. <>
+[n'Perrin'][a'pp-frustrated']Oh you’re definitely getting mad. You’re getting mad at the fact I’m so much better than you, and you’re getting mad at yourself for realizing how much worse you are than me. [a'pp-flirty']I can see the insecurity practically oozing off you. I’m sorry, but you just need to “get good”. <>
 [:][n' ']You just stare at Perrin with your mouth agape, dumbfounded at how they came to that conclusion of all possible options. You shake your head, rubbing your temples gently. <>
 That's insensitive[:74]<>
 You asshole[:75]<>

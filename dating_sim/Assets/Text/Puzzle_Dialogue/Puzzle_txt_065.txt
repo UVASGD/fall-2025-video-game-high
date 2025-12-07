@@ -1,13 +1,13 @@
 [n'You']Perrin, I’m not having fun...I’m sorry. I just..I want to take a break. <>
-[n'Perrin']A break? Seriously? Now? But-  <>
+[n'Perrin'][a'pp-frustrated']A break? Seriously? Now? But-  <>
 [n' ']You take a deep breath and nod, no longer looking up at them.  <>
 [n'You']I just...I’m starting to feel bad about my own capabilities and it’s making me feel really crap about myself, if I’m being honest. You’re amazing at this game. I’m not, and time after time, losing to you over and over just solidifies my thoughts. I really would just want a break... from losing... <>
-[n' ']Perrin’s eyes widen. They had no idea their actions were causing you to feel like this: insecure. They take their hand away from the coin slot and rest a hand on your shoulder.  <>
+[n' '][a'pp-surprised']Perrin’s eyes widen. They had no idea their actions were causing you to feel like this: insecure. They take their hand away from the coin slot and rest a hand on your shoulder.  <>
 [n'Perrin'] I- I’m sorry. I didn’t mean to make you feel so bad about yourself. I was so caught up on the high of winning, I completely forgot about how it would...affect you <>
 [n'You']Perrin...I- <>
-[n'Perrin']No, don’t apologize or say anything that’s putting yourself down. I was the one at fault here. Please forgive me for my actions. I wasn’t- I wasn’t thinking right at all. In this date, your feelings should be my top priority, not winning some.. stupid game- <>
+[n'Perrin'][a'pp-ashamed']No, don’t apologize or say anything that’s putting yourself down. I was the one at fault here. Please forgive me for my actions. I wasn’t- I wasn’t thinking right at all. In this date, your feelings should be my top priority, not winning some.. stupid game- <>
 [n' ']The game suddenly lets out a sound, as if saying “Don’t forget about me here!”. They scoff at the machine, as if replying, “Now’s not the time!” You find their response to the game a bit funny, cracking a small smile. Perrin notices and flashes an awkward smile. <>
-[:][n'Perrin']It seems the game really wants us to continue, but I’d rather focus on you.  <>
+[:][n'Perrin'][a'pp-flirty']It seems the game really wants us to continue, but I’d rather focus on you.  <>
 
 It's Fine[:66]<>
 Wait[:67]<>

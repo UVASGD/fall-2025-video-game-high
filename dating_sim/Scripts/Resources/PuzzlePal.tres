@@ -1,4 +1,4 @@
-[gd_resource type="Resource" script_class="CharacterData" load_steps=22 format=3 uid="uid://d0f2ca2c4p3ud"]
+[gd_resource type="Resource" script_class="CharacterData" load_steps=38 format=3 uid="uid://d0f2ca2c4p3ud"]
 
 [ext_resource type="Script" uid="uid://bhirb0q308e7m" path="res://Scripts/Classes/CharacterBase.gd" id="1_1p18g"]
 [ext_resource type="FontFile" uid="uid://crmm7enkt3vwj" path="res://Fonts/Foglihten-068.otf" id="1_lpxt2"]
@@ -7,20 +7,36 @@
 [ext_resource type="Texture2D" uid="uid://5vckpgs863yi" path="res://Assets/Art/Backgrounds/black-screen.png" id="3_jy4kd"]
 [ext_resource type="Texture2D" uid="uid://bh3mf21utr506" path="res://Assets/Art/Backgrounds/white-screen.jpg" id="4_t2xfb"]
 [ext_resource type="Texture2D" uid="uid://dea23k1ma0ln8" path="res://Assets/Art/Backgrounds/arcade_outdoor_background.png" id="5_d0ppf"]
-[ext_resource type="Texture2D" uid="uid://limixdbtrp1d" path="res://Assets/Art/Characters/Perrin/pp-happy1-entrance.png" id="5_naqgq"]
 [ext_resource type="Texture2D" uid="uid://coqekuwpkogyn" path="res://Assets/Art/Characters/Perrin/pp-happy1-closed.png" id="6_bse6l"]
 [ext_resource type="Texture2D" uid="uid://dbeksieke1kq3" path="res://Assets/Art/Characters/Perrin/pp-happy1-open.png" id="7_4kv7l"]
 [ext_resource type="Texture2D" uid="uid://bc7tpb702mmyr" path="res://Assets/Art/Characters/Perrin/pp-frustrated-closed.png" id="8_urri0"]
 [ext_resource type="Texture2D" uid="uid://cesq1g5xh00wt" path="res://Assets/Art/Characters/Perrin/pp-frustrated-open.png" id="9_b3ctv"]
 [ext_resource type="Texture2D" uid="uid://chslnatpgufkm" path="res://Assets/Art/Characters/Perrin/pp-flirty-closed.png" id="10_8uhyj"]
+[ext_resource type="Texture2D" uid="uid://buvy3i7l5es1m" path="res://Assets/Art/Characters/Perrin/pp-awkward-closed.png" id="10_bse6l"]
+[ext_resource type="Texture2D" uid="uid://bn0x8f25ecdc7" path="res://Assets/Art/Characters/Perrin/pp-awkward-open.png" id="11_4kv7l"]
 [ext_resource type="Texture2D" uid="uid://gitvxeu126i7" path="res://Assets/Art/Characters/Perrin/pp-cringe-open.png" id="11_uajll"]
 [ext_resource type="Texture2D" uid="uid://bigmk7kwxwv68" path="res://Assets/Art/Characters/Perrin/pp-ashamed-closed.png" id="12_1fl1g"]
+[ext_resource type="Texture2D" uid="uid://dh0ujlhb85pd6" path="res://Assets/Art/Characters/Perrin/pp-cringe-closed.png" id="12_urri0"]
 [ext_resource type="Texture2D" uid="uid://b1iv0fteghrfd" path="res://Assets/Art/Characters/Perrin/pp-ashamed-open.png" id="13_js5al"]
 [ext_resource type="Texture2D" uid="uid://ddh50hqi7b454" path="res://Assets/Art/Characters/Perrin/pp-angry-closed.png" id="14_u0ujr"]
 [ext_resource type="Texture2D" uid="uid://c16ik87c55v6g" path="res://Assets/Art/Characters/Perrin/pp-angry-open.png" id="15_mvim8"]
 [ext_resource type="Texture2D" uid="uid://dv7petf6vlf8o" path="res://Assets/Art/Characters/Perrin/pp-flirty-open.png" id="16_yqtsa"]
 [ext_resource type="Texture2D" uid="uid://bpa1fnia62t4q" path="res://Assets/Art/Characters/Perrin/pp-surprised-closed.png" id="17_c38o0"]
 [ext_resource type="Texture2D" uid="uid://kvgcm6bylfwu" path="res://Assets/Art/Characters/Perrin/pp-surprised-open.png" id="18_04fdr"]
+[ext_resource type="Texture2D" uid="uid://cwc7xyfsg73ly" path="res://Assets/Art/Characters/Perrin/pp-happy2-closed.png" id="20_b3ctv"]
+[ext_resource type="Texture2D" uid="uid://8b0274usmrud" path="res://Assets/Art/Characters/Perrin/pp-happy2-open.png" id="21_8uhyj"]
+[ext_resource type="Texture2D" uid="uid://xobrq28yo14y" path="res://Assets/Art/Characters/Valentine/ValentineAngryClosed.png" id="24_yqtsa"]
+[ext_resource type="Texture2D" uid="uid://uu0y1xmu3k5d" path="res://Assets/Art/Characters/Valentine/ValentineAngryOpen.png" id="25_c38o0"]
+[ext_resource type="Texture2D" uid="uid://dvfk3kw4md5gp" path="res://Assets/Art/Characters/Valentine/ValentineBlushClosed.png" id="26_04fdr"]
+[ext_resource type="Texture2D" uid="uid://da7etofavf48t" path="res://Assets/Art/Characters/Valentine/ValentineBlushOpen.png" id="27_hygp6"]
+[ext_resource type="Texture2D" uid="uid://gxcg5bmwc68r" path="res://Assets/Art/Characters/Valentine/ValentinePaperClosed.png" id="28_dq7r3"]
+[ext_resource type="Texture2D" uid="uid://unirlw3pfse2" path="res://Assets/Art/Characters/Valentine/ValentinePaperOpen.png" id="29_ii5r5"]
+[ext_resource type="Texture2D" uid="uid://dem1jjwrdvxwp" path="res://Assets/Art/Characters/Valentine/ValentinePointClosed.png" id="30_rst6m"]
+[ext_resource type="Texture2D" uid="uid://0it6q4u467hh" path="res://Assets/Art/Characters/Valentine/ValentinePointOpen.png" id="31_e8x08"]
+[ext_resource type="Texture2D" uid="uid://bfugpws3qjfa2" path="res://Assets/Art/Characters/Valentine/ValentineShyClosed.png" id="32_u8xsb"]
+[ext_resource type="Texture2D" uid="uid://d3wnqltsq64fv" path="res://Assets/Art/Characters/Valentine/ValentineShyOpen.png" id="33_xwgv5"]
+[ext_resource type="Texture2D" uid="uid://b8l2ypgmyig38" path="res://Assets/Art/Characters/Valentine/ValentineSmileClosed.png" id="34_04fdr"]
+[ext_resource type="Texture2D" uid="uid://c7r0h0exu7klc" path="res://Assets/Art/Characters/Valentine/ValentineSmileOpen.png" id="35_hygp6"]
 
 [resource]
 script = ExtResource("1_1p18g")
@@ -28,14 +44,21 @@ character_name = "Perrin P. Puzzlemaster"
 character_id = "PPP"
 dialogue_text_files = Array[String](["res://Assets/Text/Puzzle_Dialogue/Puzzle_txt_000.txt", "res://Assets/Text/Puzzle_Dialogue/Puzzle_txt_001.txt", "res://Assets/Text/Puzzle_Dialogue/Puzzle_txt_002.txt", "res://Assets/Text/Puzzle_Dialogue/Puzzle_txt_003.txt", "res://Assets/Text/Puzzle_Dialogue/Puzzle_txt_004.txt", "res://Assets/Text/Puzzle_Dialogue/Puzzle_txt_005.txt", "res://Assets/Text/Puzzle_Dialogue/Puzzle_txt_006.txt", "res://Assets/Text/Puzzle_Dialogue/Puzzle_txt_007.txt", "res://Assets/Text/Puzzle_Dialogue/Puzzle_txt_008.txt", "res://Assets/Text/Puzzle_Dialogue/Puzzle_txt_009.txt", "res://Assets/Text/Puzzle_Dialogue/Puzzle_txt_010.txt", "res://Assets/Text/Puzzle_Dialogue/Puzzle_txt_011.txt", "res://Assets/Text/Puzzle_Dialogue/Puzzle_txt_012.txt", "res://Assets/Text/Puzzle_Dialogue/Puzzle_txt_013.txt", "res://Assets/Text/Puzzle_Dialogue/Puzzle_txt_014.txt", "res://Assets/Text/Puzzle_Dialogue/Puzzle_txt_015.txt", "res://Assets/Text/Puzzle_Dialogue/Puzzle_txt_016.txt", "res://Assets/Text/Puzzle_Dialogue/Puzzle_txt_017.txt", "res://Assets/Text/Puzzle_Dialogue/Puzzle_txt_018.txt", "res://Assets/Text/Puzzle_Dialogue/Puzzle_txt_019.txt", "res://Assets/Text/Puzzle_Dialogue/Puzzle_txt_020.txt", "res://Assets/Text/Puzzle_Dialogue/Puzzle_txt_021.txt", "res://Assets/Text/Puzzle_Dialogue/Puzzle_txt_022.txt", "res://Assets/Text/Puzzle_Dialogue/Puzzle_txt_023.txt", "res://Assets/Text/Puzzle_Dialogue/Puzzle_txt_024.txt", "res://Assets/Text/Puzzle_Dialogue/Puzzle_txt_025.txt", "res://Assets/Text/Puzzle_Dialogue/Puzzle_txt_026.txt", "res://Assets/Text/Puzzle_Dialogue/Puzzle_txt_027.txt", "res://Assets/Text/Puzzle_Dialogue/Puzzle_txt_028.txt", "res://Assets/Text/Puzzle_Dialogue/Puzzle_txt_029.txt", "res://Assets/Text/Puzzle_Dialogue/Puzzle_txt_030.txt", "res://Assets/Text/Puzzle_Dialogue/Puzzle_txt_031.txt", "res://Assets/Text/Puzzle_Dialogue/Puzzle_txt_032.txt", "res://Assets/Text/Puzzle_Dialogue/Puzzle_txt_033.txt", "res://Assets/Text/Puzzle_Dialogue/Puzzle_txt_034.txt", "res://Assets/Text/Puzzle_Dialogue/Puzzle_txt_035.txt", "res://Assets/Text/Puzzle_Dialogue/Puzzle_txt_036.txt", "res://Assets/Text/Puzzle_Dialogue/Puzzle_txt_037.txt", "res://Assets/Text/Puzzle_Dialogue/Puzzle_txt_038.txt", "res://Assets/Text/Puzzle_Dialogue/Puzzle_txt_039.txt", "res://Assets/Text/Puzzle_Dialogue/Puzzle_txt_040.txt", "res://Assets/Text/Puzzle_Dialogue/Puzzle_txt_041.txt", "res://Assets/Text/Puzzle_Dialogue/Puzzle_txt_042.txt", "res://Assets/Text/Puzzle_Dialogue/Puzzle_txt_043.txt", "res://Assets/Text/Puzzle_Dialogue/Puzzle_txt_044.txt", "res://Assets/Text/Puzzle_Dialogue/Puzzle_txt_045.txt", "res://Assets/Text/Puzzle_Dialogue/Puzzle_txt_046.txt", "res://Assets/Text/Puzzle_Dialogue/Puzzle_txt_047.txt", "res://Assets/Text/Puzzle_Dialogue/Puzzle_txt_048.txt", "res://Assets/Text/Puzzle_Dialogue/Puzzle_txt_049.txt", "res://Assets/Text/Puzzle_Dialogue/Puzzle_txt_050_Romance_end.txt", "res://Assets/Text/Puzzle_Dialogue/Puzzle_txt_051_Friends_end.txt", "res://Assets/Text/Puzzle_Dialogue/Puzzle_txt_052_Awkward_end.txt", "res://Assets/Text/Puzzle_Dialogue/Puzzle_txt_053.txt", "res://Assets/Text/Puzzle_Dialogue/Puzzle_txt_054.txt", "res://Assets/Text/Puzzle_Dialogue/Puzzle_txt_055.txt", "res://Assets/Text/Puzzle_Dialogue/Puzzle_txt_056.txt", "res://Assets/Text/Puzzle_Dialogue/Puzzle_txt_057.txt", "res://Assets/Text/Puzzle_Dialogue/Puzzle_txt_058.txt", "res://Assets/Text/Puzzle_Dialogue/Puzzle_txt_059.txt", "res://Assets/Text/Puzzle_Dialogue/Puzzle_txt_060.txt", "res://Assets/Text/Puzzle_Dialogue/Puzzle_txt_061.txt", "res://Assets/Text/Puzzle_Dialogue/Puzzle_txt_062.txt", "res://Assets/Text/Puzzle_Dialogue/Puzzle_txt_063.txt", "res://Assets/Text/Puzzle_Dialogue/Puzzle_txt_064.txt", "res://Assets/Text/Puzzle_Dialogue/Puzzle_txt_065.txt", "res://Assets/Text/Puzzle_Dialogue/Puzzle_txt_066.txt", "res://Assets/Text/Puzzle_Dialogue/Puzzle_txt_067.txt", "res://Assets/Text/Puzzle_Dialogue/Puzzle_txt_068.txt", "res://Assets/Text/Puzzle_Dialogue/Puzzle_txt_069.txt", "res://Assets/Text/Puzzle_Dialogue/Puzzle_txt_070.txt", "res://Assets/Text/Puzzle_Dialogue/Puzzle_txt_071.txt", "res://Assets/Text/Puzzle_Dialogue/Puzzle_txt_072.txt", "res://Assets/Text/Puzzle_Dialogue/Puzzle_txt_073.txt", "res://Assets/Text/Puzzle_Dialogue/Puzzle_txt_074.txt", "res://Assets/Text/Puzzle_Dialogue/Puzzle_txt_075.txt", "res://Assets/Text/Puzzle_Dialogue/Puzzle_txt_076.txt", "res://Assets/Text/Puzzle_Dialogue/Puzzle_txt_077.txt", "res://Assets/Text/Puzzle_Dialogue/Puzzle_txt_078.txt"])
 character_images = {
-"angry": [ExtResource("14_u0ujr"), ExtResource("15_mvim8")],
-"ashamed": [ExtResource("12_1fl1g"), ExtResource("13_js5al")],
-"cringe": [ExtResource("10_8uhyj"), ExtResource("11_uajll")],
-"entrance": ExtResource("5_naqgq"),
-"flirty": [ExtResource("10_8uhyj"), ExtResource("16_yqtsa")],
-"frustrated": [ExtResource("8_urri0"), ExtResource("9_b3ctv")],
-"happy": [ExtResource("6_bse6l"), ExtResource("7_4kv7l")],
-"surprised": [ExtResource("17_c38o0"), ExtResource("18_04fdr")]
+"pp-angry": [ExtResource("14_u0ujr"), ExtResource("15_mvim8")],
+"pp-ashamed": [ExtResource("12_1fl1g"), ExtResource("13_js5al")],
+"pp-awkward": [ExtResource("10_bse6l"), ExtResource("11_4kv7l")],
+"pp-cringe": [ExtResource("12_urri0"), ExtResource("11_uajll")],
+"pp-flirty": [ExtResource("10_8uhyj"), ExtResource("16_yqtsa")],
+"pp-frustrated": [ExtResource("8_urri0"), ExtResource("9_b3ctv")],
+"pp-happy1": [ExtResource("6_bse6l"), ExtResource("7_4kv7l")],
+"pp-happy2": [ExtResource("20_b3ctv"), ExtResource("21_8uhyj")],
+"pp-surprise": [ExtResource("17_c38o0"), ExtResource("18_04fdr")],
+"val-angry": [ExtResource("24_yqtsa"), ExtResource("25_c38o0")],
+"val-blush": [ExtResource("26_04fdr"), ExtResource("27_hygp6")],
+"val-paper": [ExtResource("28_dq7r3"), ExtResource("29_ii5r5")],
+"val-point": [ExtResource("30_rst6m"), ExtResource("31_e8x08")],
+"val-shy": [ExtResource("32_u8xsb"), ExtResource("33_xwgv5")],
+"val-smile": [ExtResource("34_04fdr"), ExtResource("35_hygp6")]
 }
 character_backgrounds = {
 "arcade_outside": ExtResource("5_d0ppf"),

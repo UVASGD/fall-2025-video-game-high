@@ -1,11 +1,11 @@
 [n' ']Perrin lets out a scoff, as if you had just recommended a preposterous idea. Perrin turns back to the game, already reaching for more coins. <>
-[n'Perrin']What are you, a baby? Don’t throw a tantrum now that you see how good I am. C’mon, grab some more coins. <>
+[n'Perrin'][a'pp-cringe']What are you, a baby? Don’t throw a tantrum now that you see how good I am. C’mon, grab some more coins. <>
 [n' ']You frown and fiddle with the coins in your hand. You really don’t want to play another round. You look up at them and stand your ground. <>
 [n'You']Perrin, I’m serious…All we’ve done today is play this one game, and I always lose. If today is just going to be you beating me on repeat, then I don’t think I’m gonna have a fun date.  <>
-[n'Perrin']What? How are you not having fun? This is such a great experience! Come on! One more round!!!!! <>
+[n'Perrin'][a'pp-frustrated']What? How are you not having fun? This is such a great experience! Come on! One more round!!!!! <>
 [n'You']Fun for you, because you’re winning! Perrin, you’re being a really sore winner, and that’s not helping. I’m fine with losing, but losing ten times in a row to someone acting like an arrogant asshole with a game they’ve played longer than studying chemistry is pretty annoying.. <> 
 [n' ']Perrin shakes their head, offended that you would even say such a thing. <> 
-[n'Perrin']Sore winner? How dare you! I’ll have you know that- <>
+[n'Perrin'][a'pp-angry']Sore winner? How dare you! I’ll have you know that- <>
 [:][n' ']Perrin feels the need to defend themself, but you’re done with keeping quiet. It was time to express how you really feel. <>
 
 We're switching[:70]<>

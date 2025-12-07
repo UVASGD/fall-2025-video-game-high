@@ -1,9 +1,9 @@
 [n'You']Okay! That’s great– fun for both of us. <>
 [n' ']PP grabs the game tokens and inserts two for you and two for them. They take the joystick and select multiplayer. <>
-[n'Perrin']Let’s get started. Player one or two? <>
+[n'Perrin'][a'pp-happy2']Let’s get started. Player one or two? <>
 [n'You']I’ll take Player one. <>
 [n' ']You grab the joystick on your side, fingers hovering over the buttons. PP gives you a challenging smile, their grip on the arcade controls being all too comfortable. They’ve definitely played this before. <>
-[n'Perrin']Alright then… let’s get started. Just don’t cry if you can’t handle a loss. <>
+[n'Perrin'][a'pp-flirty']Alright then… let’s get started. Just don’t cry if you can’t handle a loss. <>
 [n'You']Yeah right. In your dreams! <>
 [n' ']As soon as you begin playing, PP immediately starts kicking your ass. You’re pretty good at video games, but they’re on a whole other level. About an hour goes by and you’ve already lost seven times. 
 

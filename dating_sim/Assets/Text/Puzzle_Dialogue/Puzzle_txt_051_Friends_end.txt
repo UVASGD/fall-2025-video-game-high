@@ -1,9 +1,9 @@
-﻿[bg'classroom':1.0]
+[bg'classroom':1.0]
 [n' ']The two of you sit in the food hall for a bit, talking about god knows what until the arcade staff inform you that they are closing soon. PP ends up paying for the meal, leading you out of the building and onto the sidewalk. PP fidgets with their rings for a moment before meeting your eyes. <>
-[n'Perrin']Hey YN…Can we talk for a minute? I want to talk about today, I guess. <>
+[n'Perrin'][a'pp-awkward']Hey YN…Can we talk for a minute? I want to talk about today, I guess. <>
 [n' ']They take a deep breath, as if almost hesitant to keep going. <>
 [n'Perrin']I really like you; hanging out with you, specifically. I love our dynamic and the banter we have. I think you’re a wonderful person, but...I think we’re better off as friends. <>
-[n'Perrin']I just- is that okay? It’s like, you’re the Wifi and I’m the console. No matter how hard I try, I just can’t connect to you, but we’re compatible through the ethernet. <>
+[n'Perrin'][a'pp-ashamed']I just- is that okay? It’s like, you’re the Wifi and I’m the console. No matter how hard I try, I just can’t connect to you, but we’re compatible through the ethernet. <>
 [n'Perrin']Wait, what? That doesn’t make sense, hold on a sec- <>
 [n' ']PP furrows their brows, their expression turning pensive as the try to come up with a new metaphor. However, their odd analogy somehow makes sense...
 [n' '']It’s not that you two shouldn’t be together. It’s just that there’s a specific way you should spend time together, and that’s as friends. You take a moment to gather your thoughts, but end up smiling. <>
@@ -11,7 +11,7 @@
 [n' ']You give them a mischievous smile. <>
 [n'You']Especially when we play those multiplayer games. We’re an unstoppable force together. <>
 [n' ']Perrin laughs at your statement, nudging you on the shoulder. <>
-[n'Perrin']Absolutely! Hey, if you ever want a gaming partner, let me know. After what I have seen today, we will absolutely crush multiplayer! <>
+[n'Perrin'][a'pp-happy1']Absolutely! Hey, if you ever want a gaming partner, let me know. After what I have seen today, we will absolutely crush multiplayer! <>
 [n' ']You two walk down the street, planning your next endeavors as newly formed partners in crime. <>
 [n' ']From what you thought was a dying romance blossomed into a beautiful friendship that each of you cherish very dearly. <>
 [n' ']You two often call and play games together outside of class, even being their partner in the annual tetris competition. <>

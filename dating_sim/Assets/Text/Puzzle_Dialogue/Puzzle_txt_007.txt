@@ -1,5 +1,5 @@
 [n'You']What if we went to a cafe? Like a classic first date setting, you know? <>
-[n'Perrin']Oh, I’d love to! How does Starblox sound? <>
+[n'Perrin'][a'pp-happy1']Oh, I’d love to! How does Starblox sound? <>
 [n'You']I’ve never actually been there- I haven’t actually been here that long. Ha ha… <>
 [n'Perrin']Ah, I almost forgot that. I’ll send you the address… May I have your number? <>
 [n' ']Perrin’s polite tone catches you off guard, and your heart practically skips a beat as you type it into their contacts. As they take a picture for your contact photo, you flash your biggest, most awkward smile. <>
