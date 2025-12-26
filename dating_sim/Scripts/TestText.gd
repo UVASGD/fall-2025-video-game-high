@@ -61,6 +61,11 @@ class RenderSegment:
 		effects = fx
 
 func _ready():
+	typing_system()
+	# allowing the Timer system to finish setting up before everything else, otherwise some race conditions will occur in build
+	call_deferred("_start_after_ready")
+	
+func _start_after_ready():
 	fps = character_data.get_float("FramesPerSecond", 60.0)
 	
 	# Initialize managers
@@ -109,10 +114,10 @@ func _ready():
 	effects_manager.variable_change_requested.connect(var_manager.change_variable)
 	effects_manager.variable_check_requested.connect(var_manager.check_variable)
 	effects_manager.name_change_requested.connect(var_manager.change_name)
-	effects_manager.character_change_requested.connect(character_manager.set_character_scene)
+	effects_manager.character_change_requested.connect(set_character_scene)
 	
 	setup_choice()
-	typing_system()
+	
 	dialogue_box()
 	connect_next_button()
 	connect_skip_button()
@@ -331,7 +336,7 @@ func start_next():
 	
 	if current_segment_index >= full_dialogue_segments.size():
 		return
-		
+	
 	var segment_data = full_dialogue_segments[current_segment_index]
 	save_manager.current_document_line = current_segment_index
 
@@ -451,7 +456,8 @@ func render_next_segment():
 		typing_timer.wait_time = segment.char_delay / fps if segment.char_delay > 0 else 0.016
 	
 	is_typing = true
-	typing_timer.start()
+	if typing_timer.is_inside_tree():
+		typing_timer.start()
 
 func typing_speed():
 	var effective_char_delay = current_char_delay if current_char_delay > 0 else character_data.integers["DelayBetweenCharacters"]
@@ -476,7 +482,8 @@ func switch_rendering_mode(new_word_mode: bool, char_pos: int = -1):
 	
 	text_manager.switch_rendering_mode(new_word_mode, char_pos)
 	typing_speed()
-	typing_timer.start()
+	if typing_timer.is_inside_tree():
+		typing_timer.start()
 	
 	is_switching_modes = false
 
@@ -792,7 +799,8 @@ func _next_button():
 				typing_timer.wait_time = segment.char_delay / fps if segment.char_delay > 0 else 0.016
 			
 			is_typing = true
-			typing_timer.start()
+			if typing_timer.is_inside_tree():
+				typing_timer.start()
 	elif is_typing:
 		skip()
 	elif waiting_for_input:
@@ -818,7 +826,8 @@ func _skip_button():
 				typing_timer.wait_time = segment.char_delay / fps if segment.char_delay > 0 else 0.016
 
 			is_typing = true
-			typing_timer.start()
+			if typing_timer.is_inside_tree():
+				typing_timer.start()
 	elif is_typing:
 		skip_until_choice()
 	elif waiting_for_input:
@@ -845,8 +854,16 @@ func _input(event):
 					typing_timer.wait_time = segment.char_delay / fps if segment.char_delay > 0 else 0.016
 				
 				is_typing = true
-				typing_timer.start()
+				if typing_timer.is_inside_tree():
+					typing_timer.start()
 		elif is_typing:
 			skip()
 		elif waiting_for_input:
 			next()
+			
+func set_character_scene(character_name: String):
+	if typing_timer:
+		typing_timer.stop()
+	character_manager.set_character_scene(character_name)
+
+	

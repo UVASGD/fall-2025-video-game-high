@@ -1,9 +1,9 @@
 [gd_scene load_steps=5 format=3 uid="uid://cwfleg0d05s2q"]
 
 [ext_resource type="Texture2D" uid="uid://brw4ufj58wm13" path="res://Assets/Art/UI/title.png" id="1_6pedr"]
-[ext_resource type="Script" uid="uid://esocmjh3bgol" path="res://Scenes/menu.gd" id="1_s2c3o"]
-[ext_resource type="Texture2D" uid="uid://b21n0nluphopt" path="res://Assets/Art/Backgrounds/Title-card.png" id="2_6pedr"]
+[ext_resource type="Script" path="res://Scenes/menu.gd" id="1_s2c3o"]
 [ext_resource type="Theme" uid="uid://dhbgh8p8ncgqj" path="res://Themes/TestTheme2.tres" id="2_syfuq"]
+[ext_resource type="Texture2D" uid="uid://vsrp2ni8itfc" path="res://Scenes/Title-card.png" id="4_s2c3o"]
 
 [node name="Control" type="Control"]
 layout_mode = 3
@@ -59,11 +59,16 @@ layout_mode = 2
 theme = ExtResource("2_syfuq")
 text = "Close Game"
 
-[node name="Title-card" type="Sprite2D" parent="."]
+[node name="TitleCard" type="TextureRect" parent="."]
 z_index = -1
-position = Vector2(1521, 368)
-texture = ExtResource("2_6pedr")
-offset = Vector2(-561, 175)
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+texture = ExtResource("4_s2c3o")
 
 [connection signal="pressed" from="MarginContainer2/VBoxContainer/Button" to="." method="_on_button_pressed"]
 [connection signal="pressed" from="MarginContainer2/VBoxContainer/Button2" to="." method="_on_button_2_pressed"]
